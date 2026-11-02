@@ -1,0 +1,1996 @@
+{
+  "metadata": {
+    "dataset": "medcalcbench",
+    "retriever": "annotation",
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-09-02T04:43:54.155441+00:00",
+    "extra": {
+      "pool_members": [
+        "pt_bm25",
+        "pt_hiemstra_lm",
+        "pt_splade",
+        "dense_bge",
+        "dense_colbertv2",
+        "dense_contriever",
+        "dense_qwen3_emb_06b",
+        "dense_qwen3_emb_8b",
+        "dense_skillret_06b",
+        "dense_skillret_8b",
+        "dense_skillrouter_06b",
+        "dense_bge_m3"
+      ],
+      "union_k": 5,
+      "n_annotators": 1,
+      "task_list_file": "skill-retrieval-pyterrier/annotation/tasks.txt"
+    }
+  },
+  "metrics": {
+    "n_candidates": 234,
+    "n_gold_not_retrieved": 0
+  },
+  "results": [
+    {
+      "instance_id": "medcalcbench_00025",
+      "gold_skill_ids": [
+        "medcalcbench_045"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 9,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 7,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07045",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_00331",
+      "gold_skill_ids": [
+        "medcalcbench_012"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 9,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 5,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25618",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_051",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_006",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_00565",
+      "gold_skill_ids": [
+        "medcalcbench_047"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 8,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25618",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_19726",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21557",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22902",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12062",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_00409",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10995",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_00875",
+      "gold_skill_ids": [
+        "medcalcbench_019"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 5,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09077",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_00887",
+      "gold_skill_ids": [
+        "medcalcbench_041"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 8,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25618",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_19726",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21557",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22902",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12062",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_00409",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_00901",
+      "gold_skill_ids": [
+        "medcalcbench_036"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 9,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_19726",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_04621",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21563",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21557",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08866",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_20558",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15747",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08521",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06067",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08626",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07174",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09221",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08137",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13206",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13583",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22999",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15458",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24488",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22902",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24846",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25440",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12785",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_00966",
+      "gold_skill_ids": [
+        "medcalcbench_010"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 10,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 9,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25618",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07174",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13052",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02997",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25026",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12062",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12063",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12071",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_01028",
+      "gold_skill_ids": [
+        "medcalcbench_008"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_008",
+          "score": 12,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 12,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_006",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_005",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10675",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_10213",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_19503",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_01051",
+      "gold_skill_ids": [
+        "medcalcbench_051"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_051",
+          "score": 12,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_050",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09440",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13370",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21067",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_23096",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_052",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_23420",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_008",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_006",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08364",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_23092",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24022",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_11998",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_00069",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_07174",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01986",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "medcalcbench_01098",
+      "gold_skill_ids": [
+        "medcalcbench_053"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_053",
+          "score": 12,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "medcalcbench_052",
+          "score": 12,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "medcalcbench_054",
+          "score": 12,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_08634",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_04694",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_17740",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09237",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09440",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_03215",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_05791",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13171",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09643",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "bigcodebench_070",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22734",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08364",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24022",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_11998",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_006",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13584",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_262",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    }
+  ]
+}

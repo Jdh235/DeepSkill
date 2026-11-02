@@ -1,0 +1,6 @@
+# Each folder has its own .gitignore; these apply everywhere.
+bunya/
+__pycache__/
+*.egg-info/
+.venv/
+.DS_Store

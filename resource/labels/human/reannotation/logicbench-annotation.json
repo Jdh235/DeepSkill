@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "dataset": "logicbench",
+    "retriever": "annotation",
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-09-02T04:43:54.153141+00:00",
+    "extra": {
+      "pool_members": [
+        "pt_bm25",
+        "pt_hiemstra_lm",
+        "pt_splade",
+        "dense_bge",
+        "dense_colbertv2",
+        "dense_contriever",
+        "dense_qwen3_emb_06b",
+        "dense_qwen3_emb_8b",
+        "dense_skillret_06b",
+        "dense_skillret_8b",
+        "dense_skillrouter_06b",
+        "dense_bge_m3"
+      ],
+      "union_k": 5,
+      "n_annotators": 1,
+      "task_list_file": "annotation/tasks.txt",
+      "reannotation": {
+        "sources": [
+          "task_subset_1",
+          "task_subset_2",
+          "task_subset_3"
+        ],
+        "min_spread": 2
+      }
+    }
+  },
+  "metrics": {
+    "n_candidates": 44
+  },
+  "results": [
+    {
+      "instance_id": "logicbench_00037",
+      "gold_skill_ids": [
+        "logicbench_006"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_005",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_007",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_004",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_09762",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_21540",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_14926",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00087",
+      "gold_skill_ids": [
+        "logicbench_004"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_008",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_007",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "logicbench_002",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00110",
+      "gold_skill_ids": [
+        "logicbench_004"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_007",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "logicbench_008",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_005",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_004",
+          "score": 4,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_002",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00165",
+      "gold_skill_ids": [
+        "logicbench_016"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_008",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_000",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "logicbench_001",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_19279",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_016",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00217",
+      "gold_skill_ids": [
+        "logicbench_017"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_013",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_011",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_009",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_016",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00241",
+      "gold_skill_ids": [
+        "logicbench_018"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_009",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00348",
+      "gold_skill_ids": [
+        "logicbench_002"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_004",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "logicbench_005",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_007",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_09320",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00387",
+      "gold_skill_ids": [
+        "logicbench_009"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_012",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "logicbench_013",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00472",
+      "gold_skill_ids": [
+        "logicbench_008"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_001",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_09320",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "logicbench_011",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_002",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_004",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00582",
+      "gold_skill_ids": [
+        "logicbench_011"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "logicbench_009",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "logicbench_013",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_017",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_011",
+          "score": 1,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_008",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "logicbench_002",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_19279",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        }
+      ]
+    }
+  ]
+}

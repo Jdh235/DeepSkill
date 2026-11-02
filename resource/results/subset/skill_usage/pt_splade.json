@@ -1,0 +1,5253 @@
+{
+  "metadata": {
+    "dataset": "skill_usage",
+    "retriever": "pt_splade",
+    "top_k": 50,
+    "corpus_size": 34396,
+    "n_queries": 25,
+    "timestamp": "2026-07-27T00:14:34.787070+00:00",
+    "extra": {}
+  },
+  "metrics": {
+    "nDCG@50": 0.7108847403492337,
+    "nDCG@10": 0.666948263749592,
+    "nDCG@5": 0.6514543751826273,
+    "nDCG@1": 0.64,
+    "Recall@1": 0.36466666666666664,
+    "Recall@5": 0.696,
+    "Recall@10": 0.7306666666666666,
+    "Recall@50": 0.8753333333333333,
+    "R-Precision": 0.536
+  },
+  "results": [
+    {
+      "instance_id": "3d-scan-calc",
+      "gold_skill_ids": [
+        "benchflow-ai--mesh-analysis"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--mesh-analysis",
+          "score": 2437.634224132919
+        },
+        {
+          "skill_id": "levnikolaevich--ln-613-code-comments-auditor",
+          "score": 1299.8133647294558
+        },
+        {
+          "skill_id": "letta-ai--extract-elf",
+          "score": 1178.544861034854
+        },
+        {
+          "skill_id": "curiouslearner--log-analyzer",
+          "score": 1101.7005567295246
+        },
+        {
+          "skill_id": "agntswrm--image-crop",
+          "score": 1075.797158081999
+        },
+        {
+          "skill_id": "levnikolaevich--ln-653-runtime-performance-auditor",
+          "score": 1074.1591294520356
+        },
+        {
+          "skill_id": "MadAppGang--status",
+          "score": 1065.8698293055368
+        },
+        {
+          "skill_id": "levnikolaevich--ln-761-secret-scanner",
+          "score": 1064.8898899436524
+        },
+        {
+          "skill_id": "aj-geddes--log-analysis",
+          "score": 1050.2023118078532
+        },
+        {
+          "skill_id": "laurigates--analytics-unused",
+          "score": 1028.9992063174025
+        },
+        {
+          "skill_id": "hjewkes--context-audit",
+          "score": 1025.5454212343693
+        },
+        {
+          "skill_id": "arinhubcom--ah-submit-code-review",
+          "score": 1020.709138278529
+        },
+        {
+          "skill_id": "marketcalls--indicator-scanner",
+          "score": 1012.3526376100793
+        },
+        {
+          "skill_id": "levnikolaevich--ln-631-test-business-logic-auditor",
+          "score": 1007.3329064770306
+        },
+        {
+          "skill_id": "rysweet--session-replay",
+          "score": 1006.4880088432063
+        },
+        {
+          "skill_id": "staskh--ib-report-delta-adjusted-notional-exposure",
+          "score": 1004.4703321019373
+        },
+        {
+          "skill_id": "tychohq--system-watchdog",
+          "score": 1000.0193270134134
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 998.3431338084778
+        },
+        {
+          "skill_id": "davila7--matchms",
+          "score": 994.4200973449141
+        },
+        {
+          "skill_id": "levnikolaevich--ln-611-docs-structure-auditor",
+          "score": 990.4438065163869
+        },
+        {
+          "skill_id": "K-Dense-AI--matchms",
+          "score": 987.4548856641678
+        },
+        {
+          "skill_id": "yonatangross--validate-counts",
+          "score": 980.2759282669849
+        },
+        {
+          "skill_id": "prulloac--readme-updater",
+          "score": 979.9000948265909
+        },
+        {
+          "skill_id": "tercel--fixbug",
+          "score": 977.880992117004
+        },
+        {
+          "skill_id": "legacybridge-tech--add-content",
+          "score": 977.5286150397629
+        },
+        {
+          "skill_id": "fuma-nama--read-docs",
+          "score": 976.5677301254964
+        },
+        {
+          "skill_id": "patricio0312rev--evaluation-harness",
+          "score": 972.5992200523577
+        },
+        {
+          "skill_id": "levnikolaevich--ln-114-frontend-docs-creator",
+          "score": 966.0723628656156
+        },
+        {
+          "skill_id": "terrylica--analyze",
+          "score": 963.1027071795418
+        },
+        {
+          "skill_id": "levnikolaevich--ln-651-query-efficiency-auditor",
+          "score": 960.9488666658877
+        },
+        {
+          "skill_id": "pjt222--apply-semantic-versioning",
+          "score": 960.2503935251475
+        },
+        {
+          "skill_id": "bahayonghang--review-code",
+          "score": 960.0178383101121
+        },
+        {
+          "skill_id": "levnikolaevich--ln-610-docs-auditor",
+          "score": 945.9291666540018
+        },
+        {
+          "skill_id": "thomasholknielsen--json-formatter",
+          "score": 941.7428974149904
+        },
+        {
+          "skill_id": "laurigates--analytics-export",
+          "score": 941.353490927628
+        },
+        {
+          "skill_id": "wenis--test-coverage-analyzer",
+          "score": 940.5515177752823
+        },
+        {
+          "skill_id": "proficientlyjobs--network-scan",
+          "score": 939.37290521601
+        },
+        {
+          "skill_id": "getsentry--skill-scanner",
+          "score": 939.2630187198532
+        },
+        {
+          "skill_id": "anand-testcompare--readme-maintainer",
+          "score": 937.9900707596518
+        },
+        {
+          "skill_id": "benchflow-ai--image-ocr",
+          "score": 937.1864056636647
+        },
+        {
+          "skill_id": "numerai--report-research",
+          "score": 934.9646168742756
+        },
+        {
+          "skill_id": "levnikolaevich--ln-652-transaction-correctness-auditor",
+          "score": 934.5097694190499
+        },
+        {
+          "skill_id": "aj-geddes--vulnerability-scanning",
+          "score": 934.3855989600029
+        },
+        {
+          "skill_id": "oimiragieo--content-security-scan",
+          "score": 928.1263030813233
+        },
+        {
+          "skill_id": "aimonk2025--gtm-quickstart",
+          "score": 927.4824571364315
+        },
+        {
+          "skill_id": "levnikolaevich--ln-634-test-coverage-auditor",
+          "score": 926.4228150878035
+        },
+        {
+          "skill_id": "levnikolaevich--ln-112-project-core-creator",
+          "score": 926.231894331867
+        },
+        {
+          "skill_id": "letta-ai--sqlite-db-truncate",
+          "score": 926.1867736425952
+        },
+        {
+          "skill_id": "i2y--castella-a2ui",
+          "score": 926.0668459656482
+        },
+        {
+          "skill_id": "sammcj--analyse-design",
+          "score": 925.4225466352433
+        }
+      ]
+    },
+    {
+      "instance_id": "adaptive-cruise-control",
+      "gold_skill_ids": [
+        "benchflow-ai--csv-processing",
+        "benchflow-ai--pid-controller",
+        "benchflow-ai--simulation-metrics",
+        "benchflow-ai--vehicle-dynamics",
+        "benchflow-ai--yaml-config"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--vehicle-dynamics",
+          "score": 2351.921576380695
+        },
+        {
+          "skill_id": "benchflow-ai--pid-controller",
+          "score": 2120.1072279606683
+        },
+        {
+          "skill_id": "benchflow-ai--simulation-metrics",
+          "score": 1372.8110801830824
+        },
+        {
+          "skill_id": "benchflow-ai--safety-interlocks",
+          "score": 1300.149873428581
+        },
+        {
+          "skill_id": "HeshamFS--time-stepping",
+          "score": 1195.5208553477726
+        },
+        {
+          "skill_id": "tkersey--ghost",
+          "score": 1179.9650658179785
+        },
+        {
+          "skill_id": "zenobi-us--creating-cli-tools",
+          "score": 1163.2382787946233
+        },
+        {
+          "skill_id": "jakenuts--create-cli",
+          "score": 1159.2123778947416
+        },
+        {
+          "skill_id": "HeshamFS--numerical-integration",
+          "score": 1158.8149210985848
+        },
+        {
+          "skill_id": "benchflow-ai--yaml-config",
+          "score": 1157.9719131732768
+        },
+        {
+          "skill_id": "jeremylongshore--yaml-master",
+          "score": 1147.2876091506644
+        },
+        {
+          "skill_id": "benchflow-ai--imc-tuning-rules",
+          "score": 1129.4465582474184
+        },
+        {
+          "skill_id": "HeshamFS--simulation-validator",
+          "score": 1128.2779055119981
+        },
+        {
+          "skill_id": "simhacker--runtime",
+          "score": 1125.9790528446786
+        },
+        {
+          "skill_id": "simhacker--coherence-engine",
+          "score": 1072.811527380802
+        },
+        {
+          "skill_id": "gentleman-programming--sdd-init",
+          "score": 1066.088904923193
+        },
+        {
+          "skill_id": "marcusgoll--dry-run",
+          "score": 1060.5813093773963
+        },
+        {
+          "skill_id": "nucliweb--webperf-resources",
+          "score": 1057.3415412931672
+        },
+        {
+          "skill_id": "rsmdt--refactor",
+          "score": 1044.2362361997361
+        },
+        {
+          "skill_id": "thedivergentai--godot-genre-racing",
+          "score": 1042.3404273098663
+        },
+        {
+          "skill_id": "florianbuetow--config",
+          "score": 1042.0248742063432
+        },
+        {
+          "skill_id": "mikeyobrien--code-task-generator",
+          "score": 1030.8353408938842
+        },
+        {
+          "skill_id": "fmschulz--bio-viromics",
+          "score": 1026.3364985563335
+        },
+        {
+          "skill_id": "jeremylongshore--finding-security-misconfigurations",
+          "score": 1019.7509784289717
+        },
+        {
+          "skill_id": "benchflow-ai--integral-action-design",
+          "score": 1019.4953720969447
+        },
+        {
+          "skill_id": "letta-ai--tune-mjcf",
+          "score": 1014.3726097181732
+        },
+        {
+          "skill_id": "benchflow-ai--first-order-model-fitting",
+          "score": 1013.7097445916319
+        },
+        {
+          "skill_id": "mindmorass--workflow-builder",
+          "score": 994.1798712193927
+        },
+        {
+          "skill_id": "new-silvermoon--compose-navigation",
+          "score": 993.1158731388153
+        },
+        {
+          "skill_id": "sebastiaanwouters--mise-en-place",
+          "score": 987.7527017886025
+        },
+        {
+          "skill_id": "avifenesh--enhance-prompts",
+          "score": 984.1897127362066
+        },
+        {
+          "skill_id": "gohypergiant--accelint-security-best-practices",
+          "score": 982.3915719619928
+        },
+        {
+          "skill_id": "agenticnotetaking--health",
+          "score": 980.5168126233868
+        },
+        {
+          "skill_id": "zechenzhangagi--axolotl",
+          "score": 979.969254153953
+        },
+        {
+          "skill_id": "jeremylongshore--building-automl-pipelines",
+          "score": 977.6635842931938
+        },
+        {
+          "skill_id": "benchflow-ai--dyn-object-masks",
+          "score": 972.8951034948016
+        },
+        {
+          "skill_id": "travisjneuman--generic-code-reviewer",
+          "score": 969.5533653415757
+        },
+        {
+          "skill_id": "vamseeachanta--yaml-configuration",
+          "score": 968.7704847873978
+        },
+        {
+          "skill_id": "mindrally--systemverilog",
+          "score": 968.5868572514325
+        },
+        {
+          "skill_id": "vamseeachanta--yaml-workflow-executor",
+          "score": 964.1244456752862
+        },
+        {
+          "skill_id": "gizix--mvc-pattern",
+          "score": 963.8342042332799
+        },
+        {
+          "skill_id": "glittercowboy--troubleshooting-docs",
+          "score": 963.6699227131024
+        },
+        {
+          "skill_id": "gohypergiant--accelint-ts-testing",
+          "score": 961.7563782602911
+        },
+        {
+          "skill_id": "sickn33--service-mesh-observability",
+          "score": 958.9455977985148
+        },
+        {
+          "skill_id": "alicoder001--global-config",
+          "score": 955.0083570461805
+        },
+        {
+          "skill_id": "mgd34msu--service-integration",
+          "score": 947.1661847905026
+        },
+        {
+          "skill_id": "rmyndharis--service-mesh-observability",
+          "score": 944.5208164028317
+        },
+        {
+          "skill_id": "l3digital-net--qt-coverage-workflow",
+          "score": 941.4726538720049
+        },
+        {
+          "skill_id": "mindmorass--router-builder",
+          "score": 939.7948206575726
+        },
+        {
+          "skill_id": "v1-io--refactor",
+          "score": 938.0032240762597
+        }
+      ]
+    },
+    {
+      "instance_id": "azure-bgp-oscillation-route-leak",
+      "gold_skill_ids": [
+        "benchflow-ai--azure-bgp"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--azure-bgp",
+          "score": 3063.8262018829887
+        },
+        {
+          "skill_id": "onmax--nuxthub",
+          "score": 1267.374587639543
+        },
+        {
+          "skill_id": "eraserlabs--azure-diagrams",
+          "score": 1235.397711039047
+        },
+        {
+          "skill_id": "tyler-r-kendrick--azure-networking",
+          "score": 1129.4715986964702
+        },
+        {
+          "skill_id": "bagelhole--azure-networking",
+          "score": 1108.562765000005
+        },
+        {
+          "skill_id": "skinnyandbald--pr-resolution",
+          "score": 1080.0949713108946
+        },
+        {
+          "skill_id": "benchflow-ai--pause-detector",
+          "score": 1070.243616110656
+        },
+        {
+          "skill_id": "s-hiraoku--fix-conflict",
+          "score": 1055.0068136504403
+        },
+        {
+          "skill_id": "github--terraform-azurerm-set-diff-analyzer",
+          "score": 1047.4400580017864
+        },
+        {
+          "skill_id": "BbgnsurfTech--finding-security-misconfigurations",
+          "score": 1032.4769853135151
+        },
+        {
+          "skill_id": "azure-samples--durable-functions-dotnet",
+          "score": 1029.6307511680138
+        },
+        {
+          "skill_id": "cin12211--ai-sdk-expert",
+          "score": 1021.4547249915124
+        },
+        {
+          "skill_id": "atc-net--iot-edge-module",
+          "score": 1001.1446834787879
+        },
+        {
+          "skill_id": "github--azure-deployment-preflight",
+          "score": 994.2857420899813
+        },
+        {
+          "skill_id": "cin12211--nodejs-expert",
+          "score": 985.9730045241769
+        },
+        {
+          "skill_id": "daymade--windows-remote-desktop-connection-doctor",
+          "score": 982.7808848622967
+        },
+        {
+          "skill_id": "jinfanzheng--data-files",
+          "score": 979.4432691009673
+        },
+        {
+          "skill_id": "nbarthelemy--tech-detection",
+          "score": 977.585333134368
+        },
+        {
+          "skill_id": "laurigates--workflow-preflight",
+          "score": 977.3389401602701
+        },
+        {
+          "skill_id": "github--azure-static-web-apps",
+          "score": 975.3423567145021
+        },
+        {
+          "skill_id": "novotnyllc--dotnet-advisor",
+          "score": 970.0489942148162
+        },
+        {
+          "skill_id": "daymade--i18n-expert",
+          "score": 965.5656928409967
+        },
+        {
+          "skill_id": "personamanagmentlayer--azure-expert",
+          "score": 955.8367979804027
+        },
+        {
+          "skill_id": "sickn33--azure-eventhub-dotnet",
+          "score": 951.3939896093577
+        },
+        {
+          "skill_id": "miles990--development-environment",
+          "score": 950.9539986599858
+        },
+        {
+          "skill_id": "djankies--resolving-type-errors",
+          "score": 948.621479068302
+        },
+        {
+          "skill_id": "sickn33--azure-speech-to-text-rest-py",
+          "score": 948.4832912022041
+        },
+        {
+          "skill_id": "jkense--wcag-audit-operable-motion-test",
+          "score": 943.9598513802465
+        },
+        {
+          "skill_id": "catlog22--issue-discover",
+          "score": 933.5218090666983
+        },
+        {
+          "skill_id": "jeremylongshore--yaml-master",
+          "score": 932.4334142367666
+        },
+        {
+          "skill_id": "alicoder001--global-config",
+          "score": 931.7446835946096
+        },
+        {
+          "skill_id": "fusengine--commit-detection",
+          "score": 929.7921856305351
+        },
+        {
+          "skill_id": "caldiaworks--re-visualize-logic",
+          "score": 928.8023864206662
+        },
+        {
+          "skill_id": "bagelhole--arm-templates",
+          "score": 928.4660227732091
+        },
+        {
+          "skill_id": "nucliweb--webperf-resources",
+          "score": 927.7695407106086
+        },
+        {
+          "skill_id": "goplussecurity--agentguard",
+          "score": 921.8316341006409
+        },
+        {
+          "skill_id": "linehaul-ai--wiki-architect",
+          "score": 917.5502821609861
+        },
+        {
+          "skill_id": "dagster-io--pr-feedback-classifier",
+          "score": 917.5097165174072
+        },
+        {
+          "skill_id": "viktor-silakov--readiness",
+          "score": 917.0186760333225
+        },
+        {
+          "skill_id": "benchflow-ai--browser-testing-1",
+          "score": 915.1773079324225
+        },
+        {
+          "skill_id": "BbgnsurfTech--detecting-infrastructure-drift",
+          "score": 914.9581484764237
+        },
+        {
+          "skill_id": "cin12211--nextjs-expert",
+          "score": 911.8980317758536
+        },
+        {
+          "skill_id": "rysweet--dependency-resolver",
+          "score": 911.6316952006542
+        },
+        {
+          "skill_id": "pjt222--detect-anomalies-aiops",
+          "score": 908.9501953940868
+        },
+        {
+          "skill_id": "brownfinesecurity--netflows",
+          "score": 908.4841908917301
+        },
+        {
+          "skill_id": "laurigates--git-resolve-conflicts",
+          "score": 906.9290657759988
+        },
+        {
+          "skill_id": "rysweet--remote-work",
+          "score": 906.5149849426793
+        },
+        {
+          "skill_id": "sickn33--azure-eventhub-ts",
+          "score": 904.6538011076883
+        },
+        {
+          "skill_id": "workos--workos-authkit-nextjs",
+          "score": 904.2920344565022
+        },
+        {
+          "skill_id": "aj-geddes--cross-platform-compatibility",
+          "score": 903.490167011598
+        }
+      ]
+    },
+    {
+      "instance_id": "court-form-filling",
+      "gold_skill_ids": [
+        "benchflow-ai--pdf-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "curiositech--document-generation-pdf",
+          "score": 696.4537082563853
+        },
+        {
+          "skill_id": "mission69b--t2000-save",
+          "score": 620.8981087013539
+        },
+        {
+          "skill_id": "instavm--pdf-text-replace",
+          "score": 608.0196100747154
+        },
+        {
+          "skill_id": "josiahsiegel--security-first-2025",
+          "score": 604.6824354420963
+        },
+        {
+          "skill_id": "open-agreements--employment-contract",
+          "score": 595.6697357037737
+        },
+        {
+          "skill_id": "mission69b--t2000-send",
+          "score": 580.7339377504862
+        },
+        {
+          "skill_id": "rafaelcalleja--pdf-form-processor",
+          "score": 557.1181068089982
+        },
+        {
+          "skill_id": "a-ariff--plugin-checker",
+          "score": 555.6852055636032
+        },
+        {
+          "skill_id": "benchflow-ai--pdf-2",
+          "score": 555.0508056046032
+        },
+        {
+          "skill_id": "open-agreements--services-agreement",
+          "score": 545.9719260692444
+        },
+        {
+          "skill_id": "zaggino--custom-format-validators",
+          "score": 545.1051327175114
+        },
+        {
+          "skill_id": "mission69b--t2000-withdraw",
+          "score": 541.2318326563734
+        },
+        {
+          "skill_id": "nweii--file-naming",
+          "score": 540.9921769575024
+        },
+        {
+          "skill_id": "krishagel--morning-briefing",
+          "score": 539.8200064929106
+        },
+        {
+          "skill_id": "ratacat--workflows-compound",
+          "score": 539.4066217386561
+        },
+        {
+          "skill_id": "mindrally--zod-schema-validation",
+          "score": 537.5443359849127
+        },
+        {
+          "skill_id": "K-Dense-AI--pdf",
+          "score": 535.2942519361661
+        },
+        {
+          "skill_id": "iskysun96--generate-tests",
+          "score": 533.9276541060933
+        },
+        {
+          "skill_id": "googleworkspace--gws-docs",
+          "score": 531.8088755799425
+        },
+        {
+          "skill_id": "jmsktm--form-builder",
+          "score": 529.6074146327171
+        },
+        {
+          "skill_id": "aidotnet--refactor-assistant",
+          "score": 528.1579847808753
+        },
+        {
+          "skill_id": "benchflow-ai--academic-pdf-redaction",
+          "score": 526.3180049785648
+        },
+        {
+          "skill_id": "m1heng--feishu-drive",
+          "score": 526.2809871438982
+        },
+        {
+          "skill_id": "openclaw--feishu-drive",
+          "score": 525.4292097364751
+        },
+        {
+          "skill_id": "hoodini--aws-account-management",
+          "score": 520.0278240682609
+        },
+        {
+          "skill_id": "open-agreements--edit-docx-agreement",
+          "score": 513.7676770650382
+        },
+        {
+          "skill_id": "open-agreements--cloud-service-agreement",
+          "score": 506.1623348542668
+        },
+        {
+          "skill_id": "aminoanalytica--biorxiv-database",
+          "score": 502.1815373534992
+        },
+        {
+          "skill_id": "open-agreements--nda",
+          "score": 500.43095402190227
+        },
+        {
+          "skill_id": "duc01226--fix-hard",
+          "score": 498.7934626176657
+        },
+        {
+          "skill_id": "jmsktm--contract-drafter",
+          "score": 497.9576816463696
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 497.26264608568744
+        },
+        {
+          "skill_id": "thebushidocollective--bdd-scenarios",
+          "score": 494.9195999247365
+        },
+        {
+          "skill_id": "getsentry--generate-frontend-forms",
+          "score": 494.79398423815917
+        },
+        {
+          "skill_id": "grahamcrackers--zod-validation",
+          "score": 494.0573453706445
+        },
+        {
+          "skill_id": "open-agreements--data-privacy-agreement",
+          "score": 493.22652842343996
+        },
+        {
+          "skill_id": "prowler-cloud--zod-4",
+          "score": 487.0535141534151
+        },
+        {
+          "skill_id": "open-agreements--open-agreements",
+          "score": 483.54149192619144
+        },
+        {
+          "skill_id": "Dicklesworthstone--caam",
+          "score": 482.9252819022107
+        },
+        {
+          "skill_id": "kimny1143--form-cro",
+          "score": 481.6293418899707
+        },
+        {
+          "skill_id": "udecode--translate",
+          "score": 481.0647310067172
+        },
+        {
+          "skill_id": "googleworkspace--gws-forms",
+          "score": 481.04590907018274
+        },
+        {
+          "skill_id": "Gentleman-Programming--zod-4",
+          "score": 478.4929500706384
+        },
+        {
+          "skill_id": "0xlayerghost--solidity-audit",
+          "score": 477.75281283215713
+        },
+        {
+          "skill_id": "davila7--form-cro",
+          "score": 477.0877632698864
+        },
+        {
+          "skill_id": "parcadei--resume-handoff",
+          "score": 476.2622301864529
+        },
+        {
+          "skill_id": "reggiechan74--consent-to-assignment-expert",
+          "score": 474.75625246780965
+        },
+        {
+          "skill_id": "affaan-m--security-review",
+          "score": 474.1490785818295
+        },
+        {
+          "skill_id": "alexwelcing--form-cro",
+          "score": 474.013944763968
+        },
+        {
+          "skill_id": "levnikolaevich--ln-634-test-coverage-auditor",
+          "score": 473.84027723514265
+        }
+      ]
+    },
+    {
+      "instance_id": "dapt-intrusion-detection",
+      "gold_skill_ids": [
+        "benchflow-ai--pcap-analysis",
+        "benchflow-ai--threat-detection"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--pcap-analysis",
+          "score": 2803.0974650585636
+        },
+        {
+          "skill_id": "benchflow-ai--threat-detection",
+          "score": 1323.2948984236077
+        },
+        {
+          "skill_id": "anthropics--data-exploration",
+          "score": 1201.539497930634
+        },
+        {
+          "skill_id": "vamseeachanta--data-exploration",
+          "score": 1181.6136432696526
+        },
+        {
+          "skill_id": "astronomer--profiling-tables",
+          "score": 1106.5137127194303
+        },
+        {
+          "skill_id": "hack23--aws-s3-cloudfront",
+          "score": 1078.0229211310825
+        },
+        {
+          "skill_id": "constructive-io--fbp-types",
+          "score": 1065.6229618555963
+        },
+        {
+          "skill_id": "plurigrid--protocol-acset",
+          "score": 1057.7404352291271
+        },
+        {
+          "skill_id": "zebbern--security-scanning-tools",
+          "score": 1053.7179799368303
+        },
+        {
+          "skill_id": "brownfinesecurity--netflows",
+          "score": 1032.530065545551
+        },
+        {
+          "skill_id": "chaterm--monitoring",
+          "score": 1002.4917191413952
+        },
+        {
+          "skill_id": "rightnow-ai--linux-networking",
+          "score": 990.785320873727
+        },
+        {
+          "skill_id": "sherifeldeeb--network-forensics",
+          "score": 988.0330693159434
+        },
+        {
+          "skill_id": "masayuki-kono--hses-packet-analysis",
+          "score": 987.3747691877958
+        },
+        {
+          "skill_id": "zebbern--wireshark-network-traffic-analysis",
+          "score": 983.470356930955
+        },
+        {
+          "skill_id": "sickn33--wireshark-analysis",
+          "score": 975.3073818730277
+        },
+        {
+          "skill_id": "aj-geddes--cloud-security-configuration",
+          "score": 967.6080882473285
+        },
+        {
+          "skill_id": "thebushidocollective--sip-media-negotiation",
+          "score": 965.5071973319656
+        },
+        {
+          "skill_id": "letta-ai--bn-fit-modify",
+          "score": 962.8868105637474
+        },
+        {
+          "skill_id": "sickn33--scanning-tools",
+          "score": 958.1556119648474
+        },
+        {
+          "skill_id": "benchflow-ai--suricata-rules-basics",
+          "score": 957.692178096041
+        },
+        {
+          "skill_id": "wshobson--protocol-reverse-engineering",
+          "score": 945.6030322659808
+        },
+        {
+          "skill_id": "benchflow-ai--pcap-triage-tshark",
+          "score": 941.3977067599898
+        },
+        {
+          "skill_id": "chaterm--traffic-analysis",
+          "score": 939.0836512335319
+        },
+        {
+          "skill_id": "parcadei--entropy",
+          "score": 930.289168654758
+        },
+        {
+          "skill_id": "parcadei--source-coding",
+          "score": 910.1606726273751
+        },
+        {
+          "skill_id": "BrownFineSecurity--iotnet",
+          "score": 904.5425061411343
+        },
+        {
+          "skill_id": "rustydotwtf--fee-architecture",
+          "score": 894.2961968769008
+        },
+        {
+          "skill_id": "eventual-inc--daft-distributed-scaling",
+          "score": 891.5715640188332
+        },
+        {
+          "skill_id": "oimiragieo--protocol-reverse-engineering",
+          "score": 882.3402246031978
+        },
+        {
+          "skill_id": "benchflow-ai--pause-detector",
+          "score": 870.0655793141423
+        },
+        {
+          "skill_id": "sickn33--data-structure-protocol",
+          "score": 867.0610830669364
+        },
+        {
+          "skill_id": "chaterm--network-tools",
+          "score": 862.4512210731232
+        },
+        {
+          "skill_id": "UKGovernmentBEIS--network-info",
+          "score": 860.0810387273942
+        },
+        {
+          "skill_id": "tondevrel--opencv",
+          "score": 859.2907269924445
+        },
+        {
+          "skill_id": "pbakaus--optimize",
+          "score": 854.3821961912569
+        },
+        {
+          "skill_id": "ancoleman--load-balancing-patterns",
+          "score": 853.3604220544984
+        },
+        {
+          "skill_id": "bobmatnyc--observability-with-prometheus-grafana",
+          "score": 850.8652395937125
+        },
+        {
+          "skill_id": "benchflow-ai--output-validation",
+          "score": 846.9601797254073
+        },
+        {
+          "skill_id": "ancoleman--security-hardening",
+          "score": 846.959075856674
+        },
+        {
+          "skill_id": "scroix--nodel-recipes",
+          "score": 846.478252696748
+        },
+        {
+          "skill_id": "curiouslearner--security-headers",
+          "score": 844.1814473321788
+        },
+        {
+          "skill_id": "htlin222--data-science",
+          "score": 839.2163675507998
+        },
+        {
+          "skill_id": "letta-ai--llm-inference-batching-scheduler",
+          "score": 838.2448729966468
+        },
+        {
+          "skill_id": "curiouslearner--csv-processor",
+          "score": 823.667799719724
+        },
+        {
+          "skill_id": "benchflow-ai--dyn-object-masks",
+          "score": 822.9139868831755
+        },
+        {
+          "skill_id": "BrownFineSecurity--nmap",
+          "score": 822.3651883023554
+        },
+        {
+          "skill_id": "sickn33--cc-skill-clickhouse-io",
+          "score": 818.427913740297
+        },
+        {
+          "skill_id": "benchflow-ai--Multimodal Fusion for Speaker Diarization",
+          "score": 817.9060706876256
+        },
+        {
+          "skill_id": "benchflow-ai--workload-balancing",
+          "score": 815.7331161908616
+        }
+      ]
+    },
+    {
+      "instance_id": "earthquake-plate-calculation",
+      "gold_skill_ids": [
+        "benchflow-ai--geospatial-analysis"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--geospatial-analysis",
+          "score": 2172.557175857946
+        },
+        {
+          "skill_id": "eyadsibai--geopandas",
+          "score": 1402.5527701322244
+        },
+        {
+          "skill_id": "davila7--geopandas",
+          "score": 1339.211387981182
+        },
+        {
+          "skill_id": "tondevrel--geopandas",
+          "score": 1252.9377795003945
+        },
+        {
+          "skill_id": "vamseeachanta--gis",
+          "score": 1214.1828210242406
+        },
+        {
+          "skill_id": "XiaoMi--work-summary",
+          "score": 1133.0603882441449
+        },
+        {
+          "skill_id": "letta-ai--log-summary-date-ranges",
+          "score": 1110.905281371668
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 1088.469141120953
+        },
+        {
+          "skill_id": "vladmdgolam--time-lens",
+          "score": 1086.4568536435834
+        },
+        {
+          "skill_id": "staskh--report-stock",
+          "score": 1063.2340272969002
+        },
+        {
+          "skill_id": "catlog22--workflow-lite-plan",
+          "score": 1027.390038578977
+        },
+        {
+          "skill_id": "ailabs-393--finance-manager",
+          "score": 1024.8174686797724
+        },
+        {
+          "skill_id": "czlonkowski--n8n-expression-syntax",
+          "score": 1017.7059718488341
+        },
+        {
+          "skill_id": "nweii--file-naming",
+          "score": 1011.6917608121396
+        },
+        {
+          "skill_id": "curiouslearner--log-analyzer",
+          "score": 999.6265479888873
+        },
+        {
+          "skill_id": "sebastiaanwouters--mise-en-place",
+          "score": 998.2846365103263
+        },
+        {
+          "skill_id": "staskh--option-chain",
+          "score": 997.6589074122268
+        },
+        {
+          "skill_id": "mindrally--elasticsearch-best-practices",
+          "score": 995.6414847245985
+        },
+        {
+          "skill_id": "athola--file-analysis",
+          "score": 988.5151601469934
+        },
+        {
+          "skill_id": "daymade--financial-data-collector",
+          "score": 973.2577930284897
+        },
+        {
+          "skill_id": "jmanhype--reflect-appworld-failure",
+          "score": 971.42677134727
+        },
+        {
+          "skill_id": "staskh--ib-portfolio-action-report",
+          "score": 970.12591742051
+        },
+        {
+          "skill_id": "aminoanalytica--biorxiv-database",
+          "score": 966.8611062876718
+        },
+        {
+          "skill_id": "parallel-web--parallel-web-search",
+          "score": 962.4254295886146
+        },
+        {
+          "skill_id": "linehaul-ai--geospatial-postgis-patterns",
+          "score": 961.9318429971686
+        },
+        {
+          "skill_id": "aws-geospatial--amazon-location-service",
+          "score": 956.6893553656438
+        },
+        {
+          "skill_id": "awslabs--amazon-location-service",
+          "score": 956.6893553656438
+        },
+        {
+          "skill_id": "fiscal-sh--fiscal",
+          "score": 955.9553908671472
+        },
+        {
+          "skill_id": "PJuniszewski--guard",
+          "score": 951.0328688186323
+        },
+        {
+          "skill_id": "staskh--greeks",
+          "score": 950.9634830598135
+        },
+        {
+          "skill_id": "rafaelcalleja--structured-output-fabric",
+          "score": 943.0063308477875
+        },
+        {
+          "skill_id": "agricidaniel--blog-schema",
+          "score": 941.0541935974768
+        },
+        {
+          "skill_id": "HeshamFS--post-processing",
+          "score": 936.0403397975269
+        },
+        {
+          "skill_id": "jeremylongshore--changelog-orchestrator",
+          "score": 935.6598417371528
+        },
+        {
+          "skill_id": "deusyu--nl2ledger",
+          "score": 932.8601910213905
+        },
+        {
+          "skill_id": "mapbox--mapbox-store-locator-patterns",
+          "score": 932.3387746547675
+        },
+        {
+          "skill_id": "elliotjlt--eta",
+          "score": 928.2098271039287
+        },
+        {
+          "skill_id": "elizaos--weather",
+          "score": 927.9048283369655
+        },
+        {
+          "skill_id": "netease-youdao--weather",
+          "score": 927.9048283369655
+        },
+        {
+          "skill_id": "aaaaqwq--mixpanel-automation",
+          "score": 919.0092047088798
+        },
+        {
+          "skill_id": "sickn33--mixpanel-automation",
+          "score": 919.0092047088798
+        },
+        {
+          "skill_id": "benchflow-ai--gamma-phase-associator",
+          "score": 917.5510947866272
+        },
+        {
+          "skill_id": "curiouslearner--json-transformer",
+          "score": 914.907623313615
+        },
+        {
+          "skill_id": "besoeasy--free-geocoding-and-maps",
+          "score": 908.2580800923441
+        },
+        {
+          "skill_id": "Microck--analyzing-financial-statements",
+          "score": 901.0755105529101
+        },
+        {
+          "skill_id": "ddunnock--five-whys-analysis",
+          "score": 900.0279017049372
+        },
+        {
+          "skill_id": "oimiragieo--project-analyzer",
+          "score": 889.8040981258987
+        },
+        {
+          "skill_id": "mindrally--logging-best-practices",
+          "score": 889.2887696105599
+        },
+        {
+          "skill_id": "levnikolaevich--ln-644-dependency-graph-auditor",
+          "score": 888.756803238395
+        },
+        {
+          "skill_id": "moosegoose0701--skill-evolver",
+          "score": 885.9574943018317
+        }
+      ]
+    },
+    {
+      "instance_id": "energy-ac-optimal-power-flow",
+      "gold_skill_ids": [
+        "benchflow-ai--ac-branch-pi-model",
+        "benchflow-ai--casadi-ipopt-nlp",
+        "benchflow-ai--power-flow-data"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--ac-branch-pi-model",
+          "score": 2363.4311420122854
+        },
+        {
+          "skill_id": "benchflow-ai--power-flow-data",
+          "score": 2076.5683124356556
+        },
+        {
+          "skill_id": "benchflow-ai--economic-dispatch",
+          "score": 1767.044038019559
+        },
+        {
+          "skill_id": "first-fluke--orchestrator",
+          "score": 1467.3155548528155
+        },
+        {
+          "skill_id": "benchflow-ai--dc-power-flow",
+          "score": 1402.202671308811
+        },
+        {
+          "skill_id": "BbgnsurfTech--automating-api-testing",
+          "score": 1391.721888065999
+        },
+        {
+          "skill_id": "benchflow-ai--locational-marginal-prices",
+          "score": 1366.540432174784
+        },
+        {
+          "skill_id": "benchflow-ai--casadi-ipopt-nlp",
+          "score": 1319.9892227493415
+        },
+        {
+          "skill_id": "benchflow-ai--fjsp-baseline-repair-with-downtime-and-policy",
+          "score": 1310.2570752989454
+        },
+        {
+          "skill_id": "oimiragieo--plan-generator",
+          "score": 1266.8022906301285
+        },
+        {
+          "skill_id": "qodo-ai--qodo-get-rules",
+          "score": 1259.2876171237237
+        },
+        {
+          "skill_id": "MRenAIAgent--planner",
+          "score": 1254.8333459881449
+        },
+        {
+          "skill_id": "patricio0312rev--deployment-checklist-generator",
+          "score": 1252.6567953389988
+        },
+        {
+          "skill_id": "jeremylongshore--automating-api-testing",
+          "score": 1236.8943793187136
+        },
+        {
+          "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+          "score": 1212.122692946183
+        },
+        {
+          "skill_id": "opusgamelabs--qa-game",
+          "score": 1205.7714805047071
+        },
+        {
+          "skill_id": "matteocervelli--planning-doc-generator",
+          "score": 1203.9500904895388
+        },
+        {
+          "skill_id": "indranilbanerjee--campaign-status",
+          "score": 1200.3244564735128
+        },
+        {
+          "skill_id": "Real-AI-Engineering--ctx-planning",
+          "score": 1198.821855419226
+        },
+        {
+          "skill_id": "kienhaminh--qa-tester",
+          "score": 1177.3180308318006
+        },
+        {
+          "skill_id": "levnikolaevich--ln-402-task-reviewer",
+          "score": 1176.1783620292117
+        },
+        {
+          "skill_id": "first-fluke--pm-agent",
+          "score": 1173.2200472425934
+        },
+        {
+          "skill_id": "terrylica--distributed-job-safety",
+          "score": 1167.364542718189
+        },
+        {
+          "skill_id": "jamesrochabrun--qa-test-planner",
+          "score": 1163.5504752858885
+        },
+        {
+          "skill_id": "davila7--qa-test-planner",
+          "score": 1163.2670844654392
+        },
+        {
+          "skill_id": "plurigrid--solver-fee",
+          "score": 1160.3070194373606
+        },
+        {
+          "skill_id": "indranilbanerjee--autopilot-status",
+          "score": 1159.9278089564827
+        },
+        {
+          "skill_id": "brianrwagner--plan-my-day",
+          "score": 1157.5920873503687
+        },
+        {
+          "skill_id": "mckruz--comfyui-workflow-builder",
+          "score": 1151.3577973231156
+        },
+        {
+          "skill_id": "codyswanngt--plan-reduce-max-lines-per-function",
+          "score": 1149.9092248389254
+        },
+        {
+          "skill_id": "MadAppGang--new-track",
+          "score": 1145.8046574138014
+        },
+        {
+          "skill_id": "imsus--minimax-web-search",
+          "score": 1144.5573749407595
+        },
+        {
+          "skill_id": "leonardo-picciani--dataforseo-keywords-data-api",
+          "score": 1143.5159273137647
+        },
+        {
+          "skill_id": "blogic-cz--requirements",
+          "score": 1140.679855071786
+        },
+        {
+          "skill_id": "paulrberg--code-review",
+          "score": 1132.8476550002558
+        },
+        {
+          "skill_id": "staskh--ib-collar",
+          "score": 1130.001318367866
+        },
+        {
+          "skill_id": "kousen--api-documentation-generator",
+          "score": 1129.4309494696763
+        },
+        {
+          "skill_id": "BbgnsurfTech--optimizing-gas-fees",
+          "score": 1126.2607654772055
+        },
+        {
+          "skill_id": "fugazi--qa-test-planner",
+          "score": 1120.9930970319442
+        },
+        {
+          "skill_id": "omer-metin--energy-systems",
+          "score": 1120.211723430913
+        },
+        {
+          "skill_id": "fatih-developer--api-observability-planner",
+          "score": 1120.0451778585493
+        },
+        {
+          "skill_id": "help-me-test--helpmetest-test-generator",
+          "score": 1114.8685330683743
+        },
+        {
+          "skill_id": "jkappers--tech-planner",
+          "score": 1111.686158653712
+        },
+        {
+          "skill_id": "patricio0312rev--load-test-scenario-builder",
+          "score": 1107.3814360711247
+        },
+        {
+          "skill_id": "taylorhuston--good-morning",
+          "score": 1105.0123916670864
+        },
+        {
+          "skill_id": "lowintechie--aba-payway",
+          "score": 1104.6896485292643
+        },
+        {
+          "skill_id": "duc01226--plan-hard",
+          "score": 1098.6436549647008
+        },
+        {
+          "skill_id": "zeal422--vm-test-generator",
+          "score": 1097.9990755594129
+        },
+        {
+          "skill_id": "khgs2411--flow-verifier",
+          "score": 1096.8682752819157
+        },
+        {
+          "skill_id": "caldiaworks--re-verify-structure",
+          "score": 1092.0503253099341
+        }
+      ]
+    },
+    {
+      "instance_id": "enterprise-information-search",
+      "gold_skill_ids": [
+        "benchflow-ai--enterprise-artifact-search"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "yangsonhung--conversation-json-to-md",
+          "score": 1643.586599636164
+        },
+        {
+          "skill_id": "benchflow-ai--enterprise-artifact-search",
+          "score": 1533.454998812517
+        },
+        {
+          "skill_id": "mlflow--instrumenting-with-mlflow-tracing",
+          "score": 1529.5154255925481
+        },
+        {
+          "skill_id": "fuma-nama--read-docs",
+          "score": 1500.6333601216102
+        },
+        {
+          "skill_id": "bkircher--jira-read-ticket",
+          "score": 1470.5429244715112
+        },
+        {
+          "skill_id": "cecuro--traqo-tracing",
+          "score": 1465.2960622368935
+        },
+        {
+          "skill_id": "cjhfff--get-tldr",
+          "score": 1416.22173615283
+        },
+        {
+          "skill_id": "am-will--context7",
+          "score": 1403.9663163584012
+        },
+        {
+          "skill_id": "wedneyyuri--databricks-repl",
+          "score": 1395.3362551390671
+        },
+        {
+          "skill_id": "yuanxiao0115--context7",
+          "score": 1391.3831760446803
+        },
+        {
+          "skill_id": "oimiragieo--token-saver-context-compression",
+          "score": 1386.9776377146882
+        },
+        {
+          "skill_id": "levnikolaevich--ln-771-logging-configurator",
+          "score": 1326.381906930505
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 1325.7569178262943
+        },
+        {
+          "skill_id": "rysweet--session-replay",
+          "score": 1302.7471296250117
+        },
+        {
+          "skill_id": "sorryhyun--doc-lookup",
+          "score": 1298.1843071101946
+        },
+        {
+          "skill_id": "sanjay3290--mysql",
+          "score": 1297.1504946667708
+        },
+        {
+          "skill_id": "manojbajaj95--hubspot-crm",
+          "score": 1296.444966008072
+        },
+        {
+          "skill_id": "trancong12102--context7",
+          "score": 1289.6896177429924
+        },
+        {
+          "skill_id": "aroldolanderos--get-commits",
+          "score": 1280.2649574210575
+        },
+        {
+          "skill_id": "Dexploarer--translation-key-extractor",
+          "score": 1278.60182835625
+        },
+        {
+          "skill_id": "bobmatnyc--json-data-handling",
+          "score": 1276.7613252673475
+        },
+        {
+          "skill_id": "hamelsmu--evaluate-rag",
+          "score": 1275.2573206885372
+        },
+        {
+          "skill_id": "hashintel--writing-hashql-jexpr",
+          "score": 1274.473667659928
+        },
+        {
+          "skill_id": "manykarim--robotframework-resource-architect",
+          "score": 1271.927542192408
+        },
+        {
+          "skill_id": "olivoil--done",
+          "score": 1265.963203023501
+        },
+        {
+          "skill_id": "sanjay3290--postgres",
+          "score": 1263.8774089105107
+        },
+        {
+          "skill_id": "cursor--continual-learning",
+          "score": 1261.5418045864149
+        },
+        {
+          "skill_id": "agentscope-ai--file-reader",
+          "score": 1258.6603694983405
+        },
+        {
+          "skill_id": "raintree-technology--toon-formatter",
+          "score": 1257.4999380997406
+        },
+        {
+          "skill_id": "davila7--uniprot-database",
+          "score": 1254.8253424030731
+        },
+        {
+          "skill_id": "mathews-tom--web-fetch",
+          "score": 1248.3967872715393
+        },
+        {
+          "skill_id": "XiaoMi--work-summary",
+          "score": 1247.7751288868362
+        },
+        {
+          "skill_id": "everyinc--setup",
+          "score": 1242.533243262284
+        },
+        {
+          "skill_id": "iamzhihuix--docx-format-replicator",
+          "score": 1241.8618072996353
+        },
+        {
+          "skill_id": "oaustegard--api-credentials",
+          "score": 1241.493074391605
+        },
+        {
+          "skill_id": "itechmeat--qdrant",
+          "score": 1238.8142421375042
+        },
+        {
+          "skill_id": "NeverSight--opper-api",
+          "score": 1235.443174972917
+        },
+        {
+          "skill_id": "dianel555--ace-tool",
+          "score": 1233.3943448393018
+        },
+        {
+          "skill_id": "openclaw--model-usage",
+          "score": 1232.5201835422115
+        },
+        {
+          "skill_id": "levnikolaevich--ln-770-crosscutting-setup",
+          "score": 1230.3501218933757
+        },
+        {
+          "skill_id": "rohitg00--security-hardening",
+          "score": 1229.2444937984262
+        },
+        {
+          "skill_id": "sebastiaanwouters--compound",
+          "score": 1223.2775222495184
+        },
+        {
+          "skill_id": "anthropics--instrument-data-to-allotrope",
+          "score": 1220.7192781369877
+        },
+        {
+          "skill_id": "benchflow-ai--gpt-multimodal",
+          "score": 1220.6470591599552
+        },
+        {
+          "skill_id": "luongnv89--auto-push",
+          "score": 1218.4004609128062
+        },
+        {
+          "skill_id": "aminoanalytica--uniprot-database",
+          "score": 1216.2925968992995
+        },
+        {
+          "skill_id": "trpc-group--ocr",
+          "score": 1214.5144130875808
+        },
+        {
+          "skill_id": "sanjay3290--mssql",
+          "score": 1213.552996713997
+        },
+        {
+          "skill_id": "daymade--claude-code-history-files-finder",
+          "score": 1213.1458381985103
+        },
+        {
+          "skill_id": "levnikolaevich--ln-002-best-practices-researcher",
+          "score": 1212.4541161377704
+        }
+      ]
+    },
+    {
+      "instance_id": "grid-dispatch-operator",
+      "gold_skill_ids": [
+        "benchflow-ai--dc-power-flow",
+        "benchflow-ai--economic-dispatch",
+        "benchflow-ai--power-flow-data"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--economic-dispatch",
+          "score": 1684.803766827587
+        },
+        {
+          "skill_id": "benchflow-ai--power-flow-data",
+          "score": 1376.4521477640926
+        },
+        {
+          "skill_id": "benchflow-ai--dc-power-flow",
+          "score": 1087.7146283204988
+        },
+        {
+          "skill_id": "benchflow-ai--locational-marginal-prices",
+          "score": 994.4088191431435
+        },
+        {
+          "skill_id": "omer-metin--energy-systems",
+          "score": 946.7161480633065
+        },
+        {
+          "skill_id": "benchflow-ai--ac-branch-pi-model",
+          "score": 889.5587591651197
+        },
+        {
+          "skill_id": "staskh--report-stock",
+          "score": 848.3952695511813
+        },
+        {
+          "skill_id": "indranilbanerjee--budget-optimizer",
+          "score": 835.8726869351244
+        },
+        {
+          "skill_id": "jmsktm--resource-allocator",
+          "score": 832.8066540819505
+        },
+        {
+          "skill_id": "beshkenadze--json-schema",
+          "score": 827.1638776465472
+        },
+        {
+          "skill_id": "personamanagmentlayer--energy-expert",
+          "score": 816.7017157674733
+        },
+        {
+          "skill_id": "olakai-ai--generate-analytics-reports",
+          "score": 802.4940496841949
+        },
+        {
+          "skill_id": "indranilbanerjee--what-if",
+          "score": 802.4162312248466
+        },
+        {
+          "skill_id": "oimiragieo--plan-generator",
+          "score": 794.9338865616447
+        },
+        {
+          "skill_id": "ron-myers--candid-init",
+          "score": 783.8404108506085
+        },
+        {
+          "skill_id": "laurigates--finops-workflows",
+          "score": 773.4821732492933
+        },
+        {
+          "skill_id": "HeshamFS--post-processing",
+          "score": 770.5355740698558
+        },
+        {
+          "skill_id": "staskh--ib-collar",
+          "score": 767.941641149952
+        },
+        {
+          "skill_id": "kousen--api-documentation-generator",
+          "score": 764.2571855240197
+        },
+        {
+          "skill_id": "eraserlabs--azure-diagrams",
+          "score": 761.1118414505451
+        },
+        {
+          "skill_id": "indranilbanerjee--budget-tracker",
+          "score": 757.24653780551
+        },
+        {
+          "skill_id": "indranilbanerjee--market-weather",
+          "score": 755.6857776780763
+        },
+        {
+          "skill_id": "anthropics--equity-research",
+          "score": 748.6984948437686
+        },
+        {
+          "skill_id": "octagonai--sector-performance-snapshot",
+          "score": 735.3751202201664
+        },
+        {
+          "skill_id": "mverab--schema-generator",
+          "score": 732.5622462251835
+        },
+        {
+          "skill_id": "actionbook--active-research",
+          "score": 731.1468033264725
+        },
+        {
+          "skill_id": "curiouslearner--report-generator",
+          "score": 729.3121493218172
+        },
+        {
+          "skill_id": "Microck--analyzing-financial-statements",
+          "score": 728.2763673040412
+        },
+        {
+          "skill_id": "benchflow-ai--report-generator",
+          "score": 727.3792419962513
+        },
+        {
+          "skill_id": "NanmiCoder--slides-generator",
+          "score": 725.9231532243184
+        },
+        {
+          "skill_id": "indranilbanerjee--import-template",
+          "score": 724.0894425935351
+        },
+        {
+          "skill_id": "sickn33--aws-cost-cleanup",
+          "score": 719.852637759753
+        },
+        {
+          "skill_id": "BerryKuipers--dev-memory-briefing",
+          "score": 718.1973487162186
+        },
+        {
+          "skill_id": "matteocervelli--planning-doc-generator",
+          "score": 715.4871881960775
+        },
+        {
+          "skill_id": "BbgnsurfTech--managing-snapshot-tests",
+          "score": 707.6209583463732
+        },
+        {
+          "skill_id": "nicepkg--executive-dashboard-generator",
+          "score": 706.4848666479586
+        },
+        {
+          "skill_id": "sgcarstrends--release-management",
+          "score": 705.6489081873395
+        },
+        {
+          "skill_id": "octagonai--ratings-snapshot",
+          "score": 700.0235474269501
+        },
+        {
+          "skill_id": "rafaelcalleja--structured-output-fabric",
+          "score": 698.3254952454294
+        },
+        {
+          "skill_id": "jeremylongshore--guidewire-cost-tuning",
+          "score": 695.7120850495337
+        },
+        {
+          "skill_id": "octagonai--cash-flow-growth",
+          "score": 695.0951631738071
+        },
+        {
+          "skill_id": "aroldolanderos--get-commits",
+          "score": 692.2340950454414
+        },
+        {
+          "skill_id": "manastalukdar--db-diagram",
+          "score": 690.9353414626046
+        },
+        {
+          "skill_id": "mission69b--t2000-check-balance",
+          "score": 690.0563396843835
+        },
+        {
+          "skill_id": "curiouslearner--json-transformer",
+          "score": 689.6891429124005
+        },
+        {
+          "skill_id": "0xdarkmatter--testgen",
+          "score": 687.8610600627961
+        },
+        {
+          "skill_id": "patricio0312rev--deployment-checklist-generator",
+          "score": 687.0710200659956
+        },
+        {
+          "skill_id": "reggiechan74--comparable-sales-adjustment-methodology",
+          "score": 686.7692354156638
+        },
+        {
+          "skill_id": "yyh211--fastgpt-workflow-generator",
+          "score": 682.7077989732237
+        },
+        {
+          "skill_id": "NangoHQ--hubspot-nango-integration",
+          "score": 680.9595669692719
+        }
+      ]
+    },
+    {
+      "instance_id": "hvac-control",
+      "gold_skill_ids": [
+        "benchflow-ai--excitation-signal-design",
+        "benchflow-ai--first-order-model-fitting",
+        "benchflow-ai--imc-tuning-rules",
+        "benchflow-ai--safety-interlocks",
+        "benchflow-ai--scipy-curve-fit"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--simulation-metrics",
+          "score": 2338.0149472032786
+        },
+        {
+          "skill_id": "benchflow-ai--imc-tuning-rules",
+          "score": 2169.817834488573
+        },
+        {
+          "skill_id": "benchflow-ai--first-order-model-fitting",
+          "score": 2140.5386034989674
+        },
+        {
+          "skill_id": "benchflow-ai--excitation-signal-design",
+          "score": 2089.1290061877035
+        },
+        {
+          "skill_id": "benchflow-ai--scipy-curve-fit",
+          "score": 1865.592630508641
+        },
+        {
+          "skill_id": "benchflow-ai--pid-controller",
+          "score": 1660.6298676098484
+        },
+        {
+          "skill_id": "heshamfs--performance-profiling",
+          "score": 1596.5433110986908
+        },
+        {
+          "skill_id": "HeshamFS--time-stepping",
+          "score": 1596.2360140580092
+        },
+        {
+          "skill_id": "benchflow-ai--silence-detector",
+          "score": 1573.0524509546797
+        },
+        {
+          "skill_id": "avifenesh--perf-benchmarker",
+          "score": 1571.6903411445119
+        },
+        {
+          "skill_id": "elliotjlt--eta",
+          "score": 1551.7580692264562
+        },
+        {
+          "skill_id": "jeremylongshore--exa-load-scale",
+          "score": 1517.8539102911802
+        },
+        {
+          "skill_id": "benchflow-ai--safety-interlocks",
+          "score": 1512.525428591966
+        },
+        {
+          "skill_id": "HeshamFS--numerical-integration",
+          "score": 1485.8854341781325
+        },
+        {
+          "skill_id": "jeremylongshore--firecrawl-load-scale",
+          "score": 1477.1495401484701
+        },
+        {
+          "skill_id": "proffesor-for-testing--qe-chaos-resilience",
+          "score": 1468.6050645100074
+        },
+        {
+          "skill_id": "simhacker--runtime",
+          "score": 1462.5987723975936
+        },
+        {
+          "skill_id": "robinebers--tauri-v2",
+          "score": 1460.2404149782226
+        },
+        {
+          "skill_id": "jeremylongshore--clay-load-scale",
+          "score": 1447.5829252442354
+        },
+        {
+          "skill_id": "wojons--testing-performance",
+          "score": 1446.2360715703517
+        },
+        {
+          "skill_id": "BbgnsurfTech--validating-api-schemas",
+          "score": 1443.4167553442985
+        },
+        {
+          "skill_id": "onejs--ios-simulator-skill",
+          "score": 1431.6326687537803
+        },
+        {
+          "skill_id": "aj-geddes--performance-testing",
+          "score": 1422.3306145090953
+        },
+        {
+          "skill_id": "aj-geddes--stress-testing",
+          "score": 1416.290173927323
+        },
+        {
+          "skill_id": "BbgnsurfTech--building-api-authentication",
+          "score": 1393.273692968889
+        },
+        {
+          "skill_id": "jeremylongshore--validating-api-schemas",
+          "score": 1391.7001759138595
+        },
+        {
+          "skill_id": "github--openapi-to-application-code",
+          "score": 1388.1674025837742
+        },
+        {
+          "skill_id": "maslennikov-ig--run-quality-gate",
+          "score": 1384.4462239483698
+        },
+        {
+          "skill_id": "l3wi--eda-research",
+          "score": 1381.4859562916538
+        },
+        {
+          "skill_id": "hamelsmu--evaluate-rag",
+          "score": 1374.8271620742225
+        },
+        {
+          "skill_id": "BbgnsurfTech--logging-api-requests",
+          "score": 1370.1127925379133
+        },
+        {
+          "skill_id": "HeshamFS--mesh-generation",
+          "score": 1360.6532802415481
+        },
+        {
+          "skill_id": "XiaoMi--k8s-troubleshoot",
+          "score": 1353.7909742780823
+        },
+        {
+          "skill_id": "jeremylongshore--logging-api-requests",
+          "score": 1350.6462114116787
+        },
+        {
+          "skill_id": "djankies--resolving-type-errors",
+          "score": 1349.257748977735
+        },
+        {
+          "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+          "score": 1347.3945209152423
+        },
+        {
+          "skill_id": "BbgnsurfTech--monitoring-apis",
+          "score": 1338.156117711007
+        },
+        {
+          "skill_id": "benchflow-ai--pause-detector",
+          "score": 1337.2780754581333
+        },
+        {
+          "skill_id": "jeremylongshore--validating-api-responses",
+          "score": 1336.527560056562
+        },
+        {
+          "skill_id": "letta-ai--train-fasttext",
+          "score": 1330.4337014931116
+        },
+        {
+          "skill_id": "jeremylongshore--monitoring-apis",
+          "score": 1330.2732657473266
+        },
+        {
+          "skill_id": "laurigates--test-quick",
+          "score": 1330.0894232675216
+        },
+        {
+          "skill_id": "letta-ai--path-tracing",
+          "score": 1329.906099034538
+        },
+        {
+          "skill_id": "BbgnsurfTech--validating-api-responses",
+          "score": 1326.7515892963993
+        },
+        {
+          "skill_id": "PolicyEngine--microcalibrate",
+          "score": 1320.708009376328
+        },
+        {
+          "skill_id": "cinience--alicloud-ai-recommend-airec-test",
+          "score": 1320.5352247567491
+        },
+        {
+          "skill_id": "jeremylongshore--firestore-operations-manager",
+          "score": 1319.1158281927896
+        },
+        {
+          "skill_id": "Heyvhuang--tool-schema-markup",
+          "score": 1316.0964300780622
+        },
+        {
+          "skill_id": "benchflow-ai--integral-action-design",
+          "score": 1315.6933135596535
+        },
+        {
+          "skill_id": "HeshamFS--simulation-validator",
+          "score": 1310.6040634876088
+        }
+      ]
+    },
+    {
+      "instance_id": "manufacturing-codebook-normalization",
+      "gold_skill_ids": [
+        "benchflow-ai--manufacturing-failure-reason-codebook-normalization"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--manufacturing-failure-reason-codebook-normalization",
+          "score": 3636.0452403291724
+        },
+        {
+          "skill_id": "galaxy-dawn--results-analysis",
+          "score": 1608.9807298665169
+        },
+        {
+          "skill_id": "anthropics--instrument-data-to-allotrope",
+          "score": 1528.8500664289663
+        },
+        {
+          "skill_id": "levnikolaevich--ln-761-secret-scanner",
+          "score": 1479.9553336356487
+        },
+        {
+          "skill_id": "bahayonghang--review-code",
+          "score": 1452.0727765609677
+        },
+        {
+          "skill_id": "duc01226--code-no-test",
+          "score": 1390.284513136358
+        },
+        {
+          "skill_id": "DNYoussef--verification-and-quality-assurance",
+          "score": 1380.1452695426299
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 1340.0115449086745
+        },
+        {
+          "skill_id": "htlin222--prompt-engineer",
+          "score": 1332.7423710737935
+        },
+        {
+          "skill_id": "tracemem--notes-and-context",
+          "score": 1326.5152335879834
+        },
+        {
+          "skill_id": "vasilyu1983--ai-prompt-engineering",
+          "score": 1325.5538714667207
+        },
+        {
+          "skill_id": "sickn33--cpp-pro",
+          "score": 1318.6612449257564
+        },
+        {
+          "skill_id": "jmanhype--reflect-appworld-failure",
+          "score": 1317.9755110045483
+        },
+        {
+          "skill_id": "florianbuetow--fix",
+          "score": 1317.2936213847106
+        },
+        {
+          "skill_id": "quentinhsu--change-pack",
+          "score": 1308.0039169805857
+        },
+        {
+          "skill_id": "vamseeachanta--core-coder",
+          "score": 1307.6594596026569
+        },
+        {
+          "skill_id": "vdustr--cspell",
+          "score": 1297.673856812027
+        },
+        {
+          "skill_id": "different-ai--browser-automation",
+          "score": 1292.6824556431768
+        },
+        {
+          "skill_id": "hamelsmu--build-review-interface",
+          "score": 1292.118118168463
+        },
+        {
+          "skill_id": "BbgnsurfTech--code-formatter",
+          "score": 1284.2476770448982
+        },
+        {
+          "skill_id": "akin-ozer--logql-generator",
+          "score": 1271.5752894231116
+        },
+        {
+          "skill_id": "jamiemason--front-loading",
+          "score": 1267.2089479694978
+        },
+        {
+          "skill_id": "victory-hugo--xlsx",
+          "score": 1265.12014940587
+        },
+        {
+          "skill_id": "iress--ui-doctor",
+          "score": 1256.8039800767915
+        },
+        {
+          "skill_id": "rohitg00--continuous-learning",
+          "score": 1256.7145831698433
+        },
+        {
+          "skill_id": "duc01226--ai-artist",
+          "score": 1256.2191186489226
+        },
+        {
+          "skill_id": "k8s-lynq--writing-test-code",
+          "score": 1255.740347370473
+        },
+        {
+          "skill_id": "aws-samples--file-processing",
+          "score": 1249.552165183626
+        },
+        {
+          "skill_id": "Prorise-cool--xlsx",
+          "score": 1247.0352336777182
+        },
+        {
+          "skill_id": "ruvnet--agent-coder",
+          "score": 1245.384136345687
+        },
+        {
+          "skill_id": "lukasstrickler--git-commit",
+          "score": 1244.9436199297688
+        },
+        {
+          "skill_id": "mindrally--nlp-natural-language-processing",
+          "score": 1242.4883757281202
+        },
+        {
+          "skill_id": "rightnow-ai--prometheus",
+          "score": 1241.5975430601125
+        },
+        {
+          "skill_id": "letta-ai--large-scale-text-editing",
+          "score": 1239.0472783238984
+        },
+        {
+          "skill_id": "MrLesk--context-hunter",
+          "score": 1239.013951253398
+        },
+        {
+          "skill_id": "biomejs--prettier-compare",
+          "score": 1238.8534019215092
+        },
+        {
+          "skill_id": "sickn33--create-pr",
+          "score": 1236.6674343540055
+        },
+        {
+          "skill_id": "cinience--alicloud-ai-cloud-call-center-test",
+          "score": 1235.682016862784
+        },
+        {
+          "skill_id": "rmyndharis--cpp-pro",
+          "score": 1230.0053447089088
+        },
+        {
+          "skill_id": "rohunj--test-and-break",
+          "score": 1228.365398139322
+        },
+        {
+          "skill_id": "pr-pm--claude-hook-writer",
+          "score": 1222.345302281955
+        },
+        {
+          "skill_id": "marcelorodrigo--create-pr",
+          "score": 1220.5262424412726
+        },
+        {
+          "skill_id": "duc01226--why-review",
+          "score": 1217.8062994563245
+        },
+        {
+          "skill_id": "kimasplund--confidence-check-skills",
+          "score": 1216.5721907029392
+        },
+        {
+          "skill_id": "pjt222--remote-viewing",
+          "score": 1215.9254224176566
+        },
+        {
+          "skill_id": "cinience--alicloud-ai-text-document-mind-test",
+          "score": 1215.708778436266
+        },
+        {
+          "skill_id": "K-Dense-AI--matchms",
+          "score": 1212.6078441764575
+        },
+        {
+          "skill_id": "dnyoussef--reverse-engineering-quick-triage",
+          "score": 1212.1906909234401
+        },
+        {
+          "skill_id": "benchflow-ai--sampling-and-indexing",
+          "score": 1210.681265713858
+        },
+        {
+          "skill_id": "jeremylongshore--code-formatter",
+          "score": 1208.0496159601473
+        }
+      ]
+    },
+    {
+      "instance_id": "manufacturing-equipment-maintenance",
+      "gold_skill_ids": [
+        "benchflow-ai--reflow-profile-compliance-toolkit",
+        "benchflow-ai--reflow_machine_maintenance_guidance"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+          "score": 3108.2819264532945
+        },
+        {
+          "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+          "score": 3053.45414451538
+        },
+        {
+          "skill_id": "DNYoussef--verification-and-quality-assurance",
+          "score": 1386.2956579219094
+        },
+        {
+          "skill_id": "fugazi--qa-manual-istqb",
+          "score": 1362.3334703149721
+        },
+        {
+          "skill_id": "warpdotdev--ci-fix",
+          "score": 1327.606611511224
+        },
+        {
+          "skill_id": "github--csharp-mcp-server-generator",
+          "score": 1317.6378153984795
+        },
+        {
+          "skill_id": "oimiragieo--code-analyzer",
+          "score": 1303.827951707799
+        },
+        {
+          "skill_id": "jeremylongshore--running-chaos-tests",
+          "score": 1300.8956794418984
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-chaos-tests",
+          "score": 1288.0768824526472
+        },
+        {
+          "skill_id": "jeremylongshore--analyzing-test-coverage",
+          "score": 1283.6907712500952
+        },
+        {
+          "skill_id": "DNYoussef--cicd-intelligent-recovery",
+          "score": 1276.825329167699
+        },
+        {
+          "skill_id": "benchflow-ai--vulnerability-csv-reporting",
+          "score": 1270.992969755732
+        },
+        {
+          "skill_id": "personamanagmentlayer--manufacturing-expert",
+          "score": 1266.270344568852
+        },
+        {
+          "skill_id": "jeremylongshore--testing-mobile-apps",
+          "score": 1262.4035615529194
+        },
+        {
+          "skill_id": "jeremylongshore--running-e2e-tests",
+          "score": 1262.0859509287825
+        },
+        {
+          "skill_id": "patricio0312rev--llm-debugger",
+          "score": 1259.21707559848
+        },
+        {
+          "skill_id": "jeremylongshore--generating-test-reports",
+          "score": 1248.003523715032
+        },
+        {
+          "skill_id": "BbgnsurfTech--analyzing-test-coverage",
+          "score": 1241.4438281994833
+        },
+        {
+          "skill_id": "jeremylongshore--scanning-accessibility",
+          "score": 1230.2410024290684
+        },
+        {
+          "skill_id": "jeremylongshore--managing-snapshot-tests",
+          "score": 1225.5846048147857
+        },
+        {
+          "skill_id": "first-fluke--orchestrator",
+          "score": 1224.482188008484
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-e2e-tests",
+          "score": 1211.9471648771666
+        },
+        {
+          "skill_id": "jmanhype--reflect-appworld-failure",
+          "score": 1211.5035508710616
+        },
+        {
+          "skill_id": "BbgnsurfTech--generating-test-data",
+          "score": 1208.787674647341
+        },
+        {
+          "skill_id": "jeremylongshore--running-performance-tests",
+          "score": 1203.3253164648654
+        },
+        {
+          "skill_id": "jeremylongshore--fuzzing-apis",
+          "score": 1202.5898515548506
+        },
+        {
+          "skill_id": "BbgnsurfTech--testing-mobile-apps",
+          "score": 1202.322375279008
+        },
+        {
+          "skill_id": "rightnow-ai--shell-scripting",
+          "score": 1201.3445559965303
+        },
+        {
+          "skill_id": "jeremylongshore--running-integration-tests",
+          "score": 1200.7475220989224
+        },
+        {
+          "skill_id": "jeremylongshore--running-mutation-tests",
+          "score": 1200.1742394039302
+        },
+        {
+          "skill_id": "galaxy-dawn--results-analysis",
+          "score": 1198.1870808045885
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-integration-tests",
+          "score": 1197.263614252701
+        },
+        {
+          "skill_id": "BbgnsurfTech--managing-test-environments",
+          "score": 1192.883226542646
+        },
+        {
+          "skill_id": "BbgnsurfTech--scanning-accessibility",
+          "score": 1190.0165556648044
+        },
+        {
+          "skill_id": "jeremylongshore--managing-database-tests",
+          "score": 1189.615143002973
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-performance-tests",
+          "score": 1188.6127964068057
+        },
+        {
+          "skill_id": "zenobi-us--qa-expert",
+          "score": 1186.373241570925
+        },
+        {
+          "skill_id": "jeremylongshore--testing-load-balancers",
+          "score": 1184.265870474448
+        },
+        {
+          "skill_id": "jeremylongshore--testing-browser-compatibility",
+          "score": 1180.962645752093
+        },
+        {
+          "skill_id": "astronomer--debugging-dags",
+          "score": 1178.1472028580847
+        },
+        {
+          "skill_id": "BbgnsurfTech--generating-test-reports",
+          "score": 1173.7321554104326
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-mutation-tests",
+          "score": 1173.460465308096
+        },
+        {
+          "skill_id": "jeremylongshore--managing-test-environments",
+          "score": 1172.7958194917892
+        },
+        {
+          "skill_id": "djankies--resolving-type-errors",
+          "score": 1172.4286476279099
+        },
+        {
+          "skill_id": "necatiarslan--debugging-dags",
+          "score": 1170.2944063562772
+        },
+        {
+          "skill_id": "BbgnsurfTech--tracking-regression-tests",
+          "score": 1165.3414323578224
+        },
+        {
+          "skill_id": "BbgnsurfTech--managing-database-tests",
+          "score": 1163.7807982320587
+        },
+        {
+          "skill_id": "composiohq--apify-automation",
+          "score": 1163.1177912687917
+        },
+        {
+          "skill_id": "letta-ai--log-summary-date-ranges",
+          "score": 1161.8097357573733
+        },
+        {
+          "skill_id": "BbgnsurfTech--generating-test-doubles",
+          "score": 1161.0536778360406
+        }
+      ]
+    },
+    {
+      "instance_id": "mars-clouds-clustering",
+      "gold_skill_ids": [
+        "benchflow-ai--custom-distance-metrics",
+        "benchflow-ai--parallel-processing",
+        "benchflow-ai--pareto-optimization"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--custom-distance-metrics",
+          "score": 1542.544968714753
+        },
+        {
+          "skill_id": "BbgnsurfTech--tuning-hyperparameters",
+          "score": 1349.2855622929326
+        },
+        {
+          "skill_id": "aj-geddes--ml-model-training",
+          "score": 1330.4033961366958
+        },
+        {
+          "skill_id": "jeremylongshore--running-clustering-algorithms",
+          "score": 1315.1268077557756
+        },
+        {
+          "skill_id": "letta-ai--train-fasttext",
+          "score": 1305.963222087346
+        },
+        {
+          "skill_id": "aj-geddes--model-hyperparameter-tuning",
+          "score": 1287.6193039752075
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-clustering-algorithms",
+          "score": 1286.7321080981021
+        },
+        {
+          "skill_id": "jeremylongshore--tuning-hyperparameters",
+          "score": 1250.354476745915
+        },
+        {
+          "skill_id": "benchflow-ai--pareto-optimization",
+          "score": 1242.524306029635
+        },
+        {
+          "skill_id": "aj-geddes--clustering-analysis",
+          "score": 1217.875991825138
+        },
+        {
+          "skill_id": "jeremylongshore--databricks-performance-tuning",
+          "score": 1206.9181016503017
+        },
+        {
+          "skill_id": "jeremylongshore--databricks-cost-tuning",
+          "score": 1191.0143863211579
+        },
+        {
+          "skill_id": "rileyhilliard--optimizing-performance",
+          "score": 1132.0455854153113
+        },
+        {
+          "skill_id": "benchflow-ai--map-optimization-strategy",
+          "score": 1129.180771382359
+        },
+        {
+          "skill_id": "harryoung--excel-parser",
+          "score": 1083.1877992844497
+        },
+        {
+          "skill_id": "personamanagmentlayer--databricks-expert",
+          "score": 1077.2750697169172
+        },
+        {
+          "skill_id": "rmyndharis--data-scientist",
+          "score": 1073.2841363107466
+        },
+        {
+          "skill_id": "terrylica--adaptive-wfo-epoch",
+          "score": 1067.1524979480944
+        },
+        {
+          "skill_id": "eyadsibai--dask",
+          "score": 1067.036733134924
+        },
+        {
+          "skill_id": "huiali--rust-performance",
+          "score": 1066.316357795062
+        },
+        {
+          "skill_id": "Jeffallan--fine-tuning-expert",
+          "score": 1065.3132137426594
+        },
+        {
+          "skill_id": "paramchoudhary--resume-ats-optimizer",
+          "score": 1057.9040333086753
+        },
+        {
+          "skill_id": "89jobrien--machine-learning",
+          "score": 1045.8867179610936
+        },
+        {
+          "skill_id": "BbgnsurfTech--building-automl-pipelines",
+          "score": 1036.3038561536252
+        },
+        {
+          "skill_id": "davila7--aeon",
+          "score": 1030.8527712651828
+        },
+        {
+          "skill_id": "zechenzhangagi--faiss",
+          "score": 1025.1941152782626
+        },
+        {
+          "skill_id": "marketcalls--optimize",
+          "score": 1025.1531165100548
+        },
+        {
+          "skill_id": "tondevrel--xgboost-lightgbm",
+          "score": 1023.3518360406816
+        },
+        {
+          "skill_id": "eyadsibai--scikit-learn",
+          "score": 1017.5023450184932
+        },
+        {
+          "skill_id": "i9wa4--bigquery",
+          "score": 1017.3888676764653
+        },
+        {
+          "skill_id": "manusco--resonance-performance",
+          "score": 1014.8102025983765
+        },
+        {
+          "skill_id": "davila7--dask",
+          "score": 1009.0833045089535
+        },
+        {
+          "skill_id": "PrimeIntellect-ai--optimize-with-environments",
+          "score": 1008.1347836239648
+        },
+        {
+          "skill_id": "raveeshbhalla--gepa-demo",
+          "score": 1005.1634981104725
+        },
+        {
+          "skill_id": "jmsktm--dataset-curator",
+          "score": 1003.9108131599103
+        },
+        {
+          "skill_id": "omer-metin--performance-optimization",
+          "score": 1001.6841618323717
+        },
+        {
+          "skill_id": "qredence--dspy-optimization",
+          "score": 999.7442364023048
+        },
+        {
+          "skill_id": "terrylica--evolutionary-metric-ranking",
+          "score": 999.6126557751442
+        },
+        {
+          "skill_id": "mindrally--data-analysis-jupyter",
+          "score": 998.6098326765158
+        },
+        {
+          "skill_id": "sickn33--data-scientist",
+          "score": 993.6719915365364
+        },
+        {
+          "skill_id": "nahisaho--ai-ml-engineer",
+          "score": 990.6226526057176
+        },
+        {
+          "skill_id": "benchflow-ai--nanogpt-training",
+          "score": 989.7667833748494
+        },
+        {
+          "skill_id": "personamanagmentlayer--ml-expert",
+          "score": 980.8463408331642
+        },
+        {
+          "skill_id": "Microck--data-viz-plots",
+          "score": 980.4053873646802
+        },
+        {
+          "skill_id": "OneWave-AI--seo-content-optimizer",
+          "score": 980.2115276549365
+        },
+        {
+          "skill_id": "zechenzhangagi--ray-train",
+          "score": 974.3688756685661
+        },
+        {
+          "skill_id": "marketcalls--indicator-scanner",
+          "score": 967.7123735961807
+        },
+        {
+          "skill_id": "eventual-inc--daft-distributed-scaling",
+          "score": 966.3010900499305
+        },
+        {
+          "skill_id": "voxel51--fiftyone-model-evaluation",
+          "score": 966.0953565517092
+        },
+        {
+          "skill_id": "oakoss--seo-optimizer",
+          "score": 965.4431724080024
+        }
+      ]
+    },
+    {
+      "instance_id": "offer-letter-generator",
+      "gold_skill_ids": [
+        "benchflow-ai--docx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "open-agreements--employment-contract",
+          "score": 1526.0258373845136
+        },
+        {
+          "skill_id": "benchflow-ai--docx-1",
+          "score": 1251.5067944818468
+        },
+        {
+          "skill_id": "iamzhihuix--docx-format-replicator",
+          "score": 1224.4069176611592
+        },
+        {
+          "skill_id": "levnikolaevich--ln-111-root-docs-creator",
+          "score": 1171.2726883988842
+        },
+        {
+          "skill_id": "levnikolaevich--ln-112-project-core-creator",
+          "score": 1141.4353333757151
+        },
+        {
+          "skill_id": "fwehrling--forge-init",
+          "score": 1098.806671418844
+        },
+        {
+          "skill_id": "getsentry--agents-md",
+          "score": 1093.514725239877
+        },
+        {
+          "skill_id": "matteocervelli--planning-doc-generator",
+          "score": 1093.0893245041068
+        },
+        {
+          "skill_id": "wshobson--employment-contract-templates",
+          "score": 1091.7271068651064
+        },
+        {
+          "skill_id": "belumume--docx-template-filling",
+          "score": 1085.8202754109996
+        },
+        {
+          "skill_id": "Heyvhuang--workflow-template-extractor",
+          "score": 1079.5198018042784
+        },
+        {
+          "skill_id": "open-agreements--open-agreements",
+          "score": 1050.956643979403
+        },
+        {
+          "skill_id": "indranilbanerjee--validate-output",
+          "score": 1042.9628575137667
+        },
+        {
+          "skill_id": "maslennikov-ig--render-template",
+          "score": 1039.6498580616371
+        },
+        {
+          "skill_id": "jmsktm--contract-drafter",
+          "score": 1029.361670059192
+        },
+        {
+          "skill_id": "vamseeachanta--docx-templates",
+          "score": 1029.1258247251012
+        },
+        {
+          "skill_id": "amruthpillai--resume-builder",
+          "score": 1009.5729275340531
+        },
+        {
+          "skill_id": "constructive-io--constructive-boilerplate-authoring",
+          "score": 1000.2476553329517
+        },
+        {
+          "skill_id": "nuxt-content--create-docs",
+          "score": 985.2075005532625
+        },
+        {
+          "skill_id": "maximhq--docs-writer",
+          "score": 984.3887719770465
+        },
+        {
+          "skill_id": "jmsktm--letter-writer",
+          "score": 980.6125530425376
+        },
+        {
+          "skill_id": "googleworkspace--recipe-create-doc-from-template",
+          "score": 980.218643974036
+        },
+        {
+          "skill_id": "polarsource--handbook-backend-development",
+          "score": 980.0485001212531
+        },
+        {
+          "skill_id": "open-agreements--nda",
+          "score": 979.5648762218444
+        },
+        {
+          "skill_id": "openhands--init",
+          "score": 973.3643229908031
+        },
+        {
+          "skill_id": "indranilbanerjee--import-template",
+          "score": 972.8337527784162
+        },
+        {
+          "skill_id": "revokslab--docs",
+          "score": 972.453598542731
+        },
+        {
+          "skill_id": "workshop-ventures--new-project-scaffolding",
+          "score": 966.6231259531103
+        },
+        {
+          "skill_id": "jmerta--coding-guidelines-gen",
+          "score": 963.3437827156629
+        },
+        {
+          "skill_id": "severity1--codebase-analyzer",
+          "score": 956.3588884980263
+        },
+        {
+          "skill_id": "delexw--domain-discover",
+          "score": 956.2076416708251
+        },
+        {
+          "skill_id": "open-agreements--safe",
+          "score": 954.3250268637582
+        },
+        {
+          "skill_id": "sickn33--employment-contract-templates",
+          "score": 952.0497497281589
+        },
+        {
+          "skill_id": "blogic-cz--andocs",
+          "score": 950.5815225949859
+        },
+        {
+          "skill_id": "illusion47586--docs-quality",
+          "score": 949.4985089939629
+        },
+        {
+          "skill_id": "vasilyu1983--document-docx",
+          "score": 948.3850523001181
+        },
+        {
+          "skill_id": "boshu2--product",
+          "score": 946.6049318932662
+        },
+        {
+          "skill_id": "jmsktm--word-document-creator",
+          "score": 940.394580916243
+        },
+        {
+          "skill_id": "alemar11--learn",
+          "score": 934.9006283978362
+        },
+        {
+          "skill_id": "tech-leads-club--docs-writer",
+          "score": 927.096863986493
+        },
+        {
+          "skill_id": "theaayushstha1--apply-job",
+          "score": 926.6834448168707
+        },
+        {
+          "skill_id": "open-agreements--venture-financing",
+          "score": 923.728479867621
+        },
+        {
+          "skill_id": "open-agreements--services-agreement",
+          "score": 923.0631090104324
+        },
+        {
+          "skill_id": "dcl-regenesislabs--create-scene",
+          "score": 909.1649474891974
+        },
+        {
+          "skill_id": "jmagly--skill-builder",
+          "score": 907.6924264194319
+        },
+        {
+          "skill_id": "sherifeldeeb--docx",
+          "score": 906.1919066366654
+        },
+        {
+          "skill_id": "zhanlincui--github-release-assistant",
+          "score": 904.1534069772854
+        },
+        {
+          "skill_id": "mintlify--update-nav",
+          "score": 904.0451714444982
+        },
+        {
+          "skill_id": "opusgamelabs--use-template",
+          "score": 903.0747865231493
+        },
+        {
+          "skill_id": "rmyndharis--employment-contract-templates",
+          "score": 899.7021230421283
+        }
+      ]
+    },
+    {
+      "instance_id": "powerlifting-coef-calc",
+      "gold_skill_ids": [
+        "benchflow-ai--powerlifting",
+        "benchflow-ai--senior-data-scientist",
+        "benchflow-ai--xlsx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--powerlifting",
+          "score": 2154.9948184946093
+        },
+        {
+          "skill_id": "skillcreatorai--xlsx",
+          "score": 1370.9553997766147
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-3",
+          "score": 1366.0038971052743
+        },
+        {
+          "skill_id": "bobmatnyc--xlsx",
+          "score": 1324.169158985321
+        },
+        {
+          "skill_id": "witanlabs--xlsx-code-mode",
+          "score": 1238.2272889024507
+        },
+        {
+          "skill_id": "davila7--excel-analysis",
+          "score": 1209.1517368454183
+        },
+        {
+          "skill_id": "henkisdabro--xlsx",
+          "score": 1201.2353952013184
+        },
+        {
+          "skill_id": "sbroenne--excel-mcp",
+          "score": 1150.3335568167097
+        },
+        {
+          "skill_id": "apetta--agent-xlsx",
+          "score": 1145.3299753331019
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 1105.0930720662354
+        },
+        {
+          "skill_id": "composiohq--excel-automation",
+          "score": 1099.4317678655443
+        },
+        {
+          "skill_id": "js-mark--xlsx",
+          "score": 1098.7321116057565
+        },
+        {
+          "skill_id": "hewliyang--spreadjs",
+          "score": 1088.4912458332265
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-1",
+          "score": 1087.9718772250276
+        },
+        {
+          "skill_id": "composiohq--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "dedalus-erp-pas--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "eyadsibai--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "jd-opensource--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "krishagel--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "snyk--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "vibery-studio--xlsx",
+          "score": 1085.889700969579
+        },
+        {
+          "skill_id": "kjgarza--xlsx",
+          "score": 1084.6376819143738
+        },
+        {
+          "skill_id": "autumnsgrove--xlsx",
+          "score": 1081.6218994321803
+        },
+        {
+          "skill_id": "fergana-labs--excel",
+          "score": 1079.790101114074
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-2",
+          "score": 1079.4390158616259
+        },
+        {
+          "skill_id": "jmsktm--spreadsheet-builder",
+          "score": 1044.172730794018
+        },
+        {
+          "skill_id": "sickn33--xlsx-official",
+          "score": 1041.4790658842578
+        },
+        {
+          "skill_id": "davila7--spreadsheet",
+          "score": 1014.6334239449645
+        },
+        {
+          "skill_id": "jimmc414--xlsx",
+          "score": 1011.9057096362482
+        },
+        {
+          "skill_id": "K-Dense-AI--xlsx",
+          "score": 1011.9057096362482
+        },
+        {
+          "skill_id": "sbroenne--excel-cli",
+          "score": 1003.030052089251
+        },
+        {
+          "skill_id": "bytedance--data-analysis",
+          "score": 990.477716774816
+        },
+        {
+          "skill_id": "vamseeachanta--openpyxl",
+          "score": 957.9445122697543
+        },
+        {
+          "skill_id": "legacybridge-tech--process-file",
+          "score": 955.6083996604374
+        },
+        {
+          "skill_id": "leegonzales--excel-auditor",
+          "score": 955.1630362493376
+        },
+        {
+          "skill_id": "aws-samples--workspace",
+          "score": 950.4054826325267
+        },
+        {
+          "skill_id": "vasilyu1983--document-xlsx",
+          "score": 940.9118888667983
+        },
+        {
+          "skill_id": "Ai-Whisperers--excel-export-validator",
+          "score": 939.2580157832795
+        },
+        {
+          "skill_id": "anthropics--dcf-model",
+          "score": 935.151530501198
+        },
+        {
+          "skill_id": "anthropics--lbo-model",
+          "score": 930.2840201652334
+        },
+        {
+          "skill_id": "googleworkspace--gws-sheets",
+          "score": 923.284435411729
+        },
+        {
+          "skill_id": "umbraco--umbraco-add-extension-reference",
+          "score": 921.9635894547087
+        },
+        {
+          "skill_id": "driangle--do-task",
+          "score": 910.0707190323359
+        },
+        {
+          "skill_id": "jackspace--exploratory-data-analysis",
+          "score": 907.7646864836852
+        },
+        {
+          "skill_id": "pbantolas--liftosaur-program-creator",
+          "score": 898.8005879035239
+        },
+        {
+          "skill_id": "tyrealq--q-exploratory-analysis",
+          "score": 894.4350413514934
+        },
+        {
+          "skill_id": "anthropics--datapack-builder",
+          "score": 888.9283078310455
+        },
+        {
+          "skill_id": "victory-hugo--xlsx",
+          "score": 885.6865153681553
+        },
+        {
+          "skill_id": "Prorise-cool--xlsx",
+          "score": 884.4806737752665
+        },
+        {
+          "skill_id": "tkersey--lift",
+          "score": 883.6684228227084
+        }
+      ]
+    },
+    {
+      "instance_id": "pptx-reference-formatting",
+      "gold_skill_ids": [
+        "benchflow-ai--pptx"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "skillcreatorai--pptx",
+          "score": 1442.7364065627023
+        },
+        {
+          "skill_id": "moosegoose0701--storyboard-to-slides",
+          "score": 1280.9614574326376
+        },
+        {
+          "skill_id": "jmsktm--presentation-maker",
+          "score": 1249.0243516194384
+        },
+        {
+          "skill_id": "autumnsgrove--pptx",
+          "score": 1207.057038128347
+        },
+        {
+          "skill_id": "luwill--paper-slide-deck",
+          "score": 1205.314991578657
+        },
+        {
+          "skill_id": "aws-samples--powerpoint-presentations",
+          "score": 1196.6159561112343
+        },
+        {
+          "skill_id": "aws-samples--word-documents",
+          "score": 1114.7368338892784
+        },
+        {
+          "skill_id": "Prorise-cool--pptx",
+          "score": 1073.7084290815878
+        },
+        {
+          "skill_id": "okwinds--pptx-offline",
+          "score": 1069.8926237797152
+        },
+        {
+          "skill_id": "alfredang--notebooklm",
+          "score": 1060.908440207466
+        },
+        {
+          "skill_id": "sickn33--pptx-official",
+          "score": 1056.7990197436986
+        },
+        {
+          "skill_id": "michaelboeding--slide-generation",
+          "score": 1053.0087575863333
+        },
+        {
+          "skill_id": "sickn33--frontend-slides",
+          "score": 1050.8717585706358
+        },
+        {
+          "skill_id": "anthropics--tear-sheet",
+          "score": 1049.5894060975456
+        },
+        {
+          "skill_id": "vibery-studio--pptx",
+          "score": 1048.0362141542112
+        },
+        {
+          "skill_id": "jimmc414--pptx",
+          "score": 1047.0612849860827
+        },
+        {
+          "skill_id": "composiohq--pptx",
+          "score": 1045.1215437191918
+        },
+        {
+          "skill_id": "dedalus-erp-pas--pptx",
+          "score": 1045.1215437191918
+        },
+        {
+          "skill_id": "eyadsibai--pptx",
+          "score": 1045.1215437191918
+        },
+        {
+          "skill_id": "kjgarza--pptx",
+          "score": 1045.1215437191918
+        },
+        {
+          "skill_id": "snyk--pptx",
+          "score": 1045.1215437191918
+        },
+        {
+          "skill_id": "benchflow-ai--pptx",
+          "score": 1045.1215437191918
+        },
+        {
+          "skill_id": "blogic-cz--git-workflow",
+          "score": 1041.8626721608955
+        },
+        {
+          "skill_id": "melvynx--create-pr",
+          "score": 1033.8431935075132
+        },
+        {
+          "skill_id": "404kidwiz--pptx-skill",
+          "score": 1017.8653393761481
+        },
+        {
+          "skill_id": "yoanbernabeu--slidev-components",
+          "score": 1014.5817038398754
+        },
+        {
+          "skill_id": "agentpreso--agentpreso",
+          "score": 1001.6718137812113
+        },
+        {
+          "skill_id": "netease-youdao--pptx",
+          "score": 995.6587577911872
+        },
+        {
+          "skill_id": "vasilyu1983--document-pptx",
+          "score": 994.356786949364
+        },
+        {
+          "skill_id": "ryanbbrown--revealjs",
+          "score": 985.3451230233472
+        },
+        {
+          "skill_id": "SpillwaveSolutions--automating-powerpoint",
+          "score": 984.6964621529413
+        },
+        {
+          "skill_id": "inference-sh--data-visualization",
+          "score": 979.8958206486637
+        },
+        {
+          "skill_id": "prompticeu--promptslide",
+          "score": 977.5858563325046
+        },
+        {
+          "skill_id": "yoanbernabeu--slidev-layouts",
+          "score": 975.2841884204743
+        },
+        {
+          "skill_id": "krishagel--pptx",
+          "score": 973.0391367183744
+        },
+        {
+          "skill_id": "Microck--applying-brand-guidelines",
+          "score": 972.18180386352
+        },
+        {
+          "skill_id": "bytedance--ppt-generation",
+          "score": 951.1036171894993
+        },
+        {
+          "skill_id": "inference-sh--pitch-deck-visuals",
+          "score": 945.7864736275274
+        },
+        {
+          "skill_id": "mhattingpete--technical-doc-creator",
+          "score": 942.3171961276485
+        },
+        {
+          "skill_id": "DNYoussef--when-creating-presentations-use-pptx-generation",
+          "score": 935.3007463989073
+        },
+        {
+          "skill_id": "NanmiCoder--slides-generator",
+          "score": 922.3938410936938
+        },
+        {
+          "skill_id": "yoanbernabeu--slidev-syntax-guide",
+          "score": 922.0689014233571
+        },
+        {
+          "skill_id": "inference-sh--social-media-carousel",
+          "score": 920.9533633474072
+        },
+        {
+          "skill_id": "daymade--ppt-creator",
+          "score": 920.8978210487221
+        },
+        {
+          "skill_id": "belumume--document-quality-standards",
+          "score": 918.2506339428684
+        },
+        {
+          "skill_id": "brite-nites--ui-ux-pro-max",
+          "score": 916.104030362903
+        },
+        {
+          "skill_id": "bbeierle12--pptx",
+          "score": 912.2427383252713
+        },
+        {
+          "skill_id": "hummingbot--slides-generator",
+          "score": 912.0233537957226
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 906.5206331999289
+        },
+        {
+          "skill_id": "K-Dense-AI--pptx",
+          "score": 898.2497494128185
+        }
+      ]
+    },
+    {
+      "instance_id": "protein-expression-analysis",
+      "gold_skill_ids": [
+        "benchflow-ai--xlsx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "apetta--agent-xlsx",
+          "score": 1549.0726123167533
+        },
+        {
+          "skill_id": "autumnsgrove--xlsx",
+          "score": 1525.6832890138928
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-2",
+          "score": 1506.1944580334073
+        },
+        {
+          "skill_id": "js-mark--xlsx",
+          "score": 1457.4431364667287
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-1",
+          "score": 1452.8534935107493
+        },
+        {
+          "skill_id": "kjgarza--xlsx",
+          "score": 1440.7839012618215
+        },
+        {
+          "skill_id": "composiohq--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "dedalus-erp-pas--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "eyadsibai--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "jd-opensource--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "krishagel--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "snyk--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "vibery-studio--xlsx",
+          "score": 1439.9929301238155
+        },
+        {
+          "skill_id": "bobmatnyc--xlsx",
+          "score": 1410.0807983822492
+        },
+        {
+          "skill_id": "sickn33--xlsx-official",
+          "score": 1404.9865581316853
+        },
+        {
+          "skill_id": "Prorise-cool--xlsx",
+          "score": 1390.0195507388544
+        },
+        {
+          "skill_id": "victory-hugo--xlsx",
+          "score": 1387.1185838645386
+        },
+        {
+          "skill_id": "jimmc414--xlsx",
+          "score": 1383.0811441040462
+        },
+        {
+          "skill_id": "K-Dense-AI--xlsx",
+          "score": 1383.0811441040462
+        },
+        {
+          "skill_id": "K-Dense-AI--pyopenms",
+          "score": 1359.1910566955894
+        },
+        {
+          "skill_id": "skillcreatorai--xlsx",
+          "score": 1351.3565081225092
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-proteomics-analysis",
+          "score": 1294.940312592072
+        },
+        {
+          "skill_id": "davila7--pyopenms",
+          "score": 1280.2398113022714
+        },
+        {
+          "skill_id": "sbroenne--excel-mcp",
+          "score": 1229.6177146433042
+        },
+        {
+          "skill_id": "henkisdabro--xlsx",
+          "score": 1215.618641734428
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-3",
+          "score": 1161.6476255793873
+        },
+        {
+          "skill_id": "oimiragieo--enhance-prompt",
+          "score": 1158.2087735422638
+        },
+        {
+          "skill_id": "adithya-s-k--manimgl-best-practices",
+          "score": 1156.088960874614
+        },
+        {
+          "skill_id": "witanlabs--xlsx-code-mode",
+          "score": 1152.4029292301109
+        },
+        {
+          "skill_id": "K-Dense-AI--matchms",
+          "score": 1141.6044971176796
+        },
+        {
+          "skill_id": "sickn33--cpp-pro",
+          "score": 1131.0815554818819
+        },
+        {
+          "skill_id": "anthropics--tear-sheet",
+          "score": 1130.7530113653484
+        },
+        {
+          "skill_id": "fergana-labs--excel",
+          "score": 1115.2038388304106
+        },
+        {
+          "skill_id": "jmsktm--spreadsheet-builder",
+          "score": 1110.8562119713097
+        },
+        {
+          "skill_id": "letta-ai--regex-chess",
+          "score": 1109.294766354459
+        },
+        {
+          "skill_id": "fancy-bread--complete-task",
+          "score": 1094.9883904216053
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-clinical-trial-matching",
+          "score": 1089.2756213122213
+        },
+        {
+          "skill_id": "cachemoney--jj",
+          "score": 1089.1935880686406
+        },
+        {
+          "skill_id": "letta-ai--mteb-retrieve",
+          "score": 1082.8310995863296
+        },
+        {
+          "skill_id": "Ai-Whisperers--excel-export-validator",
+          "score": 1073.9079780009388
+        },
+        {
+          "skill_id": "davila7--excel-analysis",
+          "score": 1071.4571058715487
+        },
+        {
+          "skill_id": "aminoanalytica--pdb-database",
+          "score": 1068.4414702883146
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-spatial-omics-analysis",
+          "score": 1066.311144637923
+        },
+        {
+          "skill_id": "benchflow-ai--time_series_anomaly_detection",
+          "score": 1057.648445428998
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-precision-medicine-stratification",
+          "score": 1055.015053533208
+        },
+        {
+          "skill_id": "letta-ai--large-scale-text-editing",
+          "score": 1052.382786927152
+        },
+        {
+          "skill_id": "vamseeachanta--data-pipeline-processor",
+          "score": 1049.3926545129705
+        },
+        {
+          "skill_id": "telegramdesktop--task-think",
+          "score": 1045.655679332702
+        },
+        {
+          "skill_id": "letta-ai--regex-log",
+          "score": 1040.6789196958835
+        },
+        {
+          "skill_id": "rmyndharis--cpp-pro",
+          "score": 1038.2682221976283
+        }
+      ]
+    },
+    {
+      "instance_id": "react-performance-debugging",
+      "gold_skill_ids": [
+        "benchflow-ai--browser-testing-2",
+        "benchflow-ai--react-best-practices-2"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "srbhr--react-patterns",
+          "score": 1860.44923578792
+        },
+        {
+          "skill_id": "jgamaraalv--react-best-practices",
+          "score": 1838.4420145984084
+        },
+        {
+          "skill_id": "gohypergiant--accelint-nextjs-best-practices",
+          "score": 1824.9081193779552
+        },
+        {
+          "skill_id": "kriscard--react-best-practices",
+          "score": 1808.276335728159
+        },
+        {
+          "skill_id": "benchflow-ai--react-best-practices-1",
+          "score": 1806.8564418862327
+        },
+        {
+          "skill_id": "shapeshift--react-best-practices",
+          "score": 1805.7605953055488
+        },
+        {
+          "skill_id": "duyet--react-nextjs-patterns",
+          "score": 1780.9125716700767
+        },
+        {
+          "skill_id": "henkisdabro--react-best-practices",
+          "score": 1779.3451935512096
+        },
+        {
+          "skill_id": "laguagu--react-best-practices",
+          "score": 1740.1847831016833
+        },
+        {
+          "skill_id": "tech-leads-club--react-best-practices",
+          "score": 1738.3704144469796
+        },
+        {
+          "skill_id": "sickn33--react-best-practices",
+          "score": 1717.8993736451441
+        },
+        {
+          "skill_id": "Heyvhuang--review-react-best-practices",
+          "score": 1708.3891495388339
+        },
+        {
+          "skill_id": "tdimino--react-best-practices",
+          "score": 1688.0018859533068
+        },
+        {
+          "skill_id": "manutej--nextjs-development",
+          "score": 1685.9688827572868
+        },
+        {
+          "skill_id": "gohypergiant--accelint-react-best-practices",
+          "score": 1681.0520052104387
+        },
+        {
+          "skill_id": "s-hiraoku--react-performance",
+          "score": 1676.2001710472798
+        },
+        {
+          "skill_id": "oimiragieo--react-best-practices-vercel",
+          "score": 1668.356404745433
+        },
+        {
+          "skill_id": "benchflow-ai--react-best-practices-2",
+          "score": 1651.0634408793194
+        },
+        {
+          "skill_id": "daffy0208--frontend-builder",
+          "score": 1649.777764419841
+        },
+        {
+          "skill_id": "oimiragieo--nextjs-expert",
+          "score": 1647.6879059630585
+        },
+        {
+          "skill_id": "alicoder001--react-nextjs",
+          "score": 1646.8964858078903
+        },
+        {
+          "skill_id": "atman36--nextjs-optimization",
+          "score": 1641.9068546170774
+        },
+        {
+          "skill_id": "sanity-io--vercel-react-best-practices",
+          "score": 1607.8623790824724
+        },
+        {
+          "skill_id": "fluid-tools--vercel-react-best-practices",
+          "score": 1607.7510326493007
+        },
+        {
+          "skill_id": "derklinke--vercel-react-best-practices",
+          "score": 1600.30113969585
+        },
+        {
+          "skill_id": "Significant-Gravitas--vercel-react-best-practices",
+          "score": 1600.30113969585
+        },
+        {
+          "skill_id": "mindrally--vercel-development",
+          "score": 1599.1447355853945
+        },
+        {
+          "skill_id": "timelessco--nextjs",
+          "score": 1597.035157206098
+        },
+        {
+          "skill_id": "first-fluke--react-best-practices",
+          "score": 1568.3815555079416
+        },
+        {
+          "skill_id": "mindrally--optimized-nextjs-typescript",
+          "score": 1555.417845138911
+        },
+        {
+          "skill_id": "davila7--web-performance-optimization",
+          "score": 1546.4447313758808
+        },
+        {
+          "skill_id": "mindrally--nextjs-react-typescript",
+          "score": 1541.044847107816
+        },
+        {
+          "skill_id": "mgd34msu--performance-audit",
+          "score": 1533.0304668333015
+        },
+        {
+          "skill_id": "ar4mirez--nextjs",
+          "score": 1526.8277757531994
+        },
+        {
+          "skill_id": "nguyenthienthanh--nextjs-expert",
+          "score": 1525.784918307143
+        },
+        {
+          "skill_id": "workleap--workleap-react-best-practices",
+          "score": 1520.1217592754726
+        },
+        {
+          "skill_id": "zenobi-us--nextjs-developer",
+          "score": 1507.5296815359209
+        },
+        {
+          "skill_id": "rmyndharis--frontend-developer",
+          "score": 1505.130692013938
+        },
+        {
+          "skill_id": "poteto--react-best-practices",
+          "score": 1490.7633166645012
+        },
+        {
+          "skill_id": "armanzeroeight--app-router-helper",
+          "score": 1489.5618237932508
+        },
+        {
+          "skill_id": "giuseppe-trisciuoglio--nextjs-code-review",
+          "score": 1464.5594772493769
+        },
+        {
+          "skill_id": "giuseppe-trisciuoglio--nextjs-performance",
+          "score": 1464.4695164907357
+        },
+        {
+          "skill_id": "lisbeth718--pseo-performance",
+          "score": 1459.0926969962404
+        },
+        {
+          "skill_id": "dedalus-erp-pas--react-best-practices",
+          "score": 1448.1272665225863
+        },
+        {
+          "skill_id": "secondsky--web-performance-optimization",
+          "score": 1447.3690474824816
+        },
+        {
+          "skill_id": "mblode--optimise-seo",
+          "score": 1446.4443186452586
+        },
+        {
+          "skill_id": "sickn33--frontend-developer",
+          "score": 1442.5156973138314
+        },
+        {
+          "skill_id": "callstackincubator--react-native-best-practices",
+          "score": 1438.9763817872158
+        },
+        {
+          "skill_id": "rohitg00--nextjs-mastery",
+          "score": 1438.0827897376753
+        },
+        {
+          "skill_id": "nimranaz148--nextjs",
+          "score": 1431.754522223324
+        }
+      ]
+    },
+    {
+      "instance_id": "sales-pivot-analysis",
+      "gold_skill_ids": [
+        "benchflow-ai--pdf-3",
+        "benchflow-ai--xlsx-3"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "davila7--excel-analysis",
+          "score": 1800.2056713047596
+        },
+        {
+          "skill_id": "bytedance--data-analysis",
+          "score": 1678.345530989614
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-3",
+          "score": 1665.8530230708604
+        },
+        {
+          "skill_id": "fergana-labs--excel",
+          "score": 1485.6985170400662
+        },
+        {
+          "skill_id": "skillcreatorai--xlsx",
+          "score": 1438.049337234867
+        },
+        {
+          "skill_id": "jmsktm--spreadsheet-builder",
+          "score": 1435.8167495525986
+        },
+        {
+          "skill_id": "davila7--spreadsheet",
+          "score": 1418.1271348884652
+        },
+        {
+          "skill_id": "bobmatnyc--xlsx",
+          "score": 1294.312876100217
+        },
+        {
+          "skill_id": "BbgnsurfTech--excel-pivot-wizard",
+          "score": 1282.2797062009852
+        },
+        {
+          "skill_id": "witanlabs--xlsx-code-mode",
+          "score": 1272.92503154937
+        },
+        {
+          "skill_id": "sbroenne--excel-cli",
+          "score": 1271.683551644879
+        },
+        {
+          "skill_id": "sbroenne--excel-mcp",
+          "score": 1263.681882152155
+        },
+        {
+          "skill_id": "tyrealq--q-exploratory-analysis",
+          "score": 1249.4229050318202
+        },
+        {
+          "skill_id": "autumnsgrove--xlsx",
+          "score": 1236.8154829424466
+        },
+        {
+          "skill_id": "jeremylongshore--excel-pivot-wizard",
+          "score": 1208.87299536899
+        },
+        {
+          "skill_id": "henkisdabro--xlsx",
+          "score": 1198.1317672579553
+        },
+        {
+          "skill_id": "jinfanzheng--data-analysis",
+          "score": 1192.6737323547868
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-2",
+          "score": 1178.9544339203878
+        },
+        {
+          "skill_id": "vamseeachanta--openpyxl",
+          "score": 1178.2899778679707
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-1",
+          "score": 1166.968109889675
+        },
+        {
+          "skill_id": "js-mark--xlsx",
+          "score": 1156.1678793653327
+        },
+        {
+          "skill_id": "vasilyu1983--document-xlsx",
+          "score": 1153.985200003939
+        },
+        {
+          "skill_id": "composiohq--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "dedalus-erp-pas--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "eyadsibai--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "jd-opensource--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "krishagel--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "snyk--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "vibery-studio--xlsx",
+          "score": 1137.1361378282704
+        },
+        {
+          "skill_id": "kjgarza--xlsx",
+          "score": 1136.1449614978976
+        },
+        {
+          "skill_id": "johnwayneeee--casely",
+          "score": 1136.096915349445
+        },
+        {
+          "skill_id": "marcfargas--sheet-model",
+          "score": 1111.297166062814
+        },
+        {
+          "skill_id": "anthropics--dcf-model",
+          "score": 1107.5549953974944
+        },
+        {
+          "skill_id": "Ai-Whisperers--excel-export-validator",
+          "score": 1102.277608928029
+        },
+        {
+          "skill_id": "Microck--data-export-pdf",
+          "score": 1094.3778715855533
+        },
+        {
+          "skill_id": "jimmc414--xlsx",
+          "score": 1094.0849119731752
+        },
+        {
+          "skill_id": "K-Dense-AI--xlsx",
+          "score": 1094.0849119731752
+        },
+        {
+          "skill_id": "jackspace--exploratory-data-analysis",
+          "score": 1090.0042525133654
+        },
+        {
+          "skill_id": "anthropics--data-exploration",
+          "score": 1084.0861146109391
+        },
+        {
+          "skill_id": "apetta--agent-xlsx",
+          "score": 1079.9111549439697
+        },
+        {
+          "skill_id": "hewliyang--spreadjs",
+          "score": 1075.8527235665047
+        },
+        {
+          "skill_id": "eyadsibai--document-processing",
+          "score": 1074.9745837178164
+        },
+        {
+          "skill_id": "oaustegard--exploring-data",
+          "score": 1064.1030097679445
+        },
+        {
+          "skill_id": "anthropics--earnings-analysis",
+          "score": 1064.0165827799124
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 1063.0699683201733
+        },
+        {
+          "skill_id": "astronomer--profiling-tables",
+          "score": 1062.3878218655327
+        },
+        {
+          "skill_id": "octagonai--sec-10q-analysis",
+          "score": 1041.1241536758243
+        },
+        {
+          "skill_id": "composiohq--excel-automation",
+          "score": 1039.1000181056108
+        },
+        {
+          "skill_id": "anthropics--equity-research",
+          "score": 1034.5788055172113
+        },
+        {
+          "skill_id": "leegonzales--excel-auditor",
+          "score": 1028.2065877172543
+        }
+      ]
+    },
+    {
+      "instance_id": "sec-financial-report",
+      "gold_skill_ids": [
+        "benchflow-ai--13f-analyzer",
+        "benchflow-ai--fuzzy-name-search"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--13f-analyzer",
+          "score": 1970.2492656857435
+        },
+        {
+          "skill_id": "benchflow-ai--fuzzy-name-search",
+          "score": 1495.253338467874
+        },
+        {
+          "skill_id": "nicepkg--institutional-flow-tracker",
+          "score": 1214.79832793736
+        },
+        {
+          "skill_id": "octagonai--sec-10q-analysis",
+          "score": 877.1395435121149
+        },
+        {
+          "skill_id": "octagonai--sec-8k-analysis",
+          "score": 870.8668756010239
+        },
+        {
+          "skill_id": "hamelsmu--evaluate-rag",
+          "score": 868.0884723296645
+        },
+        {
+          "skill_id": "joellewis--alternatives",
+          "score": 862.7277414198965
+        },
+        {
+          "skill_id": "k-dense-ai--edgartools",
+          "score": 860.0284354701218
+        },
+        {
+          "skill_id": "dgunning--edgartools",
+          "score": 831.4386248620125
+        },
+        {
+          "skill_id": "octagonai--sec-footnotes-analysis",
+          "score": 824.4677445332833
+        },
+        {
+          "skill_id": "octagonai--sec-cash-flow-review",
+          "score": 822.8486544998296
+        },
+        {
+          "skill_id": "blogic-cz--requirements",
+          "score": 821.5693994107256
+        },
+        {
+          "skill_id": "skindhu--us-stock-researcher",
+          "score": 801.0115551863692
+        },
+        {
+          "skill_id": "octagonai--stock-grades",
+          "score": 792.9863336291031
+        },
+        {
+          "skill_id": "scientiacapital--data-analysis",
+          "score": 789.2254548808759
+        },
+        {
+          "skill_id": "octagonai--financial-metrics-analysis",
+          "score": 784.7833826112696
+        },
+        {
+          "skill_id": "aimonk2025--gtm-reporting",
+          "score": 777.6004078392104
+        },
+        {
+          "skill_id": "qverisai--stock-copilot-pro",
+          "score": 774.1790663234988
+        },
+        {
+          "skill_id": "viktor-silakov--ai-ready",
+          "score": 768.7357396404776
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-expression-data-retrieval",
+          "score": 763.9435148608435
+        },
+        {
+          "skill_id": "florianbuetow--auth",
+          "score": 762.6218697908122
+        },
+        {
+          "skill_id": "octagonai--sec-mda-analysis",
+          "score": 761.0892463313305
+        },
+        {
+          "skill_id": "udecode--create-tech-stack",
+          "score": 756.8597365250072
+        },
+        {
+          "skill_id": "octagonai--sector-pe-ratios",
+          "score": 755.8840014625365
+        },
+        {
+          "skill_id": "rohitg00--security-hardening",
+          "score": 754.6282062349476
+        },
+        {
+          "skill_id": "aminoanalytica--alphafold-database",
+          "score": 737.9917457034168
+        },
+        {
+          "skill_id": "Gerstep--ddmemo",
+          "score": 735.1733473969596
+        },
+        {
+          "skill_id": "anthropics--equity-research",
+          "score": 733.527623011484
+        },
+        {
+          "skill_id": "daymade--financial-data-collector",
+          "score": 728.6871467015646
+        },
+        {
+          "skill_id": "funnelenvy--gemini-qa",
+          "score": 728.0547878167496
+        },
+        {
+          "skill_id": "K-Dense-AI--matchms",
+          "score": 728.009859337138
+        },
+        {
+          "skill_id": "XiaoMi--work-summary",
+          "score": 725.146580098209
+        },
+        {
+          "skill_id": "anthropics--fsi-comps-analysis",
+          "score": 724.2398018853048
+        },
+        {
+          "skill_id": "geeksfino--insider-trading-analyzer",
+          "score": 723.5158673094402
+        },
+        {
+          "skill_id": "proffesor-for-testing--qe-coverage-analysis",
+          "score": 722.9075659009739
+        },
+        {
+          "skill_id": "mgd34msu--goodvibes-memory",
+          "score": 722.7681738060941
+        },
+        {
+          "skill_id": "huggingface--hf-mcp",
+          "score": 721.9864930000032
+        },
+        {
+          "skill_id": "first-fluke--pm-agent",
+          "score": 719.3157817833666
+        },
+        {
+          "skill_id": "mitsuhiko--sentry",
+          "score": 714.54776206185
+        },
+        {
+          "skill_id": "ailabs-393--data-analyst",
+          "score": 714.2959166284838
+        },
+        {
+          "skill_id": "muratcankoylan--digital-brain",
+          "score": 714.2817300514758
+        },
+        {
+          "skill_id": "cursor--continual-learning",
+          "score": 713.8592955728092
+        },
+        {
+          "skill_id": "anthropics--data-exploration",
+          "score": 713.1606533447998
+        },
+        {
+          "skill_id": "ddunnock--rcca-master",
+          "score": 711.4679712164399
+        },
+        {
+          "skill_id": "octagonai--price-target-summary",
+          "score": 710.709392888944
+        },
+        {
+          "skill_id": "octagonai--sec-annual-comparison",
+          "score": 704.9562739968951
+        },
+        {
+          "skill_id": "octagonai--industry-pe-ratios",
+          "score": 704.5924898137384
+        },
+        {
+          "skill_id": "octagonai--historical-market-cap",
+          "score": 702.8538227150891
+        },
+        {
+          "skill_id": "michalvavra--qmd-knowledge",
+          "score": 700.9072359429445
+        },
+        {
+          "skill_id": "sickn33--apify-ecommerce",
+          "score": 697.1947160808716
+        }
+      ]
+    },
+    {
+      "instance_id": "software-dependency-audit",
+      "gold_skill_ids": [
+        "benchflow-ai--cvss-score-extraction",
+        "benchflow-ai--trivy-offline-vulnerability-scanning",
+        "benchflow-ai--vulnerability-csv-reporting"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "alirezarezvani--dependency-auditor",
+          "score": 2661.1219939186817
+        },
+        {
+          "skill_id": "armanzeroeight--dependency-audit",
+          "score": 2601.1980373253887
+        },
+        {
+          "skill_id": "borghei--dependency-auditor",
+          "score": 2466.013909446212
+        },
+        {
+          "skill_id": "curiouslearner--dependency-auditor",
+          "score": 2464.256316550477
+        },
+        {
+          "skill_id": "djankies--auditing-dependencies",
+          "score": 2463.8110914628296
+        },
+        {
+          "skill_id": "jeremylongshore--analyzing-dependencies",
+          "score": 2423.734649726077
+        },
+        {
+          "skill_id": "BbgnsurfTech--analyzing-dependencies",
+          "score": 2368.918988155983
+        },
+        {
+          "skill_id": "fusengine--cve-research",
+          "score": 2333.147756778022
+        },
+        {
+          "skill_id": "pjt222--audit-dependency-versions",
+          "score": 2310.491879339763
+        },
+        {
+          "skill_id": "bagelhole--dependency-scanning",
+          "score": 2289.869308268371
+        },
+        {
+          "skill_id": "mathews-tom--dependency-audit",
+          "score": 2266.2147176701865
+        },
+        {
+          "skill_id": "secondsky--vulnerability-scanning",
+          "score": 2259.0694332068233
+        },
+        {
+          "skill_id": "sugarforever--next-js-security-scan",
+          "score": 2255.3458749712836
+        },
+        {
+          "skill_id": "sgcarstrends--security",
+          "score": 2213.2303062580872
+        },
+        {
+          "skill_id": "patricio0312rev--dependency-doctor",
+          "score": 2202.317863350691
+        },
+        {
+          "skill_id": "onewave-ai--dependency-auditor",
+          "score": 2175.1327415356527
+        },
+        {
+          "skill_id": "florianbuetow--outdated-deps",
+          "score": 2169.5830031933087
+        },
+        {
+          "skill_id": "levnikolaevich--ln-625-dependencies-auditor",
+          "score": 2167.8720615880243
+        },
+        {
+          "skill_id": "jd-opensource--pentest-supply-chain",
+          "score": 2166.6513989373025
+        },
+        {
+          "skill_id": "curiositech--security-auditor",
+          "score": 2166.195053420755
+        },
+        {
+          "skill_id": "benchflow-ai--cvss-score-extraction",
+          "score": 2139.6710194973502
+        },
+        {
+          "skill_id": "Dexploarer--dependency-vulnerability-scanner",
+          "score": 2129.726876469525
+        },
+        {
+          "skill_id": "BerryKuipers--audit-dependencies",
+          "score": 2125.897038998617
+        },
+        {
+          "skill_id": "benchflow-ai--vulnerability-csv-reporting",
+          "score": 2124.823446248178
+        },
+        {
+          "skill_id": "proffesor-for-testing--qe-security-compliance",
+          "score": 2118.343305404037
+        },
+        {
+          "skill_id": "useai-pro--dependency-auditor",
+          "score": 2085.9978341654573
+        },
+        {
+          "skill_id": "rightnow-ai--security-audit",
+          "score": 2077.719329193036
+        },
+        {
+          "skill_id": "marcusgoll--dependency-conflict-resolver",
+          "score": 2069.7637878028536
+        },
+        {
+          "skill_id": "tartinerlabs--security",
+          "score": 2059.518711590626
+        },
+        {
+          "skill_id": "benchflow-ai--trivy-offline-vulnerability-scanning",
+          "score": 2036.0982249977071
+        },
+        {
+          "skill_id": "TheDecipherist--security-audit",
+          "score": 2033.3306862038178
+        },
+        {
+          "skill_id": "fusengine--dependency-audit",
+          "score": 2014.787831079398
+        },
+        {
+          "skill_id": "fairchild--update-dependencies",
+          "score": 2011.6648223307636
+        },
+        {
+          "skill_id": "DNYoussef--when-mapping-dependencies-use-dependency-mapper",
+          "score": 1986.0441515803586
+        },
+        {
+          "skill_id": "aj-geddes--vulnerability-scanning",
+          "score": 1979.6304337034474
+        },
+        {
+          "skill_id": "laurigates--configure-security",
+          "score": 1973.8802481597093
+        },
+        {
+          "skill_id": "whatifwedigdeeper--js-deps",
+          "score": 1940.6911931059458
+        },
+        {
+          "skill_id": "srstomp--security-audit",
+          "score": 1932.7650129399105
+        },
+        {
+          "skill_id": "jeremylongshore--scanning-for-vulnerabilities",
+          "score": 1930.1914143521185
+        },
+        {
+          "skill_id": "BbgnsurfTech--scanning-for-vulnerabilities",
+          "score": 1918.848730535367
+        },
+        {
+          "skill_id": "adamos486--production-ready",
+          "score": 1918.3586276901956
+        },
+        {
+          "skill_id": "htlin222--security",
+          "score": 1909.9675267121922
+        },
+        {
+          "skill_id": "yeachan-heo--omc-security-review",
+          "score": 1905.2937117917327
+        },
+        {
+          "skill_id": "levnikolaevich--ln-621-security-auditor",
+          "score": 1903.103816890065
+        },
+        {
+          "skill_id": "yaleh--dependency-health",
+          "score": 1898.014473338288
+        },
+        {
+          "skill_id": "schalkneethling--frontend-security",
+          "score": 1896.664155750005
+        },
+        {
+          "skill_id": "elliottrjacobs--security-audit",
+          "score": 1878.8614746654407
+        },
+        {
+          "skill_id": "bitsoex--security-review",
+          "score": 1858.5813107050035
+        },
+        {
+          "skill_id": "89jobrien--security-audit",
+          "score": 1855.1897383345097
+        },
+        {
+          "skill_id": "aj-geddes--dependency-management",
+          "score": 1839.6903576432223
+        }
+      ]
+    },
+    {
+      "instance_id": "suricata-custom-exfil",
+      "gold_skill_ids": [
+        "benchflow-ai--pcap-triage-tshark",
+        "benchflow-ai--suricata-offline-evejson",
+        "benchflow-ai--suricata-rules-basics"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--suricata-rules-basics",
+          "score": 2728.6066013389045
+        },
+        {
+          "skill_id": "benchflow-ai--suricata-offline-evejson",
+          "score": 1827.9970874017479
+        },
+        {
+          "skill_id": "bagelhole--waf-setup",
+          "score": 1284.1960909514619
+        },
+        {
+          "skill_id": "useai-pro--network-watcher",
+          "score": 1271.8771840130403
+        },
+        {
+          "skill_id": "hairyf--openapi-specification-v3-2",
+          "score": 1236.6582828423288
+        },
+        {
+          "skill_id": "pr-pm--creating-continue-packages",
+          "score": 1196.3526716198842
+        },
+        {
+          "skill_id": "speakeasy-api--customize-sdk-hooks",
+          "score": 1154.4779530767262
+        },
+        {
+          "skill_id": "kopai-app--root-cause-analysis",
+          "score": 1140.5633157165098
+        },
+        {
+          "skill_id": "sammcj--analyse-design",
+          "score": 1135.7124247503807
+        },
+        {
+          "skill_id": "ashchupliak--k8s-helm",
+          "score": 1129.5133066861808
+        },
+        {
+          "skill_id": "benchflow-ai--pcap-triage-tshark",
+          "score": 1127.6976165502267
+        },
+        {
+          "skill_id": "profpowell--api-client",
+          "score": 1120.1068656711675
+        },
+        {
+          "skill_id": "sherifeldeeb--network-forensics",
+          "score": 1118.8264691697038
+        },
+        {
+          "skill_id": "sickn33--manifest",
+          "score": 1102.9755486743131
+        },
+        {
+          "skill_id": "haibaraaiaptx--download-openapi",
+          "score": 1098.7237190993158
+        },
+        {
+          "skill_id": "sanctifiedops--indexing-strategy",
+          "score": 1095.740206715847
+        },
+        {
+          "skill_id": "davila7--plugin-settings",
+          "score": 1092.229873862425
+        },
+        {
+          "skill_id": "ssdeanx--plugin-settings",
+          "score": 1090.3425285961396
+        },
+        {
+          "skill_id": "pinchtab--pinchtab",
+          "score": 1090.0791778869357
+        },
+        {
+          "skill_id": "mindmorass--n8n-patterns",
+          "score": 1080.628773403768
+        },
+        {
+          "skill_id": "sjnims--plugin-settings",
+          "score": 1073.0521347669815
+        },
+        {
+          "skill_id": "rawgroundbeef--x402lint",
+          "score": 1069.4175922321274
+        },
+        {
+          "skill_id": "prometheas-labs--moonrepo-workspace",
+          "score": 1066.8279800602672
+        },
+        {
+          "skill_id": "Heyvhuang--tool-ast-grep-rules",
+          "score": 1066.039396102627
+        },
+        {
+          "skill_id": "jeremylongshore--exa-policy-guardrails",
+          "score": 1065.79339497005
+        },
+        {
+          "skill_id": "waynesutton--convex-http-actions",
+          "score": 1060.4418303024618
+        },
+        {
+          "skill_id": "readthedocs--readthedocs-write-config",
+          "score": 1048.1140534618412
+        },
+        {
+          "skill_id": "benchflow-ai--yaml-config",
+          "score": 1047.6334170596176
+        },
+        {
+          "skill_id": "jeremylongshore--exa-webhooks-events",
+          "score": 1046.9968988632131
+        },
+        {
+          "skill_id": "tonylofgren--ha-integration-dev",
+          "score": 1044.8393443205543
+        },
+        {
+          "skill_id": "useai-pro--prompt-guard",
+          "score": 1037.3784289054968
+        },
+        {
+          "skill_id": "BbgnsurfTech--finding-security-misconfigurations",
+          "score": 1036.5278735012116
+        },
+        {
+          "skill_id": "faulkdev--uncertainty-verification",
+          "score": 1030.1710104732767
+        },
+        {
+          "skill_id": "llama-farm--config-skills",
+          "score": 1023.4207445632004
+        },
+        {
+          "skill_id": "florianbuetow--config",
+          "score": 1017.9679354699538
+        },
+        {
+          "skill_id": "alsk1992--metrics",
+          "score": 1016.8161574034519
+        },
+        {
+          "skill_id": "existential-birds--go-middleware",
+          "score": 1015.95615497845
+        },
+        {
+          "skill_id": "gentleman-programming--sdd-apply",
+          "score": 1009.6380696451229
+        },
+        {
+          "skill_id": "ljagiello--ctf-malware",
+          "score": 1007.5953327360908
+        },
+        {
+          "skill_id": "jeremylongshore--cursor-rules-config",
+          "score": 1005.4498407591337
+        },
+        {
+          "skill_id": "tartinerlabs--testing",
+          "score": 1005.3433456596592
+        },
+        {
+          "skill_id": "pjt222--configure-api-gateway",
+          "score": 1004.239464240687
+        },
+        {
+          "skill_id": "BbgnsurfTech--xdg-base-directory",
+          "score": 999.7238699599395
+        },
+        {
+          "skill_id": "MadAppGang--auth-patterns",
+          "score": 999.6396376168648
+        },
+        {
+          "skill_id": "Aaronontheweb--aspire-configuration",
+          "score": 998.9645137097622
+        },
+        {
+          "skill_id": "laurigates--project-init",
+          "score": 998.3857472641731
+        },
+        {
+          "skill_id": "levnikolaevich--ln-761-secret-scanner",
+          "score": 998.2662207358399
+        },
+        {
+          "skill_id": "mindmorass--observability-patterns",
+          "score": 997.367371896704
+        },
+        {
+          "skill_id": "hack23--aws-s3-cloudfront",
+          "score": 995.5852066642465
+        },
+        {
+          "skill_id": "must-be-ash--buy",
+          "score": 995.3282567983417
+        }
+      ]
+    },
+    {
+      "instance_id": "threejs-structure-parser",
+      "gold_skill_ids": [
+        "benchflow-ai--obj-exporter-1",
+        "benchflow-ai--threejs"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--threejs",
+          "score": 1769.1324726744679
+        },
+        {
+          "skill_id": "benchflow-ai--obj-exporter-2",
+          "score": 1581.0944869848631
+        },
+        {
+          "skill_id": "benchflow-ai--obj-exporter-1",
+          "score": 1577.654981440392
+        },
+        {
+          "skill_id": "opusgamelabs--game-3d-assets",
+          "score": 1165.6295956109388
+        },
+        {
+          "skill_id": "freshtechbro--threejs-webgl",
+          "score": 1165.3569479001924
+        },
+        {
+          "skill_id": "cloudai-x--threejs-fundamentals",
+          "score": 1134.5935913024673
+        },
+        {
+          "skill_id": "opusgamelabs--add-3d-assets",
+          "score": 1120.4156345067202
+        },
+        {
+          "skill_id": "daffy0208--3d-visualizer",
+          "score": 1103.4419515776212
+        },
+        {
+          "skill_id": "sickn33--threejs-skills",
+          "score": 1102.7403723783925
+        },
+        {
+          "skill_id": "cloudai-x--threejs-animation",
+          "score": 1062.4791247339142
+        },
+        {
+          "skill_id": "cloudai-x--threejs-geometry",
+          "score": 1047.835050512114
+        },
+        {
+          "skill_id": "anthemflynn--threejs",
+          "score": 1043.72712631546
+        },
+        {
+          "skill_id": "opusgamelabs--threejs-game",
+          "score": 1009.8409765797127
+        },
+        {
+          "skill_id": "noklip-io--three-js",
+          "score": 987.6742407910074
+        },
+        {
+          "skill_id": "natea--threejs-game",
+          "score": 970.7591008287189
+        },
+        {
+          "skill_id": "onmax--tresjs",
+          "score": 962.7621311765719
+        },
+        {
+          "skill_id": "binjuhor--threejs",
+          "score": 958.0553845554109
+        },
+        {
+          "skill_id": "hashintel--writing-hashql-jexpr",
+          "score": 954.0481874827988
+        },
+        {
+          "skill_id": "benchflow-ai--mesh-analysis",
+          "score": 953.7325530759836
+        },
+        {
+          "skill_id": "cloudai-x--threejs-interaction",
+          "score": 939.9418825769238
+        },
+        {
+          "skill_id": "secondsky--threejs",
+          "score": 936.1284975111278
+        },
+        {
+          "skill_id": "opusgamelabs--meshyai",
+          "score": 931.4317107044569
+        },
+        {
+          "skill_id": "bobmatnyc--json-data-handling",
+          "score": 930.331160851879
+        },
+        {
+          "skill_id": "cloudai-x--threejs-textures",
+          "score": 920.942784037186
+        },
+        {
+          "skill_id": "omer-metin--threejs-3d-graphics",
+          "score": 900.663914186212
+        },
+        {
+          "skill_id": "dcl-regenesislabs--add-3d-models",
+          "score": 898.3015781443684
+        },
+        {
+          "skill_id": "omer-metin--3d-web-experience",
+          "score": 894.7368811279678
+        },
+        {
+          "skill_id": "autumnsgrove--d3js-visualization",
+          "score": 894.4976467180737
+        },
+        {
+          "skill_id": "enzed--r3f-loaders",
+          "score": 885.8985009151129
+        },
+        {
+          "skill_id": "anthemflynn--react-three-fiber",
+          "score": 871.0997315636474
+        },
+        {
+          "skill_id": "freshtechbro--blender-web-pipeline",
+          "score": 854.7801136209453
+        },
+        {
+          "skill_id": "enzed--r3f-fundamentals",
+          "score": 853.529861094654
+        },
+        {
+          "skill_id": "enzed--r3f-geometry",
+          "score": 850.579998692993
+        },
+        {
+          "skill_id": "djankies--refactoring-inline-types",
+          "score": 847.3368798708725
+        },
+        {
+          "skill_id": "ovachiever--threejs-graphics-optimizer",
+          "score": 845.671960473592
+        },
+        {
+          "skill_id": "ccheney--modern-javascript",
+          "score": 840.934433523045
+        },
+        {
+          "skill_id": "natea--demo-builder",
+          "score": 837.297231029675
+        },
+        {
+          "skill_id": "SpillwaveSolutions--automating-contacts",
+          "score": 834.8406478865127
+        },
+        {
+          "skill_id": "manastalukdar--naming-improve",
+          "score": 830.2763205200257
+        },
+        {
+          "skill_id": "Dexploarer--threejs-scene-builder",
+          "score": 824.8853679786198
+        },
+        {
+          "skill_id": "mindrally--three-js",
+          "score": 824.1650816244535
+        },
+        {
+          "skill_id": "jackspace--d3-viz",
+          "score": 822.9943264597035
+        },
+        {
+          "skill_id": "personamanagmentlayer--javascript-expert",
+          "score": 822.6213303673323
+        },
+        {
+          "skill_id": "anthemflynn--graphics-troubleshooting",
+          "score": 817.6346456230858
+        },
+        {
+          "skill_id": "cloudai-x--threejs-loaders",
+          "score": 812.6609475870026
+        },
+        {
+          "skill_id": "github--repo-story-time",
+          "score": 806.1299433122438
+        },
+        {
+          "skill_id": "caldiaworks--re-structure-analysis",
+          "score": 805.2895498459566
+        },
+        {
+          "skill_id": "daffy0208--spatial-developer",
+          "score": 802.8115929810449
+        },
+        {
+          "skill_id": "subsy--ralph-tui-create-json",
+          "score": 801.3925921487531
+        },
+        {
+          "skill_id": "noklip-io--theatre-js",
+          "score": 799.6580839741492
+        }
+      ]
+    },
+    {
+      "instance_id": "trend-anomaly-causal-inference",
+      "gold_skill_ids": [
+        "benchflow-ai--data_cleaning",
+        "benchflow-ai--did_causal_analysis",
+        "benchflow-ai--feature_engineering",
+        "benchflow-ai--time_series_anomaly_detection"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--time_series_anomaly_detection",
+          "score": 2304.323996556034
+        },
+        {
+          "skill_id": "BbgnsurfTech--detecting-data-anomalies",
+          "score": 1801.6489480536356
+        },
+        {
+          "skill_id": "jeremylongshore--detecting-data-anomalies",
+          "score": 1612.9592516748858
+        },
+        {
+          "skill_id": "benchflow-ai--data_cleaning",
+          "score": 1479.363894549945
+        },
+        {
+          "skill_id": "sickn33--apify-ecommerce",
+          "score": 1434.0935395204547
+        },
+        {
+          "skill_id": "aj-geddes--data-cleaning-pipeline",
+          "score": 1352.0486979070995
+        },
+        {
+          "skill_id": "liangdabiao--rfm-customer-segmentation",
+          "score": 1350.405587680049
+        },
+        {
+          "skill_id": "jackspace--exploratory-data-analysis",
+          "score": 1348.438162791956
+        },
+        {
+          "skill_id": "aj-geddes--anomaly-detection",
+          "score": 1348.0850530042467
+        },
+        {
+          "skill_id": "BbgnsurfTech--running-clustering-algorithms",
+          "score": 1341.615652300522
+        },
+        {
+          "skill_id": "phuryn--cohort-analysis",
+          "score": 1330.7757184173129
+        },
+        {
+          "skill_id": "ovachiever--csv-data-summarizer",
+          "score": 1328.3115436445162
+        },
+        {
+          "skill_id": "nicepkg--executive-dashboard-generator",
+          "score": 1290.5261886996311
+        },
+        {
+          "skill_id": "jmsktm--data-analyzer",
+          "score": 1287.6121650542345
+        },
+        {
+          "skill_id": "aws-samples--file-processing",
+          "score": 1286.8867433125797
+        },
+        {
+          "skill_id": "jmsktm--dataset-curator",
+          "score": 1246.0268959484736
+        },
+        {
+          "skill_id": "anthropics--data-exploration",
+          "score": 1210.5011939119127
+        },
+        {
+          "skill_id": "benchflow-ai--did_causal_analysis",
+          "score": 1192.2118559839816
+        },
+        {
+          "skill_id": "archive-dot-com--audience-demographic-analyzer",
+          "score": 1180.4125139108846
+        },
+        {
+          "skill_id": "aj-geddes--exploratory-data-analysis",
+          "score": 1170.3827176887828
+        },
+        {
+          "skill_id": "jmsktm--survey-analyzer",
+          "score": 1168.5087100243584
+        },
+        {
+          "skill_id": "simota--pulse",
+          "score": 1152.4958886829738
+        },
+        {
+          "skill_id": "ailabs-393--finance-manager",
+          "score": 1145.2793419569175
+        },
+        {
+          "skill_id": "vamseeachanta--data-exploration",
+          "score": 1126.9026215858046
+        },
+        {
+          "skill_id": "zenobi-us--data-researcher",
+          "score": 1125.5583050162224
+        },
+        {
+          "skill_id": "ailabs-393--data-analyst",
+          "score": 1122.6826104778174
+        },
+        {
+          "skill_id": "casper-studios--csv-analyzer",
+          "score": 1117.9764655908405
+        },
+        {
+          "skill_id": "petekp--data-sleuth",
+          "score": 1114.313925171579
+        },
+        {
+          "skill_id": "jeremylongshore--running-clustering-algorithms",
+          "score": 1109.9589307146302
+        },
+        {
+          "skill_id": "curiouslearner--csv-processor",
+          "score": 1108.0016413511305
+        },
+        {
+          "skill_id": "pjt222--detect-anomalies-aiops",
+          "score": 1107.9745248638737
+        },
+        {
+          "skill_id": "indranilbanerjee--loop-detect",
+          "score": 1107.153168868062
+        },
+        {
+          "skill_id": "indranilbanerjee--performance-report",
+          "score": 1091.831538479829
+        },
+        {
+          "skill_id": "Heyvhuang--review-clean-code",
+          "score": 1091.7174947331314
+        },
+        {
+          "skill_id": "rohitg00--prompt-engineering",
+          "score": 1080.7909176786623
+        },
+        {
+          "skill_id": "artificialanalysis--data-analysis",
+          "score": 1057.6631576629159
+        },
+        {
+          "skill_id": "affaan-m--market-research",
+          "score": 1039.9684691523646
+        },
+        {
+          "skill_id": "Jeffallan--pandas-pro",
+          "score": 1038.8487311917672
+        },
+        {
+          "skill_id": "phuryn--user-personas",
+          "score": 1034.3934869082668
+        },
+        {
+          "skill_id": "astronomer--tracing-downstream-lineage",
+          "score": 1025.2459078898848
+        },
+        {
+          "skill_id": "BbgnsurfTech--analyzing-database-indexes",
+          "score": 1015.5513602978822
+        },
+        {
+          "skill_id": "simota--experiment",
+          "score": 1010.5737461770058
+        },
+        {
+          "skill_id": "Microck--financial-document-parser",
+          "score": 1004.9237454097141
+        },
+        {
+          "skill_id": "sickn33--data-engineering-data-driven-feature",
+          "score": 1001.4941911309057
+        },
+        {
+          "skill_id": "chromedevtools--a11y-debugging",
+          "score": 997.4140227346712
+        },
+        {
+          "skill_id": "kyegomez--financial-analysis",
+          "score": 997.0050386213178
+        },
+        {
+          "skill_id": "nicepkg--weak-signal-synthesizer",
+          "score": 994.3545323946561
+        },
+        {
+          "skill_id": "galaxy-dawn--results-analysis",
+          "score": 993.7695116551539
+        },
+        {
+          "skill_id": "manojbajaj95--market-researcher",
+          "score": 987.4280244031653
+        },
+        {
+          "skill_id": "Microck--analyzing-financial-statements",
+          "score": 987.1526054489569
+        }
+      ]
+    },
+    {
+      "instance_id": "virtualhome-agent-planning",
+      "gold_skill_ids": [
+        "benchflow-ai--pddl-skills"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--pddl-skills",
+          "score": 1890.0468353227213
+        },
+        {
+          "skill_id": "mikeyobrien--code-task-generator",
+          "score": 1229.7836751560299
+        },
+        {
+          "skill_id": "tercel--plan",
+          "score": 1214.9776422565508
+        },
+        {
+          "skill_id": "brite-nites--refine-plan",
+          "score": 1187.6256142607265
+        },
+        {
+          "skill_id": "studiojin-dev--adr-index",
+          "score": 1172.447204102566
+        },
+        {
+          "skill_id": "rickywo--plan",
+          "score": 1167.807076557249
+        },
+        {
+          "skill_id": "duc01226--plan-fast",
+          "score": 1153.764124848673
+        },
+        {
+          "skill_id": "lauraflorentin--planning",
+          "score": 1145.6247748855274
+        },
+        {
+          "skill_id": "s-hiraoku--task-planner",
+          "score": 1117.6335476176112
+        },
+        {
+          "skill_id": "leonardo-picciani--dataforseo-keywords-data-api",
+          "score": 1117.3870424937427
+        },
+        {
+          "skill_id": "leonardo-picciani--dataforseo-labs-api",
+          "score": 1116.1649338811335
+        },
+        {
+          "skill_id": "duc01226--plan-hard",
+          "score": 1114.3672752525026
+        },
+        {
+          "skill_id": "vamdawn--plan-executor",
+          "score": 1086.684793594528
+        },
+        {
+          "skill_id": "ddunnock--rcca-master",
+          "score": 1086.3637940840022
+        },
+        {
+          "skill_id": "manykarim--robotframework-resource-architect",
+          "score": 1084.9901840143023
+        },
+        {
+          "skill_id": "terraphim--judge",
+          "score": 1068.9149864694032
+        },
+        {
+          "skill_id": "bsamiee--output-style-builder",
+          "score": 1065.2173629292838
+        },
+        {
+          "skill_id": "psylch--better-skill-creator",
+          "score": 1059.3144441138754
+        },
+        {
+          "skill_id": "jeremylongshore--generating-unit-tests",
+          "score": 1051.2205670221983
+        },
+        {
+          "skill_id": "vasilyu1983--ai-prompt-engineering",
+          "score": 1050.1837016564268
+        },
+        {
+          "skill_id": "am-will--plan-harder",
+          "score": 1048.0440008408243
+        },
+        {
+          "skill_id": "brite-nites--executing-plans",
+          "score": 1046.7157165175017
+        },
+        {
+          "skill_id": "delexw--domain-discover",
+          "score": 1045.7356219434082
+        },
+        {
+          "skill_id": "catlog22--workflow-lite-plan",
+          "score": 1043.6204777094015
+        },
+        {
+          "skill_id": "izyanrajwani--writing-plans",
+          "score": 1038.5380663076485
+        },
+        {
+          "skill_id": "catlog22--unified-execute-with-file",
+          "score": 1037.578941959905
+        },
+        {
+          "skill_id": "tercel--impl",
+          "score": 1036.5352443341806
+        },
+        {
+          "skill_id": "jmanhype--generate-appworld-code",
+          "score": 1034.9667973668236
+        },
+        {
+          "skill_id": "duc01226--plan",
+          "score": 1026.8121262109153
+        },
+        {
+          "skill_id": "am-will--llm-council",
+          "score": 1026.2752027180977
+        },
+        {
+          "skill_id": "BbgnsurfTech--generating-unit-tests",
+          "score": 1024.5031425489126
+        },
+        {
+          "skill_id": "sickn33--conductor-implement",
+          "score": 1016.0128798078475
+        },
+        {
+          "skill_id": "different-ai--browser-automation",
+          "score": 1014.7325257030362
+        },
+        {
+          "skill_id": "rsmdt--document",
+          "score": 1014.7080738591222
+        },
+        {
+          "skill_id": "simota--matrix",
+          "score": 1011.549953957019
+        },
+        {
+          "skill_id": "validkeys--implementation-planner",
+          "score": 1011.3587145064494
+        },
+        {
+          "skill_id": "hotovo--skill-creator",
+          "score": 1010.35082567206
+        },
+        {
+          "skill_id": "nguyenthienthanh--response-analyzer",
+          "score": 1009.6370679606839
+        },
+        {
+          "skill_id": "vladm3105--test-automation",
+          "score": 1008.1435668469127
+        },
+        {
+          "skill_id": "sunholo-data--ailang-sprint-planner",
+          "score": 1007.7966558722812
+        },
+        {
+          "skill_id": "darraghh1--planner-workflow",
+          "score": 1007.6237554730451
+        },
+        {
+          "skill_id": "taylorhuston--implement",
+          "score": 1005.6530508754761
+        },
+        {
+          "skill_id": "mgd34msu--task-orchestration",
+          "score": 1005.3790479459808
+        },
+        {
+          "skill_id": "ruvnet--agent-dev-backend-api",
+          "score": 1002.3955525406501
+        },
+        {
+          "skill_id": "manojbajaj95--dataforseo-backlinks-api",
+          "score": 1002.0156417294244
+        },
+        {
+          "skill_id": "sickn33--web3-testing",
+          "score": 1001.8784864526386
+        },
+        {
+          "skill_id": "marswang42--kickoff",
+          "score": 1000.9475815007337
+        },
+        {
+          "skill_id": "izyanrajwani--dispatching-parallel-agents",
+          "score": 998.864394609032
+        },
+        {
+          "skill_id": "laurigates--test-full",
+          "score": 997.9147474743087
+        },
+        {
+          "skill_id": "MRenAIAgent--planner",
+          "score": 994.5383325200066
+        }
+      ]
+    }
+  ]
+}

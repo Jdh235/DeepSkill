@@ -1,0 +1,7 @@
+name: sragents-colbert
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openjdk=21
+  - pip

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Skill Relevance Annotator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="intro-page">
+    <h1>Before you start</h1>
+    <p>You'll be shown a task question and one candidate skill at a time, and asked to rate how relevant the skill is to the given task. Use the rubric below to guide your judgment.</p>
+    <p>If a skill isn't in English, click "Translate this skill" on its page to translate it.</p>
+
+    <h2>Rubric</h2>
+    <ul class="criteria-list">
+      {% for value, label, criteria in rubric %}
+      <li><strong>{{ value }}: {{ label }}.</strong> {{ criteria }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>Flags</h2>
+    <p>Alongside the relevance rating, you can optionally flag a skill as malicious or as showing incorrect information. Both are judged on the skill's own content, independent of its relevance rating.</p>
+    <ul class="criteria-list">
+      {% for key, label, description, capability in flag_definitions %}
+      <li><strong>{{ label }}:</strong> {{ description }}</li>
+      {% endfor %}
+    </ul>
+    <p class="flag-note">Some skills appear in more than one task. Flagging a skill as malicious or as showing incorrect information carries over to every task it appears in.</p>
+
+    <a href="/task/{{ start_position }}" class="intro-start">Start labelling</a>
+  </main>
+</body>
+</html>

@@ -1,0 +1,7782 @@
+{
+ "metadata": {
+  "dataset": "skill_usage",
+  "model": "Qwen3.6-27B-FP8",
+  "source": "agent_results/Skill-Usage/25_task_set/candidate_sweep",
+  "reward": "task verifier reward in [0, 1]; no reward = 0",
+  "baseline": "the model on the task with no skill",
+  "candidates": "the model on the task with exactly that one skill injected",
+  "runs": "independent attempts; baseline and skill runs are not paired",
+  "pool": "annotation/top5/task_subset/skill_usage-annotation.json"
+ },
+ "results": [
+  {
+   "instance_id": "3d-scan-calc",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--mesh-analysis",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "fboldo--openscad-iterative-modeling",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mitsuhiko--openscad",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "dgalarza--gridfinity-baseplate-planner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tech-leads-club--component-identification-sizing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "letta-ai--path-tracing-reverse",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "vladmdgolam--cinema4d-mcp",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tai-ch0802--mobile-design",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "metta-ai--worldgen-biome-tune",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fatfingererr--cost-density-net-rr-calculator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "plurigrid--gh",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "manusco--resonance-debugger",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--obspy-datacenter-client",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "levnikolaevich--ln-613-code-comments-auditor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "letta-ai--extract-elf",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "curiouslearner--log-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "agntswrm--image-crop",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "laurigates--blueprint-feature-tracker-status",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "CharlesWiltgen--axiom-metal-migration-ref",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "wedsamuel1230--enclosure-designer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vladmdgolam--blender-mcp",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "deemostech--rodin3d-skill",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "anthropics--instrument-data-to-allotrope",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "letta-ai--gcode-to-text",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--obj-exporter-1",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "cyberkaida--binary-triage",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "hexrayssa--ida-domain-scripting",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "JordanGunn--md-review",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "muratcankoylan--skill-template",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "jd-opensource--pentest-ctf-binary",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "can1357--child-skill",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ohzw--building-3d-objects",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--object_counter",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "adaptive-cruise-control",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--vehicle-dynamics",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--pid-controller",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--simulation-metrics",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--imc-tuning-rules",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "starwreckntx--simulation-speed-adjustment",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "HeshamFS--time-stepping",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "thedivergentai--godot-genre-racing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--control-systems",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "personamanagmentlayer--aerospace-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "personamanagmentlayer--automotive-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "personamanagmentlayer--maritime-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--safety-interlocks",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "dylantarre--responsive-adaptive",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "thedivergentai--godot-platform-vr",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aimonk2025--gtm-diff",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--mpc-horizon-tuning",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bejranonda--autonomous-development",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ryanthedev--aposd-optimizing-critical-paths",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--csv-processing",
+    "benchflow-ai--yaml-config"
+   ]
+  },
+  {
+   "instance_id": "azure-bgp-oscillation-route-leak",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--azure-bgp",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--hybrid-cloud-networking",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zenobi-us--network-engineer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--hybrid-cloud-networking",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tyler-r-kendrick--azure-networking",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bagelhole--azure-networking",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "daymade--windows-remote-desktop-connection-doctor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Dicklesworthstone--bv",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "acedergren--networking-management",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aaaaqwq--electron-app-dev",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ruvnet--agent-resource-allocator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Gentleman-Programming--nextjs-15",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Microck--hybrid-cloud-networking",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "trpc-group--plan-route",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "onmax--nuxthub",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "eraserlabs--azure-diagrams",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "oakoss--beads-viewer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bacoco--main-workflow-router",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "prowler-cloud--prowler-attack-paths-query",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "BrownFineSecurity--iotnet",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "simota--specter",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--n8n-node-configuration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "czlonkowski--n8n-node-configuration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ovachiever--n8n-node-configuration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "delexw--cloudflare-traffic-investigator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "team-telnyx--telnyx-networking-python",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--network-engineer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--network-engineer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "89jobrien--network-engineering",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "partme-ai--cloud-azure-vm",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bbeierle12--router-template",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "hyperlane-xyz--gcp-logs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "parcadei--workflow-router",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "microsoft--azure-pipelines",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "court-form-filling",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "curiositech--document-generation-pdf",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "instavm--pdf-text-replace",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rafaelcalleja--pdf-form-processor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "enuno--case-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "reggiechan74--residential-tenancies-act-eviction-procedures",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jamditis--foia-requests",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "reggiechan74--lease-arbitration-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "reggiechan74--ltb-application-hearing-procedures",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "open-agreements--open-agreements",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "github--playwright-automation-fill-in-form",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "okooo5km--chinese-copyright-application",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "orientpine--fund-output-template",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "zrt-ai-lab--searchnews",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "allenai2014--analyze",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "ratacat--dianalokada",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jamditis--story-pitch",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "mission69b--t2000-save",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "josiahsiegel--security-first-2025",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "open-agreements--employment-contract",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "kazukinagata--settlement",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "krishagel--freshservice-manager",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "reggiechan74--waiver-agreement-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "K-Dense-AI--pdf",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "benchflow-ai--pdf-2",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "reggiechan74--offer-to-lease-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "reggiechan74--consent-to-sublease-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "open-agreements--safe",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cowork-os--legal-demand-letter-response-draft",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "anthropics--canned-responses",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jmsktm--contract-drafter",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "Dicklesworthstone--claude-chrome",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "mofa-org--pdf-processing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "reggiechan74--default-and-remedies-advisor",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "kazukinagata--gather",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "open-agreements--delaware-franchise-tax",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "kazukinagata--submit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "kazukinagata--e-tax",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "popmechanic--sell",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--pdf-1"
+   ]
+  },
+  {
+   "instance_id": "dapt-intrusion-detection",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--pcap-analysis",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--threat-detection",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sherifeldeeb--network-forensics",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--wireshark-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zebbern--wireshark-network-traffic-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "chaterm--traffic-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "BrownFineSecurity--iotnet",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "wshobson--protocol-reverse-engineering",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "brownfinesecurity--netflows",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "parcadei--entropy",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "anthropics--data-exploration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vamseeachanta--data-exploration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "astronomer--profiling-tables",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "chaterm--network-tools",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--protocol-reverse-engineering",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--protocol-reverse-engineering",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "earthquake-plate-calculation",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--geospatial-analysis",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--gamma-phase-associator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "eyadsibai--geopandas",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--seismic-picker-selection",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tondevrel--geopandas",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--obspy-data-api",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "davila7--geopandas",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "curiositech--geospatial-data-pipeline",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "linehaul-ai--geospatial-postgis-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mapbox--mapbox-geospatial-operations",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "pachca--pachca-chats",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--seisbench-model-api",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vamseeachanta--gis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zenobi-us--error-detective",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zenobi-us--trend-analyst",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "o-m7--quant-analyst",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zenobi-us--quant-analyst",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "besoeasy--free-geocoding-and-maps",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "plurigrid--geohash-coloring",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "barneyjm--relationship",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "clawdbot--goplaces",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "awslabs--amazon-location-service",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tondevrel--pyproj",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "molt-bot--gemini",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "plurigrid--olmoearth-mlx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aws-samples--google-maps",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "energy-ac-optimal-power-flow",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--economic-dispatch",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--power-flow-data",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--ac-branch-pi-model",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--dc-power-flow",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--energy-systems",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--locational-marginal-prices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--casadi-ipopt-nlp",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "patricio0312rev--capacity-planning-helper",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "claude-world--evolving-status",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aahl--tianqi",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aaaaqwq--content-source-aggregator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "arman-kudaibergenov--meta-compile",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "first-fluke--orchestrator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "guia-matthieu--forecast-scenarios",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aaaaqwq--daily-rhythm",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jmsktm--daily-planner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "warpdotdev--scheduler",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "curiositech--adhd-daily-planner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "troykelly--autonomous-operation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--report-generator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "personamanagmentlayer--energy-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jmsktm--report-builder",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "travisjneuman--supply-chain-optimizer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "enterprise-information-search",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "bobmatnyc--mcp-builder",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "yangsonhung--conversation-json-to-md",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--enterprise-artifact-search",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "iyangl--memory-read",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "muqsitnawaz--mq",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "denser-org--denser-retriever",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "0xdarkmatter--data-processing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "PJuniszewski--guard",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "anthropics--data-context-extractor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "huangwb8--nsfc-research-foundation-writer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tencentblueking--business-knowledge-workflow",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "giikin--frontend-mandatory-standards",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bagelhole--aws-ec2",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "alibaba--higress-daily-report",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mblode--study-guide",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tkersey--grill-me",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "botlearn-ai--botlearn-assessment",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zenobi-us--qa-discussion",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mlflow--instrumenting-with-mlflow-tracing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fuma-nama--read-docs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bkircher--jira-read-ticket",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "iyangl--memory-search",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "yuyz0112--stripe-api",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "parcadei--search-hierarchy",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "letta-ai--db-wal-recovery",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "airweave-ai--airweave-search",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "technicalpickles--working-in-scratch-areas",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "laurigates--jq-json-processing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "majiayu000--jq",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "patricio0312rev--structured-output-extractor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "xspoonai--data-processor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cisco-ai-defense--data-exfiltrator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "letta-ai--count-dataset-tokens",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jinfanzheng--data-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "harshanandak--parallel-data-enrichment",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "parallel-web--parallel-data-enrichment",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "astronomer--analyzing-data",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "dotnetage--read-file",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "oimiragieo--github-ops",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sebastiaanwouters--compound",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "xdg--jq",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "dylantarre--enterprise-b2b",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "michael-menard--token-log",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "composiohq--template-skill",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jiulingyun--gemini",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "marswang42--ask",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "yuque--yuque-personal-smart-search",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "nweii--using-heavy-mcps",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "github--what-context-needed",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bobmatnyc--json-data-handling",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "elizaos--session-logs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "grid-dispatch-operator",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--economic-dispatch",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--power-flow-data",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--dc-power-flow",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "omer-metin--energy-systems",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--locational-marginal-prices",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--ac-branch-pi-model",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "personamanagmentlayer--energy-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "reggiechan74--cost-approach-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "LerianStudio--using-ring",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "collaborative-deep-research--research-coordinator",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "charleswiltgen--axiom-timer-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "LerianStudio--using-ops-team",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "patricio0312rev--capacity-planning-helper",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--energy-procurement",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bassimeledath--dispatch",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "personamanagmentlayer--telecommunications-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "hvac-control",
+   "baseline": {
+    "rewards": [
+     0,
+     1,
+     1
+    ],
+    "mean": 0.6667
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--simulation-metrics",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--imc-tuning-rules",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--pid-controller",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "benchflow-ai--first-order-model-fitting",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--glm-calibration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--excitation-signal-design",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "HeshamFS--parameter-optimization",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "omer-metin--control-systems",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "daffy0208--iot-developer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "huifer--nutrition-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "huifer--sleep-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--scipy-curve-fit",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "HeshamFS--time-stepping",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "HeshamFS--simulation-validator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "benchflow-ai--integral-action-design",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "udecode--julik-frontend-races-reviewer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "gotempsh--add-node-sdk",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aj-geddes--performance-testing",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "opencal-ai--opencal",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "PolicyEngine--microcalibrate",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "clawdbot--eightctl",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "starwreckntx--simulation-speed-adjustment",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "alsk1992--monitoring",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--safety-interlocks"
+   ]
+  },
+  {
+   "instance_id": "manufacturing-codebook-normalization",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--manufacturing-failure-reason-codebook-normalization",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--data-normalization-tool",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "nealcaren--prompt-optimizer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "archive-dot-com--metrics-normalization-formatter",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "daymade--transcript-fixer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "yusuketsunoda--security-threat-review",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aaaaqwq--healthcare-monitor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "can1357--unknown-field",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "RefoundAI--cross-functional-collaboration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "anthropics--roadmap-management",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "EveryInc--coding-tutor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "galaxy-dawn--results-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "anthropics--instrument-data-to-allotrope",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "levnikolaevich--ln-761-secret-scanner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bahayonghang--review-code",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--qa-engineering",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cxuu--go-testing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fugazi--qa-manual-istqb",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ryanthedev--cc-code-layout-and-style",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "0xlayerghost--solidity-testing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vamseeachanta--tdd-obra",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "shinpr--testing-principles",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tartinerlabs--testing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "outfitter-dev--software-craft",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "shipshitdev--spec-first",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "duc01226--quality-gate",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jmanhype--project-standards",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jmsktm--entity-extractor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "proffesor-for-testing--qe-defect-intelligence",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "majiayu000--adversarial-examples",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "nanorepublica--testing-test-writing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--fuzzy-match",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "metta-ai--assets-normalize",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "guia-matthieu--thought-based-reasoning",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "alicoder001--reasoning",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ddunnock--problem-definition",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tkersey--logophile",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rsmdt--refactor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "prakharmnnit--transcribe-refiner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "duc01226--test-spec",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ryanthedev--code-foundations",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "williamzujkowski--coding-standards",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jamditis--test-first-bugs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "manufacturing-equipment-maintenance",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "personamanagmentlayer--manufacturing-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ddunnock--fmea-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "huangwb8--nsfc-qc",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cafe3310--im-local-kb",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "pachca--pachca-search",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--manufacturing-failure-reason-codebook-normalization",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "polarsource--handbook-backend-development",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aws-samples--file-processing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "DNYoussef--verification-and-quality-assurance",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fugazi--qa-manual-istqb",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "warpdotdev--ci-fix",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vasilyu1983--qa-observability",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aj-geddes--stress-testing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--simulation-metrics",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--test-automator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--test-automator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--model-pruning-helper",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--pdf-parser",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rohitg00--prompt-engineering",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "iliaal--refine-prompt",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "j5ik2o--takt-analyze",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "massgen--massgen-log-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--lab-automation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ethpandaops--create-runbook",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bagelhole--runbook-creation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "89jobrien--devops-runbooks",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sendaifun--my-skill-name",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--runbook-creator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "HeshamFS--simulation-validator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ratacat--run-simulations",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "secondsky--ml-pipeline-automation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tracemem--workflows",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "mars-clouds-clustering",
+   "baseline": {
+    "rewards": [
+     1,
+     0,
+     1
+    ],
+    "mean": 0.6667
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--custom-distance-metrics",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "jeremylongshore--running-clustering-algorithms",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--pareto-optimization",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "BbgnsurfTech--running-clustering-algorithms",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "BbgnsurfTech--tuning-hyperparameters",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "plurigrid--ultrametric-distance",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "aj-geddes--clustering-analysis",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "terrylica--evolutionary-metric-ranking",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "curiositech--event-detection-temporal-intelligence-expert",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "aj-geddes--ml-model-training",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "jeremylongshore--tuning-hyperparameters",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "eyadsibai--scikit-learn",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "borghei--data-scientist",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "eyadsibai--experiment-tracking",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "letta-ai--train-fasttext",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "aj-geddes--model-hyperparameter-tuning",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "Orchestra-Research--skypilot-multi-cloud-orchestration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "ovachiever--google-gemini-embeddings",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "jackspace--google-gemini-embeddings",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "rmyndharis--data-scientist",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "zechenzhangagi--faiss",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "frontboat--h3-js",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "jeremylongshore--databricks-performance-tuning",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "davila7--pymoo",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "ddunnock--pareto-analysis",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--gamma-phase-associator",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "kimasplund--benchmark-framework",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "curiositech--photo-content-recognition-curation-expert",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--parallel-processing"
+   ]
+  },
+  {
+   "instance_id": "offer-letter-generator",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "open-agreements--employment-contract",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "wshobson--employment-contract-templates",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--employment-contract-templates",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--employment-contract-templates",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--docx-1",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "vamseeachanta--docx-templates",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "proficientlyjobs--cover-letter",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "open-agreements--open-agreements",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jmsktm--letter-writer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "782042369--weekly-report-generator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "twwch--docx-processor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "zrt-ai-lab--deep-research",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "riba2534--feishu-cli-toolkit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "protagonistss--ui-design-core",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "revokslab--docs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "iamzhihuix--docx-format-replicator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "levnikolaevich--ln-111-root-docs-creator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "levnikolaevich--ln-112-project-core-creator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "pjt222--check-relocation-documents",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "proficientlyjobs--setup",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "belumume--docx-template-filling",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theaayushstha1--apply-job",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "skillcreatorai--job-application",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "powerlifting-coef-calc",
+   "baseline": {
+    "rewards": [
+     0,
+     1,
+     1
+    ],
+    "mean": 0.6667
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--powerlifting",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "bobmatnyc--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "skillcreatorai--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "witanlabs--xlsx-code-mode",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "cloudai-x--x-algo-scoring",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "lc2panda--wps-excel",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "randroids-dojo--task-tracking-dots",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "benchflow-ai--xlsx-3",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "sbroenne--excel-mcp",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "K-Dense-AI--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "victory-hugo--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "Peiiii--claude-office-pack",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "w2112515--data-analysis",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "aidotnet--exceljs",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "omer-metin--unity-development",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "yanko-belov--law-of-demeter",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "sickn33--unity-ecs-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "vamseeachanta--openpyxl",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "hannesill--sapsii-score",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "benchflow-ai--obspy-datacenter-client",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "alexwelcing--ab-test-setup",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "davila7--excel-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "jmsktm--spreadsheet-builder",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "jeremylongshore--apdex-score-calculator",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "liyecom--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "jimmc414--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "twwch--excel-processor",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "fergana-labs--excel",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "anthropics--lbo-model",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "Prorise-cool--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "alexanderop--add-exercises",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "autumnsgrove--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "js-mark--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--senior-data-scientist",
+    "benchflow-ai--xlsx-1"
+   ]
+  },
+  {
+   "instance_id": "pptx-reference-formatting",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "okwinds--pptx-offline",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "skillcreatorai--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "aktsmm--powerpoint-automation",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "jimmc414--pptx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "autumnsgrove--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "anthropics--fsi-strip-profile",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "DNYoussef--when-creating-presentations-use-pptx-generation",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "bbeierle12--pptx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "krishagel--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "jmsktm--presentation-maker",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "luwill--paper-slide-deck",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "404kidwiz--pptx-skill",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Prorise-cool--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "sickn33--pptx-official",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "vamseeachanta--python-pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "huyansheng3--promotion-doc-designer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "peterfei--drawnote-skill",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "kjgarza--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "moosegoose0701--storyboard-to-slides",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aws-samples--powerpoint-presentations",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "K-Dense-AI--pptx-posters",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "huyansheng3--super-ppt",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aaronvanston--presentation-design",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "aaaaqwq--arxiv-automation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "taylorarndt--document-scanning",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fmschulz--polars-dovmed",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aws-samples--word-documents",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "yoanbernabeu--slidev-layouts",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "agntswrm--image-resize",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "K-Dense-AI--pptx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "vibery-studio--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "SpillwaveSolutions--automating-powerpoint",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "michaelboeding--slide-generation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sanjay3290--google-slides",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "dedalus-erp-pas--pptx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "snyk--pptx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--pptx"
+   ]
+  },
+  {
+   "instance_id": "protein-expression-analysis",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "mims-harvard--tooluniverse-proteomics-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-metabolomics-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "davila7--pydeseq2",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "K-Dense-AI--cellxgene-census",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-multi-omics-integration",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-crispr-screen-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "apetta--agent-xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "K-Dense-AI--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "lc2panda--wps-excel",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fergana-labs--excel",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "witanlabs--xlsx-code-mode",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "jd-opensource--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "autumnsgrove--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--xlsx-2",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "js-mark--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--xlsx-1",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-expression-data-retrieval",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fmschulz--bio-stats-ml-reporting",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fmschulz--bio-reads-qc-mapping",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "davila7--cellxgene-census",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "davila7--adaptyv",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "K-Dense-AI--adaptyv",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-spatial-omics-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "adaptyvbio--esm",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--protein-structure",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-protein-therapeutic-design",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "aminoanalytica--pdb-database",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "EXboys--data-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-rnaseq-deseq2",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse-single-cell",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Microck--claude-scientific-skills",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mims-harvard--tooluniverse",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Prorise-cool--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "sickn33--xlsx-official",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "vibery-studio--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "composiohq--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "eyadsibai--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "dedalus-erp-pas--xlsx",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "react-performance-debugging",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "jgamaraalv--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "henkisdabro--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "shapeshift--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tech-leads-club--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--react-best-practices-2",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "Heyvhuang--review-react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "miles990--testing-strategies",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "wshobson--nextjs-app-router-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "kriscard--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "daffy0208--frontend-builder",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "atman36--nextjs-optimization",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "srbhr--nextjs15-performance",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "whawkinsiv--optimize",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "davila7--nextjs-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "manutej--frontend-architecture",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "laguagu--nextjs-shadcn",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "huifer--metadata-optimizer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "CharlesWiltgen--axiom-swiftui-performance",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Microck--e2e-testing-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "thebushidocollective--cucumber-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "srbhr--react-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "gohypergiant--accelint-nextjs-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--react-best-practices-1",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tdimino--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "akashp1712--next-loading-skeleton",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "duyet--react-nextjs-patterns",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ancoleman--implementing-navigation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "yangsi7--nextjs-project-setup",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "oimiragieo--react-best-practices-vercel",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sanity-io--vercel-react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "s-hiraoku--react-performance",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "cin12211--nextjs-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "89jobrien--performance",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "laguagu--react-best-practices",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "shipshitdev--performance-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "srstomp--performance-optimization",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "addyosmani--performance-optimization",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--performance-optimization",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "hairyf--next",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--browser-testing-2"
+   ]
+  },
+  {
+   "instance_id": "sales-pivot-analysis",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--xlsx-3",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "BbgnsurfTech--excel-pivot-wizard",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "davila7--excel-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--excel-pivot-wizard",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "autumnsgrove--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bytedance--data-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fergana-labs--excel",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vasilyu1983--document-xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sbroenne--excel-mcp",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bobmatnyc--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vamseeachanta--openpyxl",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "marcfargas--sheet-model",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "skillcreatorai--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "js-mark--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jamditis--pdf-design",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "alibaba--higress-daily-report",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "iemong--commit-summary",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "deletexiumu--x-tracker",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "levnikolaevich--ln-111-root-docs-creator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "w2112515--data-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "liyecom--xlsx",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "tyrealq--q-exploratory-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--pivot-table-creator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jamditis--data-journalism",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "PolicyEngine--policyengine-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": [
+    "benchflow-ai--pdf-3"
+   ]
+  },
+  {
+   "instance_id": "sec-financial-report",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--13f-analyzer",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--fuzzy-name-search",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "nicepkg--institutional-flow-tracker",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cooragent--holdings-hunter",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "skindhu--us-stock-researcher",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cowork-os--stock-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ferminrp--cafci-fondos-comunes-argentina",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "majiayu000--analyze-investment-clock-rotation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "forztf--speckit-specify-zh",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "joellewis--regulatory-reporting",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "joellewis--fee-billing",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "octagonai--sec-10q-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "octagonai--sec-8k-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "joellewis--alternatives",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--quant-analyst",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "anthropics--equity-research",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "geeksfino--financial-statement-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "k-dense-ai--alpha-vantage",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "dgunning--edgartools",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "orientpine--data-updater",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ppsteven--akshare-data",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "nansen-ai--nansen-fund-watch",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "staskh--fundamentals",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "qverisai--stock-copilot-pro",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "nicepkg--canslim-screener",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "joellewis--crm-client-lifecycle",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "vasilyu1983--ai-rag",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "software-dependency-audit",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "curiouslearner--dependency-auditor",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "armanzeroeight--dependency-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "alirezarezvani--dependency-auditor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Dexploarer--dependency-vulnerability-scanner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "fusengine--cve-research",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--vulnerability-csv-reporting",
+     "is_reference": true,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "benchflow-ai--cvss-score-extraction",
+     "is_reference": true,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "borghei--dependency-auditor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--trivy-offline-vulnerability-scanning",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "djankies--auditing-dependencies",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "BbgnsurfTech--analyzing-dependencies",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--analyzing-dependencies",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "jg-chalk-io--moai-security-devsecops",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "vladm3105--security-audit",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "marcusgoll--dependency-conflict-resolver",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mathews-tom--dependency-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "pjt222--audit-dependency-versions",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "s-hiraoku--security-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--dependency-management-deps-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rmyndharis--codebase-cleanup-deps-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "florianbuetow--outdated-deps",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "BerryKuipers--audit-dependencies",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "levnikolaevich--ln-625-dependencies-auditor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "alirezarezvani--senior-secops",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "oimiragieo--dependency-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--codebase-cleanup-deps-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "suricata-custom-exfil",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--suricata-rules-basics",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--suricata-offline-evejson",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--pcap-triage-tshark",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sherifeldeeb--network-forensics",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jg-chalk-io--moai-security-threat",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "useai-pro--network-watcher",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "oimiragieo--yara-authoring",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "duck4nh--web-security-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "useai-pro--skill-auditor",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "bagelhole--waf-setup",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "hairyf--openapi-specification-v3-2",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--exa-webhooks-events",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--posthog-webhooks-events",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "hookdeck--sendgrid-webhooks",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "useai-pro--incident-responder",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "BbgnsurfTech--responding-to-security-incidents",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "petekp--agent-telemetry",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--exa-advanced-troubleshooting",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jeremylongshore--http-header-security-audit",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "hiroro-work--extract-rules",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ljagiello--ctf-forensics",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "florianbuetow--detecting",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "xu-xiang--security-review",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "microsoft--fix-errors",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "threejs-structure-parser",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--obj-exporter-1",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "benchflow-ai--threejs",
+     "is_reference": true,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "benchflow-ai--obj-exporter-2",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cloudai-x--threejs-fundamentals",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "freshtechbro--threejs-webgl",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "freshtechbro--blender-web-pipeline",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "davila7--3d-web-experience",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "opusgamelabs--game-3d-assets",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--threejs-3d-graphics",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "noklip-io--three-js",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "secondsky--threejs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "binjuhor--threejs",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "enzed--r3f-loaders",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "Dexploarer--threejs-scene-builder",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "omer-metin--3d-web-experience",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--3d-web-experience",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "sickn33--threejs-skills",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "opusgamelabs--add-3d-assets",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "jasonjgardner--blockbench-modeling",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "opusgamelabs--meshyai",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "trend-anomaly-causal-inference",
+   "baseline": {
+    "rewards": [
+     0,
+     0.4722,
+     0
+    ],
+    "mean": 0.1574
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--did_causal_analysis",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--time_series_anomaly_detection",
+     "is_reference": true,
+     "rewards": [
+      0.4722,
+      0.75,
+      0
+     ],
+     "mean": 0.4074
+    },
+    {
+     "skill_id": "BbgnsurfTech--detecting-data-anomalies",
+     "is_reference": false,
+     "rewards": [
+      0.85,
+      0.3167,
+      0
+     ],
+     "mean": 0.3889
+    },
+    {
+     "skill_id": "jeremylongshore--detecting-data-anomalies",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0.8444,
+      0.3222
+     ],
+     "mean": 0.3889
+    },
+    {
+     "skill_id": "anthropics--statistical-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0.3167
+     ],
+     "mean": 0.1056
+    },
+    {
+     "skill_id": "benchflow-ai--data_cleaning",
+     "is_reference": true,
+     "rewards": [
+      0.95,
+      0.3667,
+      0.4167
+     ],
+     "mean": 0.5778
+    },
+    {
+     "skill_id": "sickn33--apify-ecommerce",
+     "is_reference": false,
+     "rewards": [
+      0.3722,
+      0,
+      0.3167
+     ],
+     "mean": 0.2296
+    },
+    {
+     "skill_id": "anthropics--data-exploration",
+     "is_reference": false,
+     "rewards": [
+      0.3722,
+      0.8444,
+      0
+     ],
+     "mean": 0.4055
+    },
+    {
+     "skill_id": "phuryn--cohort-analysis",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ovachiever--csv-data-summarizer",
+     "is_reference": false,
+     "rewards": [
+      0.9,
+      0,
+      0
+     ],
+     "mean": 0.3
+    },
+    {
+     "skill_id": "vamseeachanta--statistical-analysis",
+     "is_reference": false,
+     "rewards": [
+      0.3167,
+      0,
+      0
+     ],
+     "mean": 0.1056
+    },
+    {
+     "skill_id": "fatfingererr--us-cpi-pce-comparator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0.3722,
+      0
+     ],
+     "mean": 0.1241
+    },
+    {
+     "skill_id": "fatfingererr--detect-fed-unamortized-discount-pattern",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "borghei--data-scientist",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0.4278
+     ],
+     "mean": 0.1426
+    },
+    {
+     "skill_id": "jmsktm--data-analyzer",
+     "is_reference": false,
+     "rewards": [
+      0.3167,
+      0.6889,
+      0
+     ],
+     "mean": 0.3352
+    },
+    {
+     "skill_id": "ailabs-393--finance-manager",
+     "is_reference": false,
+     "rewards": [
+      0.4778,
+      0,
+      0
+     ],
+     "mean": 0.1593
+    },
+    {
+     "skill_id": "vamseeachanta--data-exploration",
+     "is_reference": false,
+     "rewards": [
+      0.8,
+      0.7944,
+      0
+     ],
+     "mean": 0.5315
+    },
+    {
+     "skill_id": "aj-geddes--cohort-analysis",
+     "is_reference": false,
+     "rewards": [
+      0.3722,
+      0,
+      0.2111
+     ],
+     "mean": 0.1944
+    },
+    {
+     "skill_id": "manojbajaj95--market-researcher",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0.5778,
+      0.5222
+     ],
+     "mean": 0.3667
+    },
+    {
+     "skill_id": "liangdabiao--rfm-customer-segmentation",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0.4222,
+      0
+     ],
+     "mean": 0.1407
+    },
+    {
+     "skill_id": "vos91--ecommerce-copywriting",
+     "is_reference": false,
+     "rewards": [
+      0.2667,
+      0.1611,
+      0.9
+     ],
+     "mean": 0.4426
+    },
+    {
+     "skill_id": "wshobson--data-storytelling",
+     "is_reference": false,
+     "rewards": [
+      0.1611,
+      0.1611,
+      0
+     ],
+     "mean": 0.1074
+    },
+    {
+     "skill_id": "aws-samples--file-processing",
+     "is_reference": false,
+     "rewards": [
+      0.1611,
+      0,
+      0
+     ],
+     "mean": 0.0537
+    },
+    {
+     "skill_id": "indranilbanerjee--churn-risk",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "benchflow-ai--feature_engineering",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0.4222,
+      0.4222
+     ],
+     "mean": 0.2815
+    },
+    {
+     "skill_id": "zenobi-us--data-scientist",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0.2667,
+      0.6944
+     ],
+     "mean": 0.6537
+    },
+    {
+     "skill_id": "petekp--data-sleuth",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0.3167,
+      0.95
+     ],
+     "mean": 0.4222
+    },
+    {
+     "skill_id": "personamanagmentlayer--data-science-expert",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0.4222,
+      0.2111
+     ],
+     "mean": 0.2111
+    },
+    {
+     "skill_id": "daffy0208--forensic-data-engineer",
+     "is_reference": false,
+     "rewards": [
+      0.4722,
+      0,
+      0.8444
+     ],
+     "mean": 0.4389
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "virtualhome-agent-planning",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "benchflow-ai--pddl-skills",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "mikeyobrien--code-task-generator",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "ruvnet--agent-goal-planner",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "manutej--performance-benchmark-specialist",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "catlog22--collaborative-plan-with-file",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "tercel--plan",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "rsmdt--specify-plan",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "solatis--planner",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "lauraflorentin--planning",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "ruvnet--agent-agent",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "zhucl1006--aile-writing-plans",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "patricio0312rev--dependency-vulnerability-triage",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "zhucl1006--project-workflow",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "florianbuetow--model",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "github--structured-autonomy-implement",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "brite-nites--refine-plan",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "studiojin-dev--adr-index",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "domainlang--domainlang",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "cacaorick--ai-dev-workflow",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "ashchupliak--systematic-planning",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "duyet--task-decomposition",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "vladm3105--doc-tasks-autopilot",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "d-o-hub--task-decomposition",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "sickn33--domain-driven-design",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "rickywo--plan",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "d-o-hub--goap-agent",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "sipengxie2024--planning-foundation",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "catlog22--workflow-plan",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "duc01226--plan",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "catlog22--team-planex",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "JordanGunn--plan-exec",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "cooragent--planning-with-files",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "tondevrel--ortools",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "adrianbrowning--plan-to-tasks",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "iliaal--planning",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  }
+ ]
+}

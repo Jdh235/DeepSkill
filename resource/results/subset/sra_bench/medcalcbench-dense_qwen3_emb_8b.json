@@ -1,0 +1,2104 @@
+{
+  "metadata": {
+    "dataset": "medcalcbench",
+    "retriever": "dense_qwen3_emb_8b",
+    "top_k": 50,
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-07-28T01:17:48.255096+00:00",
+    "extra": {}
+  },
+  "metrics": {
+    "nDCG@50": 1.0,
+    "nDCG@10": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@1": 1.0,
+    "Recall@1": 1.0,
+    "Recall@5": 1.0,
+    "Recall@10": 1.0,
+    "Recall@50": 1.0,
+    "R-Precision": 1.0
+  },
+  "results": [
+    {
+      "instance_id": "medcalcbench_00025",
+      "gold_skill_ids": [
+        "medcalcbench_045"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.682338297367096
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.679033100605011
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.6086774468421936
+        },
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 0.5029038786888123
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.4871312379837036
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.4723283648490906
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.46617260575294495
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.46552774310112
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.46281716227531433
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.4609430432319641
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.45974284410476685
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.4596264660358429
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 0.4563225507736206
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.4549506604671478
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.4457206726074219
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.43949228525161743
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.4370405673980713
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.4356398582458496
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.4337625205516815
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 0.4299551248550415
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.42910662293434143
+        },
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 0.4217560887336731
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.42097195982933044
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 0.418143093585968
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.41629019379615784
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.41540515422821045
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.41183921694755554
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.41162165999412537
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.40894782543182373
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.40370529890060425
+        },
+        {
+          "skill_id": "medcalcbench_014",
+          "score": 0.4022597372531891
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.40076684951782227
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.39910656213760376
+        },
+        {
+          "skill_id": "medcalcbench_022",
+          "score": 0.3978612422943115
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.3971310555934906
+        },
+        {
+          "skill_id": "medcalcbench_025",
+          "score": 0.3964661657810211
+        },
+        {
+          "skill_id": "medcalcbench_050",
+          "score": 0.39637425541877747
+        },
+        {
+          "skill_id": "medcalcbench_021",
+          "score": 0.39603057503700256
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 0.39549100399017334
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.39397552609443665
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 0.38991355895996094
+        },
+        {
+          "skill_id": "medcalcbench_020",
+          "score": 0.38898974657058716
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.3831673860549927
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.377027690410614
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.37604257464408875
+        },
+        {
+          "skill_id": "web_20870",
+          "score": 0.3712374269962311
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 0.36864855885505676
+        },
+        {
+          "skill_id": "medcalcbench_005",
+          "score": 0.36813461780548096
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.36689019203186035
+        },
+        {
+          "skill_id": "web_01867",
+          "score": 0.35403162240982056
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_00331",
+      "gold_skill_ids": [
+        "medcalcbench_012"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.6976488828659058
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.5328183174133301
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.48878416419029236
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.4857734143733978
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.4589908719062805
+        },
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 0.4574340879917145
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 0.4568508267402649
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.45453348755836487
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.4540410041809082
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.45400625467300415
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.44964054226875305
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.44725966453552246
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.4470400810241699
+        },
+        {
+          "skill_id": "medcalcbench_022",
+          "score": 0.44290709495544434
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 0.43926700949668884
+        },
+        {
+          "skill_id": "medcalcbench_020",
+          "score": 0.43613749742507935
+        },
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 0.4361282289028168
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 0.4336112439632416
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.43219566345214844
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.4300025701522827
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.42849528789520264
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.4281018376350403
+        },
+        {
+          "skill_id": "medcalcbench_009",
+          "score": 0.4280930459499359
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.4268702566623688
+        },
+        {
+          "skill_id": "medcalcbench_025",
+          "score": 0.4257602095603943
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.42472967505455017
+        },
+        {
+          "skill_id": "medcalcbench_021",
+          "score": 0.42420637607574463
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.42353537678718567
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 0.42121297121047974
+        },
+        {
+          "skill_id": "medcalcbench_014",
+          "score": 0.41839930415153503
+        },
+        {
+          "skill_id": "medcalcbench_051",
+          "score": 0.4152725040912628
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 0.41440874338150024
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.41081473231315613
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.3997478783130646
+        },
+        {
+          "skill_id": "medcalcbench_005",
+          "score": 0.3995858132839203
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.39556998014450073
+        },
+        {
+          "skill_id": "medcalcbench_006",
+          "score": 0.3943875730037689
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.393313467502594
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.3914461135864258
+        },
+        {
+          "skill_id": "medcalcbench_008",
+          "score": 0.3906553089618683
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.38793209195137024
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.38681039214134216
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.38385772705078125
+        },
+        {
+          "skill_id": "medcalcbench_050",
+          "score": 0.38143041729927063
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.37872180342674255
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.3781682252883911
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.36891379952430725
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.35953041911125183
+        },
+        {
+          "skill_id": "web_10675",
+          "score": 0.35486742854118347
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.3544957935810089
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_00565",
+      "gold_skill_ids": [
+        "medcalcbench_047"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 0.7782962918281555
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 0.561005175113678
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.5539286136627197
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.5337719321250916
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.5167200565338135
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.5151223540306091
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.5151144862174988
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.5054094791412354
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.503930389881134
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.5007491707801819
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.4993305504322052
+        },
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 0.4974285364151001
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 0.48953408002853394
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.4834170341491699
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 0.4809420704841614
+        },
+        {
+          "skill_id": "medcalcbench_014",
+          "score": 0.473631352186203
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 0.4732245206832886
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.4612760841846466
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.45933035016059875
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.45578116178512573
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.454953670501709
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.4527255892753601
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.44347840547561646
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.44250935316085815
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.4413559138774872
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.4388468861579895
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.4372154176235199
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.43666407465934753
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.4334297478199005
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.4305262863636017
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.4234643876552582
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.42076021432876587
+        },
+        {
+          "skill_id": "medcalcbench_022",
+          "score": 0.4206666052341461
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.41245871782302856
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.4107576906681061
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.40841788053512573
+        },
+        {
+          "skill_id": "medcalcbench_021",
+          "score": 0.40761610865592957
+        },
+        {
+          "skill_id": "medcalcbench_020",
+          "score": 0.3996862471103668
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.39820191264152527
+        },
+        {
+          "skill_id": "medcalcbench_009",
+          "score": 0.3974885046482086
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 0.39530760049819946
+        },
+        {
+          "skill_id": "medcalcbench_025",
+          "score": 0.38931021094322205
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.3882122337818146
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.38656532764434814
+        },
+        {
+          "skill_id": "medcalcbench_050",
+          "score": 0.3778512179851532
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 0.37775707244873047
+        },
+        {
+          "skill_id": "medcalcbench_051",
+          "score": 0.3727118968963623
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.3667277693748474
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.36422863602638245
+        },
+        {
+          "skill_id": "web_20870",
+          "score": 0.35713911056518555
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_00875",
+      "gold_skill_ids": [
+        "medcalcbench_019"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 0.6402577757835388
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 0.6317388415336609
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.6256481409072876
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 0.607996940612793
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 0.542770504951477
+        },
+        {
+          "skill_id": "medcalcbench_014",
+          "score": 0.5384773015975952
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.5128422379493713
+        },
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 0.5111364722251892
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.5090838670730591
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 0.503263533115387
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.48772984743118286
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.4830751121044159
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.478883296251297
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.47620075941085815
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.4710340201854706
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.4691839814186096
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.46607452630996704
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.46515870094299316
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.46248048543930054
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.46151265501976013
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.46021464467048645
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.4584024250507355
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.4566921591758728
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.45655229687690735
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.4559937119483948
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.45582476258277893
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.4504564702510834
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 0.4485463500022888
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.44830673933029175
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.4447806775569916
+        },
+        {
+          "skill_id": "medcalcbench_020",
+          "score": 0.4412247836589813
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.44060018658638
+        },
+        {
+          "skill_id": "medcalcbench_022",
+          "score": 0.4390617311000824
+        },
+        {
+          "skill_id": "medcalcbench_025",
+          "score": 0.4365783929824829
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.435107946395874
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.4340580999851227
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.43281155824661255
+        },
+        {
+          "skill_id": "medcalcbench_021",
+          "score": 0.4285393953323364
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.42598530650138855
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.41853079199790955
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.41731274127960205
+        },
+        {
+          "skill_id": "medcalcbench_050",
+          "score": 0.41694679856300354
+        },
+        {
+          "skill_id": "web_12159",
+          "score": 0.40294894576072693
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.4027983844280243
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.4001621603965759
+        },
+        {
+          "skill_id": "web_24686",
+          "score": 0.39696961641311646
+        },
+        {
+          "skill_id": "web_01867",
+          "score": 0.3947843611240387
+        },
+        {
+          "skill_id": "web_06701",
+          "score": 0.3929726779460907
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.39294660091400146
+        },
+        {
+          "skill_id": "web_13892",
+          "score": 0.39018428325653076
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_00887",
+      "gold_skill_ids": [
+        "medcalcbench_041"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.7543938755989075
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.6780407428741455
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.6140756607055664
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.5976069569587708
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.5917207598686218
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.5793983340263367
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.5752933025360107
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.5729415416717529
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.5656716227531433
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.5604346394538879
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.5600162148475647
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.5586434602737427
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.5571210980415344
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.5561432838439941
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 0.5545209646224976
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.5511018633842468
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.5427913665771484
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.5376380085945129
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.5259861946105957
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.4961513876914978
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.4795125424861908
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.46358799934387207
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.4385553300380707
+        },
+        {
+          "skill_id": "medcalcbench_047",
+          "score": 0.43708527088165283
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.43482354283332825
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.4306783378124237
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.42886877059936523
+        },
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 0.4253709614276886
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.42243146896362305
+        },
+        {
+          "skill_id": "medcalcbench_014",
+          "score": 0.4193585216999054
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 0.41921430826187134
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.41858258843421936
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 0.4184900224208832
+        },
+        {
+          "skill_id": "medcalcbench_021",
+          "score": 0.4181240499019623
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.4172574579715729
+        },
+        {
+          "skill_id": "medcalcbench_018",
+          "score": 0.4172118604183197
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 0.4116501808166504
+        },
+        {
+          "skill_id": "medcalcbench_020",
+          "score": 0.40963494777679443
+        },
+        {
+          "skill_id": "medcalcbench_005",
+          "score": 0.40812763571739197
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.40792956948280334
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.4066498875617981
+        },
+        {
+          "skill_id": "medcalcbench_025",
+          "score": 0.40645459294319153
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.4064098596572876
+        },
+        {
+          "skill_id": "medcalcbench_022",
+          "score": 0.4035411775112152
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.40216895937919617
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 0.40201130509376526
+        },
+        {
+          "skill_id": "web_22988",
+          "score": 0.4008948802947998
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.39786356687545776
+        },
+        {
+          "skill_id": "medcalcbench_009",
+          "score": 0.39299076795578003
+        },
+        {
+          "skill_id": "web_12998",
+          "score": 0.38644081354141235
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_00901",
+      "gold_skill_ids": [
+        "medcalcbench_036"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.6732677817344666
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.48879510164260864
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.47483330965042114
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.47181352972984314
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.47142717242240906
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.46346670389175415
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.4538971781730652
+        },
+        {
+          "skill_id": "web_22999",
+          "score": 0.4490821659564972
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.4448483884334564
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.4420989155769348
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.43798312544822693
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.4379340410232544
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.4298437237739563
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.4291249215602875
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.42193514108657837
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.420461505651474
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 0.42043110728263855
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.41942495107650757
+        },
+        {
+          "skill_id": "web_24051",
+          "score": 0.4181039035320282
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.4108969569206238
+        },
+        {
+          "skill_id": "web_22980",
+          "score": 0.4085073173046112
+        },
+        {
+          "skill_id": "web_22988",
+          "score": 0.4031948745250702
+        },
+        {
+          "skill_id": "web_12126",
+          "score": 0.40010592341423035
+        },
+        {
+          "skill_id": "web_16386",
+          "score": 0.3936575949192047
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.39317965507507324
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.3882988691329956
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 0.3867565095424652
+        },
+        {
+          "skill_id": "web_17803",
+          "score": 0.37959733605384827
+        },
+        {
+          "skill_id": "web_21364",
+          "score": 0.37895411252975464
+        },
+        {
+          "skill_id": "web_25618",
+          "score": 0.37757983803749084
+        },
+        {
+          "skill_id": "web_06217",
+          "score": 0.37644723057746887
+        },
+        {
+          "skill_id": "web_01718",
+          "score": 0.3758046627044678
+        },
+        {
+          "skill_id": "web_16807",
+          "score": 0.37516331672668457
+        },
+        {
+          "skill_id": "web_09317",
+          "score": 0.3732830882072449
+        },
+        {
+          "skill_id": "web_04916",
+          "score": 0.37265878915786743
+        },
+        {
+          "skill_id": "web_20572",
+          "score": 0.369907408952713
+        },
+        {
+          "skill_id": "web_07176",
+          "score": 0.3692391812801361
+        },
+        {
+          "skill_id": "web_11437",
+          "score": 0.3688441216945648
+        },
+        {
+          "skill_id": "web_16841",
+          "score": 0.3656931519508362
+        },
+        {
+          "skill_id": "web_15531",
+          "score": 0.36568737030029297
+        },
+        {
+          "skill_id": "web_21548",
+          "score": 0.3643031120300293
+        },
+        {
+          "skill_id": "web_20573",
+          "score": 0.3636541962623596
+        },
+        {
+          "skill_id": "web_11222",
+          "score": 0.36322516202926636
+        },
+        {
+          "skill_id": "web_24626",
+          "score": 0.36317822337150574
+        },
+        {
+          "skill_id": "web_01867",
+          "score": 0.3626083731651306
+        },
+        {
+          "skill_id": "web_06701",
+          "score": 0.36037594079971313
+        },
+        {
+          "skill_id": "web_11474",
+          "score": 0.3596053123474121
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.35874950885772705
+        },
+        {
+          "skill_id": "web_15115",
+          "score": 0.3584279417991638
+        },
+        {
+          "skill_id": "web_06342",
+          "score": 0.3579365015029907
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_00966",
+      "gold_skill_ids": [
+        "medcalcbench_010"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.7343275547027588
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.619834303855896
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.6187598705291748
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.5898467302322388
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.5852946639060974
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.5520169138908386
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.5486564636230469
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.5411412715911865
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.5402674674987793
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.5288286805152893
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.52427077293396
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.5179258584976196
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.5155850648880005
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.5087184309959412
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.501001238822937
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.49222245812416077
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.48907747864723206
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.451317697763443
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.44531723856925964
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 0.43283650279045105
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.42117148637771606
+        },
+        {
+          "skill_id": "web_18697",
+          "score": 0.40413737297058105
+        },
+        {
+          "skill_id": "web_22988",
+          "score": 0.4035797715187073
+        },
+        {
+          "skill_id": "web_24051",
+          "score": 0.40340664982795715
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.39881598949432373
+        },
+        {
+          "skill_id": "web_20573",
+          "score": 0.3939433693885803
+        },
+        {
+          "skill_id": "web_12998",
+          "score": 0.39168208837509155
+        },
+        {
+          "skill_id": "web_22999",
+          "score": 0.39055123925209045
+        },
+        {
+          "skill_id": "web_20870",
+          "score": 0.3894728124141693
+        },
+        {
+          "skill_id": "web_25319",
+          "score": 0.3858325183391571
+        },
+        {
+          "skill_id": "web_16386",
+          "score": 0.38421711325645447
+        },
+        {
+          "skill_id": "web_13060",
+          "score": 0.38262102007865906
+        },
+        {
+          "skill_id": "web_06338",
+          "score": 0.38174328207969666
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.3812864422798157
+        },
+        {
+          "skill_id": "web_08932",
+          "score": 0.38126087188720703
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.3809589147567749
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 0.38023054599761963
+        },
+        {
+          "skill_id": "web_15791",
+          "score": 0.3772708773612976
+        },
+        {
+          "skill_id": "web_12126",
+          "score": 0.3720734715461731
+        },
+        {
+          "skill_id": "web_01904",
+          "score": 0.3702840209007263
+        },
+        {
+          "skill_id": "web_01933",
+          "score": 0.36886194348335266
+        },
+        {
+          "skill_id": "web_24626",
+          "score": 0.3684166371822357
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.3683439791202545
+        },
+        {
+          "skill_id": "web_01867",
+          "score": 0.3673752546310425
+        },
+        {
+          "skill_id": "web_06701",
+          "score": 0.36595073342323303
+        },
+        {
+          "skill_id": "web_11131",
+          "score": 0.3658806383609772
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.3650447130203247
+        },
+        {
+          "skill_id": "web_01885",
+          "score": 0.365014910697937
+        },
+        {
+          "skill_id": "medcalcbench_021",
+          "score": 0.3641805350780487
+        },
+        {
+          "skill_id": "web_21364",
+          "score": 0.3640398383140564
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_01028",
+      "gold_skill_ids": [
+        "medcalcbench_008"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_008",
+          "score": 0.6679722666740417
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.5865045785903931
+        },
+        {
+          "skill_id": "medcalcbench_006",
+          "score": 0.5440321564674377
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.5312637686729431
+        },
+        {
+          "skill_id": "medcalcbench_005",
+          "score": 0.5087919235229492
+        },
+        {
+          "skill_id": "web_10675",
+          "score": 0.4654043912887573
+        },
+        {
+          "skill_id": "medcalcbench_046",
+          "score": 0.41183751821517944
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.4090925455093384
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.40865465998649597
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.3953447639942169
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.38794511556625366
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.3858272135257721
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.38426831364631653
+        },
+        {
+          "skill_id": "web_05094",
+          "score": 0.37732475996017456
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.3759758174419403
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.37453749775886536
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.37296509742736816
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.37259671092033386
+        },
+        {
+          "skill_id": "web_05112",
+          "score": 0.36954712867736816
+        },
+        {
+          "skill_id": "web_18177",
+          "score": 0.366852730512619
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.3663643002510071
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.365716814994812
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.36427831649780273
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.36420536041259766
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.3640866279602051
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.36074596643447876
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.36001056432724
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.35880154371261597
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.3584023714065552
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.3567347526550293
+        },
+        {
+          "skill_id": "theoremqa_041",
+          "score": 0.35612431168556213
+        },
+        {
+          "skill_id": "medcalcbench_020",
+          "score": 0.35454246401786804
+        },
+        {
+          "skill_id": "medcalcbench_016",
+          "score": 0.3545127511024475
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.35424357652664185
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.3532378673553467
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.351871520280838
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.3514042794704437
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.34971722960472107
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.34969809651374817
+        },
+        {
+          "skill_id": "web_09857",
+          "score": 0.3495800197124481
+        },
+        {
+          "skill_id": "web_10497",
+          "score": 0.348865270614624
+        },
+        {
+          "skill_id": "web_04915",
+          "score": 0.3485288918018341
+        },
+        {
+          "skill_id": "web_19503",
+          "score": 0.34791043400764465
+        },
+        {
+          "skill_id": "web_23495",
+          "score": 0.3452499508857727
+        },
+        {
+          "skill_id": "web_08732",
+          "score": 0.34428972005844116
+        },
+        {
+          "skill_id": "medcalcbench_019",
+          "score": 0.34396636486053467
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.3438798487186432
+        },
+        {
+          "skill_id": "web_11300",
+          "score": 0.34368857741355896
+        },
+        {
+          "skill_id": "web_10823",
+          "score": 0.3434406518936157
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.34277719259262085
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_01051",
+      "gold_skill_ids": [
+        "medcalcbench_051"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_051",
+          "score": 0.6488660573959351
+        },
+        {
+          "skill_id": "medcalcbench_050",
+          "score": 0.4417419135570526
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.40457683801651
+        },
+        {
+          "skill_id": "medcalcbench_012",
+          "score": 0.4039708375930786
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.39498260617256165
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.38381227850914
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.3791660666465759
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.3767737150192261
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.3759444057941437
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.3653244078159332
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.3646257817745209
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.36295434832572937
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.3594885468482971
+        },
+        {
+          "skill_id": "medcalcbench_049",
+          "score": 0.3498772084712982
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.34872740507125854
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.3464682698249817
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.3448123037815094
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.34239527583122253
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.3415875732898712
+        },
+        {
+          "skill_id": "medcalcbench_035",
+          "score": 0.3375163972377777
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.3361470103263855
+        },
+        {
+          "skill_id": "web_18756",
+          "score": 0.33537760376930237
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.33191627264022827
+        },
+        {
+          "skill_id": "web_18177",
+          "score": 0.330356627702713
+        },
+        {
+          "skill_id": "medcalcbench_038",
+          "score": 0.3289681077003479
+        },
+        {
+          "skill_id": "web_09643",
+          "score": 0.32871708273887634
+        },
+        {
+          "skill_id": "medcalcbench_024",
+          "score": 0.3240642249584198
+        },
+        {
+          "skill_id": "web_18697",
+          "score": 0.3227253556251526
+        },
+        {
+          "skill_id": "web_10812",
+          "score": 0.32250162959098816
+        },
+        {
+          "skill_id": "medcalcbench_048",
+          "score": 0.32175835967063904
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.3211767077445984
+        },
+        {
+          "skill_id": "medcalcbench_042",
+          "score": 0.3207734227180481
+        },
+        {
+          "skill_id": "web_24051",
+          "score": 0.32076603174209595
+        },
+        {
+          "skill_id": "web_11569",
+          "score": 0.31835752725601196
+        },
+        {
+          "skill_id": "web_19503",
+          "score": 0.3177129924297333
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.3173559904098511
+        },
+        {
+          "skill_id": "web_09440",
+          "score": 0.3166269063949585
+        },
+        {
+          "skill_id": "medcalcbench_032",
+          "score": 0.3166075050830841
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.31583118438720703
+        },
+        {
+          "skill_id": "medcalcbench_033",
+          "score": 0.314896821975708
+        },
+        {
+          "skill_id": "web_07842",
+          "score": 0.3142278492450714
+        },
+        {
+          "skill_id": "medcalcbench_015",
+          "score": 0.31081345677375793
+        },
+        {
+          "skill_id": "web_18758",
+          "score": 0.3106687366962433
+        },
+        {
+          "skill_id": "medcalcbench_009",
+          "score": 0.30842870473861694
+        },
+        {
+          "skill_id": "medcalcbench_037",
+          "score": 0.30832794308662415
+        },
+        {
+          "skill_id": "web_21364",
+          "score": 0.30817052721977234
+        },
+        {
+          "skill_id": "medcalcbench_028",
+          "score": 0.3068925142288208
+        },
+        {
+          "skill_id": "web_08179",
+          "score": 0.3065933883190155
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 0.3064666986465454
+        },
+        {
+          "skill_id": "web_20572",
+          "score": 0.3062940239906311
+        }
+      ]
+    },
+    {
+      "instance_id": "medcalcbench_01098",
+      "gold_skill_ids": [
+        "medcalcbench_053"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "medcalcbench_053",
+          "score": 0.6981408596038818
+        },
+        {
+          "skill_id": "medcalcbench_052",
+          "score": 0.626329779624939
+        },
+        {
+          "skill_id": "medcalcbench_054",
+          "score": 0.5840564966201782
+        },
+        {
+          "skill_id": "bigcodebench_070",
+          "score": 0.40346458554267883
+        },
+        {
+          "skill_id": "web_22734",
+          "score": 0.4026995599269867
+        },
+        {
+          "skill_id": "medcalcbench_029",
+          "score": 0.3918263018131256
+        },
+        {
+          "skill_id": "medcalcbench_010",
+          "score": 0.3785743713378906
+        },
+        {
+          "skill_id": "web_04694",
+          "score": 0.3767337501049042
+        },
+        {
+          "skill_id": "medcalcbench_000",
+          "score": 0.3684568405151367
+        },
+        {
+          "skill_id": "medcalcbench_026",
+          "score": 0.36531904339790344
+        },
+        {
+          "skill_id": "medcalcbench_003",
+          "score": 0.36195728182792664
+        },
+        {
+          "skill_id": "medcalcbench_036",
+          "score": 0.35867536067962646
+        },
+        {
+          "skill_id": "medcalcbench_043",
+          "score": 0.35865411162376404
+        },
+        {
+          "skill_id": "medcalcbench_002",
+          "score": 0.35833245515823364
+        },
+        {
+          "skill_id": "medcalcbench_030",
+          "score": 0.3568471074104309
+        },
+        {
+          "skill_id": "web_19503",
+          "score": 0.3527401089668274
+        },
+        {
+          "skill_id": "medcalcbench_017",
+          "score": 0.3523215651512146
+        },
+        {
+          "skill_id": "web_14194",
+          "score": 0.3513469099998474
+        },
+        {
+          "skill_id": "medcalcbench_041",
+          "score": 0.3497689664363861
+        },
+        {
+          "skill_id": "medcalcbench_044",
+          "score": 0.34529244899749756
+        },
+        {
+          "skill_id": "medcalcbench_045",
+          "score": 0.3449740409851074
+        },
+        {
+          "skill_id": "medcalcbench_034",
+          "score": 0.34407201409339905
+        },
+        {
+          "skill_id": "medcalcbench_001",
+          "score": 0.34186145663261414
+        },
+        {
+          "skill_id": "medcalcbench_004",
+          "score": 0.341141939163208
+        },
+        {
+          "skill_id": "medcalcbench_007",
+          "score": 0.3400647044181824
+        },
+        {
+          "skill_id": "medcalcbench_011",
+          "score": 0.33986538648605347
+        },
+        {
+          "skill_id": "medcalcbench_023",
+          "score": 0.33859917521476746
+        },
+        {
+          "skill_id": "medcalcbench_027",
+          "score": 0.3379228413105011
+        },
+        {
+          "skill_id": "bigcodebench_064",
+          "score": 0.3345879018306732
+        },
+        {
+          "skill_id": "web_08057",
+          "score": 0.33440840244293213
+        },
+        {
+          "skill_id": "medcalcbench_013",
+          "score": 0.3326227068901062
+        },
+        {
+          "skill_id": "web_19504",
+          "score": 0.3320311903953552
+        },
+        {
+          "skill_id": "medcalcbench_008",
+          "score": 0.33170753717422485
+        },
+        {
+          "skill_id": "web_09643",
+          "score": 0.33154574036598206
+        },
+        {
+          "skill_id": "web_21957",
+          "score": 0.33140891790390015
+        },
+        {
+          "skill_id": "web_09440",
+          "score": 0.33124321699142456
+        },
+        {
+          "skill_id": "medcalcbench_031",
+          "score": 0.3310989737510681
+        },
+        {
+          "skill_id": "medcalcbench_040",
+          "score": 0.3306325376033783
+        },
+        {
+          "skill_id": "web_22445",
+          "score": 0.3294603228569031
+        },
+        {
+          "skill_id": "web_25117",
+          "score": 0.3286634683609009
+        },
+        {
+          "skill_id": "web_22369",
+          "score": 0.32692667841911316
+        },
+        {
+          "skill_id": "medcalcbench_014",
+          "score": 0.3268517851829529
+        },
+        {
+          "skill_id": "medcalcbench_039",
+          "score": 0.32598650455474854
+        },
+        {
+          "skill_id": "web_15803",
+          "score": 0.3250880539417267
+        },
+        {
+          "skill_id": "web_16854",
+          "score": 0.32425421476364136
+        },
+        {
+          "skill_id": "web_05112",
+          "score": 0.3218434154987335
+        },
+        {
+          "skill_id": "web_10675",
+          "score": 0.32159852981567383
+        },
+        {
+          "skill_id": "web_08634",
+          "score": 0.32088586688041687
+        },
+        {
+          "skill_id": "web_10213",
+          "score": 0.3201805055141449
+        },
+        {
+          "skill_id": "medcalcbench_051",
+          "score": 0.32017484307289124
+        }
+      ]
+    }
+  ]
+}

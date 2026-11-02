@@ -1,0 +1,3204 @@
+{
+ "metadata": {
+  "dataset": "theoremqa",
+  "model": "Qwen3.6-27B-FP8",
+  "source": "agent_results/SRA-Bench/top5_subset50/candidate_sweep",
+  "reward": "1 if the run's answer is correct, else 0",
+  "baseline": "the model on the task with no skill",
+  "candidates": "the model on the task with exactly that one skill injected",
+  "runs": "independent attempts; baseline and skill runs are not paired",
+  "pool": "annotation/top5/task_subset/theoremqa-annotation.json"
+ },
+ "results": [
+  {
+   "instance_id": "theoremqa_00087",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_205",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_211",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_091",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_289",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_293",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_003",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_095",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_148",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_125",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_284",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_24591",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_15251",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25505",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24196",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_019",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_116",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_275",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_105",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_066",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_076",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22211",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_208",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22996",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13293",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17238",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04599",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00069",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10803",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_288",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_079",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00126",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_065",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_039",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_001",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_013",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_030",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_274",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_253",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19936",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19939",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_21575",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_088",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_03346",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_016",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_03812",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_07964",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_251",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_049",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22996",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13567",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_23806",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_03622",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_012",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00312",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_036",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_031",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_019",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_017",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_016",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24369",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_073",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_030",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_020",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_039",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_16871",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_08065",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06323",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_07752",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_056",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_085",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_041",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_306",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14851",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22037",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_034",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00315",
+   "baseline": {
+    "rewards": [
+     1,
+     0,
+     0
+    ],
+    "mean": 0.3333
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_197",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_194",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "champ_027",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_315",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "champ_041",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_10646",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_025",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_054",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "champ_065",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_193",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19333",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_17740",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_08395",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_016",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_275",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_280",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_053",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_288",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_312",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_196",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_004",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_033",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_059",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_198",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_09413",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_22037",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_22996",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_24369",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_04599",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "champ_028",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00316",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_162",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_070",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_079",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_098",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_172",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_050",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_057",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_09413",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10803",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "bigcodebench_096",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_09629",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_08827",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19196",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17740",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_028",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_066",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_287",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_275",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_088",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_176",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_279",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_151",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_294",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_006",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_222",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_072",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22996",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_019",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_111",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_074",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04599",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24369",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_086",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14751",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_202",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_033",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_075",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_049",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00472",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_017",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_015",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_012",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_016",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_030",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_020",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_039",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_048",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13305",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_21575",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_19936",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_11632",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_15897",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "champ_088",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13208",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_033",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_08138",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_268",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_038",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_11426",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_059",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_036",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_319",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09413",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_01913",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_10803",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_04599",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_07200",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_04435",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_019",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_06289",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_018",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00492",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_147",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_190",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09413",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_10020",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_176",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_150",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "champ_047",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_156",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "champ_049",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_08264",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13305",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15458",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_12436",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09776",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "champ_088",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "champ_033",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "champ_085",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_11829",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_275",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_170",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_159",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "champ_006",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_143",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24369",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_06544",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_01913",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_288",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_071",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00494",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_282",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_083",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_09413",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24369",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_069",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_204",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_088",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_198",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_064",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22996",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_12436",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14418",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_21285",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_016",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_275",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_298",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_01913",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_250",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "bigcodebench_079",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_077",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_193",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_047",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_006",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_049",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_032",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_051",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_109",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10497",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04599",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00069",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06544",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "bigcodebench_096",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22557",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00578",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_164",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_010",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_052",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_051",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_008",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_032",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_049",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_036",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_176",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_12436",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13691",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_047",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_024",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_034",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_190",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_202",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_022",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_038",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22996",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_09413",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04599",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_043",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22042",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06545",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "champ_077",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_03622",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "theoremqa_00649",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "theoremqa_007",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_008",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "theoremqa_002",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_003",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_009",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_006",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24369",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10358",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25300",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14338",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19971",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_266",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_004",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_005",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_05015",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19473",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_11874",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22764",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_317",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_08651",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_313",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_18552",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": []
+  }
+ ]
+}

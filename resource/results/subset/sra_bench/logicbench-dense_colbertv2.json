@@ -1,0 +1,2104 @@
+{
+  "metadata": {
+    "dataset": "logicbench",
+    "retriever": "dense_colbertv2",
+    "top_k": 50,
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-07-27T01:55:25.264299+00:00",
+    "extra": {}
+  },
+  "metrics": {
+    "nDCG@50": 0.03562071871080222,
+    "nDCG@10": 0.03562071871080222,
+    "nDCG@5": 0.0,
+    "nDCG@1": 0.0,
+    "Recall@1": 0.0,
+    "Recall@5": 0.0,
+    "Recall@10": 0.1,
+    "Recall@50": 0.1,
+    "R-Precision": 0.0
+  },
+  "results": [
+    {
+      "instance_id": "logicbench_00037",
+      "gold_skill_ids": [
+        "logicbench_006"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_01083",
+          "score": 12.359375
+        },
+        {
+          "skill_id": "web_01030",
+          "score": 12.328125
+        },
+        {
+          "skill_id": "web_01031",
+          "score": 12.2734375
+        },
+        {
+          "skill_id": "web_00927",
+          "score": 12.1171875
+        },
+        {
+          "skill_id": "web_01053",
+          "score": 11.84375
+        },
+        {
+          "skill_id": "web_01063",
+          "score": 11.6796875
+        },
+        {
+          "skill_id": "web_19459",
+          "score": 11.671875
+        },
+        {
+          "skill_id": "web_15633",
+          "score": 11.6484375
+        },
+        {
+          "skill_id": "web_00932",
+          "score": 11.2734375
+        },
+        {
+          "skill_id": "web_10193",
+          "score": 11.2578125
+        },
+        {
+          "skill_id": "web_01055",
+          "score": 11.2421875
+        },
+        {
+          "skill_id": "web_00862",
+          "score": 11.2265625
+        },
+        {
+          "skill_id": "web_00919",
+          "score": 11.140625
+        },
+        {
+          "skill_id": "web_00997",
+          "score": 11.0703125
+        },
+        {
+          "skill_id": "web_20312",
+          "score": 11.046875
+        },
+        {
+          "skill_id": "web_00941",
+          "score": 11.046875
+        },
+        {
+          "skill_id": "web_01082",
+          "score": 10.96875
+        },
+        {
+          "skill_id": "web_01033",
+          "score": 10.9453125
+        },
+        {
+          "skill_id": "web_00901",
+          "score": 10.84375
+        },
+        {
+          "skill_id": "web_01052",
+          "score": 10.828125
+        },
+        {
+          "skill_id": "web_00881",
+          "score": 10.8046875
+        },
+        {
+          "skill_id": "web_01069",
+          "score": 10.7890625
+        },
+        {
+          "skill_id": "web_05788",
+          "score": 10.6953125
+        },
+        {
+          "skill_id": "web_00967",
+          "score": 10.6875
+        },
+        {
+          "skill_id": "web_01045",
+          "score": 10.6640625
+        },
+        {
+          "skill_id": "web_01054",
+          "score": 10.640625
+        },
+        {
+          "skill_id": "web_00870",
+          "score": 10.6171875
+        },
+        {
+          "skill_id": "web_00972",
+          "score": 10.59375
+        },
+        {
+          "skill_id": "web_00982",
+          "score": 10.578125
+        },
+        {
+          "skill_id": "web_00985",
+          "score": 10.5546875
+        },
+        {
+          "skill_id": "web_01032",
+          "score": 10.5546875
+        },
+        {
+          "skill_id": "web_01040",
+          "score": 10.5234375
+        },
+        {
+          "skill_id": "web_00963",
+          "score": 10.5078125
+        },
+        {
+          "skill_id": "web_01005",
+          "score": 10.484375
+        },
+        {
+          "skill_id": "web_00973",
+          "score": 10.4765625
+        },
+        {
+          "skill_id": "web_00895",
+          "score": 10.453125
+        },
+        {
+          "skill_id": "web_01041",
+          "score": 10.4453125
+        },
+        {
+          "skill_id": "web_00907",
+          "score": 10.390625
+        },
+        {
+          "skill_id": "web_01074",
+          "score": 10.3359375
+        },
+        {
+          "skill_id": "web_01047",
+          "score": 10.3359375
+        },
+        {
+          "skill_id": "web_00998",
+          "score": 10.3203125
+        },
+        {
+          "skill_id": "web_24683",
+          "score": 10.3203125
+        },
+        {
+          "skill_id": "web_01018",
+          "score": 10.296875
+        },
+        {
+          "skill_id": "web_01029",
+          "score": 10.296875
+        },
+        {
+          "skill_id": "web_01024",
+          "score": 10.28125
+        },
+        {
+          "skill_id": "web_00948",
+          "score": 10.2578125
+        },
+        {
+          "skill_id": "web_00992",
+          "score": 10.2109375
+        },
+        {
+          "skill_id": "web_09362",
+          "score": 10.1953125
+        },
+        {
+          "skill_id": "web_00625",
+          "score": 10.1953125
+        },
+        {
+          "skill_id": "web_01006",
+          "score": 10.1796875
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00087",
+      "gold_skill_ids": [
+        "logicbench_004"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_00882",
+          "score": 12.5546875
+        },
+        {
+          "skill_id": "web_25440",
+          "score": 12.375
+        },
+        {
+          "skill_id": "web_09265",
+          "score": 12.1484375
+        },
+        {
+          "skill_id": "web_15336",
+          "score": 11.5625
+        },
+        {
+          "skill_id": "web_18580",
+          "score": 11.5234375
+        },
+        {
+          "skill_id": "web_12317",
+          "score": 11.4921875
+        },
+        {
+          "skill_id": "web_00031",
+          "score": 11.46875
+        },
+        {
+          "skill_id": "web_23789",
+          "score": 11.4296875
+        },
+        {
+          "skill_id": "web_11031",
+          "score": 11.4140625
+        },
+        {
+          "skill_id": "web_00994",
+          "score": 11.1875
+        },
+        {
+          "skill_id": "web_20838",
+          "score": 11.1171875
+        },
+        {
+          "skill_id": "web_03413",
+          "score": 11.109375
+        },
+        {
+          "skill_id": "web_01015",
+          "score": 11.046875
+        },
+        {
+          "skill_id": "web_00845",
+          "score": 11.03125
+        },
+        {
+          "skill_id": "web_04053",
+          "score": 10.9375
+        },
+        {
+          "skill_id": "web_07063",
+          "score": 10.9296875
+        },
+        {
+          "skill_id": "web_00971",
+          "score": 10.765625
+        },
+        {
+          "skill_id": "web_08017",
+          "score": 10.75
+        },
+        {
+          "skill_id": "web_01016",
+          "score": 10.6640625
+        },
+        {
+          "skill_id": "web_22887",
+          "score": 10.640625
+        },
+        {
+          "skill_id": "web_19726",
+          "score": 10.625
+        },
+        {
+          "skill_id": "web_14528",
+          "score": 10.5859375
+        },
+        {
+          "skill_id": "web_17571",
+          "score": 10.578125
+        },
+        {
+          "skill_id": "web_08132",
+          "score": 10.5390625
+        },
+        {
+          "skill_id": "web_01084",
+          "score": 10.515625
+        },
+        {
+          "skill_id": "web_17840",
+          "score": 10.4921875
+        },
+        {
+          "skill_id": "web_00033",
+          "score": 10.4765625
+        },
+        {
+          "skill_id": "web_18009",
+          "score": 10.4609375
+        },
+        {
+          "skill_id": "web_20522",
+          "score": 10.4609375
+        },
+        {
+          "skill_id": "web_12095",
+          "score": 10.4375
+        },
+        {
+          "skill_id": "web_15144",
+          "score": 10.4296875
+        },
+        {
+          "skill_id": "web_01174",
+          "score": 10.4296875
+        },
+        {
+          "skill_id": "web_18661",
+          "score": 10.40625
+        },
+        {
+          "skill_id": "web_05916",
+          "score": 10.3984375
+        },
+        {
+          "skill_id": "web_00870",
+          "score": 10.375
+        },
+        {
+          "skill_id": "web_01024",
+          "score": 10.3671875
+        },
+        {
+          "skill_id": "web_24684",
+          "score": 10.3671875
+        },
+        {
+          "skill_id": "web_09216",
+          "score": 10.3515625
+        },
+        {
+          "skill_id": "web_19410",
+          "score": 10.3359375
+        },
+        {
+          "skill_id": "web_08174",
+          "score": 10.265625
+        },
+        {
+          "skill_id": "web_07486",
+          "score": 10.234375
+        },
+        {
+          "skill_id": "web_01069",
+          "score": 10.2109375
+        },
+        {
+          "skill_id": "web_19722",
+          "score": 10.1328125
+        },
+        {
+          "skill_id": "web_01007",
+          "score": 10.109375
+        },
+        {
+          "skill_id": "web_15567",
+          "score": 10.0703125
+        },
+        {
+          "skill_id": "web_12076",
+          "score": 10.046875
+        },
+        {
+          "skill_id": "web_01181",
+          "score": 10.0390625
+        },
+        {
+          "skill_id": "web_16868",
+          "score": 10.0
+        },
+        {
+          "skill_id": "web_19787",
+          "score": 9.9765625
+        },
+        {
+          "skill_id": "web_20483",
+          "score": 9.9453125
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00110",
+      "gold_skill_ids": [
+        "logicbench_004"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_19305",
+          "score": 11.4921875
+        },
+        {
+          "skill_id": "web_20479",
+          "score": 10.6484375
+        },
+        {
+          "skill_id": "web_13985",
+          "score": 10.4375
+        },
+        {
+          "skill_id": "web_01040",
+          "score": 10.421875
+        },
+        {
+          "skill_id": "web_13699",
+          "score": 9.9140625
+        },
+        {
+          "skill_id": "web_07742",
+          "score": 9.765625
+        },
+        {
+          "skill_id": "web_11257",
+          "score": 9.75
+        },
+        {
+          "skill_id": "web_04889",
+          "score": 9.5234375
+        },
+        {
+          "skill_id": "web_00992",
+          "score": 9.4296875
+        },
+        {
+          "skill_id": "web_20935",
+          "score": 9.421875
+        },
+        {
+          "skill_id": "web_11852",
+          "score": 9.40625
+        },
+        {
+          "skill_id": "web_00022",
+          "score": 9.3203125
+        },
+        {
+          "skill_id": "web_22900",
+          "score": 9.1875
+        },
+        {
+          "skill_id": "web_03425",
+          "score": 9.15625
+        },
+        {
+          "skill_id": "web_19291",
+          "score": 9.1484375
+        },
+        {
+          "skill_id": "web_15634",
+          "score": 9.140625
+        },
+        {
+          "skill_id": "web_18372",
+          "score": 9.125
+        },
+        {
+          "skill_id": "web_20928",
+          "score": 9.125
+        },
+        {
+          "skill_id": "web_09366",
+          "score": 9.1015625
+        },
+        {
+          "skill_id": "web_03140",
+          "score": 9.09375
+        },
+        {
+          "skill_id": "web_15410",
+          "score": 9.0703125
+        },
+        {
+          "skill_id": "web_14020",
+          "score": 9.0078125
+        },
+        {
+          "skill_id": "web_16222",
+          "score": 9.0078125
+        },
+        {
+          "skill_id": "web_09592",
+          "score": 8.9921875
+        },
+        {
+          "skill_id": "web_03381",
+          "score": 8.984375
+        },
+        {
+          "skill_id": "web_15562",
+          "score": 8.953125
+        },
+        {
+          "skill_id": "web_20415",
+          "score": 8.921875
+        },
+        {
+          "skill_id": "web_19303",
+          "score": 8.9140625
+        },
+        {
+          "skill_id": "web_16785",
+          "score": 8.8671875
+        },
+        {
+          "skill_id": "web_15625",
+          "score": 8.8671875
+        },
+        {
+          "skill_id": "web_08651",
+          "score": 8.859375
+        },
+        {
+          "skill_id": "web_19313",
+          "score": 8.859375
+        },
+        {
+          "skill_id": "web_16842",
+          "score": 8.859375
+        },
+        {
+          "skill_id": "web_00973",
+          "score": 8.8515625
+        },
+        {
+          "skill_id": "web_04267",
+          "score": 8.8515625
+        },
+        {
+          "skill_id": "web_15500",
+          "score": 8.8515625
+        },
+        {
+          "skill_id": "web_01545",
+          "score": 8.8515625
+        },
+        {
+          "skill_id": "web_22302",
+          "score": 8.8125
+        },
+        {
+          "skill_id": "web_04818",
+          "score": 8.7890625
+        },
+        {
+          "skill_id": "web_18463",
+          "score": 8.78125
+        },
+        {
+          "skill_id": "web_19813",
+          "score": 8.7578125
+        },
+        {
+          "skill_id": "web_03964",
+          "score": 8.7578125
+        },
+        {
+          "skill_id": "web_00093",
+          "score": 8.75
+        },
+        {
+          "skill_id": "web_20136",
+          "score": 8.75
+        },
+        {
+          "skill_id": "web_15529",
+          "score": 8.7421875
+        },
+        {
+          "skill_id": "web_10999",
+          "score": 8.734375
+        },
+        {
+          "skill_id": "web_01082",
+          "score": 8.71875
+        },
+        {
+          "skill_id": "web_19915",
+          "score": 8.71875
+        },
+        {
+          "skill_id": "web_02482",
+          "score": 8.71875
+        },
+        {
+          "skill_id": "web_20373",
+          "score": 8.6875
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00165",
+      "gold_skill_ids": [
+        "logicbench_016"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_055",
+          "score": 11.609375
+        },
+        {
+          "skill_id": "web_23241",
+          "score": 11.6015625
+        },
+        {
+          "skill_id": "web_13554",
+          "score": 11.5859375
+        },
+        {
+          "skill_id": "web_09638",
+          "score": 11.5
+        },
+        {
+          "skill_id": "web_17234",
+          "score": 11.453125
+        },
+        {
+          "skill_id": "web_00833",
+          "score": 11.078125
+        },
+        {
+          "skill_id": "web_02076",
+          "score": 10.9296875
+        },
+        {
+          "skill_id": "web_16607",
+          "score": 10.78125
+        },
+        {
+          "skill_id": "web_01820",
+          "score": 10.7734375
+        },
+        {
+          "skill_id": "theoremqa_218",
+          "score": 10.6484375
+        },
+        {
+          "skill_id": "web_00855",
+          "score": 10.4453125
+        },
+        {
+          "skill_id": "web_02432",
+          "score": 10.390625
+        },
+        {
+          "skill_id": "web_09315",
+          "score": 10.3515625
+        },
+        {
+          "skill_id": "web_10754",
+          "score": 10.2265625
+        },
+        {
+          "skill_id": "web_06941",
+          "score": 10.203125
+        },
+        {
+          "skill_id": "web_22789",
+          "score": 10.0625
+        },
+        {
+          "skill_id": "web_17936",
+          "score": 10.046875
+        },
+        {
+          "skill_id": "web_02832",
+          "score": 10.0
+        },
+        {
+          "skill_id": "web_09615",
+          "score": 9.9609375
+        },
+        {
+          "skill_id": "web_01455",
+          "score": 9.9296875
+        },
+        {
+          "skill_id": "web_06724",
+          "score": 9.8984375
+        },
+        {
+          "skill_id": "web_10752",
+          "score": 9.8828125
+        },
+        {
+          "skill_id": "web_09397",
+          "score": 9.859375
+        },
+        {
+          "skill_id": "web_05501",
+          "score": 9.84375
+        },
+        {
+          "skill_id": "web_19113",
+          "score": 9.84375
+        },
+        {
+          "skill_id": "web_18447",
+          "score": 9.8359375
+        },
+        {
+          "skill_id": "web_19026",
+          "score": 9.8203125
+        },
+        {
+          "skill_id": "web_03477",
+          "score": 9.7890625
+        },
+        {
+          "skill_id": "web_06802",
+          "score": 9.734375
+        },
+        {
+          "skill_id": "web_07008",
+          "score": 9.6875
+        },
+        {
+          "skill_id": "web_20391",
+          "score": 9.6796875
+        },
+        {
+          "skill_id": "web_24344",
+          "score": 9.671875
+        },
+        {
+          "skill_id": "web_23890",
+          "score": 9.6640625
+        },
+        {
+          "skill_id": "web_13338",
+          "score": 9.609375
+        },
+        {
+          "skill_id": "web_15040",
+          "score": 9.5625
+        },
+        {
+          "skill_id": "web_15747",
+          "score": 9.53125
+        },
+        {
+          "skill_id": "web_25528",
+          "score": 9.5234375
+        },
+        {
+          "skill_id": "web_14913",
+          "score": 9.515625
+        },
+        {
+          "skill_id": "web_22271",
+          "score": 9.4921875
+        },
+        {
+          "skill_id": "theoremqa_206",
+          "score": 9.4921875
+        },
+        {
+          "skill_id": "web_14835",
+          "score": 9.484375
+        },
+        {
+          "skill_id": "web_24610",
+          "score": 9.453125
+        },
+        {
+          "skill_id": "web_07673",
+          "score": 9.453125
+        },
+        {
+          "skill_id": "web_08119",
+          "score": 9.453125
+        },
+        {
+          "skill_id": "web_04946",
+          "score": 9.453125
+        },
+        {
+          "skill_id": "web_14808",
+          "score": 9.421875
+        },
+        {
+          "skill_id": "web_01854",
+          "score": 9.40625
+        },
+        {
+          "skill_id": "web_17853",
+          "score": 9.390625
+        },
+        {
+          "skill_id": "web_24997",
+          "score": 9.3828125
+        },
+        {
+          "skill_id": "web_06671",
+          "score": 9.3671875
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00217",
+      "gold_skill_ids": [
+        "logicbench_017"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_24342",
+          "score": 11.703125
+        },
+        {
+          "skill_id": "web_13539",
+          "score": 11.6640625
+        },
+        {
+          "skill_id": "web_19731",
+          "score": 11.5546875
+        },
+        {
+          "skill_id": "web_23246",
+          "score": 11.4375
+        },
+        {
+          "skill_id": "logicbench_009",
+          "score": 11.03125
+        },
+        {
+          "skill_id": "logicbench_017",
+          "score": 10.8671875
+        },
+        {
+          "skill_id": "web_08144",
+          "score": 10.859375
+        },
+        {
+          "skill_id": "web_18543",
+          "score": 10.6640625
+        },
+        {
+          "skill_id": "web_16226",
+          "score": 10.6171875
+        },
+        {
+          "skill_id": "logicbench_013",
+          "score": 10.375
+        },
+        {
+          "skill_id": "web_15619",
+          "score": 10.3671875
+        },
+        {
+          "skill_id": "web_13801",
+          "score": 10.3125
+        },
+        {
+          "skill_id": "web_06072",
+          "score": 10.2578125
+        },
+        {
+          "skill_id": "web_18530",
+          "score": 10.2421875
+        },
+        {
+          "skill_id": "web_20556",
+          "score": 10.2421875
+        },
+        {
+          "skill_id": "web_05758",
+          "score": 10.171875
+        },
+        {
+          "skill_id": "web_10273",
+          "score": 10.15625
+        },
+        {
+          "skill_id": "web_00899",
+          "score": 10.1328125
+        },
+        {
+          "skill_id": "web_13700",
+          "score": 10.109375
+        },
+        {
+          "skill_id": "web_01157",
+          "score": 10.109375
+        },
+        {
+          "skill_id": "web_22799",
+          "score": 10.1015625
+        },
+        {
+          "skill_id": "web_01460",
+          "score": 10.09375
+        },
+        {
+          "skill_id": "web_18529",
+          "score": 10.078125
+        },
+        {
+          "skill_id": "web_18042",
+          "score": 10.078125
+        },
+        {
+          "skill_id": "web_00402",
+          "score": 10.0625
+        },
+        {
+          "skill_id": "web_04634",
+          "score": 10.0234375
+        },
+        {
+          "skill_id": "web_20109",
+          "score": 10.0078125
+        },
+        {
+          "skill_id": "web_16421",
+          "score": 10.0078125
+        },
+        {
+          "skill_id": "web_23580",
+          "score": 10.0
+        },
+        {
+          "skill_id": "web_10461",
+          "score": 9.953125
+        },
+        {
+          "skill_id": "web_06475",
+          "score": 9.9140625
+        },
+        {
+          "skill_id": "web_15179",
+          "score": 9.890625
+        },
+        {
+          "skill_id": "web_03717",
+          "score": 9.890625
+        },
+        {
+          "skill_id": "web_22862",
+          "score": 9.890625
+        },
+        {
+          "skill_id": "web_07328",
+          "score": 9.8828125
+        },
+        {
+          "skill_id": "web_12498",
+          "score": 9.84375
+        },
+        {
+          "skill_id": "web_05052",
+          "score": 9.84375
+        },
+        {
+          "skill_id": "web_23251",
+          "score": 9.8359375
+        },
+        {
+          "skill_id": "web_16724",
+          "score": 9.828125
+        },
+        {
+          "skill_id": "web_23255",
+          "score": 9.828125
+        },
+        {
+          "skill_id": "web_23262",
+          "score": 9.8203125
+        },
+        {
+          "skill_id": "web_22605",
+          "score": 9.8125
+        },
+        {
+          "skill_id": "web_12785",
+          "score": 9.8046875
+        },
+        {
+          "skill_id": "web_03871",
+          "score": 9.7734375
+        },
+        {
+          "skill_id": "web_13961",
+          "score": 9.765625
+        },
+        {
+          "skill_id": "web_09615",
+          "score": 9.7578125
+        },
+        {
+          "skill_id": "web_16185",
+          "score": 9.75
+        },
+        {
+          "skill_id": "web_21073",
+          "score": 9.75
+        },
+        {
+          "skill_id": "web_19774",
+          "score": 9.7265625
+        },
+        {
+          "skill_id": "web_23840",
+          "score": 9.7265625
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00241",
+      "gold_skill_ids": [
+        "logicbench_018"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_09892",
+          "score": 13.5390625
+        },
+        {
+          "skill_id": "web_10680",
+          "score": 12.875
+        },
+        {
+          "skill_id": "web_25440",
+          "score": 12.6875
+        },
+        {
+          "skill_id": "web_23656",
+          "score": 12.4609375
+        },
+        {
+          "skill_id": "web_01251",
+          "score": 12.03125
+        },
+        {
+          "skill_id": "web_01030",
+          "score": 12.0234375
+        },
+        {
+          "skill_id": "web_20838",
+          "score": 11.9453125
+        },
+        {
+          "skill_id": "theoremqa_251",
+          "score": 11.890625
+        },
+        {
+          "skill_id": "web_16868",
+          "score": 11.7890625
+        },
+        {
+          "skill_id": "web_22885",
+          "score": 11.75
+        },
+        {
+          "skill_id": "web_07047",
+          "score": 11.7109375
+        },
+        {
+          "skill_id": "web_07235",
+          "score": 11.6796875
+        },
+        {
+          "skill_id": "web_24684",
+          "score": 11.6171875
+        },
+        {
+          "skill_id": "web_11170",
+          "score": 11.578125
+        },
+        {
+          "skill_id": "web_01093",
+          "score": 11.5390625
+        },
+        {
+          "skill_id": "web_13945",
+          "score": 11.46875
+        },
+        {
+          "skill_id": "web_24120",
+          "score": 11.4609375
+        },
+        {
+          "skill_id": "web_08198",
+          "score": 11.4609375
+        },
+        {
+          "skill_id": "web_24827",
+          "score": 11.3828125
+        },
+        {
+          "skill_id": "web_01144",
+          "score": 11.3671875
+        },
+        {
+          "skill_id": "web_01112",
+          "score": 11.359375
+        },
+        {
+          "skill_id": "web_14154",
+          "score": 11.359375
+        },
+        {
+          "skill_id": "web_22812",
+          "score": 11.28125
+        },
+        {
+          "skill_id": "web_01349",
+          "score": 11.265625
+        },
+        {
+          "skill_id": "web_05115",
+          "score": 11.2421875
+        },
+        {
+          "skill_id": "web_04621",
+          "score": 11.21875
+        },
+        {
+          "skill_id": "web_14536",
+          "score": 11.1640625
+        },
+        {
+          "skill_id": "web_05242",
+          "score": 11.15625
+        },
+        {
+          "skill_id": "web_09392",
+          "score": 11.1484375
+        },
+        {
+          "skill_id": "web_00067",
+          "score": 11.109375
+        },
+        {
+          "skill_id": "web_15860",
+          "score": 11.09375
+        },
+        {
+          "skill_id": "web_01042",
+          "score": 11.0859375
+        },
+        {
+          "skill_id": "web_05637",
+          "score": 11.0859375
+        },
+        {
+          "skill_id": "web_04032",
+          "score": 11.0546875
+        },
+        {
+          "skill_id": "web_14173",
+          "score": 11.046875
+        },
+        {
+          "skill_id": "web_14585",
+          "score": 11.03125
+        },
+        {
+          "skill_id": "web_05157",
+          "score": 11.0234375
+        },
+        {
+          "skill_id": "web_00011",
+          "score": 11.015625
+        },
+        {
+          "skill_id": "web_10331",
+          "score": 10.9921875
+        },
+        {
+          "skill_id": "web_06236",
+          "score": 10.9375
+        },
+        {
+          "skill_id": "web_20548",
+          "score": 10.9296875
+        },
+        {
+          "skill_id": "web_03318",
+          "score": 10.9140625
+        },
+        {
+          "skill_id": "web_22430",
+          "score": 10.90625
+        },
+        {
+          "skill_id": "web_13194",
+          "score": 10.8984375
+        },
+        {
+          "skill_id": "web_14529",
+          "score": 10.8828125
+        },
+        {
+          "skill_id": "web_05275",
+          "score": 10.875
+        },
+        {
+          "skill_id": "web_15547",
+          "score": 10.859375
+        },
+        {
+          "skill_id": "web_05247",
+          "score": 10.828125
+        },
+        {
+          "skill_id": "web_19767",
+          "score": 10.8125
+        },
+        {
+          "skill_id": "web_00973",
+          "score": 10.8046875
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00348",
+      "gold_skill_ids": [
+        "logicbench_002"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_00743",
+          "score": 10.5078125
+        },
+        {
+          "skill_id": "web_10225",
+          "score": 10.4921875
+        },
+        {
+          "skill_id": "web_19408",
+          "score": 10.3671875
+        },
+        {
+          "skill_id": "web_15035",
+          "score": 10.2265625
+        },
+        {
+          "skill_id": "web_16990",
+          "score": 9.9453125
+        },
+        {
+          "skill_id": "web_04078",
+          "score": 9.9375
+        },
+        {
+          "skill_id": "web_06576",
+          "score": 9.8515625
+        },
+        {
+          "skill_id": "web_10867",
+          "score": 9.8515625
+        },
+        {
+          "skill_id": "web_07391",
+          "score": 9.8203125
+        },
+        {
+          "skill_id": "web_04736",
+          "score": 9.75
+        },
+        {
+          "skill_id": "web_04440",
+          "score": 9.7109375
+        },
+        {
+          "skill_id": "web_18627",
+          "score": 9.6875
+        },
+        {
+          "skill_id": "web_17736",
+          "score": 9.6875
+        },
+        {
+          "skill_id": "web_21160",
+          "score": 9.6875
+        },
+        {
+          "skill_id": "web_02482",
+          "score": 9.6640625
+        },
+        {
+          "skill_id": "web_04722",
+          "score": 9.640625
+        },
+        {
+          "skill_id": "web_12568",
+          "score": 9.609375
+        },
+        {
+          "skill_id": "web_10693",
+          "score": 9.609375
+        },
+        {
+          "skill_id": "web_12488",
+          "score": 9.59375
+        },
+        {
+          "skill_id": "web_16218",
+          "score": 9.5859375
+        },
+        {
+          "skill_id": "web_10394",
+          "score": 9.5859375
+        },
+        {
+          "skill_id": "web_13583",
+          "score": 9.578125
+        },
+        {
+          "skill_id": "web_09385",
+          "score": 9.5625
+        },
+        {
+          "skill_id": "web_17777",
+          "score": 9.546875
+        },
+        {
+          "skill_id": "web_07317",
+          "score": 9.5390625
+        },
+        {
+          "skill_id": "web_11638",
+          "score": 9.5078125
+        },
+        {
+          "skill_id": "web_24080",
+          "score": 9.4921875
+        },
+        {
+          "skill_id": "web_12093",
+          "score": 9.46875
+        },
+        {
+          "skill_id": "web_20550",
+          "score": 9.4609375
+        },
+        {
+          "skill_id": "web_09091",
+          "score": 9.4609375
+        },
+        {
+          "skill_id": "web_12095",
+          "score": 9.4453125
+        },
+        {
+          "skill_id": "web_24499",
+          "score": 9.4375
+        },
+        {
+          "skill_id": "web_12489",
+          "score": 9.4375
+        },
+        {
+          "skill_id": "web_19410",
+          "score": 9.421875
+        },
+        {
+          "skill_id": "web_03415",
+          "score": 9.4140625
+        },
+        {
+          "skill_id": "web_23811",
+          "score": 9.3984375
+        },
+        {
+          "skill_id": "web_16764",
+          "score": 9.375
+        },
+        {
+          "skill_id": "web_14256",
+          "score": 9.3515625
+        },
+        {
+          "skill_id": "web_14272",
+          "score": 9.2890625
+        },
+        {
+          "skill_id": "web_04721",
+          "score": 9.2890625
+        },
+        {
+          "skill_id": "web_16994",
+          "score": 9.2578125
+        },
+        {
+          "skill_id": "web_01145",
+          "score": 9.25
+        },
+        {
+          "skill_id": "web_14782",
+          "score": 9.25
+        },
+        {
+          "skill_id": "web_04609",
+          "score": 9.234375
+        },
+        {
+          "skill_id": "web_15624",
+          "score": 9.234375
+        },
+        {
+          "skill_id": "web_06084",
+          "score": 9.2265625
+        },
+        {
+          "skill_id": "web_23461",
+          "score": 9.2265625
+        },
+        {
+          "skill_id": "web_24936",
+          "score": 9.21875
+        },
+        {
+          "skill_id": "web_06574",
+          "score": 9.2109375
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 9.2109375
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00387",
+      "gold_skill_ids": [
+        "logicbench_009"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_13803",
+          "score": 11.9609375
+        },
+        {
+          "skill_id": "web_00471",
+          "score": 11.34375
+        },
+        {
+          "skill_id": "web_22854",
+          "score": 11.34375
+        },
+        {
+          "skill_id": "web_25356",
+          "score": 11.328125
+        },
+        {
+          "skill_id": "web_11529",
+          "score": 11.25
+        },
+        {
+          "skill_id": "web_03547",
+          "score": 11.140625
+        },
+        {
+          "skill_id": "web_15567",
+          "score": 11.1328125
+        },
+        {
+          "skill_id": "web_25159",
+          "score": 11.09375
+        },
+        {
+          "skill_id": "web_01181",
+          "score": 11.0703125
+        },
+        {
+          "skill_id": "web_09122",
+          "score": 11.0703125
+        },
+        {
+          "skill_id": "web_22590",
+          "score": 11.0625
+        },
+        {
+          "skill_id": "web_13791",
+          "score": 11.046875
+        },
+        {
+          "skill_id": "web_11859",
+          "score": 11.0390625
+        },
+        {
+          "skill_id": "web_03654",
+          "score": 11.03125
+        },
+        {
+          "skill_id": "web_00991",
+          "score": 10.9921875
+        },
+        {
+          "skill_id": "web_12751",
+          "score": 10.9609375
+        },
+        {
+          "skill_id": "web_15030",
+          "score": 10.9375
+        },
+        {
+          "skill_id": "web_19560",
+          "score": 10.921875
+        },
+        {
+          "skill_id": "web_19730",
+          "score": 10.921875
+        },
+        {
+          "skill_id": "web_19693",
+          "score": 10.8828125
+        },
+        {
+          "skill_id": "web_17929",
+          "score": 10.8046875
+        },
+        {
+          "skill_id": "web_12121",
+          "score": 10.8046875
+        },
+        {
+          "skill_id": "web_11283",
+          "score": 10.8046875
+        },
+        {
+          "skill_id": "web_24735",
+          "score": 10.796875
+        },
+        {
+          "skill_id": "web_20254",
+          "score": 10.78125
+        },
+        {
+          "skill_id": "web_12045",
+          "score": 10.765625
+        },
+        {
+          "skill_id": "web_03609",
+          "score": 10.765625
+        },
+        {
+          "skill_id": "web_12929",
+          "score": 10.71875
+        },
+        {
+          "skill_id": "web_17850",
+          "score": 10.7109375
+        },
+        {
+          "skill_id": "web_03348",
+          "score": 10.6953125
+        },
+        {
+          "skill_id": "web_18567",
+          "score": 10.6875
+        },
+        {
+          "skill_id": "web_04558",
+          "score": 10.65625
+        },
+        {
+          "skill_id": "web_14427",
+          "score": 10.65625
+        },
+        {
+          "skill_id": "web_18209",
+          "score": 10.640625
+        },
+        {
+          "skill_id": "web_23730",
+          "score": 10.640625
+        },
+        {
+          "skill_id": "web_09599",
+          "score": 10.625
+        },
+        {
+          "skill_id": "web_24642",
+          "score": 10.625
+        },
+        {
+          "skill_id": "web_21614",
+          "score": 10.6171875
+        },
+        {
+          "skill_id": "web_10708",
+          "score": 10.6171875
+        },
+        {
+          "skill_id": "web_05297",
+          "score": 10.59375
+        },
+        {
+          "skill_id": "web_08708",
+          "score": 10.5625
+        },
+        {
+          "skill_id": "web_12740",
+          "score": 10.5390625
+        },
+        {
+          "skill_id": "web_17869",
+          "score": 10.5234375
+        },
+        {
+          "skill_id": "web_05731",
+          "score": 10.515625
+        },
+        {
+          "skill_id": "web_07632",
+          "score": 10.515625
+        },
+        {
+          "skill_id": "web_04635",
+          "score": 10.484375
+        },
+        {
+          "skill_id": "web_00789",
+          "score": 10.46875
+        },
+        {
+          "skill_id": "web_21557",
+          "score": 10.453125
+        },
+        {
+          "skill_id": "web_09700",
+          "score": 10.453125
+        },
+        {
+          "skill_id": "web_23132",
+          "score": 10.4453125
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00472",
+      "gold_skill_ids": [
+        "logicbench_008"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_15747",
+          "score": 10.546875
+        },
+        {
+          "skill_id": "web_19313",
+          "score": 10.5
+        },
+        {
+          "skill_id": "web_21942",
+          "score": 10.4140625
+        },
+        {
+          "skill_id": "web_00129",
+          "score": 10.3671875
+        },
+        {
+          "skill_id": "web_15813",
+          "score": 10.1171875
+        },
+        {
+          "skill_id": "web_03477",
+          "score": 10.03125
+        },
+        {
+          "skill_id": "web_07205",
+          "score": 9.890625
+        },
+        {
+          "skill_id": "web_00655",
+          "score": 9.6953125
+        },
+        {
+          "skill_id": "web_10704",
+          "score": 9.4921875
+        },
+        {
+          "skill_id": "web_15641",
+          "score": 9.4453125
+        },
+        {
+          "skill_id": "web_04907",
+          "score": 9.40625
+        },
+        {
+          "skill_id": "web_07391",
+          "score": 9.40625
+        },
+        {
+          "skill_id": "web_01981",
+          "score": 9.390625
+        },
+        {
+          "skill_id": "web_10680",
+          "score": 9.3125
+        },
+        {
+          "skill_id": "web_22819",
+          "score": 9.3125
+        },
+        {
+          "skill_id": "web_08349",
+          "score": 9.296875
+        },
+        {
+          "skill_id": "web_00870",
+          "score": 9.296875
+        },
+        {
+          "skill_id": "web_24778",
+          "score": 9.2890625
+        },
+        {
+          "skill_id": "web_18433",
+          "score": 9.203125
+        },
+        {
+          "skill_id": "web_01093",
+          "score": 9.1953125
+        },
+        {
+          "skill_id": "web_20547",
+          "score": 9.1875
+        },
+        {
+          "skill_id": "web_25537",
+          "score": 9.171875
+        },
+        {
+          "skill_id": "web_13832",
+          "score": 9.171875
+        },
+        {
+          "skill_id": "web_14913",
+          "score": 9.1640625
+        },
+        {
+          "skill_id": "web_25046",
+          "score": 9.1640625
+        },
+        {
+          "skill_id": "web_04949",
+          "score": 9.1484375
+        },
+        {
+          "skill_id": "web_08545",
+          "score": 9.140625
+        },
+        {
+          "skill_id": "web_21566",
+          "score": 9.1328125
+        },
+        {
+          "skill_id": "web_25440",
+          "score": 9.125
+        },
+        {
+          "skill_id": "web_12093",
+          "score": 9.0859375
+        },
+        {
+          "skill_id": "web_22119",
+          "score": 9.078125
+        },
+        {
+          "skill_id": "web_09247",
+          "score": 9.0625
+        },
+        {
+          "skill_id": "web_06232",
+          "score": 9.03125
+        },
+        {
+          "skill_id": "web_09239",
+          "score": 8.984375
+        },
+        {
+          "skill_id": "web_08562",
+          "score": 8.9609375
+        },
+        {
+          "skill_id": "web_14764",
+          "score": 8.9609375
+        },
+        {
+          "skill_id": "web_24269",
+          "score": 8.8828125
+        },
+        {
+          "skill_id": "web_18447",
+          "score": 8.875
+        },
+        {
+          "skill_id": "web_21563",
+          "score": 8.8515625
+        },
+        {
+          "skill_id": "web_15617",
+          "score": 8.84375
+        },
+        {
+          "skill_id": "web_15594",
+          "score": 8.828125
+        },
+        {
+          "skill_id": "web_25488",
+          "score": 8.828125
+        },
+        {
+          "skill_id": "web_06236",
+          "score": 8.8046875
+        },
+        {
+          "skill_id": "web_20553",
+          "score": 8.8046875
+        },
+        {
+          "skill_id": "web_19012",
+          "score": 8.796875
+        },
+        {
+          "skill_id": "web_24120",
+          "score": 8.765625
+        },
+        {
+          "skill_id": "web_08864",
+          "score": 8.7578125
+        },
+        {
+          "skill_id": "web_10410",
+          "score": 8.7578125
+        },
+        {
+          "skill_id": "web_04257",
+          "score": 8.75
+        },
+        {
+          "skill_id": "web_11467",
+          "score": 8.7421875
+        }
+      ]
+    },
+    {
+      "instance_id": "logicbench_00582",
+      "gold_skill_ids": [
+        "logicbench_011"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_20689",
+          "score": 13.5078125
+        },
+        {
+          "skill_id": "web_06072",
+          "score": 13.328125
+        },
+        {
+          "skill_id": "web_23246",
+          "score": 12.9453125
+        },
+        {
+          "skill_id": "web_08144",
+          "score": 12.3203125
+        },
+        {
+          "skill_id": "logicbench_009",
+          "score": 12.265625
+        },
+        {
+          "skill_id": "web_11995",
+          "score": 12.234375
+        },
+        {
+          "skill_id": "web_03594",
+          "score": 12.1484375
+        },
+        {
+          "skill_id": "web_04621",
+          "score": 11.828125
+        },
+        {
+          "skill_id": "web_09216",
+          "score": 11.7265625
+        },
+        {
+          "skill_id": "web_19731",
+          "score": 11.7265625
+        },
+        {
+          "skill_id": "web_03587",
+          "score": 11.6875
+        },
+        {
+          "skill_id": "web_08439",
+          "score": 11.6796875
+        },
+        {
+          "skill_id": "web_04257",
+          "score": 11.671875
+        },
+        {
+          "skill_id": "web_05912",
+          "score": 11.625
+        },
+        {
+          "skill_id": "web_03718",
+          "score": 11.6015625
+        },
+        {
+          "skill_id": "web_21039",
+          "score": 11.59375
+        },
+        {
+          "skill_id": "web_13549",
+          "score": 11.5546875
+        },
+        {
+          "skill_id": "web_16421",
+          "score": 11.5390625
+        },
+        {
+          "skill_id": "web_12063",
+          "score": 11.4140625
+        },
+        {
+          "skill_id": "web_22223",
+          "score": 11.3671875
+        },
+        {
+          "skill_id": "web_05916",
+          "score": 11.3671875
+        },
+        {
+          "skill_id": "web_05758",
+          "score": 11.3125
+        },
+        {
+          "skill_id": "web_05047",
+          "score": 11.296875
+        },
+        {
+          "skill_id": "web_23251",
+          "score": 11.296875
+        },
+        {
+          "skill_id": "web_02832",
+          "score": 11.28125
+        },
+        {
+          "skill_id": "web_23657",
+          "score": 11.2734375
+        },
+        {
+          "skill_id": "web_06071",
+          "score": 11.265625
+        },
+        {
+          "skill_id": "web_25440",
+          "score": 11.25
+        },
+        {
+          "skill_id": "web_04795",
+          "score": 11.2265625
+        },
+        {
+          "skill_id": "web_19279",
+          "score": 11.21875
+        },
+        {
+          "skill_id": "web_24342",
+          "score": 11.2109375
+        },
+        {
+          "skill_id": "web_22219",
+          "score": 11.1875
+        },
+        {
+          "skill_id": "web_06407",
+          "score": 11.1796875
+        },
+        {
+          "skill_id": "web_06265",
+          "score": 11.171875
+        },
+        {
+          "skill_id": "web_24866",
+          "score": 11.171875
+        },
+        {
+          "skill_id": "web_04489",
+          "score": 11.1484375
+        },
+        {
+          "skill_id": "logicbench_013",
+          "score": 11.125
+        },
+        {
+          "skill_id": "web_15752",
+          "score": 11.125
+        },
+        {
+          "skill_id": "web_23262",
+          "score": 11.125
+        },
+        {
+          "skill_id": "web_18661",
+          "score": 11.1015625
+        },
+        {
+          "skill_id": "web_03590",
+          "score": 11.09375
+        },
+        {
+          "skill_id": "web_17575",
+          "score": 10.9765625
+        },
+        {
+          "skill_id": "web_05517",
+          "score": 10.9453125
+        },
+        {
+          "skill_id": "web_06070",
+          "score": 10.9375
+        },
+        {
+          "skill_id": "web_02716",
+          "score": 10.921875
+        },
+        {
+          "skill_id": "web_17571",
+          "score": 10.921875
+        },
+        {
+          "skill_id": "web_19726",
+          "score": 10.9140625
+        },
+        {
+          "skill_id": "web_07205",
+          "score": 10.90625
+        },
+        {
+          "skill_id": "web_23654",
+          "score": 10.8984375
+        },
+        {
+          "skill_id": "web_05050",
+          "score": 10.859375
+        }
+      ]
+    }
+  ]
+}

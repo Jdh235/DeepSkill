@@ -1,0 +1,1358 @@
+{
+  "metadata": {
+    "dataset": "skill_usage",
+    "retriever": "annotation",
+    "corpus_size": 34396,
+    "n_queries": 24,
+    "timestamp": "2026-09-02T04:43:54.156746+00:00",
+    "extra": {
+      "pool_members": [
+        "pt_bm25",
+        "pt_hiemstra_lm",
+        "pt_splade",
+        "dense_bge",
+        "dense_colbertv2",
+        "dense_contriever",
+        "dense_qwen3_emb_06b",
+        "dense_qwen3_emb_8b",
+        "dense_skillret_06b",
+        "dense_skillret_8b",
+        "dense_skillrouter_06b",
+        "dense_bge_m3"
+      ],
+      "union_k": 5,
+      "n_annotators": 1,
+      "task_list_file": "skill-retrieval-pyterrier/annotation/tasks.txt",
+      "reannotation": {
+        "sources": [
+          "task_subset_1",
+          "task_subset_2",
+          "task_subset_3"
+        ],
+        "min_spread": 2
+      }
+    }
+  },
+  "metrics": {
+    "n_candidates": 137
+  },
+  "results": [
+    {
+      "instance_id": "adaptive-cruise-control",
+      "gold_skill_ids": [
+        "benchflow-ai--csv-processing",
+        "benchflow-ai--pid-controller",
+        "benchflow-ai--simulation-metrics",
+        "benchflow-ai--vehicle-dynamics",
+        "benchflow-ai--yaml-config"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--simulation-metrics",
+          "score": 6,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--imc-tuning-rules",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "omer-metin--control-systems",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--safety-interlocks",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "azure-bgp-oscillation-route-leak",
+      "gold_skill_ids": [
+        "benchflow-ai--azure-bgp"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "tyler-r-kendrick--azure-networking",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "bagelhole--azure-networking",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "sickn33--network-engineer",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "rmyndharis--network-engineer",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "court-form-filling",
+      "gold_skill_ids": [
+        "benchflow-ai--pdf-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "K-Dense-AI--pdf",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--pdf-2",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "dapt-intrusion-detection",
+      "gold_skill_ids": [
+        "benchflow-ai--pcap-analysis",
+        "benchflow-ai--threat-detection"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "sickn33--wireshark-analysis",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "zebbern--wireshark-network-traffic-analysis",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "chaterm--traffic-analysis",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "BrownFineSecurity--iotnet",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "wshobson--protocol-reverse-engineering",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "parcadei--entropy",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "rmyndharis--protocol-reverse-engineering",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "sickn33--protocol-reverse-engineering",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "earthquake-plate-calculation",
+      "gold_skill_ids": [
+        "benchflow-ai--geospatial-analysis"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "eyadsibai--geopandas",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--obspy-data-api",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "barneyjm--relationship",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "awslabs--amazon-location-service",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "energy-ac-optimal-power-flow",
+      "gold_skill_ids": [
+        "benchflow-ai--ac-branch-pi-model",
+        "benchflow-ai--casadi-ipopt-nlp",
+        "benchflow-ai--power-flow-data"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--power-flow-data",
+          "score": 10,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--ac-branch-pi-model",
+          "score": 8,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--locational-marginal-prices",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--casadi-ipopt-nlp",
+          "score": 2,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "enterprise-information-search",
+      "gold_skill_ids": [
+        "benchflow-ai--enterprise-artifact-search"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--enterprise-artifact-search",
+          "score": 2,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "patricio0312rev--structured-output-extractor",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "xspoonai--data-processor",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "astronomer--analyzing-data",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "sebastiaanwouters--compound",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "xdg--jq",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "grid-dispatch-operator",
+      "gold_skill_ids": [
+        "benchflow-ai--dc-power-flow",
+        "benchflow-ai--economic-dispatch",
+        "benchflow-ai--power-flow-data"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--power-flow-data",
+          "score": 11,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--locational-marginal-prices",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--ac-branch-pi-model",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "patricio0312rev--capacity-planning-helper",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "hvac-control",
+      "gold_skill_ids": [
+        "benchflow-ai--excitation-signal-design",
+        "benchflow-ai--first-order-model-fitting",
+        "benchflow-ai--imc-tuning-rules",
+        "benchflow-ai--safety-interlocks",
+        "benchflow-ai--scipy-curve-fit"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--simulation-metrics",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--imc-tuning-rules",
+          "score": 7,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--pid-controller",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--first-order-model-fitting",
+          "score": 4,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--excitation-signal-design",
+          "score": 3,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "HeshamFS--parameter-optimization",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "omer-metin--control-systems",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--scipy-curve-fit",
+          "score": 1,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--integral-action-design",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--safety-interlocks",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "manufacturing-codebook-normalization",
+      "gold_skill_ids": [
+        "benchflow-ai--manufacturing-failure-reason-codebook-normalization"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "daymade--transcript-fixer",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--fuzzy-match",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "manufacturing-equipment-maintenance",
+      "gold_skill_ids": [
+        "benchflow-ai--reflow-profile-compliance-toolkit",
+        "benchflow-ai--reflow_machine_maintenance_guidance"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "ddunnock--fmea-analysis",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--manufacturing-failure-reason-codebook-normalization",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "jeremylongshore--pdf-parser",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "mars-clouds-clustering",
+      "gold_skill_ids": [
+        "benchflow-ai--custom-distance-metrics",
+        "benchflow-ai--parallel-processing",
+        "benchflow-ai--pareto-optimization"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "BbgnsurfTech--tuning-hyperparameters",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "terrylica--evolutionary-metric-ranking",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "aj-geddes--ml-model-training",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "jeremylongshore--tuning-hyperparameters",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "borghei--data-scientist",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "aj-geddes--model-hyperparameter-tuning",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "rmyndharis--data-scientist",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "davila7--pymoo",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "offer-letter-generator",
+      "gold_skill_ids": [
+        "benchflow-ai--docx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "open-agreements--employment-contract",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "wshobson--employment-contract-templates",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "sickn33--employment-contract-templates",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "rmyndharis--employment-contract-templates",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "vamseeachanta--docx-templates",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "open-agreements--open-agreements",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "twwch--docx-processor",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "iamzhihuix--docx-format-replicator",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "powerlifting-coef-calc",
+      "gold_skill_ids": [
+        "benchflow-ai--powerlifting",
+        "benchflow-ai--senior-data-scientist",
+        "benchflow-ai--xlsx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "lc2panda--wps-excel",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "sbroenne--excel-mcp",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "Peiiii--claude-office-pack",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "liyecom--xlsx",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "fergana-labs--excel",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "pptx-reference-formatting",
+      "gold_skill_ids": [
+        "benchflow-ai--pptx"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "skillcreatorai--pptx",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "DNYoussef--when-creating-presentations-use-pptx-generation",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "bbeierle12--pptx",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "404kidwiz--pptx-skill",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "moosegoose0701--storyboard-to-slides",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "aws-samples--powerpoint-presentations",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "aaronvanston--presentation-design",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "protein-expression-analysis",
+      "gold_skill_ids": [
+        "benchflow-ai--xlsx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "davila7--pydeseq2",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-multi-omics-integration",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "lc2panda--wps-excel",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "witanlabs--xlsx-code-mode",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-single-cell",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "sickn33--xlsx-official",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "react-performance-debugging",
+      "gold_skill_ids": [
+        "benchflow-ai--browser-testing-2",
+        "benchflow-ai--react-best-practices-2"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "kriscard--react-best-practices",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "srbhr--nextjs15-performance",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "davila7--nextjs-best-practices",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "srbhr--react-patterns",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "akashp1712--next-loading-skeleton",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "sanity-io--vercel-react-best-practices",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "cin12211--nextjs-expert",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "srstomp--performance-optimization",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "addyosmani--performance-optimization",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "sales-pivot-analysis",
+      "gold_skill_ids": [
+        "benchflow-ai--pdf-3",
+        "benchflow-ai--xlsx-3"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "bytedance--data-analysis",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "sbroenne--excel-mcp",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "jeremylongshore--pivot-table-creator",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "sec-financial-report",
+      "gold_skill_ids": [
+        "benchflow-ai--13f-analyzer",
+        "benchflow-ai--fuzzy-name-search"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--13f-analyzer",
+          "score": 12,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "nicepkg--institutional-flow-tracker",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "cooragent--holdings-hunter",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "cowork-os--stock-analysis",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "joellewis--regulatory-reporting",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "joellewis--alternatives",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "rmyndharis--quant-analyst",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "anthropics--equity-research",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "software-dependency-audit",
+      "gold_skill_ids": [
+        "benchflow-ai--cvss-score-extraction",
+        "benchflow-ai--trivy-offline-vulnerability-scanning",
+        "benchflow-ai--vulnerability-csv-reporting"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "curiouslearner--dependency-auditor",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "armanzeroeight--dependency-audit",
+          "score": 7,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "fusengine--cve-research",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "borghei--dependency-auditor",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "BbgnsurfTech--analyzing-dependencies",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "jeremylongshore--analyzing-dependencies",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "jg-chalk-io--moai-security-devsecops",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "pjt222--audit-dependency-versions",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "s-hiraoku--security-audit",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "rmyndharis--codebase-cleanup-deps-audit",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "BerryKuipers--audit-dependencies",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "levnikolaevich--ln-625-dependencies-auditor",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "suricata-custom-exfil",
+      "gold_skill_ids": [
+        "benchflow-ai--pcap-triage-tshark",
+        "benchflow-ai--suricata-offline-evejson",
+        "benchflow-ai--suricata-rules-basics"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "jg-chalk-io--moai-security-threat",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "ljagiello--ctf-forensics",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "threejs-structure-parser",
+      "gold_skill_ids": [
+        "benchflow-ai--obj-exporter-1",
+        "benchflow-ai--threejs"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--obj-exporter-1",
+          "score": 11,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "benchflow-ai--obj-exporter-2",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "cloudai-x--threejs-fundamentals",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "davila7--3d-web-experience",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "omer-metin--threejs-3d-graphics",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "noklip-io--three-js",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "secondsky--threejs",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "enzed--r3f-loaders",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "opusgamelabs--add-3d-assets",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "trend-anomaly-causal-inference",
+      "gold_skill_ids": [
+        "benchflow-ai--data_cleaning",
+        "benchflow-ai--did_causal_analysis",
+        "benchflow-ai--feature_engineering",
+        "benchflow-ai--time_series_anomaly_detection"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--did_causal_analysis",
+          "score": 9,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "aj-geddes--cohort-analysis",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "liangdabiao--rfm-customer-segmentation",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "daffy0208--forensic-data-engineer",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "virtualhome-agent-planning",
+      "gold_skill_ids": [
+        "benchflow-ai--pddl-skills"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "ruvnet--agent-goal-planner",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "ruvnet--agent-agent",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "d-o-hub--goap-agent",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "tondevrel--ortools",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    }
+  ]
+}

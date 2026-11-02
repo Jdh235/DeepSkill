@@ -1,0 +1,2786 @@
+{
+  "metadata": {
+    "dataset": "champ",
+    "retriever": "annotation",
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-09-02T04:43:54.150925+00:00",
+    "extra": {
+      "pool_members": [
+        "pt_bm25",
+        "pt_hiemstra_lm",
+        "pt_splade",
+        "dense_bge",
+        "dense_colbertv2",
+        "dense_contriever",
+        "dense_qwen3_emb_06b",
+        "dense_qwen3_emb_8b",
+        "dense_skillret_06b",
+        "dense_skillret_8b",
+        "dense_skillrouter_06b",
+        "dense_bge_m3"
+      ],
+      "union_k": 5,
+      "n_annotators": 1,
+      "task_list_file": "annotation/tasks.txt"
+    }
+  },
+  "metrics": {
+    "n_candidates": 323,
+    "n_gold_not_retrieved": 9
+  },
+  "results": [
+    {
+      "instance_id": "champ_00041",
+      "gold_skill_ids": [
+        "champ_061"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_079",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_082",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_086",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_087",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22557",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15038",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "bigcodebench_028",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_069",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_072",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_210",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_028",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_074",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_280",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_018",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06373",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22356",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_12095",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_084",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_023",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_06544",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_03622",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_063",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_088",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_080",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_061",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_061",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "champ_00075",
+      "gold_skill_ids": [
+        "champ_009"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_066",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_004",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_009",
+          "score": 4,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_001",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_026",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_003",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_087",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_055",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_020",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_061",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_129",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10282",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_01277",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_080",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_086",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24047",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09091",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06373",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_14256",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_088",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_082",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "champ_00098",
+      "gold_skill_ids": [
+        "champ_022"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_049",
+          "score": 11,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21067",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_24363",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10282",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_03622",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10374",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_11707",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_022",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_022",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "champ_00148",
+      "gold_skill_ids": [
+        "champ_033",
+        "champ_038"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_033",
+          "score": 10,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_038",
+          "score": 8,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_090",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_075",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_070",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_031",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_13305",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_14338",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_23953",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_23938",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_043",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_042",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "champ_00156",
+      "gold_skill_ids": [
+        "champ_048",
+        "champ_002",
+        "champ_079"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_079",
+          "score": 10,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_072",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_070",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_002",
+          "score": 2,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "web_06544",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22557",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_074",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_067",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_004",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_052",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_042",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_03622",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_098",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_048",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_048",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "champ_00160",
+      "gold_skill_ids": [
+        "champ_035",
+        "champ_022",
+        "champ_008"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_010",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_077",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_075",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_070",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_090",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_202",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_037",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_043",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_03622",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_082",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_035",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_022",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_008",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_008",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        },
+        {
+          "skill_id": "champ_022",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        },
+        {
+          "skill_id": "champ_035",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "champ_00174",
+      "gold_skill_ids": [
+        "champ_062"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_006",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_070",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_186",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10646",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_13305",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_14338",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15038",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_16923",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24363",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24022",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_080",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_010",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_294",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_004",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_031",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_153",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_022",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_03622",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06544",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_21076",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_194",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_062",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_062",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "champ_00208",
+      "gold_skill_ids": [
+        "champ_062",
+        "champ_043"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_010",
+          "score": 8,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_202",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_035",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_008",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_022",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_077",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_043",
+          "score": 1,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_058",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_280",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_062",
+          "score": 1,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_021",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_024",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_295",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": []
+    },
+    {
+      "instance_id": "champ_00231",
+      "gold_skill_ids": [
+        "champ_068",
+        "champ_005",
+        "champ_001"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_068",
+          "score": 6,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_077",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_001",
+          "score": 4,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_088",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_098",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_064",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_059",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_075",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_066",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_003",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_082",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_015",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_065",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06373",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06576",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_17864",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06544",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_023",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_005",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_005",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "champ_00259",
+      "gold_skill_ids": [
+        "champ_044"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_003",
+          "score": 6,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_064",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_065",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_077",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_020",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_197",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_083",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22996",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_129",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_054",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_02717",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_10282",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_21161",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_059",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_15943",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06373",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25477",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_10646",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_22037",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_24369",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_25543",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_03622",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "champ_044",
+          "score": null,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ],
+      "gold_not_retrieved": [
+        {
+          "skill_id": "champ_044",
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Skill Flag Re-annotation</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="intro-page">
+    <h1>Before you start</h1>
+    <p>This is a re-annotation round for the flags only. It covers the {{ total }} flags the annotators didn't all agree on, across {{ n_skills }} skills. Each page shows one skill and one flag the annotators disagreed on, with every annotator's original choice for reference; decide again whether it applies. A skill disputed on two flags comes up twice, once for each. Flags everyone agreed on aren't shown and stay as they were. There is no relevance rating in this round.</p>
+    <p>If a skill isn't in English, click "Translate this skill" on its page to translate it.</p>
+
+    <h2>Flags</h2>
+    <p>Each flag is judged on the skill's own content, independent of any task. For each flag, choose Yes or No; nothing is preselected, and a page can't be saved until you've chosen.</p>
+    <ul class="criteria-list">
+      {% for key, label, description, capability in flag_definitions %}
+      <li><strong>{{ label }}:</strong> {{ description }}</li>
+      {% endfor %}
+    </ul>
+    <p class="flag-note">Some skills appear in more than one dataset. They're flagged separately for each, since "Not actionable in this environment" depends on the dataset's environment.</p>
+
+    <a href="/skill/{{ start_position }}" class="intro-start">Start labelling</a>
+  </main>
+</body>
+</html>

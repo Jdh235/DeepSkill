@@ -1,0 +1,1197 @@
+[
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_000",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_022",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_028",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_030",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_034",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_039",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_045",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_098",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_108",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_113",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_125",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_127",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_128",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "bigcodebench_129",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_00019",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_00114",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_00597",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_01111",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_01178",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_01842",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_01939",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_02616",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_02808",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_03251",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_03679",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_03922",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_04112",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_05897",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_05930",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_07186",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_07464",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_07470",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_07509",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_07638",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_07747",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_08076",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_08322",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_08468",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_08619",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_09451",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_09686",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_09726",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_09732",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_09816",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_09830",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_10245",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_10317",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_10798",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_11265",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_11429",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_11860",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_13463",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_13518",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_14048",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_14608",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_15089",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_15118",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_16159",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_16450",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_17162",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_17173",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_17194",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_17599",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_17982",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_18002",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_18357",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_18493",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_18637",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_19128",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_19529",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_20338",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_20383",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_20937",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_21358",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_22037",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_22046",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_22211",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_22504",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_22538",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_23421",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_23486",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_23535",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_24368",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_24986",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_25151",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_25335",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_25558",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "bigcodebench",
+    "skill_id": "web_25585",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "bigcodebench_028",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_01913",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_02717",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_06544",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_06545",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_09413",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_14338",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_22557",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_23938",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_23953",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "champ",
+    "skill_id": "web_24369",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_00195",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_00655",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_00833",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_00855",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_01307",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_01619",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_01840",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_02069",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_02165",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_02212",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_02353",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_03137",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_03318",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_03547",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_03609",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_04337",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_04435",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_04907",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_05121",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_05208",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_05226",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_05281",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_05723",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_07375",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_07522",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_07668",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_08337",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_08355",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_09102",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_09195",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_09638",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_09714",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_10166",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_10225",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_10410",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_10754",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_10963",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_11529",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_11739",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_12269",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_12303",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13293",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13359",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13603",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13647",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13699",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13832",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_13847",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_14350",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_14835",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_16512",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_16898",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_17855",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_18659",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_18920",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_19456",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_19947",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_20415",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_20689",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_20696",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_21889",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_22219",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_22223",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_22590",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_22789",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_22823",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_23051",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_23241",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_23954",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24120",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24120",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24155",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24176",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24203",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24207",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "logicbench",
+    "skill_id": "web_24363",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "medcalcbench_005",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_04694",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_08364",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_08626",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_12785",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_13206",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_13370",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_17740",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_21067",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "medcalcbench",
+    "skill_id": "web_23420",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "can1357--child-skill",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "cisco-ai-defense--data-exfiltrator",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "composiohq--template-skill",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "denser-org--denser-retriever",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "harshanandak--parallel-data-enrichment",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "muratcankoylan--skill-template",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "ratacat--dianalokada",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "skill_usage",
+    "skill_id": "sendaifun--my-skill-name",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "bigcodebench_079",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "bigcodebench_096",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_00069",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_01913",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_03346",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_03812",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_06323",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_06544",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_06545",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_07200",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_07752",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_07964",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_08065",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_08264",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_08827",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_09413",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_09629",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_09776",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_10020",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_10358",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_10497",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_11632",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_11829",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_12436",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_13293",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_13691",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_14338",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_14751",
+    "flag": "malicious"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_14851",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_15251",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_15897",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_16871",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_17740",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_18552",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_19196",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_21285",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_21575",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_22037",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_22211",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_22557",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_22764",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_22996",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_24196",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_24369",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_25300",
+    "flag": "not_actionable"
+  },
+  {
+    "dataset": "theoremqa",
+    "skill_id": "web_25505",
+    "flag": "not_actionable"
+  }
+]

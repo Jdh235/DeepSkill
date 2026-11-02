@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "dataset": "theoremqa",
+    "retriever": "annotation",
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-09-02T04:43:54.159906+00:00",
+    "extra": {
+      "pool_members": [
+        "pt_bm25",
+        "pt_hiemstra_lm",
+        "pt_splade",
+        "dense_bge",
+        "dense_colbertv2",
+        "dense_contriever",
+        "dense_qwen3_emb_06b",
+        "dense_qwen3_emb_8b",
+        "dense_skillret_06b",
+        "dense_skillret_8b",
+        "dense_skillrouter_06b",
+        "dense_bge_m3"
+      ],
+      "union_k": 5,
+      "n_annotators": 1,
+      "task_list_file": "annotation/tasks.txt",
+      "reannotation": {
+        "sources": [
+          "task_subset_1",
+          "task_subset_2",
+          "task_subset_3"
+        ],
+        "min_spread": 2
+      }
+    }
+  },
+  "metrics": {
+    "n_candidates": 37
+  },
+  "results": [
+    {
+      "instance_id": "theoremqa_00087",
+      "gold_skill_ids": [
+        "theoremqa_205"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_289",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "champ_003",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_105",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_079",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00126",
+      "gold_skill_ids": [
+        "theoremqa_065"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_253",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00312",
+      "gold_skill_ids": [
+        "theoremqa_030"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_031",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "theoremqa_020",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00315",
+      "gold_skill_ids": [
+        "theoremqa_197"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_065",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00316",
+      "gold_skill_ids": [
+        "theoremqa_162"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_06545",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_057",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_111",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00472",
+      "gold_skill_ids": [
+        "theoremqa_017"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_017",
+          "score": 11,
+          "is_gold": true,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "theoremqa_033",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00492",
+      "gold_skill_ids": [
+        "theoremqa_147"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_190",
+          "score": 5,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_150",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_14338",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "theoremqa_143",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00494",
+      "gold_skill_ids": [
+        "theoremqa_282"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "web_06545",
+          "score": 3,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_14338",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "bigcodebench_079",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        },
+        {
+          "skill_id": "theoremqa_109",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        },
+        {
+          "skill_id": "bigcodebench_096",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_22557",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 3
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00578",
+      "gold_skill_ids": [
+        "theoremqa_164"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_051",
+          "score": 4,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 2,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_09413",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 2
+          }
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00649",
+      "gold_skill_ids": [
+        "theoremqa_007"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_008",
+          "score": 10,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 1
+          }
+        },
+        {
+          "skill_id": "theoremqa_005",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        },
+        {
+          "skill_id": "web_08651",
+          "score": 1,
+          "is_gold": false,
+          "annotations": {
+            "annotator_1": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fafaf8;
+  --ink: #1c1c1a;
+  --line: #ddd;
+  --accent: #2563eb;
+  --banner: #16a34a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --ink: #e8e6e1;
+    --line: #3a3a3a;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+}
+.header-inner {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+.progress {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+nav a { color: var(--accent); text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+nav .disabled { opacity: 0.35; }
+
+nav.datasets {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+}
+nav.datasets + nav {
+  margin-top: 0.75rem;
+}
+nav.datasets .current {
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent);
+}
+
+.banner {
+  background: var(--banner);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.intro-page {
+  max-width: 780px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+.intro-page h1 { font-size: 1.3rem; margin-bottom: 1rem; }
+.intro-page h2 { font-size: 1rem; margin: 1.5rem 0 0.85rem; }
+.intro-page p { margin: 0 0 0.9rem; font-size: 0.95rem; line-height: 1.6; }
+.intro-page p.flag-note { margin-top: 0.9rem; }
+
+.criteria-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.criteria-list li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+.criteria-list li:last-child { margin-bottom: 0; }
+
+.judge-intro {
+  max-width: 780px;
+  margin: 1.5rem auto 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(37, 99, 235, 0.06);
+}
+.judge-role {
+  font-size: 0.95rem;
+  margin: 0 0 0.4rem;
+}
+.judge-intro .dataset-description {
+  font-size: 0.95rem;
+  opacity: 1;
+  margin: 0;
+}
+.intro-start {
+  display: inline-block;
+  margin-top: 0.75rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.6rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.intro-start:hover { opacity: 0.9; }
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h2 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+
+.dataset-description {
+  font-size: 0.9rem;
+  font-style: normal;
+  opacity: 0.85;
+  margin: 0 0 0.5rem;
+}
+
+.translate-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.5rem 0 1rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+.translate-link:hover { text-decoration: underline; }
+
+.instruction pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: rgba(127,127,127,0.08);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.85rem;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.candidates { margin-top: 1.5rem; }
+
+.bundled-files {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+}
+.bundled-files summary {
+  cursor: pointer;
+  color: var(--accent);
+}
+.bundled-files ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+}
+.bundled-files li { margin-bottom: 0.25rem; }
+.bundled-files a { color: var(--accent); }
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.flag {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+}
+.flag-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.flag-description, .flag-capability {
+  margin: 0.3rem 0 0;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+/* The dataset's environment note under "Not actionable": a highlighted callout,
+   since that flag hinges entirely on what this environment can do */
+.flag-capability {
+  font-weight: 700;
+  font-size: 0.85rem;
+  opacity: 1;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.7rem;
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  background: rgba(37, 99, 235, 0.1);
+}
+/* Flag re-annotation: a little breathing room between the note and the Yes/No choice */
+.flag-capability + .flag-choice { margin-top: 0.75rem; }
+
+.candidate {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.candidate pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: rgba(127,127,127,0.08);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.8rem;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+
+.scale {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  font-size: 0.85rem;
+}
+.scale-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+
+button.save {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  position: sticky;
+  bottom: 1rem;
+  margin-top: 1.25rem;
+}
+button.save:hover { opacity: 0.9; }
+
+/* --- Re-annotation apps (reannotation/) only: each annotator's earlier answer --- */
+.previous-ratings, .previous-flags {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: rgba(127,127,127,0.06);
+}
+.previous-ratings h2, .previous-flags h2 { margin-top: 0; }
+.previous-ratings-note, .previous-flags-note {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+.previous-ratings ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+}
+.previous-rater { font-weight: 600; }
+.previous-flags table {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.previous-flags th, .previous-flags td {
+  text-align: left;
+  padding: 0.25rem 1rem 0.25rem 0;
+}
+.previous-flags thead th { font-weight: 600; opacity: 0.75; }
+.previous-flags tbody th { font-weight: 400; }

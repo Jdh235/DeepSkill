@@ -1,0 +1,23 @@
+[project]
+name = "pyterrier-retrieval"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "python-terrier>=0.10.1",
+    "ir_measures",
+    "pandas",
+]
+
+[project.optional-dependencies]
+# Only needed for the dense retrievers (retrievers/dense/, build_dense_index). Pulls in
+# torch/sentence-transformers -- the sparse retrievers (retrievers/sparse/) never import it.
+dense = ["pyterrier_dr"]
+# The paper's tables and figures (figures/build_all.sh).
+analysis = ["matplotlib", "scipy", "scikit-learn"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

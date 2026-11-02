@@ -1,0 +1,2104 @@
+{
+  "metadata": {
+    "dataset": "theoremqa",
+    "retriever": "dense_contriever",
+    "top_k": 50,
+    "corpus_size": 26262,
+    "n_queries": 10,
+    "timestamp": "2026-07-26T01:20:56.690379+00:00",
+    "extra": {}
+  },
+  "metrics": {
+    "nDCG@50": 0.7057900049423689,
+    "nDCG@10": 0.6618066694250937,
+    "nDCG@5": 0.6261859507142915,
+    "nDCG@1": 0.5,
+    "Recall@1": 0.5,
+    "Recall@5": 0.7,
+    "Recall@10": 0.8,
+    "Recall@50": 1.0,
+    "R-Precision": 0.5
+  },
+  "results": [
+    {
+      "instance_id": "theoremqa_00087",
+      "gold_skill_ids": [
+        "theoremqa_205"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_205",
+          "score": 0.6769689321517944
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 0.6366218328475952
+        },
+        {
+          "skill_id": "theoremqa_066",
+          "score": 0.6354833245277405
+        },
+        {
+          "skill_id": "champ_076",
+          "score": 0.633197546005249
+        },
+        {
+          "skill_id": "theoremqa_211",
+          "score": 0.6247347593307495
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 0.6229247450828552
+        },
+        {
+          "skill_id": "theoremqa_294",
+          "score": 0.621813178062439
+        },
+        {
+          "skill_id": "champ_003",
+          "score": 0.6218079328536987
+        },
+        {
+          "skill_id": "theoremqa_125",
+          "score": 0.6214202046394348
+        },
+        {
+          "skill_id": "champ_064",
+          "score": 0.6206729412078857
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 0.6195526123046875
+        },
+        {
+          "skill_id": "theoremqa_123",
+          "score": 0.617354691028595
+        },
+        {
+          "skill_id": "champ_071",
+          "score": 0.6144928932189941
+        },
+        {
+          "skill_id": "theoremqa_084",
+          "score": 0.6132591962814331
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.6119558215141296
+        },
+        {
+          "skill_id": "theoremqa_289",
+          "score": 0.6113099455833435
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.6093016862869263
+        },
+        {
+          "skill_id": "theoremqa_079",
+          "score": 0.6092814207077026
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 0.6079838275909424
+        },
+        {
+          "skill_id": "theoremqa_113",
+          "score": 0.607075572013855
+        },
+        {
+          "skill_id": "champ_058",
+          "score": 0.6049617528915405
+        },
+        {
+          "skill_id": "theoremqa_293",
+          "score": 0.6027017831802368
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.6013461351394653
+        },
+        {
+          "skill_id": "theoremqa_296",
+          "score": 0.5993741750717163
+        },
+        {
+          "skill_id": "theoremqa_197",
+          "score": 0.5988515615463257
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.5975281000137329
+        },
+        {
+          "skill_id": "theoremqa_077",
+          "score": 0.5973325371742249
+        },
+        {
+          "skill_id": "theoremqa_292",
+          "score": 0.5954079627990723
+        },
+        {
+          "skill_id": "champ_020",
+          "score": 0.5936912894248962
+        },
+        {
+          "skill_id": "theoremqa_142",
+          "score": 0.5923047065734863
+        },
+        {
+          "skill_id": "theoremqa_107",
+          "score": 0.5909544825553894
+        },
+        {
+          "skill_id": "theoremqa_091",
+          "score": 0.5901310443878174
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.5899621248245239
+        },
+        {
+          "skill_id": "champ_027",
+          "score": 0.5899388194084167
+        },
+        {
+          "skill_id": "champ_018",
+          "score": 0.5891586542129517
+        },
+        {
+          "skill_id": "champ_088",
+          "score": 0.5889020562171936
+        },
+        {
+          "skill_id": "theoremqa_287",
+          "score": 0.5886251926422119
+        },
+        {
+          "skill_id": "champ_066",
+          "score": 0.5885816812515259
+        },
+        {
+          "skill_id": "theoremqa_122",
+          "score": 0.5884719491004944
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.5881037712097168
+        },
+        {
+          "skill_id": "theoremqa_284",
+          "score": 0.5879151821136475
+        },
+        {
+          "skill_id": "theoremqa_099",
+          "score": 0.5852199792861938
+        },
+        {
+          "skill_id": "theoremqa_127",
+          "score": 0.5830519795417786
+        },
+        {
+          "skill_id": "theoremqa_105",
+          "score": 0.5828433036804199
+        },
+        {
+          "skill_id": "theoremqa_183",
+          "score": 0.5822726488113403
+        },
+        {
+          "skill_id": "theoremqa_194",
+          "score": 0.5817608833312988
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.5813489556312561
+        },
+        {
+          "skill_id": "theoremqa_118",
+          "score": 0.5813350677490234
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 0.5813217163085938
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.5812634229660034
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00126",
+      "gold_skill_ids": [
+        "theoremqa_065"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_065",
+          "score": 0.5560272932052612
+        },
+        {
+          "skill_id": "champ_039",
+          "score": 0.5470362901687622
+        },
+        {
+          "skill_id": "theoremqa_251",
+          "score": 0.5382051467895508
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.5370796918869019
+        },
+        {
+          "skill_id": "theoremqa_001",
+          "score": 0.5355252027511597
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.5237404108047485
+        },
+        {
+          "skill_id": "champ_030",
+          "score": 0.5225412249565125
+        },
+        {
+          "skill_id": "theoremqa_202",
+          "score": 0.5188366174697876
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 0.5180171728134155
+        },
+        {
+          "skill_id": "champ_016",
+          "score": 0.5175909996032715
+        },
+        {
+          "skill_id": "theoremqa_291",
+          "score": 0.515990138053894
+        },
+        {
+          "skill_id": "theoremqa_274",
+          "score": 0.5149110555648804
+        },
+        {
+          "skill_id": "web_06750",
+          "score": 0.5080947875976562
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 0.5076186656951904
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.5074981451034546
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 0.5072662830352783
+        },
+        {
+          "skill_id": "web_03812",
+          "score": 0.5036084651947021
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 0.5032826662063599
+        },
+        {
+          "skill_id": "champ_037",
+          "score": 0.5032709836959839
+        },
+        {
+          "skill_id": "champ_065",
+          "score": 0.5021785497665405
+        },
+        {
+          "skill_id": "champ_013",
+          "score": 0.5018125772476196
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 0.5012803673744202
+        },
+        {
+          "skill_id": "champ_038",
+          "score": 0.5008832216262817
+        },
+        {
+          "skill_id": "theoremqa_092",
+          "score": 0.5004410743713379
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.4998917877674103
+        },
+        {
+          "skill_id": "champ_035",
+          "score": 0.4995066523551941
+        },
+        {
+          "skill_id": "champ_052",
+          "score": 0.49607276916503906
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 0.49600541591644287
+        },
+        {
+          "skill_id": "web_07743",
+          "score": 0.4949228763580322
+        },
+        {
+          "skill_id": "theoremqa_273",
+          "score": 0.4947468340396881
+        },
+        {
+          "skill_id": "theoremqa_237",
+          "score": 0.4933009147644043
+        },
+        {
+          "skill_id": "theoremqa_219",
+          "score": 0.48946720361709595
+        },
+        {
+          "skill_id": "web_07964",
+          "score": 0.4893251061439514
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 0.48871976137161255
+        },
+        {
+          "skill_id": "theoremqa_246",
+          "score": 0.48871201276779175
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 0.4886821508407593
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 0.487216591835022
+        },
+        {
+          "skill_id": "theoremqa_144",
+          "score": 0.48678237199783325
+        },
+        {
+          "skill_id": "champ_075",
+          "score": 0.48671603202819824
+        },
+        {
+          "skill_id": "web_19110",
+          "score": 0.48575496673583984
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.485617995262146
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 0.4837539792060852
+        },
+        {
+          "skill_id": "champ_083",
+          "score": 0.48311305046081543
+        },
+        {
+          "skill_id": "theoremqa_238",
+          "score": 0.4811355769634247
+        },
+        {
+          "skill_id": "champ_040",
+          "score": 0.48100462555885315
+        },
+        {
+          "skill_id": "web_24552",
+          "score": 0.47991079092025757
+        },
+        {
+          "skill_id": "theoremqa_244",
+          "score": 0.4795094132423401
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 0.4793224334716797
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 0.47730162739753723
+        },
+        {
+          "skill_id": "champ_066",
+          "score": 0.47710996866226196
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00312",
+      "gold_skill_ids": [
+        "theoremqa_030"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_036",
+          "score": 0.6574758291244507
+        },
+        {
+          "skill_id": "theoremqa_031",
+          "score": 0.5999557971954346
+        },
+        {
+          "skill_id": "theoremqa_020",
+          "score": 0.596498966217041
+        },
+        {
+          "skill_id": "theoremqa_039",
+          "score": 0.5932626724243164
+        },
+        {
+          "skill_id": "theoremqa_016",
+          "score": 0.5706642866134644
+        },
+        {
+          "skill_id": "theoremqa_017",
+          "score": 0.5695798993110657
+        },
+        {
+          "skill_id": "theoremqa_019",
+          "score": 0.5679582953453064
+        },
+        {
+          "skill_id": "theoremqa_013",
+          "score": 0.5595357418060303
+        },
+        {
+          "skill_id": "theoremqa_041",
+          "score": 0.553473711013794
+        },
+        {
+          "skill_id": "theoremqa_073",
+          "score": 0.5503948926925659
+        },
+        {
+          "skill_id": "theoremqa_033",
+          "score": 0.5456217527389526
+        },
+        {
+          "skill_id": "theoremqa_048",
+          "score": 0.5433647632598877
+        },
+        {
+          "skill_id": "theoremqa_012",
+          "score": 0.541016697883606
+        },
+        {
+          "skill_id": "theoremqa_056",
+          "score": 0.5335351228713989
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.5322287082672119
+        },
+        {
+          "skill_id": "theoremqa_015",
+          "score": 0.5275449156761169
+        },
+        {
+          "skill_id": "theoremqa_034",
+          "score": 0.5272473096847534
+        },
+        {
+          "skill_id": "champ_053",
+          "score": 0.5240219831466675
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.5232478380203247
+        },
+        {
+          "skill_id": "theoremqa_287",
+          "score": 0.5230917930603027
+        },
+        {
+          "skill_id": "theoremqa_026",
+          "score": 0.522303581237793
+        },
+        {
+          "skill_id": "theoremqa_300",
+          "score": 0.5212477445602417
+        },
+        {
+          "skill_id": "theoremqa_098",
+          "score": 0.5135826468467712
+        },
+        {
+          "skill_id": "theoremqa_027",
+          "score": 0.5118587613105774
+        },
+        {
+          "skill_id": "theoremqa_089",
+          "score": 0.5105377435684204
+        },
+        {
+          "skill_id": "theoremqa_088",
+          "score": 0.5071208477020264
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.5064226984977722
+        },
+        {
+          "skill_id": "theoremqa_069",
+          "score": 0.5063624978065491
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 0.5061479806900024
+        },
+        {
+          "skill_id": "theoremqa_240",
+          "score": 0.5044429302215576
+        },
+        {
+          "skill_id": "theoremqa_053",
+          "score": 0.5022416114807129
+        },
+        {
+          "skill_id": "theoremqa_304",
+          "score": 0.5018265843391418
+        },
+        {
+          "skill_id": "theoremqa_306",
+          "score": 0.5005849003791809
+        },
+        {
+          "skill_id": "theoremqa_250",
+          "score": 0.5001722574234009
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.499531090259552
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 0.49904656410217285
+        },
+        {
+          "skill_id": "theoremqa_276",
+          "score": 0.4985942244529724
+        },
+        {
+          "skill_id": "champ_023",
+          "score": 0.49762609601020813
+        },
+        {
+          "skill_id": "champ_065",
+          "score": 0.49563735723495483
+        },
+        {
+          "skill_id": "champ_057",
+          "score": 0.49558472633361816
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.49499833583831787
+        },
+        {
+          "skill_id": "web_06469",
+          "score": 0.4947561025619507
+        },
+        {
+          "skill_id": "theoremqa_018",
+          "score": 0.493727445602417
+        },
+        {
+          "skill_id": "web_08511",
+          "score": 0.49362486600875854
+        },
+        {
+          "skill_id": "web_07205",
+          "score": 0.49196556210517883
+        },
+        {
+          "skill_id": "web_08154",
+          "score": 0.4894832968711853
+        },
+        {
+          "skill_id": "theoremqa_046",
+          "score": 0.4892749786376953
+        },
+        {
+          "skill_id": "theoremqa_127",
+          "score": 0.4888055920600891
+        },
+        {
+          "skill_id": "theoremqa_030",
+          "score": 0.4887155294418335
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.4885915517807007
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00315",
+      "gold_skill_ids": [
+        "theoremqa_197"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_041",
+          "score": 0.634235143661499
+        },
+        {
+          "skill_id": "champ_027",
+          "score": 0.6330500245094299
+        },
+        {
+          "skill_id": "theoremqa_194",
+          "score": 0.6152859926223755
+        },
+        {
+          "skill_id": "champ_004",
+          "score": 0.6148443222045898
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 0.6122087836265564
+        },
+        {
+          "skill_id": "theoremqa_197",
+          "score": 0.6107650995254517
+        },
+        {
+          "skill_id": "champ_054",
+          "score": 0.6064202189445496
+        },
+        {
+          "skill_id": "champ_053",
+          "score": 0.6062291860580444
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 0.6057004928588867
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.6036254167556763
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.6031627058982849
+        },
+        {
+          "skill_id": "theoremqa_294",
+          "score": 0.5991657972335815
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 0.599082350730896
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 0.5969606637954712
+        },
+        {
+          "skill_id": "theoremqa_291",
+          "score": 0.5919594168663025
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.5913791656494141
+        },
+        {
+          "skill_id": "champ_023",
+          "score": 0.5898048281669617
+        },
+        {
+          "skill_id": "theoremqa_223",
+          "score": 0.5885680913925171
+        },
+        {
+          "skill_id": "champ_065",
+          "score": 0.5885108709335327
+        },
+        {
+          "skill_id": "champ_055",
+          "score": 0.5871042013168335
+        },
+        {
+          "skill_id": "theoremqa_090",
+          "score": 0.5865015983581543
+        },
+        {
+          "skill_id": "champ_028",
+          "score": 0.5856020450592041
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.5853655338287354
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 0.5850774049758911
+        },
+        {
+          "skill_id": "champ_035",
+          "score": 0.5835747718811035
+        },
+        {
+          "skill_id": "champ_046",
+          "score": 0.5830302238464355
+        },
+        {
+          "skill_id": "champ_066",
+          "score": 0.5827795267105103
+        },
+        {
+          "skill_id": "champ_037",
+          "score": 0.582474410533905
+        },
+        {
+          "skill_id": "theoremqa_088",
+          "score": 0.5808989405632019
+        },
+        {
+          "skill_id": "theoremqa_127",
+          "score": 0.580326497554779
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 0.5797320604324341
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.578877329826355
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 0.5777932405471802
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 0.5766335129737854
+        },
+        {
+          "skill_id": "champ_025",
+          "score": 0.5757913589477539
+        },
+        {
+          "skill_id": "champ_038",
+          "score": 0.575768232345581
+        },
+        {
+          "skill_id": "theoremqa_198",
+          "score": 0.5736752152442932
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 0.5718200206756592
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.5715629458427429
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.5712323784828186
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 0.5698369741439819
+        },
+        {
+          "skill_id": "theoremqa_202",
+          "score": 0.5682086944580078
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 0.5681082606315613
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.5678271651268005
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 0.5675528645515442
+        },
+        {
+          "skill_id": "champ_014",
+          "score": 0.5668270587921143
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 0.5640016794204712
+        },
+        {
+          "skill_id": "champ_074",
+          "score": 0.5638198852539062
+        },
+        {
+          "skill_id": "champ_012",
+          "score": 0.5632070302963257
+        },
+        {
+          "skill_id": "theoremqa_282",
+          "score": 0.562711775302887
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00316",
+      "gold_skill_ids": [
+        "theoremqa_162"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_162",
+          "score": 0.6921971440315247
+        },
+        {
+          "skill_id": "theoremqa_294",
+          "score": 0.610315203666687
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.5914924144744873
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 0.5888738632202148
+        },
+        {
+          "skill_id": "theoremqa_222",
+          "score": 0.5884395837783813
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 0.5855305194854736
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.585425078868866
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.5811774730682373
+        },
+        {
+          "skill_id": "theoremqa_123",
+          "score": 0.5801688432693481
+        },
+        {
+          "skill_id": "champ_070",
+          "score": 0.5762151479721069
+        },
+        {
+          "skill_id": "champ_004",
+          "score": 0.5760712623596191
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.5757170915603638
+        },
+        {
+          "skill_id": "champ_076",
+          "score": 0.5755857229232788
+        },
+        {
+          "skill_id": "bigcodebench_096",
+          "score": 0.573104739189148
+        },
+        {
+          "skill_id": "theoremqa_280",
+          "score": 0.5724085569381714
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 0.5690217018127441
+        },
+        {
+          "skill_id": "theoremqa_160",
+          "score": 0.5688698291778564
+        },
+        {
+          "skill_id": "theoremqa_069",
+          "score": 0.5660945177078247
+        },
+        {
+          "skill_id": "theoremqa_113",
+          "score": 0.5638407468795776
+        },
+        {
+          "skill_id": "theoremqa_198",
+          "score": 0.563784122467041
+        },
+        {
+          "skill_id": "champ_046",
+          "score": 0.5630454421043396
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 0.5627825260162354
+        },
+        {
+          "skill_id": "champ_022",
+          "score": 0.5625841617584229
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 0.5609451532363892
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.5608590245246887
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 0.559476912021637
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.5590966939926147
+        },
+        {
+          "skill_id": "theoremqa_071",
+          "score": 0.558029294013977
+        },
+        {
+          "skill_id": "champ_028",
+          "score": 0.5575332641601562
+        },
+        {
+          "skill_id": "champ_053",
+          "score": 0.5567901730537415
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 0.5564224720001221
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 0.5557804107666016
+        },
+        {
+          "skill_id": "champ_052",
+          "score": 0.5554219484329224
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 0.5553042888641357
+        },
+        {
+          "skill_id": "champ_072",
+          "score": 0.5548211336135864
+        },
+        {
+          "skill_id": "web_03800",
+          "score": 0.5544962882995605
+        },
+        {
+          "skill_id": "theoremqa_098",
+          "score": 0.5542064309120178
+        },
+        {
+          "skill_id": "theoremqa_201",
+          "score": 0.5540094375610352
+        },
+        {
+          "skill_id": "champ_066",
+          "score": 0.5539911389350891
+        },
+        {
+          "skill_id": "champ_074",
+          "score": 0.5538045763969421
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.5530440807342529
+        },
+        {
+          "skill_id": "web_06792",
+          "score": 0.5529319643974304
+        },
+        {
+          "skill_id": "theoremqa_172",
+          "score": 0.5524235963821411
+        },
+        {
+          "skill_id": "champ_055",
+          "score": 0.551163911819458
+        },
+        {
+          "skill_id": "theoremqa_195",
+          "score": 0.5507442951202393
+        },
+        {
+          "skill_id": "theoremqa_174",
+          "score": 0.5507110357284546
+        },
+        {
+          "skill_id": "theoremqa_291",
+          "score": 0.5500538349151611
+        },
+        {
+          "skill_id": "theoremqa_066",
+          "score": 0.549822211265564
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.5484359264373779
+        },
+        {
+          "skill_id": "theoremqa_278",
+          "score": 0.548170804977417
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00472",
+      "gold_skill_ids": [
+        "theoremqa_017"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_015",
+          "score": 0.6706774234771729
+        },
+        {
+          "skill_id": "theoremqa_017",
+          "score": 0.6505260467529297
+        },
+        {
+          "skill_id": "theoremqa_039",
+          "score": 0.5997650027275085
+        },
+        {
+          "skill_id": "theoremqa_038",
+          "score": 0.5802948474884033
+        },
+        {
+          "skill_id": "theoremqa_048",
+          "score": 0.5759938359260559
+        },
+        {
+          "skill_id": "theoremqa_064",
+          "score": 0.5739586353302002
+        },
+        {
+          "skill_id": "theoremqa_036",
+          "score": 0.5662174224853516
+        },
+        {
+          "skill_id": "theoremqa_041",
+          "score": 0.5536240339279175
+        },
+        {
+          "skill_id": "theoremqa_073",
+          "score": 0.5513209104537964
+        },
+        {
+          "skill_id": "theoremqa_012",
+          "score": 0.5496374368667603
+        },
+        {
+          "skill_id": "theoremqa_020",
+          "score": 0.5467045307159424
+        },
+        {
+          "skill_id": "theoremqa_030",
+          "score": 0.5455830097198486
+        },
+        {
+          "skill_id": "theoremqa_034",
+          "score": 0.5358675718307495
+        },
+        {
+          "skill_id": "theoremqa_091",
+          "score": 0.5335618257522583
+        },
+        {
+          "skill_id": "theoremqa_069",
+          "score": 0.5310810208320618
+        },
+        {
+          "skill_id": "theoremqa_050",
+          "score": 0.528164803981781
+        },
+        {
+          "skill_id": "theoremqa_013",
+          "score": 0.5254329442977905
+        },
+        {
+          "skill_id": "theoremqa_287",
+          "score": 0.5244938731193542
+        },
+        {
+          "skill_id": "theoremqa_022",
+          "score": 0.5241822004318237
+        },
+        {
+          "skill_id": "theoremqa_276",
+          "score": 0.523279070854187
+        },
+        {
+          "skill_id": "theoremqa_059",
+          "score": 0.5188616514205933
+        },
+        {
+          "skill_id": "theoremqa_057",
+          "score": 0.5187770128250122
+        },
+        {
+          "skill_id": "theoremqa_031",
+          "score": 0.5179978609085083
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.516277551651001
+        },
+        {
+          "skill_id": "theoremqa_056",
+          "score": 0.5143859386444092
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 0.5106523036956787
+        },
+        {
+          "skill_id": "theoremqa_029",
+          "score": 0.5089235305786133
+        },
+        {
+          "skill_id": "theoremqa_123",
+          "score": 0.5060261487960815
+        },
+        {
+          "skill_id": "theoremqa_113",
+          "score": 0.5039326548576355
+        },
+        {
+          "skill_id": "theoremqa_027",
+          "score": 0.5031864643096924
+        },
+        {
+          "skill_id": "theoremqa_033",
+          "score": 0.4999315142631531
+        },
+        {
+          "skill_id": "theoremqa_077",
+          "score": 0.4971722662448883
+        },
+        {
+          "skill_id": "theoremqa_066",
+          "score": 0.49671584367752075
+        },
+        {
+          "skill_id": "theoremqa_016",
+          "score": 0.4962485432624817
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 0.49538105726242065
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 0.49537354707717896
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.4949949085712433
+        },
+        {
+          "skill_id": "theoremqa_018",
+          "score": 0.49473634362220764
+        },
+        {
+          "skill_id": "theoremqa_250",
+          "score": 0.4909384846687317
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.4897589087486267
+        },
+        {
+          "skill_id": "theoremqa_105",
+          "score": 0.4894255995750427
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.48917657136917114
+        },
+        {
+          "skill_id": "champ_071",
+          "score": 0.48915553092956543
+        },
+        {
+          "skill_id": "champ_083",
+          "score": 0.48871704936027527
+        },
+        {
+          "skill_id": "theoremqa_084",
+          "score": 0.48871496319770813
+        },
+        {
+          "skill_id": "theoremqa_297",
+          "score": 0.4868413507938385
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.48643165826797485
+        },
+        {
+          "skill_id": "champ_088",
+          "score": 0.48513171076774597
+        },
+        {
+          "skill_id": "theoremqa_302",
+          "score": 0.48462820053100586
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.4842802882194519
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00492",
+      "gold_skill_ids": [
+        "theoremqa_147"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_006",
+          "score": 0.6234354376792908
+        },
+        {
+          "skill_id": "theoremqa_147",
+          "score": 0.6110541820526123
+        },
+        {
+          "skill_id": "theoremqa_176",
+          "score": 0.6103389263153076
+        },
+        {
+          "skill_id": "theoremqa_190",
+          "score": 0.6097024083137512
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.608412504196167
+        },
+        {
+          "skill_id": "theoremqa_150",
+          "score": 0.6016354560852051
+        },
+        {
+          "skill_id": "theoremqa_172",
+          "score": 0.5995537042617798
+        },
+        {
+          "skill_id": "theoremqa_170",
+          "score": 0.5958994626998901
+        },
+        {
+          "skill_id": "theoremqa_181",
+          "score": 0.5957624912261963
+        },
+        {
+          "skill_id": "theoremqa_238",
+          "score": 0.5927237272262573
+        },
+        {
+          "skill_id": "web_10020",
+          "score": 0.590274453163147
+        },
+        {
+          "skill_id": "theoremqa_180",
+          "score": 0.5743009448051453
+        },
+        {
+          "skill_id": "theoremqa_159",
+          "score": 0.5731899738311768
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.5729142427444458
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.5713355541229248
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 0.5705490112304688
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.5699605941772461
+        },
+        {
+          "skill_id": "theoremqa_100",
+          "score": 0.5696781277656555
+        },
+        {
+          "skill_id": "theoremqa_244",
+          "score": 0.5661188960075378
+        },
+        {
+          "skill_id": "theoremqa_143",
+          "score": 0.565863311290741
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 0.564405083656311
+        },
+        {
+          "skill_id": "champ_046",
+          "score": 0.5641637444496155
+        },
+        {
+          "skill_id": "web_23086",
+          "score": 0.5627541542053223
+        },
+        {
+          "skill_id": "champ_023",
+          "score": 0.5621461868286133
+        },
+        {
+          "skill_id": "theoremqa_294",
+          "score": 0.558963418006897
+        },
+        {
+          "skill_id": "theoremqa_177",
+          "score": 0.5589116215705872
+        },
+        {
+          "skill_id": "theoremqa_202",
+          "score": 0.5565168857574463
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 0.5564243793487549
+        },
+        {
+          "skill_id": "champ_071",
+          "score": 0.5562627911567688
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.5561577081680298
+        },
+        {
+          "skill_id": "champ_053",
+          "score": 0.5555692315101624
+        },
+        {
+          "skill_id": "theoremqa_185",
+          "score": 0.5535892844200134
+        },
+        {
+          "skill_id": "web_10803",
+          "score": 0.5535740852355957
+        },
+        {
+          "skill_id": "theoremqa_165",
+          "score": 0.553206205368042
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 0.5530121326446533
+        },
+        {
+          "skill_id": "theoremqa_175",
+          "score": 0.5525291562080383
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.5520236492156982
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 0.5511211156845093
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 0.5494725704193115
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 0.5492644906044006
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 0.5482054948806763
+        },
+        {
+          "skill_id": "theoremqa_183",
+          "score": 0.5476855039596558
+        },
+        {
+          "skill_id": "theoremqa_156",
+          "score": 0.5476716756820679
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 0.5470589399337769
+        },
+        {
+          "skill_id": "champ_038",
+          "score": 0.5468446612358093
+        },
+        {
+          "skill_id": "champ_035",
+          "score": 0.5466593503952026
+        },
+        {
+          "skill_id": "theoremqa_171",
+          "score": 0.5456262826919556
+        },
+        {
+          "skill_id": "champ_088",
+          "score": 0.5445348620414734
+        },
+        {
+          "skill_id": "web_24270",
+          "score": 0.5442714691162109
+        },
+        {
+          "skill_id": "web_06544",
+          "score": 0.5441867709159851
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00494",
+      "gold_skill_ids": [
+        "theoremqa_282"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "champ_047",
+          "score": 0.6258911490440369
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.6235392093658447
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.6178405284881592
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.6084910035133362
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 0.6073359847068787
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 0.5958199501037598
+        },
+        {
+          "skill_id": "champ_077",
+          "score": 0.5935697555541992
+        },
+        {
+          "skill_id": "web_06545",
+          "score": 0.5901848077774048
+        },
+        {
+          "skill_id": "champ_069",
+          "score": 0.5866916179656982
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.586143970489502
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 0.5857095718383789
+        },
+        {
+          "skill_id": "theoremqa_109",
+          "score": 0.5785840749740601
+        },
+        {
+          "skill_id": "theoremqa_282",
+          "score": 0.5766001343727112
+        },
+        {
+          "skill_id": "champ_052",
+          "score": 0.5762454271316528
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 0.570752739906311
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 0.5700515508651733
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.5699862837791443
+        },
+        {
+          "skill_id": "champ_068",
+          "score": 0.5685482025146484
+        },
+        {
+          "skill_id": "champ_046",
+          "score": 0.5681641101837158
+        },
+        {
+          "skill_id": "theoremqa_275",
+          "score": 0.5660931468009949
+        },
+        {
+          "skill_id": "champ_071",
+          "score": 0.5643185377120972
+        },
+        {
+          "skill_id": "champ_088",
+          "score": 0.5630167722702026
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 0.5627346038818359
+        },
+        {
+          "skill_id": "theoremqa_083",
+          "score": 0.5618041157722473
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 0.5610017776489258
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 0.5605998039245605
+        },
+        {
+          "skill_id": "champ_063",
+          "score": 0.560443639755249
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.5580661296844482
+        },
+        {
+          "skill_id": "champ_014",
+          "score": 0.5578638315200806
+        },
+        {
+          "skill_id": "bigcodebench_096",
+          "score": 0.5574985146522522
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.5561027526855469
+        },
+        {
+          "skill_id": "web_01913",
+          "score": 0.5555630922317505
+        },
+        {
+          "skill_id": "champ_075",
+          "score": 0.5543942451477051
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 0.5542391538619995
+        },
+        {
+          "skill_id": "theoremqa_164",
+          "score": 0.5540575981140137
+        },
+        {
+          "skill_id": "champ_025",
+          "score": 0.5535514950752258
+        },
+        {
+          "skill_id": "champ_028",
+          "score": 0.5497236847877502
+        },
+        {
+          "skill_id": "web_06544",
+          "score": 0.548633873462677
+        },
+        {
+          "skill_id": "champ_041",
+          "score": 0.5474920272827148
+        },
+        {
+          "skill_id": "champ_070",
+          "score": 0.5474916696548462
+        },
+        {
+          "skill_id": "theoremqa_294",
+          "score": 0.5473430156707764
+        },
+        {
+          "skill_id": "theoremqa_066",
+          "score": 0.5472201108932495
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.5458979606628418
+        },
+        {
+          "skill_id": "theoremqa_198",
+          "score": 0.545546293258667
+        },
+        {
+          "skill_id": "champ_001",
+          "score": 0.5452107191085815
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 0.5451488494873047
+        },
+        {
+          "skill_id": "web_10803",
+          "score": 0.5450400710105896
+        },
+        {
+          "skill_id": "web_22557",
+          "score": 0.5446765422821045
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 0.5446539521217346
+        },
+        {
+          "skill_id": "champ_043",
+          "score": 0.5445115566253662
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00578",
+      "gold_skill_ids": [
+        "theoremqa_164"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_164",
+          "score": 0.7548643350601196
+        },
+        {
+          "skill_id": "champ_051",
+          "score": 0.6729508638381958
+        },
+        {
+          "skill_id": "champ_052",
+          "score": 0.6673826575279236
+        },
+        {
+          "skill_id": "champ_049",
+          "score": 0.6641445159912109
+        },
+        {
+          "skill_id": "champ_036",
+          "score": 0.6515506505966187
+        },
+        {
+          "skill_id": "champ_010",
+          "score": 0.6466891169548035
+        },
+        {
+          "skill_id": "champ_032",
+          "score": 0.6411592960357666
+        },
+        {
+          "skill_id": "champ_077",
+          "score": 0.6377829313278198
+        },
+        {
+          "skill_id": "champ_071",
+          "score": 0.6355963945388794
+        },
+        {
+          "skill_id": "champ_050",
+          "score": 0.6265599727630615
+        },
+        {
+          "skill_id": "champ_047",
+          "score": 0.6265087723731995
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.6241041421890259
+        },
+        {
+          "skill_id": "champ_075",
+          "score": 0.6227469444274902
+        },
+        {
+          "skill_id": "champ_038",
+          "score": 0.618261456489563
+        },
+        {
+          "skill_id": "theoremqa_116",
+          "score": 0.6138786673545837
+        },
+        {
+          "skill_id": "theoremqa_298",
+          "score": 0.6138615608215332
+        },
+        {
+          "skill_id": "champ_007",
+          "score": 0.6111273765563965
+        },
+        {
+          "skill_id": "champ_043",
+          "score": 0.6088311672210693
+        },
+        {
+          "skill_id": "champ_045",
+          "score": 0.607284426689148
+        },
+        {
+          "skill_id": "champ_078",
+          "score": 0.6072708368301392
+        },
+        {
+          "skill_id": "theoremqa_202",
+          "score": 0.607125997543335
+        },
+        {
+          "skill_id": "champ_046",
+          "score": 0.6013190746307373
+        },
+        {
+          "skill_id": "champ_005",
+          "score": 0.6006988286972046
+        },
+        {
+          "skill_id": "champ_008",
+          "score": 0.5994287729263306
+        },
+        {
+          "skill_id": "champ_080",
+          "score": 0.5980822443962097
+        },
+        {
+          "skill_id": "champ_044",
+          "score": 0.591233491897583
+        },
+        {
+          "skill_id": "champ_053",
+          "score": 0.5893720388412476
+        },
+        {
+          "skill_id": "champ_035",
+          "score": 0.5877244472503662
+        },
+        {
+          "skill_id": "theoremqa_191",
+          "score": 0.5849997997283936
+        },
+        {
+          "skill_id": "theoremqa_127",
+          "score": 0.584713339805603
+        },
+        {
+          "skill_id": "champ_028",
+          "score": 0.58287513256073
+        },
+        {
+          "skill_id": "champ_058",
+          "score": 0.5822385549545288
+        },
+        {
+          "skill_id": "champ_033",
+          "score": 0.5815747976303101
+        },
+        {
+          "skill_id": "champ_019",
+          "score": 0.5808357000350952
+        },
+        {
+          "skill_id": "champ_034",
+          "score": 0.5772049427032471
+        },
+        {
+          "skill_id": "champ_081",
+          "score": 0.5767748355865479
+        },
+        {
+          "skill_id": "theoremqa_086",
+          "score": 0.574678897857666
+        },
+        {
+          "skill_id": "champ_086",
+          "score": 0.5742689967155457
+        },
+        {
+          "skill_id": "theoremqa_299",
+          "score": 0.5724179744720459
+        },
+        {
+          "skill_id": "champ_079",
+          "score": 0.5716545581817627
+        },
+        {
+          "skill_id": "theoremqa_291",
+          "score": 0.571548342704773
+        },
+        {
+          "skill_id": "theoremqa_232",
+          "score": 0.5702141523361206
+        },
+        {
+          "skill_id": "champ_073",
+          "score": 0.5690485835075378
+        },
+        {
+          "skill_id": "theoremqa_066",
+          "score": 0.5687704086303711
+        },
+        {
+          "skill_id": "theoremqa_246",
+          "score": 0.5660932064056396
+        },
+        {
+          "skill_id": "theoremqa_186",
+          "score": 0.5656341314315796
+        },
+        {
+          "skill_id": "champ_022",
+          "score": 0.5652847290039062
+        },
+        {
+          "skill_id": "champ_055",
+          "score": 0.5636004209518433
+        },
+        {
+          "skill_id": "theoremqa_288",
+          "score": 0.5628688335418701
+        },
+        {
+          "skill_id": "champ_040",
+          "score": 0.5626564025878906
+        }
+      ]
+    },
+    {
+      "instance_id": "theoremqa_00649",
+      "gold_skill_ids": [
+        "theoremqa_007"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "theoremqa_007",
+          "score": 0.6982628107070923
+        },
+        {
+          "skill_id": "theoremqa_002",
+          "score": 0.6265146732330322
+        },
+        {
+          "skill_id": "theoremqa_003",
+          "score": 0.6192015409469604
+        },
+        {
+          "skill_id": "theoremqa_005",
+          "score": 0.6186578273773193
+        },
+        {
+          "skill_id": "theoremqa_008",
+          "score": 0.602051854133606
+        },
+        {
+          "skill_id": "theoremqa_310",
+          "score": 0.6012486219406128
+        },
+        {
+          "skill_id": "theoremqa_313",
+          "score": 0.6011106967926025
+        },
+        {
+          "skill_id": "web_08651",
+          "score": 0.5792586803436279
+        },
+        {
+          "skill_id": "web_16033",
+          "score": 0.5756330490112305
+        },
+        {
+          "skill_id": "theoremqa_004",
+          "score": 0.5645982027053833
+        },
+        {
+          "skill_id": "web_13784",
+          "score": 0.5622465014457703
+        },
+        {
+          "skill_id": "theoremqa_011",
+          "score": 0.5564015507698059
+        },
+        {
+          "skill_id": "theoremqa_317",
+          "score": 0.5560014247894287
+        },
+        {
+          "skill_id": "web_00270",
+          "score": 0.555387020111084
+        },
+        {
+          "skill_id": "theoremqa_312",
+          "score": 0.5547868609428406
+        },
+        {
+          "skill_id": "theoremqa_006",
+          "score": 0.554449200630188
+        },
+        {
+          "skill_id": "theoremqa_009",
+          "score": 0.5517423152923584
+        },
+        {
+          "skill_id": "theoremqa_314",
+          "score": 0.548713743686676
+        },
+        {
+          "skill_id": "theoremqa_311",
+          "score": 0.5433861017227173
+        },
+        {
+          "skill_id": "web_16031",
+          "score": 0.5426937341690063
+        },
+        {
+          "skill_id": "web_20054",
+          "score": 0.5425311326980591
+        },
+        {
+          "skill_id": "theoremqa_309",
+          "score": 0.5415293574333191
+        },
+        {
+          "skill_id": "theoremqa_188",
+          "score": 0.5383944511413574
+        },
+        {
+          "skill_id": "theoremqa_256",
+          "score": 0.5382395386695862
+        },
+        {
+          "skill_id": "theoremqa_316",
+          "score": 0.5380939841270447
+        },
+        {
+          "skill_id": "theoremqa_183",
+          "score": 0.5378249883651733
+        },
+        {
+          "skill_id": "theoremqa_261",
+          "score": 0.5369836091995239
+        },
+        {
+          "skill_id": "web_19902",
+          "score": 0.5348081588745117
+        },
+        {
+          "skill_id": "web_02510",
+          "score": 0.5346294641494751
+        },
+        {
+          "skill_id": "champ_053",
+          "score": 0.5345036387443542
+        },
+        {
+          "skill_id": "web_05286",
+          "score": 0.5331873893737793
+        },
+        {
+          "skill_id": "champ_006",
+          "score": 0.5321327447891235
+        },
+        {
+          "skill_id": "web_01501",
+          "score": 0.5310938358306885
+        },
+        {
+          "skill_id": "web_13963",
+          "score": 0.529970645904541
+        },
+        {
+          "skill_id": "web_13001",
+          "score": 0.529970645904541
+        },
+        {
+          "skill_id": "web_21948",
+          "score": 0.5284899473190308
+        },
+        {
+          "skill_id": "theoremqa_269",
+          "score": 0.5283960103988647
+        },
+        {
+          "skill_id": "web_04521",
+          "score": 0.5278953313827515
+        },
+        {
+          "skill_id": "web_16027",
+          "score": 0.526633620262146
+        },
+        {
+          "skill_id": "theoremqa_119",
+          "score": 0.524997889995575
+        },
+        {
+          "skill_id": "theoremqa_267",
+          "score": 0.5240082740783691
+        },
+        {
+          "skill_id": "web_06081",
+          "score": 0.5236479043960571
+        },
+        {
+          "skill_id": "theoremqa_260",
+          "score": 0.5226707458496094
+        },
+        {
+          "skill_id": "web_12679",
+          "score": 0.5221974849700928
+        },
+        {
+          "skill_id": "web_06206",
+          "score": 0.5220008492469788
+        },
+        {
+          "skill_id": "web_03327",
+          "score": 0.5219330787658691
+        },
+        {
+          "skill_id": "theoremqa_270",
+          "score": 0.5212967395782471
+        },
+        {
+          "skill_id": "web_19903",
+          "score": 0.520901083946228
+        },
+        {
+          "skill_id": "theoremqa_315",
+          "score": 0.5206257700920105
+        },
+        {
+          "skill_id": "web_19473",
+          "score": 0.520009458065033
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4038 @@
+{
+ "metadata": {
+  "dataset": "logicbench",
+  "model": "GLM-4.5-Air-FP8",
+  "source": "agent_results/SRA-Bench/top5_subset50/candidate_sweep",
+  "reward": "1 if the run's answer is correct, else 0",
+  "baseline": "the model on the task with no skill",
+  "candidates": "the model on the task with exactly that one skill injected",
+  "runs": "independent attempts; baseline and skill runs are not paired",
+  "pool": "annotation/top5/task_subset/logicbench-annotation.json"
+ },
+ "results": [
+  {
+   "instance_id": "logicbench_00037",
+   "baseline": {
+    "rewards": [
+     0,
+     1,
+     1
+    ],
+    "mean": 0.6667
+   },
+   "candidates": [
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_005",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_004",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_06711",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_002",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_15633",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_20319",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04651",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22561",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19456",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_22899",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_18038",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_15388",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04944",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_001",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_01083",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_01030",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_01031",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00927",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_01053",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17861",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_00992",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_09762",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_18638",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_14926",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22986",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00409",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_10995",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_15511",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19089",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_014",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_15800",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": [
+    "logicbench_006"
+   ]
+  },
+  {
+   "instance_id": "logicbench_00087",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "web_18305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14763",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_01016",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_16868",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_004",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21557",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25440",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_002",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13603",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_23051",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_13359",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24203",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_00220",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_12076",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14263",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_07823",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_00882",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_09265",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15336",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_18580",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_05753",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_15410",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13647",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_19346",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00409",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_19276",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_07361",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00110",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     0
+    ],
+    "mean": 0.6667
+   },
+   "candidates": [
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_005",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_004",
+     "is_reference": true,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_15813",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_01040",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19305",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_002",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_17022",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_10166",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_09102",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_16512",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_02069",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_05281",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_24207",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_19828",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15780",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21132",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_14005",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_040",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_20479",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13985",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_13699",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_22900",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_06236",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_01181",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15567",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_03946",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_18638",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_011",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_01017",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_010",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_08355",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_20415",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_11257",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_014",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00165",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "web_09638",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_23241",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_02165",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "theoremqa_055",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22789",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_17234",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_10963",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_16898",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_07753",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_14671",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10387",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_14350",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_14835",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_07522",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13554",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_18920",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_11739",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_00833",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_10754",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_16660",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04588",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_21566",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_12004",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_001",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19279",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04435",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_05753",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_04506",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_15511",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_06920",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_23954",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    }
+   ],
+   "not_run": [
+    "logicbench_016"
+   ]
+  },
+  {
+   "instance_id": "logicbench_00217",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "web_23246",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_04356",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_017",
+     "is_reference": true,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_015",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_013",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13332",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_08144",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_012",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_011",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_10355",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_14263",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_009",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_24155",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13847",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_01840",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_06711",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_24342",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13539",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_19731",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_18659",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09857",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_18305",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_05208",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_05226",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22219",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09714",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_06072",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_016",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09265",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_24341",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00241",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "web_23656",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10680",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_09892",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_07375",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25440",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_19761",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_08348",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_24846",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_02228",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_00994",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_04907",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04672",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_24120",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_16377",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_11403",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_18974",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_01251",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_15631",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04259",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_20838",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22302",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_12359",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_17652",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17653",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_05916",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_05912",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_16634",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_18748",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_24708",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_018",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_015",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_009",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_010",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13638",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24176",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_02212",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_03318",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00348",
+   "baseline": {
+    "rewards": [
+     1,
+     1,
+     1
+    ],
+    "mean": 1.0
+   },
+   "candidates": [
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_002",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_004",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_16219",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21557",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_012",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_011",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_005",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_018",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_007",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_06170",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_013",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10680",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_10410",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_17718",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13832",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_17770",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_09320",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13583",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_07361",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_00743",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10225",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19408",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15035",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_16990",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_05607",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_24363",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_18638",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_24163",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_014",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_010",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_016",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_009",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_10705",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_18426",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_09366",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_01619",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_03964",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00387",
+   "baseline": {
+    "rewards": [
+     0,
+     1,
+     0
+    ],
+    "mean": 0.3333
+   },
+   "candidates": [
+    {
+     "skill_id": "logicbench_014",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_009",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_05723",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_012",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_03609",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17770",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_010",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04097",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_23317",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_12303",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_12269",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_11669",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_09102",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_013",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_011",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_21889",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22590",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_03547",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_01307",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_07668",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22056",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_21028",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_13803",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_00471",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22854",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_25356",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_11529",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_16785",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_19401",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_00195",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_05121",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_08421",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17653",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09834",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_22986",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_13293",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_04515",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22823",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_13025",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_04506",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_00409",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_19089",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "theoremqa_102",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_08864",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_20540",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_06595",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00472",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     1
+    ],
+    "mean": 0.3333
+   },
+   "candidates": [
+    {
+     "skill_id": "web_15747",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_001",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_02165",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_000",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21557",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19726",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04621",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_04337",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_005",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_00655",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "theoremqa_055",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_02353",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19947",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_05753",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_07205",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09320",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_011",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19313",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21942",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_00129",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15813",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_15631",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_16898",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_15641",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_17864",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_21566",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22986",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_11739",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_002",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_23584",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_004",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      0
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_22902",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_16868",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_08562",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "logicbench_014",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_09638",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_10963",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_09324",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  },
+  {
+   "instance_id": "logicbench_00582",
+   "baseline": {
+    "rewards": [
+     0,
+     0,
+     0
+    ],
+    "mean": 0.0
+   },
+   "candidates": [
+    {
+     "skill_id": "web_23246",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_06072",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_009",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25440",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_22223",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_19274",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_08144",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_04621",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_19276",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_19283",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_09195",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_23652",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "logicbench_013",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_20606",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_01840",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_03137",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_20696",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_04257",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_20689",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_09762",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17901",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_21540",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_20056",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      1
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_08337",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_22986",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_07192",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "web_05679",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17840",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17770",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_22219",
+     "is_reference": false,
+     "rewards": [
+      1,
+      0,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_017",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_011",
+     "is_reference": true,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_008",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      0
+     ],
+     "mean": 0.3333
+    },
+    {
+     "skill_id": "logicbench_002",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "logicbench_004",
+     "is_reference": false,
+     "rewards": [
+      1,
+      1,
+      1
+     ],
+     "mean": 1.0
+    },
+    {
+     "skill_id": "web_25026",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_17855",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_04506",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_00409",
+     "is_reference": false,
+     "rewards": [
+      0,
+      0,
+      0
+     ],
+     "mean": 0.0
+    },
+    {
+     "skill_id": "web_24626",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    },
+    {
+     "skill_id": "web_19279",
+     "is_reference": false,
+     "rewards": [
+      0,
+      1,
+      1
+     ],
+     "mean": 0.6667
+    }
+   ],
+   "not_run": []
+  }
+ ]
+}

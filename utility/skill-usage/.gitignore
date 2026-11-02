@@ -1,0 +1,19 @@
+# Downloaded data (README step 2)
+data/skill_usage/
+.local-workspace/
+
+# Generated task sets (README step 3)
+tasks-no-skills/
+tasks-candidate-sweep/
+tasks-top5k-progdisc/
+tasks-top5k-fullinject/
+
+# Harbor outputs
+results/
+jobs/
+
+# Local helper scripts, not part of the release
+bunya/
+
+__pycache__/
+.DS_Store

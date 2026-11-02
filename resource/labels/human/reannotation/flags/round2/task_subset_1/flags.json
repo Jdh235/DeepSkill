@@ -1,0 +1,1680 @@
+{
+  "medcalcbench": {
+    "web_08626": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_04694": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13370": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_21067": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17740": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23420": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08364": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13206": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "medcalcbench_005": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_12785": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    }
+  },
+  "skill_usage": {
+    "denser-org--denser-retriever": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "composiohq--template-skill": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "muratcankoylan--skill-template": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "harshanandak--parallel-data-enrichment": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "can1357--child-skill": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "sendaifun--my-skill-name": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "cisco-ai-defense--data-exfiltrator": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "ratacat--dianalokada": {
+      "annotator_1": {
+        "malicious": true,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    }
+  },
+  "theoremqa": {
+    "web_14751": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_13293": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10497": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_25300": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17740": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_14851": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_01913": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_19196": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_096": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_079": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24196": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22037": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18552": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_03346": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22211": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_06544": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10358": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07200": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_06545": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_14338": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08065": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09413": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07752": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03812": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_21575": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09629": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10020": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_25505": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_12436": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07964": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11829": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_15251": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00069": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_21285": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22557": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13691": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08827": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22996": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09776": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_15897": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22764": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_06323": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11632": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24369": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08264": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_16871": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    }
+  },
+  "bigcodebench": {
+    "web_22538": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17162": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09732": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07509": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_24986": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02808": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_19128": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_000": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_25585": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_108": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_05897": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01111": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09816": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09686": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01178": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18357": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "bigcodebench_113": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_08076": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07470": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09830": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22046": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_028": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22037": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09451": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13463": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17194": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10317": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03251": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23421": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11265": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00597": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_022": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18493": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07747": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_04112": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_20383": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23486": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_098": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24368": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_21358": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_23535": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01842": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_127": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22211": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "bigcodebench_125": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_25151": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01939": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "bigcodebench_030": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17982": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02616": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11429": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22504": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_25558": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_25335": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_15118": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_14608": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07186": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07464": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_039": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_045": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_034": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_129": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08322": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03679": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_16450": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07638": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_05930": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17173": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08619": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13518": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09726": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_15089": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08468": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11860": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10245": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00019": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10798": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_19529": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_14048": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18002": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00114": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_16159": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_20338": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_128": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18637": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_17599": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_20937": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03922": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    }
+  },
+  "champ": {
+    "web_14338": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02717": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22557": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_06545": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_06544": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23953": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "bigcodebench_028": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09413": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01913": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23938": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24369": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    }
+  },
+  "logicbench": {
+    "web_19456": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_05208": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09195": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03547": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02353": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23241": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22590": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_20689": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_14350": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01307": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03137": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24176": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_21889": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01619": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07668": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03609": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23051": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24120": {
+      "annotator_1": {
+        "malicious": true,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_04435": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02069": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13699": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_05121": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24363": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_05723": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_12303": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_13647": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11529": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_20415": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18920": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13847": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10754": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_12269": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09638": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_19947": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24207": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10166": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13293": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24155": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_18659": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22219": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_01840": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_24203": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00195": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_20696": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_00855": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10225": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02165": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_14835": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22823": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_05226": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10963": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_02212": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22789": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_04907": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_23954": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00833": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07375": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_22223": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_05281": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_04337": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08355": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_11739": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_10410": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_07522": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09714": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13359": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_08337": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13832": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_03318": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_16898": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_13603": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_09102": {
+      "annotator_1": {
+        "malicious": false,
+        "incorrect_info": false,
+        "not_actionable": true
+      }
+    },
+    "web_00655": {
+      "annotator_1": {
+        "malicious": true,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_16512": {
+      "annotator_1": {
+        "malicious": true,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    },
+    "web_17855": {
+      "annotator_1": {
+        "malicious": true,
+        "incorrect_info": false,
+        "not_actionable": false
+      }
+    }
+  }
+}

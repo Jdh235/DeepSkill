@@ -1,0 +1,5253 @@
+{
+  "metadata": {
+    "dataset": "skill_usage",
+    "retriever": "pt_bm25",
+    "top_k": 50,
+    "corpus_size": 34396,
+    "n_queries": 25,
+    "timestamp": "2026-07-23T00:04:58.387924+00:00",
+    "extra": {}
+  },
+  "metrics": {
+    "nDCG@50": 0.5886900005925405,
+    "nDCG@10": 0.5725638953954428,
+    "nDCG@5": 0.5492605710954268,
+    "nDCG@1": 0.64,
+    "Recall@1": 0.3593333333333333,
+    "Recall@5": 0.5373333333333332,
+    "Recall@10": 0.5866666666666667,
+    "Recall@50": 0.6666666666666667,
+    "R-Precision": 0.4706666666666666
+  },
+  "results": [
+    {
+      "instance_id": "3d-scan-calc",
+      "gold_skill_ids": [
+        "benchflow-ai--mesh-analysis"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--mesh-analysis",
+          "score": 8.871768185970005
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 1.8791062392641298
+        },
+        {
+          "skill_id": "metta-ai--worldgen-biome-tune",
+          "score": 1.7228182970815986
+        },
+        {
+          "skill_id": "fatfingererr--cost-density-net-rr-calculator",
+          "score": 1.3458045173059605
+        },
+        {
+          "skill_id": "plurigrid--gh",
+          "score": 1.281926383275
+        },
+        {
+          "skill_id": "miles990--flame-core",
+          "score": 1.2717059593977589
+        },
+        {
+          "skill_id": "Gentleman-Programming--nextjs-15",
+          "score": 1.2543504431930463
+        },
+        {
+          "skill_id": "kunhai-88--vue-best-practices",
+          "score": 1.0796013341933448
+        },
+        {
+          "skill_id": "ashchupliak--kotlin-patterns",
+          "score": 1.0408960424904445
+        },
+        {
+          "skill_id": "rytass--wms-module",
+          "score": 1.0175791880005287
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 0.8978031966412839
+        },
+        {
+          "skill_id": "EXboys--text-processor",
+          "score": 0.8567775764764357
+        },
+        {
+          "skill_id": "shadowcz007--qq-email",
+          "score": 0.6637493917150806
+        },
+        {
+          "skill_id": "huiali--rust-linear-type",
+          "score": 0.5589993472692979
+        },
+        {
+          "skill_id": "finesssee--linear-labels",
+          "score": 0.5479398484752798
+        },
+        {
+          "skill_id": "mediar-ai--brand-style",
+          "score": 0.5303756976442863
+        },
+        {
+          "skill_id": "greatinterface--unreal-as",
+          "score": 0.5281808875799175
+        },
+        {
+          "skill_id": "orientpine--theme-seminar",
+          "score": 0.5191099133109702
+        },
+        {
+          "skill_id": "personamanagmentlayer--spring-boot-expert",
+          "score": 0.40389178151224986
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-borrow",
+          "score": 0.4029835036899048
+        },
+        {
+          "skill_id": "j5ik2o--error-classification",
+          "score": 0.3598905933340618
+        },
+        {
+          "skill_id": "j5ik2o--repository-design",
+          "score": 0.3191800684275799
+        },
+        {
+          "skill_id": "plurigrid--hoot",
+          "score": 0.3182889926207414
+        },
+        {
+          "skill_id": "lostabaddon--run-claude",
+          "score": 0.3163317071918232
+        },
+        {
+          "skill_id": "xu-xiang--java-coding-standards",
+          "score": 0.3141439336731594
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-sort",
+          "score": 0.3115903713648006
+        },
+        {
+          "skill_id": "opentiny--tiny-vue-skill",
+          "score": 0.30962741793238846
+        },
+        {
+          "skill_id": "djankies--using-context-api",
+          "score": 0.2908770046124388
+        },
+        {
+          "skill_id": "huangwb8--nsfc-qc",
+          "score": 0.27799667807062556
+        },
+        {
+          "skill_id": "alsk1992--metaculus",
+          "score": 0.2772081141725142
+        },
+        {
+          "skill_id": "luongnv89--api-documentation-generator",
+          "score": 0.27714936795557515
+        },
+        {
+          "skill_id": "XiaoMi--prometheus-skill",
+          "score": 0.27482329058073757
+        },
+        {
+          "skill_id": "seikaikyo--angular-primeng",
+          "score": 0.23265006644243919
+        },
+        {
+          "skill_id": "garfield-bb--hap-view-plugin",
+          "score": 0.23168061396193618
+        },
+        {
+          "skill_id": "finesssee--linear-roadmaps",
+          "score": 0.21586538504044073
+        },
+        {
+          "skill_id": "finesssee--linear-initiatives",
+          "score": 0.21577659986734085
+        },
+        {
+          "skill_id": "finesssee--linear-watch",
+          "score": 0.21480476152815894
+        },
+        {
+          "skill_id": "countbot-ai--baidu-search",
+          "score": 0.21015814342051767
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 0.20574863614271682
+        },
+        {
+          "skill_id": "lobehub--debug",
+          "score": 0.20437034395961567
+        },
+        {
+          "skill_id": "outfitter-dev--bun-dev",
+          "score": 0.20089187930106003
+        },
+        {
+          "skill_id": "dotnetage--read-file",
+          "score": 0.2005690265081508
+        },
+        {
+          "skill_id": "plurigrid--terminal",
+          "score": 0.20038194499653345
+        },
+        {
+          "skill_id": "cnn-cnn-creatoe--chinese-responder",
+          "score": 0.19859497462571968
+        },
+        {
+          "skill_id": "arcanexis--weibo",
+          "score": 0.1982197957507523
+        },
+        {
+          "skill_id": "saschabrunnerch--arcgis-visualization",
+          "score": 0.19149376005328694
+        },
+        {
+          "skill_id": "dhruvanbhalara--flutter-code-gen",
+          "score": 0.17502779833796603
+        },
+        {
+          "skill_id": "xu-xiang--springboot-verification",
+          "score": 0.16073968476746348
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 0.15285359987376693
+        },
+        {
+          "skill_id": "protagonistss--vue3-best-practices",
+          "score": 0.15066884079860784
+        }
+      ]
+    },
+    {
+      "instance_id": "adaptive-cruise-control",
+      "gold_skill_ids": [
+        "benchflow-ai--csv-processing",
+        "benchflow-ai--pid-controller",
+        "benchflow-ai--simulation-metrics",
+        "benchflow-ai--vehicle-dynamics",
+        "benchflow-ai--yaml-config"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--vehicle-dynamics",
+          "score": 32.38727267091521
+        },
+        {
+          "skill_id": "benchflow-ai--pid-controller",
+          "score": 22.124038917340986
+        },
+        {
+          "skill_id": "benchflow-ai--imc-tuning-rules",
+          "score": 12.918061728773196
+        },
+        {
+          "skill_id": "personamanagmentlayer--aerospace-expert",
+          "score": 7.75097550056059
+        },
+        {
+          "skill_id": "personamanagmentlayer--automotive-expert",
+          "score": 6.596268611717506
+        },
+        {
+          "skill_id": "personamanagmentlayer--maritime-expert",
+          "score": 5.076508714554332
+        },
+        {
+          "skill_id": "borghei--data-scientist",
+          "score": 2.9791833772341287
+        },
+        {
+          "skill_id": "orientpine--field-keywords",
+          "score": 2.8378207064846124
+        },
+        {
+          "skill_id": "benchflow-ai--yaml-config",
+          "score": 2.735220254751869
+        },
+        {
+          "skill_id": "melodic-software--sysml-modeling",
+          "score": 2.5687837677778393
+        },
+        {
+          "skill_id": "EXboys--text-processor",
+          "score": 2.2618489041368965
+        },
+        {
+          "skill_id": "simhacker--simulation",
+          "score": 2.1786242674362377
+        },
+        {
+          "skill_id": "benchflow-ai--search-driving-distance",
+          "score": 1.7970316085270663
+        },
+        {
+          "skill_id": "curiositech--physics-rendering-expert",
+          "score": 1.5559385615887147
+        },
+        {
+          "skill_id": "cklxx--soul-self-evolution",
+          "score": 1.4960868064884036
+        },
+        {
+          "skill_id": "huangwb8--migrating-latex-templates",
+          "score": 1.4479321867351194
+        },
+        {
+          "skill_id": "thedivergentai--godot-genre-racing",
+          "score": 1.4176281291121484
+        },
+        {
+          "skill_id": "zrt-ai-lab--uni-agent",
+          "score": 1.3589683058302455
+        },
+        {
+          "skill_id": "wshobson--vector-index-tuning",
+          "score": 1.3563464424268261
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 1.3352049840699203
+        },
+        {
+          "skill_id": "greatinterface--unreal-as",
+          "score": 1.2691739264174042
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 1.2404527087569164
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 1.2328407943169277
+        },
+        {
+          "skill_id": "cklxx--artifact-management",
+          "score": 1.2170365935106784
+        },
+        {
+          "skill_id": "geeksfino--findata-toolkit-cn",
+          "score": 1.188388303635739
+        },
+        {
+          "skill_id": "icartsh--dotnet-build",
+          "score": 1.142695985456956
+        },
+        {
+          "skill_id": "tai-ch0802--api-patterns",
+          "score": 1.138368556322279
+        },
+        {
+          "skill_id": "aaaaqwq--content-source-aggregator",
+          "score": 1.137794502849143
+        },
+        {
+          "skill_id": "cklxx--audio-tts",
+          "score": 1.1289474236065289
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 1.094316490979701
+        },
+        {
+          "skill_id": "plurigrid--emacs",
+          "score": 1.0645012249648422
+        },
+        {
+          "skill_id": "arcanexis--weibo",
+          "score": 1.0496227617636131
+        },
+        {
+          "skill_id": "fatfingererr--detect-shanghai-silver-stock-drain",
+          "score": 1.0496011663153593
+        },
+        {
+          "skill_id": "countbot-ai--baidu-search",
+          "score": 1.0420207708477325
+        },
+        {
+          "skill_id": "vamseeachanta--data-pipeline-processor",
+          "score": 1.0349379941421926
+        },
+        {
+          "skill_id": "cklxx--music-discovery",
+          "score": 0.991413045982422
+        },
+        {
+          "skill_id": "cklxx--social-trends",
+          "score": 0.9808357405872522
+        },
+        {
+          "skill_id": "arcaneorion--weather",
+          "score": 0.9336683253688844
+        },
+        {
+          "skill_id": "plurigrid--terminal",
+          "score": 0.9071928415245442
+        },
+        {
+          "skill_id": "MadAppGang--python",
+          "score": 0.8689139259382889
+        },
+        {
+          "skill_id": "dylantarre--responsive-adaptive",
+          "score": 0.8181404498293362
+        },
+        {
+          "skill_id": "metta-ai--worldgen-biome-tune",
+          "score": 0.7723728734365409
+        },
+        {
+          "skill_id": "prowler-cloud--pytest",
+          "score": 0.6889208374853741
+        },
+        {
+          "skill_id": "fatfingererr--analyze-high-unemployment-high-gdp-growth-fiscal-deficit-scenarios",
+          "score": 0.6758193128691553
+        },
+        {
+          "skill_id": "Gentleman-Programming--pytest",
+          "score": 0.6582041043325356
+        },
+        {
+          "skill_id": "countbot-ai--map",
+          "score": 0.657847675246038
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 0.6202316532930643
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-semantic-scholar",
+          "score": 0.5769509367520105
+        },
+        {
+          "skill_id": "Gentleman-Programming--django-drf",
+          "score": 0.5705081272120314
+        },
+        {
+          "skill_id": "thebushidocollective--pulumi-basics",
+          "score": 0.5420075485478468
+        }
+      ]
+    },
+    {
+      "instance_id": "azure-bgp-oscillation-route-leak",
+      "gold_skill_ids": [
+        "benchflow-ai--azure-bgp"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--azure-bgp",
+          "score": 82.04356433604876
+        },
+        {
+          "skill_id": "aaaaqwq--electron-app-dev",
+          "score": 9.374911641595341
+        },
+        {
+          "skill_id": "ruvnet--agent-resource-allocator",
+          "score": 9.278090373118832
+        },
+        {
+          "skill_id": "Gentleman-Programming--nextjs-15",
+          "score": 8.566159972550176
+        },
+        {
+          "skill_id": "zenobi-us--network-engineer",
+          "score": 7.822209974717041
+        },
+        {
+          "skill_id": "fatfingererr--evaluate-exponential-trend-deviation-regimes",
+          "score": 6.633930593929867
+        },
+        {
+          "skill_id": "m19803261706--vben-admin",
+          "score": 6.245557368769414
+        },
+        {
+          "skill_id": "fatfingererr--detect-palladium-lead-silver-turns",
+          "score": 6.124592888507147
+        },
+        {
+          "skill_id": "kunhai-88--react-native-best-practices",
+          "score": 5.995136963075388
+        },
+        {
+          "skill_id": "MadAppGang--rust",
+          "score": 5.749825506905834
+        },
+        {
+          "skill_id": "bbeierle12--frontend-dev-guidelines",
+          "score": 5.475623080984099
+        },
+        {
+          "skill_id": "fatfingererr--google-trends-ath-detector",
+          "score": 5.414895456377087
+        },
+        {
+          "skill_id": "icartsh--csharp-developer",
+          "score": 5.321576475787662
+        },
+        {
+          "skill_id": "Microck--hybrid-cloud-networking",
+          "score": 5.302196574587249
+        },
+        {
+          "skill_id": "davila7--nextjs-best-practices",
+          "score": 5.132713828552391
+        },
+        {
+          "skill_id": "kunhai-88--vue-best-practices",
+          "score": 5.110519642006895
+        },
+        {
+          "skill_id": "chaterm--network-tools",
+          "score": 5.084354231692259
+        },
+        {
+          "skill_id": "uview-pro--uview-pro",
+          "score": 4.994936958199536
+        },
+        {
+          "skill_id": "chaterm--systemd",
+          "score": 4.939296567823714
+        },
+        {
+          "skill_id": "alicoder001--react-vite",
+          "score": 4.8933715584676865
+        },
+        {
+          "skill_id": "fatfingererr--detect-us-equity-valuation-percentile-extreme",
+          "score": 4.767329446744703
+        },
+        {
+          "skill_id": "yusuketsunoda--security-hardening",
+          "score": 4.7530216871847175
+        },
+        {
+          "skill_id": "baidu-maps--bmap-jsapi-gl",
+          "score": 4.7333893584565185
+        },
+        {
+          "skill_id": "yusuketsunoda--security-threat-review",
+          "score": 4.725960510616887
+        },
+        {
+          "skill_id": "tomwq--expo-gaode-map-web-api",
+          "score": 4.718744866711223
+        },
+        {
+          "skill_id": "majiayu000--detect-atr-squeeze-regime",
+          "score": 4.711859318689468
+        },
+        {
+          "skill_id": "tai-ch0802--intelligent-routing",
+          "score": 4.7109330613555755
+        },
+        {
+          "skill_id": "khw1031--git-commit",
+          "score": 4.5984190165806105
+        },
+        {
+          "skill_id": "fatfingererr--monitor-etf-holdings-drawdown-risk",
+          "score": 4.585055987877795
+        },
+        {
+          "skill_id": "majiayu000--analyze-investment-clock-rotation",
+          "score": 4.575304483098333
+        },
+        {
+          "skill_id": "fatfingererr--detect-shanghai-silver-stock-drain",
+          "score": 4.5412000511176736
+        },
+        {
+          "skill_id": "thebushidocollective--android-architecture",
+          "score": 4.441455843363096
+        },
+        {
+          "skill_id": "fatfingererr--detect-freight-led-inflation-turn",
+          "score": 4.302692211774081
+        },
+        {
+          "skill_id": "travisjneuman--generic-fullstack-code-reviewer",
+          "score": 4.301541773534883
+        },
+        {
+          "skill_id": "fatfingererr--analyze-high-unemployment-high-gdp-growth-fiscal-deficit-scenarios",
+          "score": 4.2856535820175266
+        },
+        {
+          "skill_id": "fatfingererr--detect-fed-unamortized-discount-pattern",
+          "score": 4.23268297485808
+        },
+        {
+          "skill_id": "majiayu000--zeberg-salomon-rotator",
+          "score": 4.101909659714876
+        },
+        {
+          "skill_id": "bagelhole--azure-networking",
+          "score": 3.9207263314179532
+        },
+        {
+          "skill_id": "kunhai-88--agent-browser",
+          "score": 3.883797560096731
+        },
+        {
+          "skill_id": "crowi--crowi-migration",
+          "score": 3.7693321494785286
+        },
+        {
+          "skill_id": "chaterm--service-ingress",
+          "score": 3.7625252702918526
+        },
+        {
+          "skill_id": "Gentleman-Programming--ai-sdk-5",
+          "score": 3.517419032818237
+        },
+        {
+          "skill_id": "prowler-cloud--ai-sdk-5",
+          "score": 3.517419032818237
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 3.468198277897755
+        },
+        {
+          "skill_id": "leeovery--laravel-routing",
+          "score": 3.463929905460735
+        },
+        {
+          "skill_id": "rytass--member-module",
+          "score": 3.4319483831732596
+        },
+        {
+          "skill_id": "finesssee--linear-watch",
+          "score": 3.408588163045013
+        },
+        {
+          "skill_id": "protagonistss--vue3-best-practices",
+          "score": 3.369568419742947
+        },
+        {
+          "skill_id": "sangrokjung--security-pipeline",
+          "score": 3.336840499479449
+        },
+        {
+          "skill_id": "miles990--php",
+          "score": 3.1395687329273603
+        }
+      ]
+    },
+    {
+      "instance_id": "court-form-filling",
+      "gold_skill_ids": [
+        "benchflow-ai--pdf-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "curiositech--document-generation-pdf",
+          "score": 8.581839905249145
+        },
+        {
+          "skill_id": "okooo5km--chinese-copyright-application",
+          "score": 7.652145767471181
+        },
+        {
+          "skill_id": "orientpine--fund-output-template",
+          "score": 7.453787237092804
+        },
+        {
+          "skill_id": "zrt-ai-lab--searchnews",
+          "score": 6.812764076765348
+        },
+        {
+          "skill_id": "allenai2014--analyze",
+          "score": 6.686440938065864
+        },
+        {
+          "skill_id": "orientpine--perspective-balance",
+          "score": 6.525056449324048
+        },
+        {
+          "skill_id": "miles990--e-commerce",
+          "score": 6.195861797831893
+        },
+        {
+          "skill_id": "jamditis--foia-requests",
+          "score": 5.914180369037021
+        },
+        {
+          "skill_id": "allenai2014--review",
+          "score": 5.892810103917654
+        },
+        {
+          "skill_id": "garfield-bb--coo-social-media",
+          "score": 5.79160409388928
+        },
+        {
+          "skill_id": "alextangson--feishu-bitable",
+          "score": 5.775415006340453
+        },
+        {
+          "skill_id": "aaaaqwq--email-manager",
+          "score": 5.768784890617313
+        },
+        {
+          "skill_id": "orientpine--macro-output-template",
+          "score": 5.6297800768275685
+        },
+        {
+          "skill_id": "chang-pw--paper-summary",
+          "score": 5.436810872794118
+        },
+        {
+          "skill_id": "majiayu000--analyze-investment-clock-rotation",
+          "score": 5.314123214387414
+        },
+        {
+          "skill_id": "wordflowlab--requirement-detector",
+          "score": 5.279635621585993
+        },
+        {
+          "skill_id": "allenai2014--trade",
+          "score": 5.210161964041561
+        },
+        {
+          "skill_id": "enuno--case-analyzer",
+          "score": 5.126988837083956
+        },
+        {
+          "skill_id": "yusuketsunoda--security-threat-review",
+          "score": 5.101548011743113
+        },
+        {
+          "skill_id": "orangon--gitsite-content-manager",
+          "score": 5.101538793337055
+        },
+        {
+          "skill_id": "wade56754--frontend-design",
+          "score": 5.100843259224137
+        },
+        {
+          "skill_id": "chang-pw--read-arxiv-paper",
+          "score": 5.0893413514832115
+        },
+        {
+          "skill_id": "inference-sh--widgets-ui",
+          "score": 4.963256564600808
+        },
+        {
+          "skill_id": "orientpine--devil-advocate",
+          "score": 4.853931379456865
+        },
+        {
+          "skill_id": "chaterm--ssl-tls",
+          "score": 4.8375597651163655
+        },
+        {
+          "skill_id": "cyl19970726--polymarket-knowledge",
+          "score": 4.818517308146814
+        },
+        {
+          "skill_id": "zhanlincui--obsidian-helper",
+          "score": 4.781766883410892
+        },
+        {
+          "skill_id": "huifer--mental-health-analyzer",
+          "score": 4.770129936690866
+        },
+        {
+          "skill_id": "orientpine--data-collection-guide",
+          "score": 4.657120542965941
+        },
+        {
+          "skill_id": "gonglingrui--file-reference",
+          "score": 4.630062577255074
+        },
+        {
+          "skill_id": "fatfingererr--monitor-etf-holdings-drawdown-risk",
+          "score": 4.621459577064292
+        },
+        {
+          "skill_id": "curiositech--2026-legal-research-agent",
+          "score": 4.6063541611956875
+        },
+        {
+          "skill_id": "jmsktm--invoice-generator",
+          "score": 4.603568622203623
+        },
+        {
+          "skill_id": "Zeliper--spawn-test-case",
+          "score": 4.5736409999917225
+        },
+        {
+          "skill_id": "garfield-bb--hap-view-plugin",
+          "score": 4.546227352289295
+        },
+        {
+          "skill_id": "allenai2014--pencil-ui-design",
+          "score": 4.487903753420152
+        },
+        {
+          "skill_id": "founderjourney--remote-work-negotiation",
+          "score": 4.4796984643416105
+        },
+        {
+          "skill_id": "orientpine--chapter2-guide",
+          "score": 4.475712931230353
+        },
+        {
+          "skill_id": "huangwb8--nsfc-length-aligner",
+          "score": 4.465191575629648
+        },
+        {
+          "skill_id": "aidotnet--puppeteer",
+          "score": 4.448836785594745
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 4.447483727485021
+        },
+        {
+          "skill_id": "ratacat--dianalokada",
+          "score": 4.434449758086243
+        },
+        {
+          "skill_id": "hopesy--revit-api",
+          "score": 4.412201542674321
+        },
+        {
+          "skill_id": "aster110--scheduler",
+          "score": 4.374404103474109
+        },
+        {
+          "skill_id": "fatfingererr--detect-shanghai-silver-stock-drain",
+          "score": 4.3624860374588605
+        },
+        {
+          "skill_id": "yzfly--douyin-video",
+          "score": 4.272214795265129
+        },
+        {
+          "skill_id": "chaterm--image-management",
+          "score": 4.18493383667779
+        },
+        {
+          "skill_id": "0xlayerghost--solidity-audit",
+          "score": 4.137170244651778
+        },
+        {
+          "skill_id": "team-attention--google-calendar",
+          "score": 4.13588416315496
+        },
+        {
+          "skill_id": "jinfanzheng--rail",
+          "score": 4.085252486540931
+        }
+      ]
+    },
+    {
+      "instance_id": "dapt-intrusion-detection",
+      "gold_skill_ids": [
+        "benchflow-ai--pcap-analysis",
+        "benchflow-ai--threat-detection"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--pcap-analysis",
+          "score": 246.46824021087872
+        },
+        {
+          "skill_id": "sherifeldeeb--network-forensics",
+          "score": 85.91200607359639
+        },
+        {
+          "skill_id": "zebbern--wireshark-network-traffic-analysis",
+          "score": 73.64681566020516
+        },
+        {
+          "skill_id": "sickn33--wireshark-analysis",
+          "score": 72.78399036232678
+        },
+        {
+          "skill_id": "wshobson--protocol-reverse-engineering",
+          "score": 71.13082023596468
+        },
+        {
+          "skill_id": "benchflow-ai--threat-detection",
+          "score": 69.82130803048692
+        },
+        {
+          "skill_id": "oimiragieo--protocol-reverse-engineering",
+          "score": 69.40607896911236
+        },
+        {
+          "skill_id": "brownfinesecurity--netflows",
+          "score": 48.303303790079696
+        },
+        {
+          "skill_id": "chaterm--network-tools",
+          "score": 44.96458552000366
+        },
+        {
+          "skill_id": "chaterm--traffic-analysis",
+          "score": 38.202343024248066
+        },
+        {
+          "skill_id": "BrownFineSecurity--iotnet",
+          "score": 34.98659335280908
+        },
+        {
+          "skill_id": "sherifeldeeb--timeline-forensics",
+          "score": 34.66516312106693
+        },
+        {
+          "skill_id": "ancoleman--load-balancing-patterns",
+          "score": 33.71791734201419
+        },
+        {
+          "skill_id": "sherifeldeeb--log-forensics",
+          "score": 33.69330379122898
+        },
+        {
+          "skill_id": "masayuki-kono--hses-packet-analysis",
+          "score": 32.53596307097066
+        },
+        {
+          "skill_id": "dirnbauer--security-incident-reporting",
+          "score": 31.43835706176968
+        },
+        {
+          "skill_id": "ljagiello--ctf-forensics",
+          "score": 28.621204364343683
+        },
+        {
+          "skill_id": "CharlesWiltgen--axiom-network-framework-ref",
+          "score": 28.416145393018354
+        },
+        {
+          "skill_id": "el-feo--tailscale",
+          "score": 28.200513629480568
+        },
+        {
+          "skill_id": "letta-ai--torch-pipeline-parallelism",
+          "score": 27.837598295406888
+        },
+        {
+          "skill_id": "htlin222--network",
+          "score": 27.703350899528296
+        },
+        {
+          "skill_id": "constructive-io--fbp-types",
+          "score": 27.69392296920237
+        },
+        {
+          "skill_id": "curiouslearner--log-analyzer",
+          "score": 27.599631549781954
+        },
+        {
+          "skill_id": "plurigrid--sheaf-laplacian-coordination",
+          "score": 27.16113640452382
+        },
+        {
+          "skill_id": "ovachiever--pytorch-fsdp",
+          "score": 27.014344192362962
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-immune-repertoire-analysis",
+          "score": 26.134279213050448
+        },
+        {
+          "skill_id": "vamseeachanta--data-exploration",
+          "score": 26.122365900457456
+        },
+        {
+          "skill_id": "UKGovernmentBEIS--network-info",
+          "score": 25.952621760612487
+        },
+        {
+          "skill_id": "anthropics--data-exploration",
+          "score": 25.820356484243817
+        },
+        {
+          "skill_id": "89jobrien--network-engineering",
+          "score": 24.90801609295805
+        },
+        {
+          "skill_id": "daymade--tunnel-doctor",
+          "score": 24.66766884270233
+        },
+        {
+          "skill_id": "plurigrid--zig",
+          "score": 24.364406125287108
+        },
+        {
+          "skill_id": "constructive-io--fbp-spec",
+          "score": 24.041013351427196
+        },
+        {
+          "skill_id": "ancoleman--configuring-firewalls",
+          "score": 23.458899383757963
+        },
+        {
+          "skill_id": "davila7--pentest-commands",
+          "score": 23.137632473291102
+        },
+        {
+          "skill_id": "manutej--api-gateway-patterns",
+          "score": 23.073902663430925
+        },
+        {
+          "skill_id": "patricio0312rev--rate-limiting-abuse-protection",
+          "score": 22.965002510877234
+        },
+        {
+          "skill_id": "CharlesWiltgen--axiom-networking-diag",
+          "score": 22.830120760981274
+        },
+        {
+          "skill_id": "benchflow-ai--pcap-triage-tshark",
+          "score": 22.745864532809318
+        },
+        {
+          "skill_id": "plurigrid--anima-theory",
+          "score": 22.657904747991477
+        },
+        {
+          "skill_id": "sherifeldeeb--malware-forensics",
+          "score": 22.60162201612647
+        },
+        {
+          "skill_id": "constructive-io--fbp-graph-editor",
+          "score": 22.533344028202123
+        },
+        {
+          "skill_id": "armanzeroeight--security-group-analyzer",
+          "score": 22.25612948207223
+        },
+        {
+          "skill_id": "CharlesWiltgen--axiom-networking-legacy",
+          "score": 22.17001052385223
+        },
+        {
+          "skill_id": "sickn33--pentest-commands",
+          "score": 21.857951197716115
+        },
+        {
+          "skill_id": "mnkyarts--hytale-networking",
+          "score": 21.850606498649235
+        },
+        {
+          "skill_id": "manutej--kafka-stream-processing",
+          "score": 21.719908680888214
+        },
+        {
+          "skill_id": "zebbern--broken-authentication-testing",
+          "score": 21.5905186494277
+        },
+        {
+          "skill_id": "zebbern--shodan-reconnaissance-and-pentesting",
+          "score": 21.567111983100446
+        },
+        {
+          "skill_id": "questdb--questdb",
+          "score": 21.55664045335773
+        }
+      ]
+    },
+    {
+      "instance_id": "earthquake-plate-calculation",
+      "gold_skill_ids": [
+        "benchflow-ai--geospatial-analysis"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--geospatial-analysis",
+          "score": 27.281438052142757
+        },
+        {
+          "skill_id": "benchflow-ai--gamma-phase-associator",
+          "score": 7.015411929254663
+        },
+        {
+          "skill_id": "benchflow-ai--seismic-picker-selection",
+          "score": 6.709376021238092
+        },
+        {
+          "skill_id": "benchflow-ai--obspy-data-api",
+          "score": 4.766103910079756
+        },
+        {
+          "skill_id": "pachca--pachca-chats",
+          "score": 3.851517626367983
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 3.7032712857830656
+        },
+        {
+          "skill_id": "benchflow-ai--seisbench-model-api",
+          "score": 3.399488959092517
+        },
+        {
+          "skill_id": "alibaba--higress-daily-report",
+          "score": 3.2344724984736133
+        },
+        {
+          "skill_id": "travisjneuman--supply-chain-optimizer",
+          "score": 3.1497425805942623
+        },
+        {
+          "skill_id": "saschabrunnerch--arcgis-layers",
+          "score": 3.1347322182936757
+        },
+        {
+          "skill_id": "orientpine--fund-output-template",
+          "score": 3.0160724121488656
+        },
+        {
+          "skill_id": "fatfingererr--us-cpi-pce-comparator",
+          "score": 2.9924076113591576
+        },
+        {
+          "skill_id": "fatfingererr--detect-freight-led-inflation-turn",
+          "score": 2.598856221566369
+        },
+        {
+          "skill_id": "EXboys--http-request",
+          "score": 2.4812306871195458
+        },
+        {
+          "skill_id": "orientpine--file-save-protocol-stock",
+          "score": 2.404303379118954
+        },
+        {
+          "skill_id": "orientpine--macro-output-template",
+          "score": 2.3543100213560635
+        },
+        {
+          "skill_id": "huangwb8--nsfc-qc",
+          "score": 2.2801718775194804
+        },
+        {
+          "skill_id": "kazukinagata--income-tax",
+          "score": 2.2430828876246305
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 2.233471981423853
+        },
+        {
+          "skill_id": "aaaaqwq--content-source-aggregator",
+          "score": 2.1730404615529704
+        },
+        {
+          "skill_id": "huifer--rehabilitation-analyzer",
+          "score": 2.158298035274866
+        },
+        {
+          "skill_id": "zrt-ai-lab--searchnews",
+          "score": 2.127219328600832
+        },
+        {
+          "skill_id": "penkzhou--bugfix-workflow",
+          "score": 2.1163524790577215
+        },
+        {
+          "skill_id": "tukaelu--interest-discovery",
+          "score": 2.106273907627112
+        },
+        {
+          "skill_id": "shadowcz007--daily-briefing",
+          "score": 2.08151733703247
+        },
+        {
+          "skill_id": "eyadsibai--geopandas",
+          "score": 2.0321722823376622
+        },
+        {
+          "skill_id": "huifer--mental-health-analyzer",
+          "score": 1.9890452873943625
+        },
+        {
+          "skill_id": "allenai2014--brief",
+          "score": 1.9596336157108212
+        },
+        {
+          "skill_id": "unix2dos--mermaid-generator",
+          "score": 1.9280429634841678
+        },
+        {
+          "skill_id": "huifer--occupational-health-analyzer",
+          "score": 1.9186106818655526
+        },
+        {
+          "skill_id": "chaterm--benchmarking",
+          "score": 1.8615784811187424
+        },
+        {
+          "skill_id": "ismxy0934--technical-analysis",
+          "score": 1.8566203688596612
+        },
+        {
+          "skill_id": "782042369--weekly-report-generator",
+          "score": 1.845772084830745
+        },
+        {
+          "skill_id": "jinfanzheng--weather",
+          "score": 1.7952147017351114
+        },
+        {
+          "skill_id": "fatfingererr--detect-fed-unamortized-discount-pattern",
+          "score": 1.7862355841153212
+        },
+        {
+          "skill_id": "tukuaiai--telegram-dev",
+          "score": 1.7837500883346702
+        },
+        {
+          "skill_id": "fatfingererr--detect-us-equity-valuation-percentile-extreme",
+          "score": 1.7799221645077072
+        },
+        {
+          "skill_id": "xu-xiang--frontend-patterns",
+          "score": 1.7405799794235346
+        },
+        {
+          "skill_id": "zhanlincui--obsidian-helper",
+          "score": 1.7210738646673431
+        },
+        {
+          "skill_id": "bamzc--amis-builder",
+          "score": 1.7079062048458264
+        },
+        {
+          "skill_id": "khw1031--changelog",
+          "score": 1.700082917130063
+        },
+        {
+          "skill_id": "jinfanzheng--flight",
+          "score": 1.683486845702348
+        },
+        {
+          "skill_id": "qingchunwuhui--task-capture",
+          "score": 1.66161164185214
+        },
+        {
+          "skill_id": "allenai2014--scan",
+          "score": 1.6596641759287352
+        },
+        {
+          "skill_id": "jackjin1997--ddd",
+          "score": 1.623662265857849
+        },
+        {
+          "skill_id": "benchflow-ai--obspy-datacenter-client",
+          "score": 1.5821521897751312
+        },
+        {
+          "skill_id": "chaterm--cloud-backup",
+          "score": 1.5804700239418952
+        },
+        {
+          "skill_id": "pachca--pachca-profile",
+          "score": 1.5732880827197406
+        },
+        {
+          "skill_id": "unix2dos--code-review",
+          "score": 1.5662444087997878
+        },
+        {
+          "skill_id": "twwch--meeting-summary",
+          "score": 1.5598444293128462
+        }
+      ]
+    },
+    {
+      "instance_id": "energy-ac-optimal-power-flow",
+      "gold_skill_ids": [
+        "benchflow-ai--ac-branch-pi-model",
+        "benchflow-ai--casadi-ipopt-nlp",
+        "benchflow-ai--power-flow-data"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--economic-dispatch",
+          "score": 4.025809452455001
+        },
+        {
+          "skill_id": "claude-world--evolving-status",
+          "score": 2.5338781438247846
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 2.4888622485057272
+        },
+        {
+          "skill_id": "aaaaqwq--content-source-aggregator",
+          "score": 1.6836211036661113
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 1.224018821208654
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 1.2122655930495996
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-patch-method",
+          "score": 0.9547026609799997
+        },
+        {
+          "skill_id": "cklxx--artifact-management",
+          "score": 0.8940214777600725
+        },
+        {
+          "skill_id": "aahl--crypto-report",
+          "score": 0.8022885696757518
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 0.7836211235808416
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-sort",
+          "score": 0.7459585588101075
+        },
+        {
+          "skill_id": "orientpine--theme-gov",
+          "score": 0.7221917541818698
+        },
+        {
+          "skill_id": "alsk1992--dca",
+          "score": 0.684232785836532
+        },
+        {
+          "skill_id": "plurigrid--gh",
+          "score": 0.48218163223608534
+        },
+        {
+          "skill_id": "famaoai-creator--cloud-cost-estimator",
+          "score": 0.4725007585835629
+        },
+        {
+          "skill_id": "lostabaddon--run-claude",
+          "score": 0.4608558357291203
+        },
+        {
+          "skill_id": "khw1031--create-ai-tool",
+          "score": 0.4470802720344896
+        },
+        {
+          "skill_id": "orientpine--theme-seminar",
+          "score": 0.42682251242376673
+        },
+        {
+          "skill_id": "orientpine--theme-concept",
+          "score": 0.42681509897921804
+        },
+        {
+          "skill_id": "yumehiko--base-ui-docs",
+          "score": 0.4188401324390966
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 0.375710744822115
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-remove",
+          "score": 0.33306260773792
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-borrow",
+          "score": 0.320484127397534
+        },
+        {
+          "skill_id": "huiali--rust-skill-index",
+          "score": 0.2896620331929781
+        },
+        {
+          "skill_id": "xu-xiang--java-coding-standards",
+          "score": 0.28599228014045275
+        },
+        {
+          "skill_id": "alsk1992--opinion",
+          "score": 0.25905182377451724
+        },
+        {
+          "skill_id": "testany-io--testany-guide",
+          "score": 0.2560781287728999
+        },
+        {
+          "skill_id": "dotnetage--read-file",
+          "score": 0.21464404591223155
+        },
+        {
+          "skill_id": "cnn-cnn-creatoe--chinese-responder",
+          "score": 0.2125314640731386
+        },
+        {
+          "skill_id": "arcanexis--weibo",
+          "score": 0.21212995685606825
+        },
+        {
+          "skill_id": "secondsky--cloudflare-mcp-server",
+          "score": 0.20095858705636793
+        },
+        {
+          "skill_id": "plurigrid--terminal",
+          "score": 0.18794478861991248
+        },
+        {
+          "skill_id": "EXboys--text-processor",
+          "score": 0.1783806010148079
+        },
+        {
+          "skill_id": "greatinterface--unreal-as",
+          "score": 0.16221405905896943
+        },
+        {
+          "skill_id": "fm-yodai--thanks-card-overview",
+          "score": 0.15063547369666647
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 0.13371883486638708
+        },
+        {
+          "skill_id": "protagonistss--commit",
+          "score": 0.12772537128130176
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-semantic-scholar",
+          "score": 0.10807515788004365
+        },
+        {
+          "skill_id": "orientpine--file-save-protocol-stock",
+          "score": 0.10220536727381235
+        },
+        {
+          "skill_id": "hairyf--writing-styles-juejin",
+          "score": 0.07809844637612837
+        },
+        {
+          "skill_id": "majiayu000--text-summary",
+          "score": 0.05309138192116236
+        },
+        {
+          "skill_id": "xtone--async-processing-best-practices",
+          "score": 0.03271302121250663
+        },
+        {
+          "skill_id": "bahayonghang--memory-system",
+          "score": 0.028547544740829822
+        },
+        {
+          "skill_id": "rafaelcalleja--superclaude-rules",
+          "score": -0.02897775861902733
+        },
+        {
+          "skill_id": "cklxx--soul-self-evolution",
+          "score": -0.03433292549232337
+        },
+        {
+          "skill_id": "moonshotai--gen-docs",
+          "score": -0.03433292549232337
+        },
+        {
+          "skill_id": "tai-ch0802--architecture",
+          "score": -0.03565059027491505
+        },
+        {
+          "skill_id": "tai-ch0802--api-patterns",
+          "score": -0.036639741510769486
+        },
+        {
+          "skill_id": "u9401066--memory-updater",
+          "score": -0.036649374613669454
+        },
+        {
+          "skill_id": "kunhai-88--vue-best-practices",
+          "score": -0.049563563294081125
+        }
+      ]
+    },
+    {
+      "instance_id": "enterprise-information-search",
+      "gold_skill_ids": [
+        "benchflow-ai--enterprise-artifact-search"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "huangwb8--nsfc-research-foundation-writer",
+          "score": 8.83054196779101
+        },
+        {
+          "skill_id": "tencentblueking--business-knowledge-workflow",
+          "score": 8.35128629072052
+        },
+        {
+          "skill_id": "giikin--frontend-mandatory-standards",
+          "score": 8.149013543986612
+        },
+        {
+          "skill_id": "bagelhole--aws-ec2",
+          "score": 7.839624332223627
+        },
+        {
+          "skill_id": "alibaba--higress-daily-report",
+          "score": 7.8274222417281765
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 7.604047267518272
+        },
+        {
+          "skill_id": "protagonistss--vue3-best-practices",
+          "score": 7.575663379156541
+        },
+        {
+          "skill_id": "bytedance--volcengine-rds-mysql",
+          "score": 7.546071691336127
+        },
+        {
+          "skill_id": "countbot-ai--web-design",
+          "score": 7.5014511296542965
+        },
+        {
+          "skill_id": "chaterm--cloud-backup",
+          "score": 7.423771118199677
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 7.187147442655053
+        },
+        {
+          "skill_id": "garfield-bb--hap-mcp-usage",
+          "score": 7.1372510666243665
+        },
+        {
+          "skill_id": "abcfed--tapd-bug-analyzer",
+          "score": 7.117520288589391
+        },
+        {
+          "skill_id": "abcfed--abc-apifox",
+          "score": 7.081189740123727
+        },
+        {
+          "skill_id": "yunshu0909--design-exploration",
+          "score": 6.906253420627047
+        },
+        {
+          "skill_id": "infquest--media-understand",
+          "score": 6.88788367016446
+        },
+        {
+          "skill_id": "chaterm--aliyun-cli",
+          "score": 6.872557668061893
+        },
+        {
+          "skill_id": "aster110--read-gzh",
+          "score": 6.825946753749172
+        },
+        {
+          "skill_id": "latestaiagents--production-rag-checklist",
+          "score": 6.754641298753702
+        },
+        {
+          "skill_id": "aster110--scheduler",
+          "score": 6.69966680038229
+        },
+        {
+          "skill_id": "chaterm--aws-cli",
+          "score": 6.657870256474827
+        },
+        {
+          "skill_id": "orientpine--macro-output-template",
+          "score": 6.588091339859868
+        },
+        {
+          "skill_id": "zrt-ai-lab--videocut-subtitle",
+          "score": 6.491400521570412
+        },
+        {
+          "skill_id": "aaaaqwq--api-provider-setup",
+          "score": 6.474874048915339
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-compile",
+          "score": 6.453047500449252
+        },
+        {
+          "skill_id": "tencentblueking--managing-devops-pipeline",
+          "score": 6.439866719378003
+        },
+        {
+          "skill_id": "jh941213--techdebt",
+          "score": 6.361240775377634
+        },
+        {
+          "skill_id": "yunshu0909--backlog-manager",
+          "score": 6.259435164189625
+        },
+        {
+          "skill_id": "tencentblueking--skill-writer",
+          "score": 6.234361242565764
+        },
+        {
+          "skill_id": "abcfed--jenkins-deploy",
+          "score": 6.20289487057047
+        },
+        {
+          "skill_id": "solar-luna--wechat-article-formatter",
+          "score": 6.139336858743031
+        },
+        {
+          "skill_id": "zrt-ai-lab--image-service",
+          "score": 6.055732141978592
+        },
+        {
+          "skill_id": "kit101--session-pretty-replay",
+          "score": 6.05084903575608
+        },
+        {
+          "skill_id": "peterfei--tidymydesktop",
+          "score": 6.030736236224813
+        },
+        {
+          "skill_id": "zrt-ai-lab--videocut-clip",
+          "score": 6.026897345027929
+        },
+        {
+          "skill_id": "twwch--meeting-summary",
+          "score": 5.988806198985338
+        },
+        {
+          "skill_id": "aaaaqwq--wecom-automation",
+          "score": 5.965873658090252
+        },
+        {
+          "skill_id": "tencentblueking--git-commit-specification",
+          "score": 5.951186358810186
+        },
+        {
+          "skill_id": "z0gsh1u--zhihu-converter",
+          "score": 5.947550641122668
+        },
+        {
+          "skill_id": "zrt-ai-lab--deep-research",
+          "score": 5.942635521650896
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-export",
+          "score": 5.932056313610207
+        },
+        {
+          "skill_id": "garfield-bb--coo-social-media",
+          "score": 5.914392080501802
+        },
+        {
+          "skill_id": "geekjourneyx--github-topics",
+          "score": 5.876445488682282
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-read",
+          "score": 5.872899103095442
+        },
+        {
+          "skill_id": "zrt-ai-lab--videocut-clip-oral",
+          "score": 5.823503112169529
+        },
+        {
+          "skill_id": "dbvc--commit-pr-contract",
+          "score": 5.698872400236753
+        },
+        {
+          "skill_id": "abcfed--abc-git-flow",
+          "score": 5.697536782883703
+        },
+        {
+          "skill_id": "yunshu0909--github-repo-search",
+          "score": 5.689836853343305
+        },
+        {
+          "skill_id": "aster110--skill-creator",
+          "score": 5.583157036325595
+        },
+        {
+          "skill_id": "z0gsh1u--content-creator",
+          "score": 5.562886330873882
+        }
+      ]
+    },
+    {
+      "instance_id": "grid-dispatch-operator",
+      "gold_skill_ids": [
+        "benchflow-ai--dc-power-flow",
+        "benchflow-ai--economic-dispatch",
+        "benchflow-ai--power-flow-data"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--economic-dispatch",
+          "score": 47.18914066722231
+        },
+        {
+          "skill_id": "benchflow-ai--power-flow-data",
+          "score": 11.78861690707474
+        },
+        {
+          "skill_id": "benchflow-ai--locational-marginal-prices",
+          "score": 7.628979896064979
+        },
+        {
+          "skill_id": "reggiechan74--cost-approach-expert",
+          "score": 7.428086632323818
+        },
+        {
+          "skill_id": "benchflow-ai--dc-power-flow",
+          "score": 7.1050376752555815
+        },
+        {
+          "skill_id": "sickn33--energy-procurement",
+          "score": 5.670440743562849
+        },
+        {
+          "skill_id": "omer-metin--energy-systems",
+          "score": 5.388098736110888
+        },
+        {
+          "skill_id": "luongnv89--api-documentation-generator",
+          "score": 3.296067618247238
+        },
+        {
+          "skill_id": "aidotnet--x-report-generator",
+          "score": 3.01549339182945
+        },
+        {
+          "skill_id": "famaoai-creator--talent-requirement-generator",
+          "score": 2.8722866106268343
+        },
+        {
+          "skill_id": "plurigrid--skill-dispatch",
+          "score": 2.2339741497478087
+        },
+        {
+          "skill_id": "fusengine--tailwindcss-utilities",
+          "score": 2.2174931432183014
+        },
+        {
+          "skill_id": "ruvnet--agent-resource-allocator",
+          "score": 2.1270887698954546
+        },
+        {
+          "skill_id": "plurigrid--goblins",
+          "score": 1.919160012309924
+        },
+        {
+          "skill_id": "hairyf--uniapp",
+          "score": 1.874886496435018
+        },
+        {
+          "skill_id": "orientpine--theme-gov",
+          "score": 1.8725375277642065
+        },
+        {
+          "skill_id": "eyadsibai--networkx",
+          "score": 1.8543964020097374
+        },
+        {
+          "skill_id": "reggiechan74--injurious-affection-assessment",
+          "score": 1.7911258849990477
+        },
+        {
+          "skill_id": "benchflow-ai--ac-branch-pi-model",
+          "score": 1.7388678771928767
+        },
+        {
+          "skill_id": "borghei--senior-pm",
+          "score": 1.6034638159507968
+        },
+        {
+          "skill_id": "reggiechan74--transit-station-site-acquisition-strategy",
+          "score": 1.4316780883635645
+        },
+        {
+          "skill_id": "orientpine--theme-concept",
+          "score": 1.406520497869787
+        },
+        {
+          "skill_id": "orientpine--theme-seminar",
+          "score": 1.4043582651826276
+        },
+        {
+          "skill_id": "dhruvanbhalara--flutter-code-gen",
+          "score": 1.3234968707687709
+        },
+        {
+          "skill_id": "joellewis--margin-operations",
+          "score": 1.1970539047280901
+        },
+        {
+          "skill_id": "mediar-ai--brand-style",
+          "score": 1.1548844694417797
+        },
+        {
+          "skill_id": "fusengine--solid-detection",
+          "score": 1.0266959104977789
+        },
+        {
+          "skill_id": "orientpine--theme-pitch",
+          "score": 1.016210555290568
+        },
+        {
+          "skill_id": "orientpine--theme-whatif",
+          "score": 1.010693280217854
+        },
+        {
+          "skill_id": "finesssee--linear-watch",
+          "score": 0.9930108509889052
+        },
+        {
+          "skill_id": "arcanexis--weibo",
+          "score": 0.8898235963098955
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 0.8315120826391345
+        },
+        {
+          "skill_id": "countbot-ai--baidu-search",
+          "score": 0.8293430465496856
+        },
+        {
+          "skill_id": "plurigrid--hoot",
+          "score": 0.8258441760148598
+        },
+        {
+          "skill_id": "bahayonghang--memory-system",
+          "score": 0.8246678418619613
+        },
+        {
+          "skill_id": "finesssee--linear-labels",
+          "score": 0.7920808714025254
+        },
+        {
+          "skill_id": "famaoai-creator--cloud-cost-estimator",
+          "score": 0.7314052838348303
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 0.7310856183616643
+        },
+        {
+          "skill_id": "bagelhole--nfs-storage",
+          "score": 0.7265790314662817
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-patch-method",
+          "score": 0.6281390268630856
+        },
+        {
+          "skill_id": "bear2u--design-prompt-generator-v2",
+          "score": 0.62021556103843
+        },
+        {
+          "skill_id": "plurigrid--network",
+          "score": 0.585233811471587
+        },
+        {
+          "skill_id": "rysweet--physicist-analyst",
+          "score": 0.5830669646162431
+        },
+        {
+          "skill_id": "zenobi-us--task-distributor",
+          "score": 0.56574537314944
+        },
+        {
+          "skill_id": "miles990--flame-templates",
+          "score": 0.5526105202703523
+        },
+        {
+          "skill_id": "aahl--crypto-report",
+          "score": 0.5351375099020272
+        },
+        {
+          "skill_id": "zhanghandong--domain-iot",
+          "score": 0.5327858248421312
+        },
+        {
+          "skill_id": "finesssee--linear-roadmaps",
+          "score": 0.5267115394986754
+        },
+        {
+          "skill_id": "finesssee--linear-initiatives",
+          "score": 0.5264949036763117
+        },
+        {
+          "skill_id": "kunhai-88--agent-browser",
+          "score": 0.5260783962882403
+        }
+      ]
+    },
+    {
+      "instance_id": "hvac-control",
+      "gold_skill_ids": [
+        "benchflow-ai--excitation-signal-design",
+        "benchflow-ai--first-order-model-fitting",
+        "benchflow-ai--imc-tuning-rules",
+        "benchflow-ai--safety-interlocks",
+        "benchflow-ai--scipy-curve-fit"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--imc-tuning-rules",
+          "score": 6.6391887885265
+        },
+        {
+          "skill_id": "daffy0208--iot-developer",
+          "score": 4.229332688655891
+        },
+        {
+          "skill_id": "benchflow-ai--pid-controller",
+          "score": 3.8575048943318335
+        },
+        {
+          "skill_id": "huifer--nutrition-analyzer",
+          "score": 3.757280642109054
+        },
+        {
+          "skill_id": "huifer--sleep-analyzer",
+          "score": 3.610729740410017
+        },
+        {
+          "skill_id": "benchflow-ai--first-order-model-fitting",
+          "score": 3.5233981609666998
+        },
+        {
+          "skill_id": "benchflow-ai--simulation-metrics",
+          "score": 3.467362315453328
+        },
+        {
+          "skill_id": "jeremylongshore--mistral-observability",
+          "score": 3.467158301636714
+        },
+        {
+          "skill_id": "huifer--weightloss-analyzer",
+          "score": 3.4194516310482754
+        },
+        {
+          "skill_id": "clawdbot--eightctl",
+          "score": 3.3516765161266013
+        },
+        {
+          "skill_id": "fatfingererr--forecast-sector-relative-return-from-yield-spread",
+          "score": 3.3484150685784617
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 3.2333131385028135
+        },
+        {
+          "skill_id": "curiositech--drone-inspection-specialist",
+          "score": 3.200387818969216
+        },
+        {
+          "skill_id": "personamanagmentlayer--iot-expert",
+          "score": 2.949298836529565
+        },
+        {
+          "skill_id": "drillan--mixseek-team-config",
+          "score": 2.899312658837051
+        },
+        {
+          "skill_id": "josiahsiegel--tailwindcss-advanced-design-systems",
+          "score": 2.849290682577471
+        },
+        {
+          "skill_id": "Orchestra-Research--evaluating-code-models",
+          "score": 2.8482626315274917
+        },
+        {
+          "skill_id": "adaptyvbio--protein-qc",
+          "score": 2.7560547204120702
+        },
+        {
+          "skill_id": "aster110--scheduler",
+          "score": 2.7519270403506355
+        },
+        {
+          "skill_id": "zhuhongyin--temu-pricing-calculator",
+          "score": 2.72525646742195
+        },
+        {
+          "skill_id": "adaptyvbio--cell-free-expression",
+          "score": 2.6592006279500358
+        },
+        {
+          "skill_id": "clawdbot--openhue",
+          "score": 2.6553729734932134
+        },
+        {
+          "skill_id": "drillan--mixseek-evaluator-config",
+          "score": 2.626342669593353
+        },
+        {
+          "skill_id": "miles990--edge-iot",
+          "score": 2.601357136238322
+        },
+        {
+          "skill_id": "laurigates--ha-entities",
+          "score": 2.53377646649579
+        },
+        {
+          "skill_id": "alextangson--feishu-bitable",
+          "score": 2.5057229905167904
+        },
+        {
+          "skill_id": "fatfingererr--detect-us-equity-valuation-percentile-extreme",
+          "score": 2.4520639612614805
+        },
+        {
+          "skill_id": "laurigates--ha-configuration",
+          "score": 2.3861672465898747
+        },
+        {
+          "skill_id": "garfield-bb--hap-view-plugin",
+          "score": 2.342347596787407
+        },
+        {
+          "skill_id": "majiayu000--zeberg-salomon-rotator",
+          "score": 2.294844323769735
+        },
+        {
+          "skill_id": "nicepkg--stock-screener",
+          "score": 2.276589457936017
+        },
+        {
+          "skill_id": "drillan--mixseek-config-validate",
+          "score": 2.267917681386369
+        },
+        {
+          "skill_id": "alirezarezvani--quality-manager-qms-iso13485",
+          "score": 2.267353590822795
+        },
+        {
+          "skill_id": "khw1031--learning-log-generator",
+          "score": 2.2535023433549317
+        },
+        {
+          "skill_id": "jinfanzheng--weather",
+          "score": 2.2339903309672713
+        },
+        {
+          "skill_id": "huifer--fitness-analyzer",
+          "score": 2.184759950176225
+        },
+        {
+          "skill_id": "chaterm--dockerfile",
+          "score": 2.156360865201944
+        },
+        {
+          "skill_id": "sugarforever--china-stock-analysis",
+          "score": 2.1381105246905157
+        },
+        {
+          "skill_id": "allenai2014--pencil-ui-design",
+          "score": 2.079760671439954
+        },
+        {
+          "skill_id": "ruvnet--agent-resource-allocator",
+          "score": 2.056070785599876
+        },
+        {
+          "skill_id": "guia-matthieu--health-score-monitor",
+          "score": 2.0349853438524677
+        },
+        {
+          "skill_id": "plurigrid--langevin-dynamics",
+          "score": 2.0142094308943945
+        },
+        {
+          "skill_id": "plurigrid--fokker-planck-analyzer",
+          "score": 2.0059270693814533
+        },
+        {
+          "skill_id": "plurigrid--hythermal",
+          "score": 1.9902234583762362
+        },
+        {
+          "skill_id": "rysweet--physicist-analyst",
+          "score": 1.9751444299822232
+        },
+        {
+          "skill_id": "khw1031--financial-tax-guide",
+          "score": 1.9738559059658514
+        },
+        {
+          "skill_id": "kimasplund--benchmark-framework",
+          "score": 1.9569071748472346
+        },
+        {
+          "skill_id": "alextangson--feishu-im",
+          "score": 1.9424285764407057
+        },
+        {
+          "skill_id": "vamseeachanta--plotly",
+          "score": 1.9347163789240327
+        },
+        {
+          "skill_id": "fatfingererr--monitor-etf-holdings-drawdown-risk",
+          "score": 1.90582036636162
+        }
+      ]
+    },
+    {
+      "instance_id": "manufacturing-codebook-normalization",
+      "gold_skill_ids": [
+        "benchflow-ai--manufacturing-failure-reason-codebook-normalization"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--manufacturing-failure-reason-codebook-normalization",
+          "score": 60.60400984041904
+        },
+        {
+          "skill_id": "yusuketsunoda--security-threat-review",
+          "score": 3.4340036226107458
+        },
+        {
+          "skill_id": "nealcaren--prompt-optimizer",
+          "score": 2.9652523989534103
+        },
+        {
+          "skill_id": "aaaaqwq--healthcare-monitor",
+          "score": 2.5015256910352384
+        },
+        {
+          "skill_id": "can1357--unknown-field",
+          "score": 2.034707694097344
+        },
+        {
+          "skill_id": "NanmiCoder--news-extractor",
+          "score": 2.018010689921282
+        },
+        {
+          "skill_id": "jackjin1997--news-extractor",
+          "score": 1.995079319034417
+        },
+        {
+          "skill_id": "foxzool--openlark-api",
+          "score": 1.9782379968921397
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 1.934881852176638
+        },
+        {
+          "skill_id": "fatfingererr--nickel-concentration-risk-analyzer",
+          "score": 1.8163670222603394
+        },
+        {
+          "skill_id": "feiskyer--deep-research",
+          "score": 1.700015515256187
+        },
+        {
+          "skill_id": "OneWave-AI--bracket-predictor",
+          "score": 1.6620103335137801
+        },
+        {
+          "skill_id": "aaaaqwq--email-manager",
+          "score": 1.6293602872596473
+        },
+        {
+          "skill_id": "fatfingererr--detect-freight-led-inflation-turn",
+          "score": 1.5972430855889288
+        },
+        {
+          "skill_id": "garfield-bb--hap-view-plugin",
+          "score": 1.5942920657953614
+        },
+        {
+          "skill_id": "j5ik2o--error-classification",
+          "score": 1.5761033568201153
+        },
+        {
+          "skill_id": "bagelhole--change-management",
+          "score": 1.5218220505889928
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-edit",
+          "score": 1.504325702892663
+        },
+        {
+          "skill_id": "Svenja-dev--clarify-spec",
+          "score": 1.5041709874444125
+        },
+        {
+          "skill_id": "penkzhou--bugfix-workflow",
+          "score": 1.4340710532346557
+        },
+        {
+          "skill_id": "drillan--mixseek-model-list",
+          "score": 1.3871053456754088
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 1.350800872597968
+        },
+        {
+          "skill_id": "u9401066--test-generator",
+          "score": 1.3232485652828676
+        },
+        {
+          "skill_id": "liangdabiao--ltv-predictor",
+          "score": 1.3161668815244918
+        },
+        {
+          "skill_id": "sakumyz--add-form-validation-rule",
+          "score": 1.227194298221006
+        },
+        {
+          "skill_id": "cnn-cnn-creatoe--chinese-responder",
+          "score": 1.188481478664288
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-read",
+          "score": 1.1652268769320424
+        },
+        {
+          "skill_id": "zhuhongyin--ali1688-sourcing",
+          "score": 1.0785876422710567
+        },
+        {
+          "skill_id": "borghei--data-scientist",
+          "score": 1.076176960554772
+        },
+        {
+          "skill_id": "okooo5km--chinese-copyright-application",
+          "score": 1.0738851985957312
+        },
+        {
+          "skill_id": "ertugrul-dmr--clean-functions",
+          "score": 1.073836129813137
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-compile",
+          "score": 1.0345094118531752
+        },
+        {
+          "skill_id": "huifer--emergency-card",
+          "score": 1.014422332447201
+        },
+        {
+          "skill_id": "chaterm--gcloud",
+          "score": 1.0095464577310262
+        },
+        {
+          "skill_id": "zhuhongyin--temu-competitor-search",
+          "score": 1.0065434827808597
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-borrow",
+          "score": 0.986527607605481
+        },
+        {
+          "skill_id": "fatfingererr--analyze-copper-inventory-rebuild-signal",
+          "score": 0.9620837628707674
+        },
+        {
+          "skill_id": "majiayu000--zeberg-salomon-rotator",
+          "score": 0.9291788246904542
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-add",
+          "score": 0.9256962882713119
+        },
+        {
+          "skill_id": "solar-luna--wechat-article-formatter",
+          "score": 0.8954248899505823
+        },
+        {
+          "skill_id": "peterfei--tidymydesktop",
+          "score": 0.8922157875728078
+        },
+        {
+          "skill_id": "khw1031--financial-knowledge-manager",
+          "score": 0.8309386267143324
+        },
+        {
+          "skill_id": "icartsh--dotnet-test",
+          "score": 0.7890411486589972
+        },
+        {
+          "skill_id": "xu-xiang--java-coding-standards",
+          "score": 0.7845880000617206
+        },
+        {
+          "skill_id": "j5ik2o--takt-piece",
+          "score": 0.78296598451481
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-remove",
+          "score": 0.7809820995827416
+        },
+        {
+          "skill_id": "icartsh--dotnet-build",
+          "score": 0.7694779316325053
+        },
+        {
+          "skill_id": "tai-ch0802--architecture",
+          "score": 0.7686051732667629
+        },
+        {
+          "skill_id": "huangwb8--systematic-literature-review",
+          "score": 0.7656036159341335
+        },
+        {
+          "skill_id": "caomeiyouren--full-stack-master",
+          "score": 0.7654738315669399
+        }
+      ]
+    },
+    {
+      "instance_id": "manufacturing-equipment-maintenance",
+      "gold_skill_ids": [
+        "benchflow-ai--reflow-profile-compliance-toolkit",
+        "benchflow-ai--reflow_machine_maintenance_guidance"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--reflow-profile-compliance-toolkit",
+          "score": 33.39378900864368
+        },
+        {
+          "skill_id": "benchflow-ai--reflow_machine_maintenance_guidance",
+          "score": 24.944642464055804
+        },
+        {
+          "skill_id": "huangwb8--nsfc-qc",
+          "score": 4.175068491429166
+        },
+        {
+          "skill_id": "cafe3310--im-local-kb",
+          "score": 3.08592687171054
+        },
+        {
+          "skill_id": "pachca--pachca-search",
+          "score": 2.219616861223435
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-sort",
+          "score": 2.1400526428482674
+        },
+        {
+          "skill_id": "aaaaqwq--content-source-aggregator",
+          "score": 2.116012995452973
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-semantic-scholar",
+          "score": 1.8918861091021613
+        },
+        {
+          "skill_id": "chaterm--aws-cli",
+          "score": 1.5114301881572556
+        },
+        {
+          "skill_id": "aaaaqwq--notion-automation",
+          "score": 1.4062370391308703
+        },
+        {
+          "skill_id": "okooo5km--chinese-copyright-application",
+          "score": 1.3761549838256755
+        },
+        {
+          "skill_id": "fatfingererr--monitor-etf-holdings-drawdown-risk",
+          "score": 1.353776140196288
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 1.3521293825580887
+        },
+        {
+          "skill_id": "yusuketsunoda--security-threat-review",
+          "score": 1.3072957525379563
+        },
+        {
+          "skill_id": "fatfingererr--detect-shanghai-silver-stock-drain",
+          "score": 1.2701223387757328
+        },
+        {
+          "skill_id": "fatfingererr--analyze-copper-inventory-rebuild-signal",
+          "score": 1.2543296545697602
+        },
+        {
+          "skill_id": "kimny1143--backend-patterns",
+          "score": 1.2524163888561908
+        },
+        {
+          "skill_id": "khw1031--changelog",
+          "score": 1.2105809773265974
+        },
+        {
+          "skill_id": "aaaaqwq--electron-app-dev",
+          "score": 1.2099847573007259
+        },
+        {
+          "skill_id": "tencentblueking--permission-model-change-guide",
+          "score": 1.1607780071968905
+        },
+        {
+          "skill_id": "aaaaqwq--skill-search",
+          "score": 1.1602606103934159
+        },
+        {
+          "skill_id": "icartsh--dotnet-test",
+          "score": 1.0235844409205388
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 1.0220984783003382
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 1.0058227386530396
+        },
+        {
+          "skill_id": "protagonistss--code-analysis",
+          "score": 0.8807100940799679
+        },
+        {
+          "skill_id": "chaterm--helm",
+          "score": 0.8400609116611897
+        },
+        {
+          "skill_id": "hairyf--uniapp",
+          "score": 0.8373924749270651
+        },
+        {
+          "skill_id": "arman-kudaibergenov--db-run",
+          "score": 0.8081472484355823
+        },
+        {
+          "skill_id": "fatfingererr--analyze-japan-debt-service-tax-burden",
+          "score": 0.8043708740172161
+        },
+        {
+          "skill_id": "arman-kudaibergenov--db-create",
+          "score": 0.7968404940783582
+        },
+        {
+          "skill_id": "xtone--async-processing-best-practices",
+          "score": 0.7737875411038393
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 0.7434662170150356
+        },
+        {
+          "skill_id": "seikaikyo--angular-primeng",
+          "score": 0.7251623169789554
+        },
+        {
+          "skill_id": "sakumyz--redmine-search",
+          "score": 0.7077397394465283
+        },
+        {
+          "skill_id": "chaterm--networking",
+          "score": 0.6783573285204553
+        },
+        {
+          "skill_id": "chaterm--gcloud",
+          "score": 0.6683623760365329
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-toolkit",
+          "score": 0.6415669486076854
+        },
+        {
+          "skill_id": "huangwb8--migrating-latex-templates",
+          "score": 0.6399613035947297
+        },
+        {
+          "skill_id": "arman-kudaibergenov--db-dump-xml",
+          "score": 0.6391909302368878
+        },
+        {
+          "skill_id": "arman-kudaibergenov--db-update",
+          "score": 0.6356735715256963
+        },
+        {
+          "skill_id": "cklxx--audio-tts",
+          "score": 0.6323746498362379
+        },
+        {
+          "skill_id": "ferminrp--cotizaciones-pix-comparapix",
+          "score": 0.6118543827631917
+        },
+        {
+          "skill_id": "j5ik2o--error-classification",
+          "score": 0.5977113837740597
+        },
+        {
+          "skill_id": "arman-kudaibergenov--db-dump-cf",
+          "score": 0.5684812564066184
+        },
+        {
+          "skill_id": "chaterm--log-analysis",
+          "score": 0.5600099347039459
+        },
+        {
+          "skill_id": "tai-ch0802--bash-linux",
+          "score": 0.5545255419485925
+        },
+        {
+          "skill_id": "EXboys--text-processor",
+          "score": 0.5403604020894472
+        },
+        {
+          "skill_id": "liangdabiao--ab-testing-analyzer",
+          "score": 0.5095017107554708
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 0.5044471283917215
+        },
+        {
+          "skill_id": "ferminrp--travel-promos-argentina",
+          "score": 0.4897159915091798
+        }
+      ]
+    },
+    {
+      "instance_id": "mars-clouds-clustering",
+      "gold_skill_ids": [
+        "benchflow-ai--custom-distance-metrics",
+        "benchflow-ai--parallel-processing",
+        "benchflow-ai--pareto-optimization"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "plurigrid--ultrametric-distance",
+          "score": 10.47883575095061
+        },
+        {
+          "skill_id": "eyadsibai--scikit-learn",
+          "score": 10.472085200192428
+        },
+        {
+          "skill_id": "borghei--data-scientist",
+          "score": 7.377358763765734
+        },
+        {
+          "skill_id": "eyadsibai--experiment-tracking",
+          "score": 6.831397307657329
+        },
+        {
+          "skill_id": "benchflow-ai--custom-distance-metrics",
+          "score": 5.80268667111057
+        },
+        {
+          "skill_id": "personamanagmentlayer--databricks-expert",
+          "score": 5.597727745467582
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 5.554704582773924
+        },
+        {
+          "skill_id": "ertugrul-dmr--clean-functions",
+          "score": 4.281712170339067
+        },
+        {
+          "skill_id": "davila7--datamol",
+          "score": 4.224194057524836
+        },
+        {
+          "skill_id": "K-Dense-AI--datamol",
+          "score": 4.220541629143068
+        },
+        {
+          "skill_id": "Dicklesworthstone--gcloud",
+          "score": 3.6223161585437578
+        },
+        {
+          "skill_id": "curiositech--event-detection-temporal-intelligence-expert",
+          "score": 3.548200326340547
+        },
+        {
+          "skill_id": "fusengine--solid-detection",
+          "score": 3.2296328555644775
+        },
+        {
+          "skill_id": "chaterm--gcloud",
+          "score": 3.041321471598347
+        },
+        {
+          "skill_id": "tai-ch0802--bash-linux",
+          "score": 3.0281247444207087
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 2.959676997698997
+        },
+        {
+          "skill_id": "huangwb8--systematic-literature-review",
+          "score": 2.5204552428992053
+        },
+        {
+          "skill_id": "claude-world--evolving-status",
+          "score": 2.3619769159747657
+        },
+        {
+          "skill_id": "plurigrid--tailscale",
+          "score": 2.2663798482218036
+        },
+        {
+          "skill_id": "curiositech--color-theory-palette-harmony-expert",
+          "score": 2.15290231598524
+        },
+        {
+          "skill_id": "benchflow-ai--Speaker Clustering Methods",
+          "score": 2.1012205653683527
+        },
+        {
+          "skill_id": "aaaaqwq--electron-app-dev",
+          "score": 1.877184509044016
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-patch-method",
+          "score": 1.8669174300221045
+        },
+        {
+          "skill_id": "plurigrid--terminal",
+          "score": 1.655722647773614
+        },
+        {
+          "skill_id": "aj-geddes--model-monitoring",
+          "score": 1.566759001977818
+        },
+        {
+          "skill_id": "aminoanalytica--alphafold-database",
+          "score": 1.3919568148499402
+        },
+        {
+          "skill_id": "curiositech--photo-content-recognition-curation-expert",
+          "score": 1.3626259646569234
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-borrow",
+          "score": 1.3287335701845784
+        },
+        {
+          "skill_id": "0xdarkmatter--claude-code-templates",
+          "score": 1.0756217628731701
+        },
+        {
+          "skill_id": "davila7--scikit-learn",
+          "score": 0.9506920041930365
+        },
+        {
+          "skill_id": "rytass--wms-module",
+          "score": 0.9290791458933882
+        },
+        {
+          "skill_id": "tondevrel--scipy",
+          "score": 0.8531597267033819
+        },
+        {
+          "skill_id": "chaterm--service-ingress",
+          "score": 0.8269556732300736
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 0.8266604458563467
+        },
+        {
+          "skill_id": "aj-geddes--clustering-analysis",
+          "score": 0.8076327378008615
+        },
+        {
+          "skill_id": "hairyf--uniapp",
+          "score": 0.7385738287937321
+        },
+        {
+          "skill_id": "cklxx--music-discovery",
+          "score": 0.7065049446266188
+        },
+        {
+          "skill_id": "famaoai-creator--cloud-cost-estimator",
+          "score": 0.6696361694500939
+        },
+        {
+          "skill_id": "davila7--umap-learn",
+          "score": 0.6613825232990632
+        },
+        {
+          "skill_id": "greatinterface--unreal-as",
+          "score": 0.6103743747727354
+        },
+        {
+          "skill_id": "yumehiko--base-ui-docs",
+          "score": 0.5093204710557365
+        },
+        {
+          "skill_id": "tai-ch0802--frontend-design",
+          "score": 0.4888345842143675
+        },
+        {
+          "skill_id": "metta-ai--worldgen-resource-clusters",
+          "score": 0.46170369780764436
+        },
+        {
+          "skill_id": "kimny1143--ux-psychology",
+          "score": 0.4609413456155767
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 0.40520946265258484
+        },
+        {
+          "skill_id": "j5ik2o--error-classification",
+          "score": 0.3632722347283427
+        },
+        {
+          "skill_id": "huiali--rust-skill-index",
+          "score": 0.3555682110903887
+        },
+        {
+          "skill_id": "cklxx--soul-self-evolution",
+          "score": 0.3412975535524272
+        },
+        {
+          "skill_id": "orientpine--theme-gov",
+          "score": 0.31309203931164664
+        },
+        {
+          "skill_id": "countbot-ai--baidu-search",
+          "score": 0.28936172514495506
+        }
+      ]
+    },
+    {
+      "instance_id": "offer-letter-generator",
+      "gold_skill_ids": [
+        "benchflow-ai--docx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "782042369--weekly-report-generator",
+          "score": 7.51012623341414
+        },
+        {
+          "skill_id": "twwch--docx-processor",
+          "score": 6.586649753685893
+        },
+        {
+          "skill_id": "zrt-ai-lab--deep-research",
+          "score": 6.399068494420649
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-toolkit",
+          "score": 6.372545402704686
+        },
+        {
+          "skill_id": "protagonistss--ui-design-core",
+          "score": 5.132117118601733
+        },
+        {
+          "skill_id": "alextangson--feishu-wiki",
+          "score": 4.971032824591522
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-perm",
+          "score": 4.954708277500583
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-export",
+          "score": 4.839878676990212
+        },
+        {
+          "skill_id": "forge-town--skill-creator",
+          "score": 4.63870486577781
+        },
+        {
+          "skill_id": "twwch--file-to-article-generator",
+          "score": 4.224392719594096
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-read",
+          "score": 4.202443747221373
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-write",
+          "score": 4.106896605960299
+        },
+        {
+          "skill_id": "lc2panda--wps-office",
+          "score": 4.015549493756
+        },
+        {
+          "skill_id": "aaaaqwq--feishu-doc-optimizer",
+          "score": 3.987220123021666
+        },
+        {
+          "skill_id": "gonglingrui--file-reference",
+          "score": 3.5988499327487937
+        },
+        {
+          "skill_id": "jackspace--bilibili-subtitle-fetcher-skill-suyuan2022",
+          "score": 3.4248164403741237
+        },
+        {
+          "skill_id": "chaterm--hardening",
+          "score": 3.351635556322309
+        },
+        {
+          "skill_id": "lc2panda--wps-word",
+          "score": 3.3367255192515004
+        },
+        {
+          "skill_id": "huangwb8--systematic-literature-review",
+          "score": 3.2134478016593655
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-msg",
+          "score": 3.0458710199453685
+        },
+        {
+          "skill_id": "evanfang0054--skill-creator",
+          "score": 3.0197116696589412
+        },
+        {
+          "skill_id": "Zeliper--markdown-templates",
+          "score": 2.7881874823958146
+        },
+        {
+          "skill_id": "xtone--code-review",
+          "score": 2.7815769166662196
+        },
+        {
+          "skill_id": "liyecom--docx",
+          "score": 2.7158854431154067
+        },
+        {
+          "skill_id": "huangwb8--nsfc-qc",
+          "score": 2.598586103372699
+        },
+        {
+          "skill_id": "huangwb8--make-latex-model",
+          "score": 2.580521851064204
+        },
+        {
+          "skill_id": "orientpine--file-save-protocol-stock",
+          "score": 2.578745807298445
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-edit",
+          "score": 2.5561959218932437
+        },
+        {
+          "skill_id": "huifer--structured-data",
+          "score": 2.5536231388031596
+        },
+        {
+          "skill_id": "countbot-ai--web-design",
+          "score": 2.5422566419284647
+        },
+        {
+          "skill_id": "forge-town--svg-icon-best-practice",
+          "score": 2.5258683544102922
+        },
+        {
+          "skill_id": "xtone--async-processing-best-practices",
+          "score": 2.524438244206851
+        },
+        {
+          "skill_id": "u9401066--project-management",
+          "score": 2.4480147723877486
+        },
+        {
+          "skill_id": "chaterm--tuning",
+          "score": 2.4112322660740735
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-import",
+          "score": 2.378487456992927
+        },
+        {
+          "skill_id": "kunhai-88--skill-creator",
+          "score": 2.3525263429549224
+        },
+        {
+          "skill_id": "aaaaqwq--feishu-automation",
+          "score": 2.246558260995031
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-add",
+          "score": 2.1731801015488292
+        },
+        {
+          "skill_id": "j5ik2o--domain-model-extractor",
+          "score": 2.1205593774808804
+        },
+        {
+          "skill_id": "dalestudy--bun",
+          "score": 2.0790184217577634
+        },
+        {
+          "skill_id": "crazynomad--doc-mindmap",
+          "score": 2.0455412308153513
+        },
+        {
+          "skill_id": "chaterm--configmap-secret",
+          "score": 1.9959660793115632
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 1.983173961103875
+        },
+        {
+          "skill_id": "benchflow-ai--docx-1",
+          "score": 1.9522169745923779
+        },
+        {
+          "skill_id": "alextangson--feishu-im",
+          "score": 1.9402986064972536
+        },
+        {
+          "skill_id": "zhuhongyin--ali1688-sourcing",
+          "score": 1.9370652493779206
+        },
+        {
+          "skill_id": "xu-xiang--springboot-verification",
+          "score": 1.8349318917157462
+        },
+        {
+          "skill_id": "chaterm--azure-cli",
+          "score": 1.8189273664542187
+        },
+        {
+          "skill_id": "chaterm--apache",
+          "score": 1.8018700484736239
+        },
+        {
+          "skill_id": "yzfly--douyin-video",
+          "score": 1.7842678340642109
+        }
+      ]
+    },
+    {
+      "instance_id": "powerlifting-coef-calc",
+      "gold_skill_ids": [
+        "benchflow-ai--powerlifting",
+        "benchflow-ai--senior-data-scientist",
+        "benchflow-ai--xlsx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--powerlifting",
+          "score": 19.743410414514255
+        },
+        {
+          "skill_id": "lc2panda--wps-excel",
+          "score": 3.5697059385635717
+        },
+        {
+          "skill_id": "Peiiii--claude-office-pack",
+          "score": 1.8573472166589768
+        },
+        {
+          "skill_id": "w2112515--data-analysis",
+          "score": 1.846906437718627
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 1.7628658456793427
+        },
+        {
+          "skill_id": "visactor--vtable-development-assistant",
+          "score": 1.4402201121644782
+        },
+        {
+          "skill_id": "plurigrid--hoot",
+          "score": 1.0718212738036912
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 0.9249635412410857
+        },
+        {
+          "skill_id": "twwch--excel-processor",
+          "score": 0.8925678825837209
+        },
+        {
+          "skill_id": "xu-xiang--java-coding-standards",
+          "score": 0.7293387340181037
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 0.7240204916593257
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 0.6840964192980833
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-compile",
+          "score": 0.6676284257410526
+        },
+        {
+          "skill_id": "bagelhole--asset-inventory",
+          "score": 0.6302485441891066
+        },
+        {
+          "skill_id": "huiali--rust-skill-index",
+          "score": 0.5725553619547142
+        },
+        {
+          "skill_id": "protagonistss--ui-design-core",
+          "score": 0.5384441127103452
+        },
+        {
+          "skill_id": "plurigrid--terminal",
+          "score": 0.46361357091762645
+        },
+        {
+          "skill_id": "cklxx--soul-self-evolution",
+          "score": 0.45001164894028733
+        },
+        {
+          "skill_id": "m19803261706--vben-admin",
+          "score": 0.4270716270994928
+        },
+        {
+          "skill_id": "bagelhole--incident-management",
+          "score": 0.27877603909042137
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-patch-method",
+          "score": 0.24996773000702993
+        },
+        {
+          "skill_id": "fm-yodai--thanks-card-overview",
+          "score": 0.2047702530868224
+        },
+        {
+          "skill_id": "orientpine--theme-gov",
+          "score": 0.19572519025742693
+        },
+        {
+          "skill_id": "plurigrid--tailscale",
+          "score": 0.1878664531207085
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-sort",
+          "score": 0.17624311836755382
+        },
+        {
+          "skill_id": "bobmatnyc--xlsx",
+          "score": 0.15426196644036394
+        },
+        {
+          "skill_id": "lostabaddon--run-claude",
+          "score": 0.1373002061098702
+        },
+        {
+          "skill_id": "countbot-ai--baidu-search",
+          "score": 0.13083678157050635
+        },
+        {
+          "skill_id": "bamzc--amis-builder",
+          "score": 0.09700366852379827
+        },
+        {
+          "skill_id": "chaterm--gcloud",
+          "score": 0.08373457019467132
+        },
+        {
+          "skill_id": "fatfingererr--cost-density-net-rr-calculator",
+          "score": 0.04786300736801262
+        },
+        {
+          "skill_id": "dotnetage--read-file",
+          "score": 0.04589778114401685
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 0.04300595911607086
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-remove",
+          "score": 0.03795052207004507
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cfe-borrow",
+          "score": 0.03651727833545847
+        },
+        {
+          "skill_id": "famaoai-creator--ip-strategist",
+          "score": 0.027620216647406055
+        },
+        {
+          "skill_id": "famaoai-creator--sustainability-consultant",
+          "score": 0.027620216647406055
+        },
+        {
+          "skill_id": "famaoai-creator--agent-activity-monitor",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--automated-support-architect",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--biometric-context-adapter",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--cloud-cost-estimator",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--ip-profitability-architect",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--scenario-multiverse-orchestrator",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--talent-requirement-generator",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--tech-stack-librarian",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--test-viewpoint-analyst",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--visionary-ethos-keeper",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--voice-command-listener",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "famaoai-creator--voice-interface-maestro",
+          "score": 0.027582578805780057
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 0.01250569089426834
+        }
+      ]
+    },
+    {
+      "instance_id": "pptx-reference-formatting",
+      "gold_skill_ids": [
+        "benchflow-ai--pptx"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "vamseeachanta--python-pptx",
+          "score": 11.037081242467913
+        },
+        {
+          "skill_id": "huyansheng3--promotion-doc-designer",
+          "score": 10.58733823195092
+        },
+        {
+          "skill_id": "anthropics--fsi-strip-profile",
+          "score": 8.966332181789353
+        },
+        {
+          "skill_id": "peterfei--drawnote-skill",
+          "score": 8.842564467539708
+        },
+        {
+          "skill_id": "DNYoussef--when-creating-presentations-use-pptx-generation",
+          "score": 8.481843292183783
+        },
+        {
+          "skill_id": "jimmc414--scientific-slides",
+          "score": 8.172004128704463
+        },
+        {
+          "skill_id": "scientiacapital--data-analysis",
+          "score": 7.597274305918469
+        },
+        {
+          "skill_id": "okwinds--pptx-offline",
+          "score": 7.16791140504561
+        },
+        {
+          "skill_id": "protagonistss--ui-design-core",
+          "score": 7.025753583311993
+        },
+        {
+          "skill_id": "bamzc--amis-builder",
+          "score": 7.0171847520040345
+        },
+        {
+          "skill_id": "hoangvantuan--slidev-builder",
+          "score": 6.900530171542403
+        },
+        {
+          "skill_id": "arcniko--vibe-slides",
+          "score": 6.892898043819723
+        },
+        {
+          "skill_id": "bbeierle12--pptx",
+          "score": 6.864388939943435
+        },
+        {
+          "skill_id": "autumnsgrove--pptx",
+          "score": 6.841493679268717
+        },
+        {
+          "skill_id": "davila7--scientific-slides",
+          "score": 6.811811068874832
+        },
+        {
+          "skill_id": "jimmc414--pptx",
+          "score": 6.802052355386703
+        },
+        {
+          "skill_id": "krishagel--pptx",
+          "score": 6.783410866964273
+        },
+        {
+          "skill_id": "Prorise-cool--pptx",
+          "score": 6.758714677683661
+        },
+        {
+          "skill_id": "composiohq--pptx",
+          "score": 6.721591452516843
+        },
+        {
+          "skill_id": "snyk--pptx",
+          "score": 6.721591452516843
+        },
+        {
+          "skill_id": "vibery-studio--pptx",
+          "score": 6.721591452516843
+        },
+        {
+          "skill_id": "benchflow-ai--pptx",
+          "score": 6.721591452516843
+        },
+        {
+          "skill_id": "eyadsibai--pptx",
+          "score": 6.717514668515215
+        },
+        {
+          "skill_id": "sickn33--pptx-official",
+          "score": 6.693955638215279
+        },
+        {
+          "skill_id": "jmsktm--presentation-maker",
+          "score": 6.662490225603222
+        },
+        {
+          "skill_id": "skillcreatorai--pptx",
+          "score": 6.632777408257824
+        },
+        {
+          "skill_id": "dedalus-erp-pas--pptx",
+          "score": 6.576111540483287
+        },
+        {
+          "skill_id": "K-Dense-AI--pptx",
+          "score": 6.532304692129155
+        },
+        {
+          "skill_id": "jssfy--git-review",
+          "score": 6.514536412812379
+        },
+        {
+          "skill_id": "netease-youdao--pptx",
+          "score": 6.47576585316258
+        },
+        {
+          "skill_id": "aktsmm--powerpoint-automation",
+          "score": 6.467019954012184
+        },
+        {
+          "skill_id": "kjgarza--pptx",
+          "score": 6.4348133829497405
+        },
+        {
+          "skill_id": "wade56754--frontend-design",
+          "score": 6.274575871658148
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-msg",
+          "score": 6.26705082875733
+        },
+        {
+          "skill_id": "moosegoose0701--storyboard-to-slides",
+          "score": 6.064558763063925
+        },
+        {
+          "skill_id": "jssfy--analyze-crypto",
+          "score": 6.041619160437242
+        },
+        {
+          "skill_id": "rhuss--slidev-mastery",
+          "score": 6.001610905109497
+        },
+        {
+          "skill_id": "mediar-ai--brand-style",
+          "score": 5.934031398923381
+        },
+        {
+          "skill_id": "ThepExcel--graphic-designer",
+          "score": 5.907677225837012
+        },
+        {
+          "skill_id": "huyansheng3--single-slide-ppt",
+          "score": 5.897062443607025
+        },
+        {
+          "skill_id": "hoangvantuan--outline-writer",
+          "score": 5.849752185272056
+        },
+        {
+          "skill_id": "jssfy--analyze-stock",
+          "score": 5.7480796970349495
+        },
+        {
+          "skill_id": "dirnbauer--document-processing",
+          "score": 5.646912461944734
+        },
+        {
+          "skill_id": "fusengine--tailwindcss-utilities",
+          "score": 5.63909134228915
+        },
+        {
+          "skill_id": "luwill--paper-slide-deck",
+          "score": 5.546067671189498
+        },
+        {
+          "skill_id": "inference-sh--widgets-ui",
+          "score": 5.424755895606924
+        },
+        {
+          "skill_id": "josiahsiegel--tailwindcss-advanced-components",
+          "score": 5.332698374572938
+        },
+        {
+          "skill_id": "zjfls--deep-learning",
+          "score": 5.316986623146778
+        },
+        {
+          "skill_id": "ryanbbrown--revealjs",
+          "score": 5.184586396909895
+        },
+        {
+          "skill_id": "countbot-ai--web-design",
+          "score": 5.063694158592221
+        }
+      ]
+    },
+    {
+      "instance_id": "protein-expression-analysis",
+      "gold_skill_ids": [
+        "benchflow-ai--xlsx-1"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "mims-harvard--tooluniverse-proteomics-analysis",
+          "score": 31.8030603509265
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-metabolomics-analysis",
+          "score": 24.515042581678152
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-multi-omics-integration",
+          "score": 19.931681961276638
+        },
+        {
+          "skill_id": "davila7--pydeseq2",
+          "score": 16.739689989753114
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-crispr-screen-analysis",
+          "score": 13.803462001869553
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-single-cell",
+          "score": 13.008069358808156
+        },
+        {
+          "skill_id": "Microck--data-viz-plots",
+          "score": 10.34146916973889
+        },
+        {
+          "skill_id": "lc2panda--wps-excel",
+          "score": 10.301477591532887
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-immune-repertoire-analysis",
+          "score": 8.118216009573898
+        },
+        {
+          "skill_id": "wade56754--frontend-design",
+          "score": 7.943081351817046
+        },
+        {
+          "skill_id": "adaptyvbio--protein-qc",
+          "score": 7.834232961066849
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-epigenomics",
+          "score": 7.717476698597237
+        },
+        {
+          "skill_id": "davila7--geo-database",
+          "score": 7.531123738977623
+        },
+        {
+          "skill_id": "anthropics--dcf-model",
+          "score": 7.0136764720152085
+        },
+        {
+          "skill_id": "vasilyu1983--document-xlsx",
+          "score": 6.684686198754723
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 6.546274205603428
+        },
+        {
+          "skill_id": "personamanagmentlayer--biological-expert",
+          "score": 6.3342958805620455
+        },
+        {
+          "skill_id": "bobmatnyc--xlsx",
+          "score": 6.187067638353555
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-toolkit",
+          "score": 6.179613401829263
+        },
+        {
+          "skill_id": "aminoanalytica--scikit-bio",
+          "score": 6.131211498568141
+        },
+        {
+          "skill_id": "jmsktm--spreadsheet-builder",
+          "score": 5.94061746574212
+        },
+        {
+          "skill_id": "w2112515--data-analysis",
+          "score": 5.498091020966858
+        },
+        {
+          "skill_id": "rysweet--biologist-analyst",
+          "score": 5.3175542225964305
+        },
+        {
+          "skill_id": "Ai-Whisperers--excel-export-validator",
+          "score": 4.597982651011533
+        },
+        {
+          "skill_id": "plurigrid--guile",
+          "score": 4.192068309196368
+        },
+        {
+          "skill_id": "protagonistss--ui-design-core",
+          "score": 4.113927503150997
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-precision-oncology",
+          "score": 4.031239881465393
+        },
+        {
+          "skill_id": "marcfargas--sheet-model",
+          "score": 3.9090926460285194
+        },
+        {
+          "skill_id": "visactor--vtable-development-assistant",
+          "score": 3.841635511598584
+        },
+        {
+          "skill_id": "garfield-bb--hap-view-plugin",
+          "score": 3.6886937673664812
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 3.6610877150980397
+        },
+        {
+          "skill_id": "anthropics--fsi-comps-analysis",
+          "score": 3.632283176081094
+        },
+        {
+          "skill_id": "mims-harvard--tooluniverse-image-analysis",
+          "score": 3.5480285969485825
+        },
+        {
+          "skill_id": "arman-kudaibergenov--img-grid",
+          "score": 3.455327840626358
+        },
+        {
+          "skill_id": "adaptyvbio--cell-free-expression",
+          "score": 3.3487053970774787
+        },
+        {
+          "skill_id": "EXboys--data-analysis",
+          "score": 3.0621863801109788
+        },
+        {
+          "skill_id": "tursodatabase--storage-format",
+          "score": 3.034680531467946
+        },
+        {
+          "skill_id": "davila7--gget",
+          "score": 3.031716828292885
+        },
+        {
+          "skill_id": "K-Dense-AI--gget",
+          "score": 3.0232520416925484
+        },
+        {
+          "skill_id": "eyadsibai--data-science",
+          "score": 2.870676247945561
+        },
+        {
+          "skill_id": "vamseeachanta--great-tables",
+          "score": 2.8339016517733566
+        },
+        {
+          "skill_id": "fatfingererr--detect-shanghai-silver-stock-drain",
+          "score": 2.827548669551859
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 2.5751048466704916
+        },
+        {
+          "skill_id": "borghei--data-scientist",
+          "score": 2.558571960227093
+        },
+        {
+          "skill_id": "Zeliper--spawn-search-agents",
+          "score": 2.2737212243645475
+        },
+        {
+          "skill_id": "sbroenne--excel-cli",
+          "score": 2.2129652840093943
+        },
+        {
+          "skill_id": "autumnsgrove--xlsx",
+          "score": 2.2039812803368193
+        },
+        {
+          "skill_id": "greatinterface--unreal-as",
+          "score": 2.1786883492472393
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-perm",
+          "score": 2.154625425978628
+        },
+        {
+          "skill_id": "pachca--pachca-tasks",
+          "score": 2.1195772140575326
+        }
+      ]
+    },
+    {
+      "instance_id": "react-performance-debugging",
+      "gold_skill_ids": [
+        "benchflow-ai--browser-testing-2",
+        "benchflow-ai--react-best-practices-2"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "miles990--testing-strategies",
+          "score": 10.312331586287389
+        },
+        {
+          "skill_id": "davila7--nextjs-best-practices",
+          "score": 8.663725279365941
+        },
+        {
+          "skill_id": "manutej--frontend-architecture",
+          "score": 8.439695098839936
+        },
+        {
+          "skill_id": "laguagu--nextjs-shadcn",
+          "score": 8.250261699996528
+        },
+        {
+          "skill_id": "huifer--metadata-optimizer",
+          "score": 7.564260010674461
+        },
+        {
+          "skill_id": "daffy0208--testing-strategist",
+          "score": 7.281756532359011
+        },
+        {
+          "skill_id": "rysweet--e2e-outside-in-test-generator",
+          "score": 7.224971017342335
+        },
+        {
+          "skill_id": "jh941213--e2e-verify",
+          "score": 7.049023435290655
+        },
+        {
+          "skill_id": "wshobson--nextjs-app-router-patterns",
+          "score": 7.028135404816564
+        },
+        {
+          "skill_id": "tai-ch0802--intelligent-routing",
+          "score": 7.025515365281878
+        },
+        {
+          "skill_id": "miles990--e-commerce",
+          "score": 6.8875666654839485
+        },
+        {
+          "skill_id": "Prorise-cool--ui-ux-pro-max",
+          "score": 6.853812780013452
+        },
+        {
+          "skill_id": "Gentleman-Programming--nextjs-15",
+          "score": 6.436653036632254
+        },
+        {
+          "skill_id": "davila7--web-performance-optimization",
+          "score": 6.387017223085653
+        },
+        {
+          "skill_id": "duck4nh--react-performance",
+          "score": 6.207121540557302
+        },
+        {
+          "skill_id": "crowi--crowi-migration",
+          "score": 6.166429014659573
+        },
+        {
+          "skill_id": "bamzc--amis-builder",
+          "score": 6.053445011541855
+        },
+        {
+          "skill_id": "Dexploarer--visual-regression-test-setup",
+          "score": 6.049880326677793
+        },
+        {
+          "skill_id": "daffy0208--performance-optimizer",
+          "score": 6.014882741711731
+        },
+        {
+          "skill_id": "yusuketsunoda--security-threat-review",
+          "score": 5.839835971704744
+        },
+        {
+          "skill_id": "xu-xiang--frontend-patterns",
+          "score": 5.79897886063759
+        },
+        {
+          "skill_id": "hairyf--uniapp",
+          "score": 5.7168388493808315
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 5.641739960024463
+        },
+        {
+          "skill_id": "aaaaqwq--frontend-backend-integration",
+          "score": 5.631288915161441
+        },
+        {
+          "skill_id": "nevaberry--bun-knowledge-patch",
+          "score": 5.409688373711826
+        },
+        {
+          "skill_id": "tai-ch0802--app-builder",
+          "score": 5.369188962693057
+        },
+        {
+          "skill_id": "zekiwest--figma-driven-nextjs",
+          "score": 5.351145341179051
+        },
+        {
+          "skill_id": "dalestudy--bun",
+          "score": 5.259520992995696
+        },
+        {
+          "skill_id": "xtone--code-review",
+          "score": 5.215798369217876
+        },
+        {
+          "skill_id": "kunhai-88--vue-best-practices",
+          "score": 5.197863120044883
+        },
+        {
+          "skill_id": "antdigital-ai--agentic-ui-development",
+          "score": 5.181319034891755
+        },
+        {
+          "skill_id": "kunhai-88--react-native-best-practices",
+          "score": 5.171772859995746
+        },
+        {
+          "skill_id": "aaaaqwq--chrome-automation",
+          "score": 5.0851199175021415
+        },
+        {
+          "skill_id": "yuanxiao0115--vue-best-practices",
+          "score": 5.017124027306931
+        },
+        {
+          "skill_id": "cin12211--playwright-expert",
+          "score": 4.992462394144465
+        },
+        {
+          "skill_id": "sgcarstrends--performance",
+          "score": 4.859103110792518
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-edit",
+          "score": 4.671406741933911
+        },
+        {
+          "skill_id": "thebushidocollective--nextjs-app-router",
+          "score": 4.668783664841084
+        },
+        {
+          "skill_id": "farming-labs--web-app-architectures",
+          "score": 4.663998819278976
+        },
+        {
+          "skill_id": "dongbeixiaohuo--web-article-extractor",
+          "score": 4.6175602524235115
+        },
+        {
+          "skill_id": "arman-kudaibergenov--cf-edit",
+          "score": 4.561811522843783
+        },
+        {
+          "skill_id": "profsynapse--pact-testing-strategies",
+          "score": 4.537853320423364
+        },
+        {
+          "skill_id": "huifer--structured-data",
+          "score": 4.496173422314191
+        },
+        {
+          "skill_id": "CharlesWiltgen--axiom-swiftui-performance",
+          "score": 4.4016549768946005
+        },
+        {
+          "skill_id": "kunhai-88--vercel-react-best-practices",
+          "score": 4.3693595866152775
+        },
+        {
+          "skill_id": "ynulihao--browser-automation",
+          "score": 4.317374325999859
+        },
+        {
+          "skill_id": "Gentleman-Programming--pytest",
+          "score": 4.246146118922664
+        },
+        {
+          "skill_id": "zenobi-us--nextjs-developer",
+          "score": 4.216959095133957
+        },
+        {
+          "skill_id": "seikaikyo--angular-primeng",
+          "score": 4.146867896018685
+        },
+        {
+          "skill_id": "thebushidocollective--debug",
+          "score": 4.114189759912118
+        }
+      ]
+    },
+    {
+      "instance_id": "sales-pivot-analysis",
+      "gold_skill_ids": [
+        "benchflow-ai--pdf-3",
+        "benchflow-ai--xlsx-3"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "bobmatnyc--xlsx",
+          "score": 16.150143195653193
+        },
+        {
+          "skill_id": "autumnsgrove--xlsx",
+          "score": 14.746426333688508
+        },
+        {
+          "skill_id": "benchflow-ai--xlsx-3",
+          "score": 14.213942419004143
+        },
+        {
+          "skill_id": "vamseeachanta--openpyxl",
+          "score": 12.847591736017682
+        },
+        {
+          "skill_id": "vasilyu1983--document-xlsx",
+          "score": 11.371728605723588
+        },
+        {
+          "skill_id": "visactor--vtable-development-assistant",
+          "score": 9.361738931753713
+        },
+        {
+          "skill_id": "marcfargas--sheet-model",
+          "score": 9.197705525183874
+        },
+        {
+          "skill_id": "davila7--excel-analysis",
+          "score": 9.168264702369951
+        },
+        {
+          "skill_id": "jmsktm--spreadsheet-builder",
+          "score": 8.095762647730469
+        },
+        {
+          "skill_id": "sbroenne--excel-cli",
+          "score": 7.639690823483725
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-toolkit",
+          "score": 7.55884030404788
+        },
+        {
+          "skill_id": "BbgnsurfTech--excel-pivot-wizard",
+          "score": 7.115997934315091
+        },
+        {
+          "skill_id": "aidotnet--exceljs",
+          "score": 6.743549062304785
+        },
+        {
+          "skill_id": "scientiacapital--data-analysis",
+          "score": 6.716638163382722
+        },
+        {
+          "skill_id": "witanlabs--xlsx-code-mode",
+          "score": 6.705477719892477
+        },
+        {
+          "skill_id": "bytedance--data-analysis",
+          "score": 6.568077142030628
+        },
+        {
+          "skill_id": "hewliyang--spreadjs",
+          "score": 6.500772291464778
+        },
+        {
+          "skill_id": "dirnbauer--document-processing",
+          "score": 6.4393871876401825
+        },
+        {
+          "skill_id": "majiayu000--analyze-investment-clock-rotation",
+          "score": 6.346265053626214
+        },
+        {
+          "skill_id": "aws-samples--excel-spreadsheets",
+          "score": 6.14432233817776
+        },
+        {
+          "skill_id": "curiouslearner--report-generator",
+          "score": 5.982697063516931
+        },
+        {
+          "skill_id": "Ai-Whisperers--excel-export-validator",
+          "score": 5.886251947603431
+        },
+        {
+          "skill_id": "Dexploarer--data-cleaning-pipeline-generator",
+          "score": 5.868736296164442
+        },
+        {
+          "skill_id": "sakumyz--excel-sheet-splitter",
+          "score": 5.587192066741247
+        },
+        {
+          "skill_id": "funnelenvy--bq-query-optimization",
+          "score": 5.255130405414611
+        },
+        {
+          "skill_id": "manutej--pandas",
+          "score": 5.16315918540143
+        },
+        {
+          "skill_id": "skillcreatorai--xlsx",
+          "score": 5.145083825445649
+        },
+        {
+          "skill_id": "wot-ui--wot-ui",
+          "score": 5.117556157740629
+        },
+        {
+          "skill_id": "curiouslearner--csv-processor",
+          "score": 5.0656168582773615
+        },
+        {
+          "skill_id": "apetta--agent-xlsx",
+          "score": 4.929542707766784
+        },
+        {
+          "skill_id": "insight68--finance-reconcile",
+          "score": 4.885044249918352
+        },
+        {
+          "skill_id": "aj-geddes--data-cleaning-pipeline",
+          "score": 4.882352474519429
+        },
+        {
+          "skill_id": "personamanagmentlayer--powerbi-expert",
+          "score": 4.493157842294021
+        },
+        {
+          "skill_id": "lc2panda--wps-excel",
+          "score": 4.177030992570899
+        },
+        {
+          "skill_id": "anthropics--dcf-model",
+          "score": 4.176210513150453
+        },
+        {
+          "skill_id": "sakumyz--excel-to-markdown",
+          "score": 4.09980339365093
+        },
+        {
+          "skill_id": "wade56754--frontend-design",
+          "score": 4.064726619702049
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-export",
+          "score": 3.965309670237788
+        },
+        {
+          "skill_id": "armanzeroeight--data-quality-checker",
+          "score": 3.8912334761356067
+        },
+        {
+          "skill_id": "fatfingererr--demographic-fiscal-trap-analyzer",
+          "score": 3.784104531921637
+        },
+        {
+          "skill_id": "fatfingererr--detect-palladium-lead-silver-turns",
+          "score": 3.638296576574195
+        },
+        {
+          "skill_id": "the-focus-ai--gsheets",
+          "score": 3.602707038974083
+        },
+        {
+          "skill_id": "chaterm--benchmarking",
+          "score": 3.5051535195413113
+        },
+        {
+          "skill_id": "jeremylongshore--excel-pivot-wizard",
+          "score": 3.4664836133600874
+        },
+        {
+          "skill_id": "unix2dos--mermaid-generator",
+          "score": 3.308638000122349
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-perm",
+          "score": 3.234428155873583
+        },
+        {
+          "skill_id": "twwch--excel-processor",
+          "score": 3.175928348664971
+        },
+        {
+          "skill_id": "liyecom--xlsx",
+          "score": 3.093885735456382
+        },
+        {
+          "skill_id": "tyrealq--q-exploratory-analysis",
+          "score": 2.9164577403807033
+        },
+        {
+          "skill_id": "zrt-ai-lab--videocut-install",
+          "score": 2.916211215472073
+        }
+      ]
+    },
+    {
+      "instance_id": "sec-financial-report",
+      "gold_skill_ids": [
+        "benchflow-ai--13f-analyzer",
+        "benchflow-ai--fuzzy-name-search"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--13f-analyzer",
+          "score": 29.326980958879016
+        },
+        {
+          "skill_id": "benchflow-ai--fuzzy-name-search",
+          "score": 12.770396313489279
+        },
+        {
+          "skill_id": "majiayu000--analyze-investment-clock-rotation",
+          "score": 10.392236912239104
+        },
+        {
+          "skill_id": "nicepkg--institutional-flow-tracker",
+          "score": 6.642522754967291
+        },
+        {
+          "skill_id": "forztf--speckit-specify-zh",
+          "score": 6.105686950620851
+        },
+        {
+          "skill_id": "orientpine--devil-advocate",
+          "score": 6.04080431744524
+        },
+        {
+          "skill_id": "tencentblueking--pipeline-variable-management",
+          "score": 5.096682457478165
+        },
+        {
+          "skill_id": "rosalynyang--feishu-doc-orchestrator",
+          "score": 4.868627864988797
+        },
+        {
+          "skill_id": "zrt-ai-lab--videocut-install",
+          "score": 4.86122186123204
+        },
+        {
+          "skill_id": "askeluv--nansen-smart-money",
+          "score": 4.626405102566118
+        },
+        {
+          "skill_id": "tencentblueking--business-knowledge-workflow",
+          "score": 3.947581560869527
+        },
+        {
+          "skill_id": "huangwb8--nsfc-research-foundation-writer",
+          "score": 3.761291105462308
+        },
+        {
+          "skill_id": "fatfingererr--demographic-fiscal-trap-analyzer",
+          "score": 3.469874419886289
+        },
+        {
+          "skill_id": "tencentblueking--permission-model-change-guide",
+          "score": 3.362372073640649
+        },
+        {
+          "skill_id": "orientpine--file-save-protocol",
+          "score": 3.098561908710086
+        },
+        {
+          "skill_id": "forztf--speckit-checklist-zh",
+          "score": 3.077106717580645
+        },
+        {
+          "skill_id": "orientpine--macro-output-template",
+          "score": 3.024084228007875
+        },
+        {
+          "skill_id": "tencentblueking--microservice-infrastructure",
+          "score": 3.022757060859397
+        },
+        {
+          "skill_id": "orientpine--fund-output-template",
+          "score": 2.5625743419023674
+        },
+        {
+          "skill_id": "tai-ch0802--api-patterns",
+          "score": 2.451224447213529
+        },
+        {
+          "skill_id": "smallnest--tech-article-writer",
+          "score": 2.446198100561576
+        },
+        {
+          "skill_id": "cooragent--holdings-hunter",
+          "score": 2.421819275993481
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 2.2827513128044354
+        },
+        {
+          "skill_id": "fatfingererr--wasde-ingestor",
+          "score": 2.2687611599953312
+        },
+        {
+          "skill_id": "tencentblueking--common-technical-practices",
+          "score": 2.224721857077957
+        },
+        {
+          "skill_id": "unix2dos--mermaid-generator",
+          "score": 2.219413689395374
+        },
+        {
+          "skill_id": "plurigrid--terminal",
+          "score": 2.183473493820725
+        },
+        {
+          "skill_id": "cyhzzz--xiaohongshu-creation-workflow",
+          "score": 1.773751805823982
+        },
+        {
+          "skill_id": "orientpine--perspective-balance",
+          "score": 1.5663739420643377
+        },
+        {
+          "skill_id": "fatfingererr--analyze-retail-inverse-etf-allocation",
+          "score": 1.3785464540124797
+        },
+        {
+          "skill_id": "orientpine--stock-data-verifier",
+          "score": 1.3039148184279883
+        },
+        {
+          "skill_id": "fatfingererr--monitor-etf-holdings-drawdown-risk",
+          "score": 1.279027305101029
+        },
+        {
+          "skill_id": "fatfingererr--google-trends-ath-detector",
+          "score": 1.272366717113078
+        },
+        {
+          "skill_id": "bahayonghang--memory-system",
+          "score": 1.1229484050064347
+        },
+        {
+          "skill_id": "countbot-ai--baidu-search",
+          "score": 1.1126625052931414
+        },
+        {
+          "skill_id": "orientpine--dc-pension-rules",
+          "score": 1.1040618048559332
+        },
+        {
+          "skill_id": "alextangson--feishu-calendar",
+          "score": 1.071740248460531
+        },
+        {
+          "skill_id": "countbot-ai--image-analysis",
+          "score": 0.9638423506580611
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 0.9437618195873159
+        },
+        {
+          "skill_id": "abcfed--abc-apifox",
+          "score": 0.9427245295564071
+        },
+        {
+          "skill_id": "pachca--pachca-tasks",
+          "score": 0.9416768189021422
+        },
+        {
+          "skill_id": "famaoai-creator--test-viewpoint-analyst",
+          "score": 0.8362634803232027
+        },
+        {
+          "skill_id": "cooragent--news-analyst",
+          "score": 0.8295289128761715
+        },
+        {
+          "skill_id": "cooragent--technical-analyst",
+          "score": 0.8282584173794859
+        },
+        {
+          "skill_id": "cooragent--sentiment-analyst",
+          "score": 0.8279414013582186
+        },
+        {
+          "skill_id": "cklxx--music-discovery",
+          "score": 0.8179466828884827
+        },
+        {
+          "skill_id": "protagonistss--commit",
+          "score": 0.7876217544490973
+        },
+        {
+          "skill_id": "tai-ch0802--mobile-design",
+          "score": 0.7798836374101573
+        },
+        {
+          "skill_id": "iemong--browser-history",
+          "score": 0.7234138693558544
+        },
+        {
+          "skill_id": "pachca--pachca-security",
+          "score": 0.7182559000271087
+        }
+      ]
+    },
+    {
+      "instance_id": "software-dependency-audit",
+      "gold_skill_ids": [
+        "benchflow-ai--cvss-score-extraction",
+        "benchflow-ai--trivy-offline-vulnerability-scanning",
+        "benchflow-ai--vulnerability-csv-reporting"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--vulnerability-csv-reporting",
+          "score": 51.95101026388651
+        },
+        {
+          "skill_id": "benchflow-ai--cvss-score-extraction",
+          "score": 35.671314461622046
+        },
+        {
+          "skill_id": "jg-chalk-io--moai-security-devsecops",
+          "score": 24.069940077522634
+        },
+        {
+          "skill_id": "curiouslearner--dependency-auditor",
+          "score": 23.623304043709457
+        },
+        {
+          "skill_id": "vladm3105--security-audit",
+          "score": 23.55374076755124
+        },
+        {
+          "skill_id": "armanzeroeight--dependency-audit",
+          "score": 21.739172715500818
+        },
+        {
+          "skill_id": "patricio0312rev--dependency-vulnerability-triage",
+          "score": 21.723761473128278
+        },
+        {
+          "skill_id": "marcusgoll--dependency-conflict-resolver",
+          "score": 20.69232637891338
+        },
+        {
+          "skill_id": "benchflow-ai--trivy-offline-vulnerability-scanning",
+          "score": 20.476528353048664
+        },
+        {
+          "skill_id": "levnikolaevich--ln-625-dependencies-auditor",
+          "score": 19.936478894827633
+        },
+        {
+          "skill_id": "alirezarezvani--senior-secops",
+          "score": 19.242021671874234
+        },
+        {
+          "skill_id": "alirezarezvani--dependency-auditor",
+          "score": 19.0195026616739
+        },
+        {
+          "skill_id": "Dexploarer--dependency-vulnerability-scanner",
+          "score": 18.05624405179226
+        },
+        {
+          "skill_id": "fusengine--dependency-audit",
+          "score": 17.248255930774885
+        },
+        {
+          "skill_id": "fusengine--cve-research",
+          "score": 16.474855034339047
+        },
+        {
+          "skill_id": "bagelhole--dependency-scanning",
+          "score": 15.959280118427097
+        },
+        {
+          "skill_id": "matteocervelli--vulnerability-assessor",
+          "score": 15.734838156830357
+        },
+        {
+          "skill_id": "zenobi-us--dependency-manager",
+          "score": 15.67282439528196
+        },
+        {
+          "skill_id": "89jobrien--security-audit",
+          "score": 15.611423892329837
+        },
+        {
+          "skill_id": "mathews-tom--dependency-audit",
+          "score": 15.593423476161638
+        },
+        {
+          "skill_id": "finos--vulnerability-resolver",
+          "score": 15.15252071038239
+        },
+        {
+          "skill_id": "proffesor-for-testing--qe-security-compliance",
+          "score": 15.101693685202363
+        },
+        {
+          "skill_id": "melodic-software--sbom-management",
+          "score": 14.34175351790336
+        },
+        {
+          "skill_id": "matteocervelli--version-checker",
+          "score": 14.327430249913098
+        },
+        {
+          "skill_id": "dauquangthanh--code-security-review",
+          "score": 13.876765616476387
+        },
+        {
+          "skill_id": "icartsh--code-analyze",
+          "score": 13.813208807061308
+        },
+        {
+          "skill_id": "ariegoldkin--security-checklist",
+          "score": 13.505452523856063
+        },
+        {
+          "skill_id": "DNYoussef--when-mapping-dependencies-use-dependency-mapper",
+          "score": 13.32491104880695
+        },
+        {
+          "skill_id": "davila7--vulnerability-scanner",
+          "score": 13.277075671643011
+        },
+        {
+          "skill_id": "transilienceai--cve-testing",
+          "score": 13.272445307053808
+        },
+        {
+          "skill_id": "matteocervelli--security-scanner",
+          "score": 13.116341138849405
+        },
+        {
+          "skill_id": "secondsky--vulnerability-scanning",
+          "score": 13.087846723268008
+        },
+        {
+          "skill_id": "ancoleman--managing-vulnerabilities",
+          "score": 12.62708321452354
+        },
+        {
+          "skill_id": "ar4mirez--security-audit",
+          "score": 12.515567656658076
+        },
+        {
+          "skill_id": "borghei--dependency-auditor",
+          "score": 12.14087221218354
+        },
+        {
+          "skill_id": "nickcrew--workflow-security-audit",
+          "score": 12.1148493646222
+        },
+        {
+          "skill_id": "ar4mirez--dependency-update",
+          "score": 12.070302231712331
+        },
+        {
+          "skill_id": "yaleh--dependency-health",
+          "score": 11.998827746873834
+        },
+        {
+          "skill_id": "florianbuetow--outdated-deps",
+          "score": 11.897975246605478
+        },
+        {
+          "skill_id": "hack23--vulnerability-management",
+          "score": 11.847100747628113
+        },
+        {
+          "skill_id": "alirezarezvani--senior-security",
+          "score": 11.836787062985382
+        },
+        {
+          "skill_id": "levnikolaevich--ln-760-security-setup",
+          "score": 11.689839287117515
+        },
+        {
+          "skill_id": "zenobi-us--penetration-tester",
+          "score": 11.673833420078887
+        },
+        {
+          "skill_id": "grandcamel--gitlab-vulnerability",
+          "score": 11.184233977823101
+        },
+        {
+          "skill_id": "travisjneuman--security",
+          "score": 11.074133174184931
+        },
+        {
+          "skill_id": "BbgnsurfTech--performing-security-testing",
+          "score": 11.063078085590686
+        },
+        {
+          "skill_id": "sickn33--vulnerability-scanner",
+          "score": 11.012162464262111
+        },
+        {
+          "skill_id": "alirezarezvani--security-auditor",
+          "score": 10.906202644046312
+        },
+        {
+          "skill_id": "levnikolaevich--ln-645-open-source-replacer",
+          "score": 10.796625366011003
+        },
+        {
+          "skill_id": "melodic-software--vulnerability-management",
+          "score": 10.76269469005028
+        }
+      ]
+    },
+    {
+      "instance_id": "suricata-custom-exfil",
+      "gold_skill_ids": [
+        "benchflow-ai--pcap-triage-tshark",
+        "benchflow-ai--suricata-offline-evejson",
+        "benchflow-ai--suricata-rules-basics"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--suricata-rules-basics",
+          "score": 99.55813416967924
+        },
+        {
+          "skill_id": "benchflow-ai--suricata-offline-evejson",
+          "score": 43.43870082451612
+        },
+        {
+          "skill_id": "benchflow-ai--pcap-triage-tshark",
+          "score": 29.871195523987193
+        },
+        {
+          "skill_id": "jg-chalk-io--moai-security-threat",
+          "score": 26.151202337079614
+        },
+        {
+          "skill_id": "duck4nh--web-security-expert",
+          "score": 11.528215522362842
+        },
+        {
+          "skill_id": "useai-pro--skill-auditor",
+          "score": 11.153920250089628
+        },
+        {
+          "skill_id": "sherifeldeeb--network-forensics",
+          "score": 10.494707952408778
+        },
+        {
+          "skill_id": "chaterm--monitoring",
+          "score": 9.016685122761563
+        },
+        {
+          "skill_id": "EXboys--http-request",
+          "score": 8.634385345761123
+        },
+        {
+          "skill_id": "chaterm--benchmarking",
+          "score": 8.146515901064161
+        },
+        {
+          "skill_id": "chaterm--service-ingress",
+          "score": 8.101724289845356
+        },
+        {
+          "skill_id": "curiouslearner--webhook-tester",
+          "score": 7.791368549566997
+        },
+        {
+          "skill_id": "xu-xiang--springboot-security",
+          "score": 7.706949049620429
+        },
+        {
+          "skill_id": "chaterm--configmap-secret",
+          "score": 7.511879931133814
+        },
+        {
+          "skill_id": "m19803261706--vben-admin",
+          "score": 7.201709462432735
+        },
+        {
+          "skill_id": "plurigrid--network",
+          "score": 7.0420507115020285
+        },
+        {
+          "skill_id": "chaterm--audit",
+          "score": 6.902896377700692
+        },
+        {
+          "skill_id": "seikaikyo--angular-primeng",
+          "score": 6.805500882179892
+        },
+        {
+          "skill_id": "dodopayments--webhook-integration",
+          "score": 6.788807063305351
+        },
+        {
+          "skill_id": "chaterm--cloud-backup",
+          "score": 6.778918475709094
+        },
+        {
+          "skill_id": "wshobson--service-mesh-observability",
+          "score": 6.529755435627491
+        },
+        {
+          "skill_id": "yusuketsunoda--security-hardening",
+          "score": 6.410460435978296
+        },
+        {
+          "skill_id": "alirezarezvani--skill-security-auditor",
+          "score": 6.402600569359466
+        },
+        {
+          "skill_id": "personamanagmentlayer--linkerd-expert",
+          "score": 6.0486013532969505
+        },
+        {
+          "skill_id": "hoangvantuan--outline-writer",
+          "score": 6.029069910413327
+        },
+        {
+          "skill_id": "protagonistss--security-review",
+          "score": 5.785343772713643
+        },
+        {
+          "skill_id": "bamzc--amis-builder",
+          "score": 5.775238609190037
+        },
+        {
+          "skill_id": "ljagiello--ctf-web",
+          "score": 5.760812229690682
+        },
+        {
+          "skill_id": "miles990--edge-iot",
+          "score": 5.758057535611089
+        },
+        {
+          "skill_id": "protagonistss--ui-design-a11y",
+          "score": 5.380017074371449
+        },
+        {
+          "skill_id": "xu-xiang--security-review",
+          "score": 5.288857617455508
+        },
+        {
+          "skill_id": "riba2534--feishu-cli-msg",
+          "score": 5.239481622887209
+        },
+        {
+          "skill_id": "Gentleman-Programming--nextjs-15",
+          "score": 5.07979989032516
+        },
+        {
+          "skill_id": "foxzool--openlark-api",
+          "score": 5.0781314407106475
+        },
+        {
+          "skill_id": "zhukunpenglinyutong--security-review",
+          "score": 4.991848081241578
+        },
+        {
+          "skill_id": "personamanagmentlayer--istio-expert",
+          "score": 4.981064344065357
+        },
+        {
+          "skill_id": "xu-xiang--springboot-verification",
+          "score": 4.850007057424147
+        },
+        {
+          "skill_id": "chaterm--gcloud",
+          "score": 4.805384083234447
+        },
+        {
+          "skill_id": "chaterm--dockerfile",
+          "score": 4.778596644724316
+        },
+        {
+          "skill_id": "harperaa--csrf-protection",
+          "score": 4.68520139405307
+        },
+        {
+          "skill_id": "bobmatnyc--fastapi-local-dev",
+          "score": 4.553123202434628
+        },
+        {
+          "skill_id": "acaprino--analyze-mobile-app",
+          "score": 4.473810413071388
+        },
+        {
+          "skill_id": "majiayu000--observability-sre",
+          "score": 4.370835185298105
+        },
+        {
+          "skill_id": "paid-tw--payuni-webhook",
+          "score": 4.2660359924143645
+        },
+        {
+          "skill_id": "personamanagmentlayer--prometheus-expert",
+          "score": 4.2220102553039895
+        },
+        {
+          "skill_id": "kopai-app--root-cause-analysis",
+          "score": 4.219886563503308
+        },
+        {
+          "skill_id": "geoffjay--sinatra-patterns",
+          "score": 4.193613609411799
+        },
+        {
+          "skill_id": "sickn33--service-mesh-observability",
+          "score": 4.107640938645815
+        },
+        {
+          "skill_id": "rmyndharis--service-mesh-observability",
+          "score": 4.092183899882781
+        },
+        {
+          "skill_id": "hookdeck--vercel-webhooks",
+          "score": 4.065487330841643
+        }
+      ]
+    },
+    {
+      "instance_id": "threejs-structure-parser",
+      "gold_skill_ids": [
+        "benchflow-ai--obj-exporter-1",
+        "benchflow-ai--threejs"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--obj-exporter-1",
+          "score": 23.500343679755673
+        },
+        {
+          "skill_id": "freshtechbro--blender-web-pipeline",
+          "score": 21.978579238313994
+        },
+        {
+          "skill_id": "benchflow-ai--threejs",
+          "score": 20.763401414717062
+        },
+        {
+          "skill_id": "benchflow-ai--obj-exporter-2",
+          "score": 20.39186353246845
+        },
+        {
+          "skill_id": "enzed--r3f-loaders",
+          "score": 18.357167741368386
+        },
+        {
+          "skill_id": "natea--threejs-game",
+          "score": 17.619467261206413
+        },
+        {
+          "skill_id": "cloudai-x--threejs-fundamentals",
+          "score": 17.324780268537953
+        },
+        {
+          "skill_id": "emalorenzo--three-best-practices",
+          "score": 15.18851247815186
+        },
+        {
+          "skill_id": "travisjneuman--game-development",
+          "score": 14.503422539076176
+        },
+        {
+          "skill_id": "Dexploarer--threejs-scene-builder",
+          "score": 13.5882165537536
+        },
+        {
+          "skill_id": "cloudai-x--threejs-loaders",
+          "score": 13.437433254167694
+        },
+        {
+          "skill_id": "sickn33--threejs-skills",
+          "score": 13.252144361224293
+        },
+        {
+          "skill_id": "guia-matthieu--image-to-3d-pipeline",
+          "score": 13.096121938901707
+        },
+        {
+          "skill_id": "binjuhor--threejs",
+          "score": 12.664077159891544
+        },
+        {
+          "skill_id": "onmax--tresjs",
+          "score": 12.324304774811946
+        },
+        {
+          "skill_id": "vladmdgolam--blender-mcp",
+          "score": 12.219406100359933
+        },
+        {
+          "skill_id": "ovachiever--threejs-graphics-optimizer",
+          "score": 11.987431055285192
+        },
+        {
+          "skill_id": "protagonistss--mock-generation",
+          "score": 11.794032399232295
+        },
+        {
+          "skill_id": "davila7--3d-web-experience",
+          "score": 11.635238730462412
+        },
+        {
+          "skill_id": "noklip-io--theatre-js",
+          "score": 11.558443698943213
+        },
+        {
+          "skill_id": "sickn33--3d-web-experience",
+          "score": 11.07189647372357
+        },
+        {
+          "skill_id": "plurigrid--goblins",
+          "score": 10.991288119533586
+        },
+        {
+          "skill_id": "freshtechbro--spline-interactive",
+          "score": 10.657757968362091
+        },
+        {
+          "skill_id": "Gentleman-Programming--django-drf",
+          "score": 10.533770240286398
+        },
+        {
+          "skill_id": "miles990--javascript-typescript",
+          "score": 10.403008339605417
+        },
+        {
+          "skill_id": "ccheney--modern-javascript",
+          "score": 10.147344853693495
+        },
+        {
+          "skill_id": "freshtechbro--web3d-integration-patterns",
+          "score": 10.008727139393997
+        },
+        {
+          "skill_id": "forztf--speckit-implement-zh",
+          "score": 9.969016416964134
+        },
+        {
+          "skill_id": "davila7--powershell-windows",
+          "score": 9.94834532829605
+        },
+        {
+          "skill_id": "mindrally--react-native-r3f",
+          "score": 9.895116399796535
+        },
+        {
+          "skill_id": "kunhai-88--remotion-best-practices",
+          "score": 9.860580387565697
+        },
+        {
+          "skill_id": "nguyenthienthanh--typescript-expert",
+          "score": 9.50632927502823
+        },
+        {
+          "skill_id": "cloudai-x--threejs-interaction",
+          "score": 9.461993388593202
+        },
+        {
+          "skill_id": "zate--godot-optimization",
+          "score": 9.350244628711085
+        },
+        {
+          "skill_id": "cloudai-x--threejs-postprocessing",
+          "score": 8.908594562132738
+        },
+        {
+          "skill_id": "akiojin--unity-editor-imgui-design",
+          "score": 8.865763280017259
+        },
+        {
+          "skill_id": "carlos-algms--typescript-and-javascript",
+          "score": 8.788674548479054
+        },
+        {
+          "skill_id": "davila7--javascript-mastery",
+          "score": 8.682619937459194
+        },
+        {
+          "skill_id": "sickn33--javascript-mastery",
+          "score": 8.665738879361356
+        },
+        {
+          "skill_id": "bbeierle12--gsap-fundamentals",
+          "score": 8.478829340102932
+        },
+        {
+          "skill_id": "anthemflynn--graphics-troubleshooting",
+          "score": 8.425047064191938
+        },
+        {
+          "skill_id": "noklip-io--three-js",
+          "score": 8.365843527798967
+        },
+        {
+          "skill_id": "j5ik2o--tell-dont-ask",
+          "score": 8.334478669360003
+        },
+        {
+          "skill_id": "iskysun96--write-contracts",
+          "score": 8.226468059379089
+        },
+        {
+          "skill_id": "doubleslashse--dotnet-build",
+          "score": 8.18545528730925
+        },
+        {
+          "skill_id": "curiouslearner--snippet-manager",
+          "score": 8.073734441121509
+        },
+        {
+          "skill_id": "kousen--security-code-review",
+          "score": 8.065738156659105
+        },
+        {
+          "skill_id": "bobmatnyc--json-data-handling",
+          "score": 8.039878215012518
+        },
+        {
+          "skill_id": "bbeierle12--r3f-materials",
+          "score": 8.028076762817872
+        },
+        {
+          "skill_id": "j5ik2o--law-of-demeter",
+          "score": 7.936847245359458
+        }
+      ]
+    },
+    {
+      "instance_id": "trend-anomaly-causal-inference",
+      "gold_skill_ids": [
+        "benchflow-ai--data_cleaning",
+        "benchflow-ai--did_causal_analysis",
+        "benchflow-ai--feature_engineering",
+        "benchflow-ai--time_series_anomaly_detection"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--did_causal_analysis",
+          "score": 35.37244345708919
+        },
+        {
+          "skill_id": "benchflow-ai--time_series_anomaly_detection",
+          "score": 20.85281685621745
+        },
+        {
+          "skill_id": "fatfingererr--us-cpi-pce-comparator",
+          "score": 12.68547559565271
+        },
+        {
+          "skill_id": "fatfingererr--detect-fed-unamortized-discount-pattern",
+          "score": 9.464969430939657
+        },
+        {
+          "skill_id": "borghei--data-scientist",
+          "score": 8.757368459764908
+        },
+        {
+          "skill_id": "fatfingererr--detect-shanghai-silver-stock-drain",
+          "score": 8.659642279812752
+        },
+        {
+          "skill_id": "fatfingererr--demographic-fiscal-trap-analyzer",
+          "score": 8.121669737580342
+        },
+        {
+          "skill_id": "tukaelu--interest-discovery",
+          "score": 8.099563181737103
+        },
+        {
+          "skill_id": "aaaaqwq--content-source-aggregator",
+          "score": 7.96843160344901
+        },
+        {
+          "skill_id": "fatfingererr--analyze-silver-miner-metal-ratio",
+          "score": 7.399678429240245
+        },
+        {
+          "skill_id": "fatfingererr--backsolve-miner-vs-metal-ratio-with-fundamentals",
+          "score": 7.196517750506244
+        },
+        {
+          "skill_id": "aahl--tianqi",
+          "score": 7.159681452343201
+        },
+        {
+          "skill_id": "huifer--sleep-analyzer",
+          "score": 7.110386940149832
+        },
+        {
+          "skill_id": "huifer--rehabilitation-analyzer",
+          "score": 7.056138956881307
+        },
+        {
+          "skill_id": "huifer--goal-analyzer",
+          "score": 6.978664274194302
+        },
+        {
+          "skill_id": "fatfingererr--detect-freight-led-inflation-turn",
+          "score": 6.924071007259952
+        },
+        {
+          "skill_id": "bdambrosio--test-json-sql-sort",
+          "score": 6.619713681559566
+        },
+        {
+          "skill_id": "fatfingererr--analyze-copper-inventory-rebuild-signal",
+          "score": 6.5660082567974225
+        },
+        {
+          "skill_id": "majiayu000--analyze-investment-clock-rotation",
+          "score": 6.545700211632417
+        },
+        {
+          "skill_id": "huifer--mental-health-analyzer",
+          "score": 6.305048722722802
+        },
+        {
+          "skill_id": "borghei--people-analytics",
+          "score": 6.23424604207809
+        },
+        {
+          "skill_id": "huifer--fitness-analyzer",
+          "score": 6.210642616457256
+        },
+        {
+          "skill_id": "orientpine--fund-output-template",
+          "score": 5.987824100122763
+        },
+        {
+          "skill_id": "orientpine--macro-output-template",
+          "score": 5.7884636833218535
+        },
+        {
+          "skill_id": "acaprino--analyze-mobile-app",
+          "score": 5.7185226715705335
+        },
+        {
+          "skill_id": "zhuhongyin--ali1688-sourcing",
+          "score": 5.654160436354864
+        },
+        {
+          "skill_id": "askeluv--nansen-smart-money",
+          "score": 5.588161890207985
+        },
+        {
+          "skill_id": "aster110--scheduler",
+          "score": 5.502640107460971
+        },
+        {
+          "skill_id": "zhanlincui--obsidian-helper",
+          "score": 5.501254115652648
+        },
+        {
+          "skill_id": "huifer--weightloss-analyzer",
+          "score": 5.435750450231302
+        },
+        {
+          "skill_id": "fatfingererr--analyze-high-unemployment-high-gdp-growth-fiscal-deficit-scenarios",
+          "score": 5.409151616867484
+        },
+        {
+          "skill_id": "fatfingererr--google-trends-ath-detector",
+          "score": 5.3045887763407364
+        },
+        {
+          "skill_id": "jssfy--git-review",
+          "score": 5.24642151680082
+        },
+        {
+          "skill_id": "huifer--emergency-card",
+          "score": 5.10037733162109
+        },
+        {
+          "skill_id": "fatfingererr--detect-us-equity-valuation-percentile-extreme",
+          "score": 5.100209999752515
+        },
+        {
+          "skill_id": "zrt-ai-lab--searchnews",
+          "score": 4.86006487757447
+        },
+        {
+          "skill_id": "personamanagmentlayer--data-science-expert",
+          "score": 4.615596606648405
+        },
+        {
+          "skill_id": "dongbeixiaohuo--style-modeler",
+          "score": 4.585664322020089
+        },
+        {
+          "skill_id": "zhuhongyin--ecom-product-orchestrator",
+          "score": 4.537957119314552
+        },
+        {
+          "skill_id": "ismxy0934--data-collect",
+          "score": 4.50461538758477
+        },
+        {
+          "skill_id": "liangdabiao--ab-testing-analyzer",
+          "score": 4.416070622920779
+        },
+        {
+          "skill_id": "ismxy0934--technical-analysis",
+          "score": 4.363934023833887
+        },
+        {
+          "skill_id": "khw1031--changelog",
+          "score": 4.270020051603899
+        },
+        {
+          "skill_id": "penkzhou--bugfix-workflow",
+          "score": 4.250253418310218
+        },
+        {
+          "skill_id": "allenai2014--scan",
+          "score": 4.2234345118293035
+        },
+        {
+          "skill_id": "allenai2014--analyze",
+          "score": 4.178223465683542
+        },
+        {
+          "skill_id": "shadowcz007--daily-briefing",
+          "score": 4.175460006806989
+        },
+        {
+          "skill_id": "miles990--analyze-repo",
+          "score": 4.074770422117194
+        },
+        {
+          "skill_id": "borghei--growth-marketer",
+          "score": 4.058792923762336
+        },
+        {
+          "skill_id": "qingchunwuhui--task-capture",
+          "score": 4.039148084664287
+        }
+      ]
+    },
+    {
+      "instance_id": "virtualhome-agent-planning",
+      "gold_skill_ids": [
+        "benchflow-ai--pddl-skills"
+      ],
+      "retrieved": [
+        {
+          "skill_id": "benchflow-ai--pddl-skills",
+          "score": 24.434568407918974
+        },
+        {
+          "skill_id": "zhucl1006--aile-writing-plans",
+          "score": 4.726246629358997
+        },
+        {
+          "skill_id": "manutej--performance-benchmark-specialist",
+          "score": 4.640923476415073
+        },
+        {
+          "skill_id": "patricio0312rev--dependency-vulnerability-triage",
+          "score": 4.22949863210653
+        },
+        {
+          "skill_id": "zhucl1006--project-workflow",
+          "score": 4.039669063005423
+        },
+        {
+          "skill_id": "caomeiyouren--requirement-analyst",
+          "score": 3.8280727206086764
+        },
+        {
+          "skill_id": "visactor--vchart-development-assistant",
+          "score": 3.8083505538177596
+        },
+        {
+          "skill_id": "j5ik2o--takt-piece",
+          "score": 3.7680581140331557
+        },
+        {
+          "skill_id": "qingchunwuhui--task-start",
+          "score": 3.4940493515949584
+        },
+        {
+          "skill_id": "claude-world--skills",
+          "score": 3.475733510084794
+        },
+        {
+          "skill_id": "peterfei--tidymydesktop",
+          "score": 3.207036341496243
+        },
+        {
+          "skill_id": "huangwb8--nsfc-schematic",
+          "score": 3.061526155719036
+        },
+        {
+          "skill_id": "huangwb8--nsfc-roadmap",
+          "score": 3.0543892961011587
+        },
+        {
+          "skill_id": "majiayu000--xiaohongshu",
+          "score": 3.0212125681860122
+        },
+        {
+          "skill_id": "caomeiyouren--full-stack-master",
+          "score": 2.9814781213760932
+        },
+        {
+          "skill_id": "chaterm--terraform",
+          "score": 2.972398189597211
+        },
+        {
+          "skill_id": "wade56754--superpowers-factory-bridge",
+          "score": 2.9588320168224
+        },
+        {
+          "skill_id": "arman-kudaibergenov--meta-compile",
+          "score": 2.7647313200403723
+        },
+        {
+          "skill_id": "team-attention--compound",
+          "score": 2.7210576613963795
+        },
+        {
+          "skill_id": "Svenja-dev--clarify-spec",
+          "score": 2.5948380250087792
+        },
+        {
+          "skill_id": "yuanxiao0115--todo-list-csv",
+          "score": 2.5809966164913467
+        },
+        {
+          "skill_id": "rytass--member-module",
+          "score": 2.5256232046927094
+        },
+        {
+          "skill_id": "wade56754--superclaude-enhancer",
+          "score": 2.497076788481301
+        },
+        {
+          "skill_id": "arman-kudaibergenov--openspec-proposal",
+          "score": 2.483931156293776
+        },
+        {
+          "skill_id": "chaterm--azure-cli",
+          "score": 2.483555895155133
+        },
+        {
+          "skill_id": "forztf--speckit-tasks-zh",
+          "score": 2.4603079891170916
+        },
+        {
+          "skill_id": "jackjin1997--ddd",
+          "score": 2.4563280828397236
+        },
+        {
+          "skill_id": "Zeliper--orchestration-workflow",
+          "score": 2.422002190057058
+        },
+        {
+          "skill_id": "z-soulx--section-refactor-with-todo-routing",
+          "score": 2.410503182300818
+        },
+        {
+          "skill_id": "akiojin--speckit-require",
+          "score": 2.407969685626192
+        },
+        {
+          "skill_id": "forztf--speckit-analyze-zh",
+          "score": 2.3656390664942064
+        },
+        {
+          "skill_id": "aaaaqwq--feishu-channel",
+          "score": 2.343525466800946
+        },
+        {
+          "skill_id": "yaleh--rapid-convergence",
+          "score": 2.3422607010552796
+        },
+        {
+          "skill_id": "chachamaru127--generate-video",
+          "score": 2.3208285364357963
+        },
+        {
+          "skill_id": "duc01226--sequential-thinking",
+          "score": 2.2929201288136567
+        },
+        {
+          "skill_id": "arman-kudaibergenov--form-compile",
+          "score": 2.2593989852046317
+        },
+        {
+          "skill_id": "giikin--frontend-mandatory-standards",
+          "score": 2.2572163344063223
+        },
+        {
+          "skill_id": "chaterm--aws-cli",
+          "score": 2.2451819625338407
+        },
+        {
+          "skill_id": "j5ik2o--ddd-module-pattern",
+          "score": 2.233564571345269
+        },
+        {
+          "skill_id": "melodic-software--composable-primitives",
+          "score": 2.2283521612776815
+        },
+        {
+          "skill_id": "j5ik2o--domain-model-first",
+          "score": 2.1799266375979602
+        },
+        {
+          "skill_id": "plurigrid--clojure",
+          "score": 2.174458371465668
+        },
+        {
+          "skill_id": "j5ik2o--error-handling",
+          "score": 2.153136726932715
+        },
+        {
+          "skill_id": "abcfed--abc-apifox",
+          "score": 2.137286489217394
+        },
+        {
+          "skill_id": "ashchupliak--systematic-planning",
+          "score": 2.1292781833076306
+        },
+        {
+          "skill_id": "twwch--multi-chart-draw",
+          "score": 2.114942176188052
+        },
+        {
+          "skill_id": "j5ik2o--takt-facet",
+          "score": 2.086954097109085
+        },
+        {
+          "skill_id": "m19803261706--spring-boot-4",
+          "score": 2.086698281327352
+        },
+        {
+          "skill_id": "aaaaqwq--team-coordinator",
+          "score": 2.0685341145440344
+        },
+        {
+          "skill_id": "chang-pw--read-arxiv-paper",
+          "score": 2.06700994306697
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Skill Relevance Re-annotation</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="progress">
+        Re-annotation &nbsp;&middot;&nbsp; {{ done }} / {{ total }} rated so far
+      </div>
+      <div class="progress">
+        Task {{ task_ordinal }} / {{ task_total }} ({{ dataset_label }}) &nbsp;&middot;&nbsp; skill {{ skill_ordinal }} / {{ skill_total }} for this task
+      </div>
+      <nav class="datasets">
+        {% for key, label, start_position in datasets %}
+        {% if key == dataset %}<span class="current">{{ label }}</span>{% else %}<a href="/task/{{ start_position }}">{{ label }}</a>{% endif %}
+        {% endfor %}
+      </nav>
+      <nav>
+        {% if prev_position %}<a href="/task/{{ prev_position }}">&larr; Previous</a>{% else %}<span class="disabled">&larr; Previous</span>{% endif %}
+        {% if next_position %}<a href="/task/{{ next_position }}">Next &rarr;</a>{% else %}<span class="disabled">Next &rarr;</span>{% endif %}
+      </nav>
+    </div>
+  </header>
+
+  {% if saved %}
+  <div class="banner">Saved.</div>
+  {% endif %}
+
+  <main class="judge-prompt">
+    <div class="judge-intro">
+      <p class="judge-role">You are judging whether a candidate skill is relevant to a task. Read the task question and the candidate skill below, and assign a relevance score using the rubric.</p>
+      {% if dataset_description %}<p class="dataset-description">{{ dataset_description }}</p>{% endif %}
+    </div>
+
+    <section class="instruction">
+      <h2>Task Question</h2>
+      <pre>{{ question }}</pre>
+      {% if task_files %}
+      <details class="bundled-files">
+        <summary>Task files ({{ task_files|length }})</summary>
+        <ul>
+          {% for label, url in task_files %}
+          <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ label }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+    </section>
+
+    <section class="candidates">
+      <h2>Candidate Skill</h2>
+      <form method="post" action="/task/{{ position }}">
+        <article class="candidate">
+          <pre>{{ candidate.raw_markdown }}</pre>
+          <a href="{{ candidate.translate_url }}" target="_blank" rel="noopener noreferrer" class="translate-link">Translate this skill &#8599;</a>
+          {% if skill_files %}
+          <details class="bundled-files">
+            <summary>Skill files ({{ skill_files|length }})</summary>
+            <ul>
+              {% for label, url in skill_files %}
+              <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ label }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% endif %}
+        </article>
+
+        <section class="previous-ratings">
+          <h2>Previous Ratings</h2>
+          <p class="previous-ratings-note">The annotators rated this pair more than one step apart. Their original ratings are shown for reference.</p>
+          <ul>
+            {% for label, value, value_label in candidate.previous_ratings %}
+            <li><span class="previous-rater">{{ label }}:</span> {% if value is not none %}{{ value }}: {{ value_label }}{% else %}not rated{% endif %}</li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section class="previous-flags">
+          <h2>Flags</h2>
+          <p class="previous-flags-note">Shown for reference only; flags can't be changed here. Each annotator's re-judged flag is shown where they re-judged it, otherwise what they put in round 1.</p>
+          <table>
+            <thead>
+              <tr><th></th>{% for label in annotator_labels %}<th>{{ label }}</th>{% endfor %}</tr>
+            </thead>
+            <tbody>
+              {% for label, cells in flag_rows %}
+              <tr>
+                <th scope="row">{{ label }}</th>
+                {% for value, rejudged in cells %}<td>{% if value is none %}not annotated{% elif value %}Flagged{% else %}&mdash;{% endif %}{% if rejudged %} (re-judged){% endif %}</td>{% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% for capability in flag_capabilities %}<p class="flag-capability">{{ capability }}</p>{% endfor %}
+        </section>
+
+        <h2>Your Rating</h2>
+        <div class="scale">
+          {% for value, label, criteria in rubric %}
+          <label class="scale-option">
+            <input type="radio" name="rating" value="{{ value }}" required {% if candidate.rating == value %}checked{% endif %}>
+            {{ value }}: {{ label }}
+          </label>
+          {% endfor %}
+        </div>
+        <button type="submit" class="save">Save &amp; next</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

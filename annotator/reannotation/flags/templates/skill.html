@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Skill Flag Re-annotation</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="progress">
+        Flag re-annotation &nbsp;&middot;&nbsp; {{ done }} / {{ total }} flags done
+      </div>
+      <div class="progress">
+        Flag {{ position }} / {{ total }} ({{ dataset_label }})
+      </div>
+      <nav class="datasets">
+        {% for key, label, start_position in datasets %}
+        {% if key == dataset %}<span class="current">{{ label }}</span>{% else %}<a href="/skill/{{ start_position }}">{{ label }}</a>{% endif %}
+        {% endfor %}
+      </nav>
+      <nav>
+        {% if prev_position %}<a href="/skill/{{ prev_position }}">&larr; Previous</a>{% else %}<span class="disabled">&larr; Previous</span>{% endif %}
+        {% if next_position %}<a href="/skill/{{ next_position }}">Next &rarr;</a>{% else %}<span class="disabled">Next &rarr;</span>{% endif %}
+      </nav>
+    </div>
+  </header>
+
+  {% if saved %}
+  <div class="banner">Saved.</div>
+  {% endif %}
+
+  <main class="judge-prompt">
+    <div class="judge-intro">
+      <p class="judge-role">You are judging whether a skill should be flagged. The annotators disagreed on the flag below; read the skill and choose whether it applies.</p>
+      {% if dataset_description %}<p class="dataset-description">{{ dataset_description }}</p>{% endif %}
+    </div>
+
+    <section class="candidates">
+      <h2>Skill</h2>
+      <form method="post" action="/skill/{{ position }}">
+        <article class="candidate">
+          <pre>{{ raw_markdown }}</pre>
+          <a href="{{ translate_url }}" target="_blank" rel="noopener noreferrer" class="translate-link">Translate this skill &#8599;</a>
+          {% if skill_files %}
+          <details class="bundled-files">
+            <summary>Skill files ({{ skill_files|length }})</summary>
+            <ul>
+              {% for label, url in skill_files %}
+              <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ label }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% endif %}
+        </article>
+
+        <section class="previous-flags">
+          <h2>Previous Flags</h2>
+          <p class="previous-flags-note">The annotators' original choices for this flag, shown for reference.</p>
+          <table>
+            <thead>
+              <tr><th></th>{% for label in annotator_labels %}<th>{{ label }}</th>{% endfor %}</tr>
+            </thead>
+            <tbody>
+              {% for label, values in previous_rows %}
+              <tr>
+                <th scope="row">{{ label }}</th>
+                {% for value in values %}<td>{% if value %}Flagged{% else %}&mdash;{% endif %}</td>{% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </section>
+
+        <h2>Your Flag</h2>
+        <div class="flags">
+          {% for key, label, description, capability in flag_definitions %}
+          <div class="flag">
+            <p class="flag-checkbox">{{ label }}</p>
+            <p class="flag-description">{{ description }}</p>
+            {% if capability %}<p class="flag-capability">{{ capability }}</p>{% endif %}
+            {# No default: one option must be chosen before saving #}
+            <div class="scale flag-choice">
+              <label class="scale-option">
+                <input type="radio" name="{{ key }}" value="yes" required {% if flags[key] is sameas true %}checked{% endif %}>
+                Yes, flag it
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="{{ key }}" value="no" required {% if flags[key] is sameas false %}checked{% endif %}>
+                No, don't flag it
+              </label>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        <button type="submit" class="save">Save &amp; next</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
