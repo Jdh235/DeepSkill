@@ -53,4 +53,4 @@ DeepSkill builds on two existing skill retrieval benchmarks. We thank their auth
   [Paper](https://arxiv.org/abs/2604.04323)
 
 Skill-Usage tasks and reference skills originate from
-[SkillsBench](https://arxiv.org/abs/2602.12670) (Li et al.).
+[SkillsBench](https://arxiv.org/abs/2602.12670).
